@@ -76,7 +76,7 @@ La taula mostra 4 clars dominis:
 * Ankyrin repeats (diverses còpies i variants: [ANK](http://pfam.xfam.org/family/Ank), [ANK_2](http://pfam.xfam.org/family/Ank_2) i [ANK_4](http://pfam.xfam.org/family/Ank_4)) 	
 * [Death domain](http://pfam.xfam.org/family/Death)
 
-Com expliquem al [Tutorial](/tutorialPFAM/) de PFAM, observem famílies PFAM (dominis RHD_DNA_bind,  RHD_dimer i DEATH), així com dominis repetits (Ankyrin, en aquest cas).
+Com expliquem al [Tutorial](./TutorialPFAM.md) de PFAM, observem famílies PFAM (dominis RHD_DNA_bind,  RHD_dimer i DEATH), així com dominis repetits (Ankyrin, en aquest cas).
 
 La informació a les pàgines de PFAM ens mostra que:  
 
