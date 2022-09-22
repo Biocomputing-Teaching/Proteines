@@ -1,3 +1,8 @@
+---
+layout: default
+title: Instructions
+permalink: /Instructions/
+---
 # Let's consider a protein 4hhb and 1mbo. By relying on Chimera,
 1. How many chains are present in each protein  ? ( Color them in PDB format ) 
 1. Identify the secondary strucutres of each protein.
