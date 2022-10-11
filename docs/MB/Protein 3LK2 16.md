@@ -21,12 +21,13 @@ Sequence of chain A : ![](Sequence%20of%20Chain%20A%20.png)
 Sequence of chain B : ![](sequence%20of%20Chain%20B%20.png)
 Sequence of chain T : ![](Sequence%20of%20chain%20T.png)
 
-#Secondary Structure / Alpha helices / Beta sheets / Coil
+# Secondary Structure / Alpha helices / Beta sheets / Coil
+
 ![](Alpha%20helices%20.png)
 ![](Beta%20sheets%20Protein%203LK2.png)
 ![](Coil%20.png)
 
-#Super-Secondary Structure : P-loop ( Beta Alpha) ![](Super%20secondary%20structure%20.png)
+# Super-Secondary Structure : P-loop ( Beta Alpha) ![](Super%20secondary%20structure%20.png)
 
 #Tertiary Structure : Beta-propeller ( Super Barrel) ![](Super%20secondary%20struc;%20Beta%20propeller.png)
 
@@ -37,6 +38,7 @@ Tot Beta : ![](Tot%20beta%20Tertiary%20Structure%20.png)
 Helix Bundle : ![](Helix%20Bundle.png)
 
 Other view of Helix Bundle :![](Side%20View%20of%20Helix%20bundle.png)
+
 
 
 
