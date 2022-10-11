@@ -1,4 +1,10 @@
--Let’s work on a protein called 3LK2 based on Protein Data Bank.
+---
+layout: default
+title: 3LK2
+author: Mariame BOUMAAIZ
+permalink: /3lk2/
+---
+Let’s work on a protein called 3LK2 based on Protein Data Bank.
 Crystal structure of CapZ bound to the uncapping motif from CARMIL.
 Classification: Protein binding.
 According to SCOP classification (Structural Classification of Proteins):
