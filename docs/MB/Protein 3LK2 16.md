@@ -10,7 +10,7 @@ Classification: Protein binding.
 According to SCOP classification (Structural Classification of Proteins):
 It is a multi-domain protein containing both alpha and beta.
 Family is alpha 1 capZ
-The biochemical function of the protein is based on PORTEIN BINDING.
+The biochemical function of the protein is based on PROTEIN BINDING.
 The Biological Process is based on performing the cell junction assembly.
 The protein contains three chains : Chain A, B and T.
 Chain A depiction : ![](Protein%203LK2.png)
