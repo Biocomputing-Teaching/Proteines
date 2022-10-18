@@ -34,7 +34,6 @@ Sequence of chain T : ![](Sequence%20of%20chain%20T.png)
 Rossman Fold, Beta Sheets are wrapped by Alpha Helices ![](Rossman%20Fold%20of%20protein%203LK2.png)
 
 Tot Beta : ![](Tot%20beta%20Tertiary%20Structure%20.png)
-
 Helix Bundle : ![](Helix%20Bundle.png)
 
 Other view of Helix Bundle :![](Side%20View%20of%20Helix%20bundle.png)

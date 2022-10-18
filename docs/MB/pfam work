@@ -1,0 +1,35 @@
+---
+layout : default
+title  : pfam work
+author : Mariame BOUMAAIZ
+permalink : /3lk2/
+---
+#pfam tutorial
+In order to do a perform a sequence of a protein:
+
+1-Use the website : pfam-legacy.xfam.org
+![](Pfam%20link%20.png)
+
+2- Choose a specific protein in PDB ( protein data bank ) ![](Protein%20data%20bank%20pic.png)
+
+3- Select FASTA sequence from display files on the top
+4- Batch sequence search
+5- Put the FASTA sequence in sequence file
+![](FASTA%20sequence%20.png)
+6- Paste FASTA sequence in search box, press and submit it
+![](FASTA%20.png)
+7- You find Significant PFAM-A-matches
+![](sequence%20mapping.png)
+HMM length is Hidden Markov Moldel, it is a statistical model
+HMM length: (specific number) amino acids long
+The E-value or the excpect value, this is similar to what is found in blast research, the smaller E value , the better the alignment quality
+![](The%20E%20value.png)
+
+In the top, there is HMM residue 
+
+In the bottom , you find amino acid sequence 
+Color coded has a significance. Green means 100% and red 0% of matching 
+
+View the structure ![](View%20structure%20.png)
+
+
