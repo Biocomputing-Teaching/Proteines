@@ -48,7 +48,7 @@ Pots visualitzar la proteïna en aquesta finestra proveïda per [Mol*](https://m
 
 <p>
 <div id="myViewer">
-<pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="true"></pdbe-molstar>
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="false"></pdbe-molstar>
 </div>
 </p>
 <br>  
