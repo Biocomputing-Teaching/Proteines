@@ -33,16 +33,11 @@ permalink: /Tallers/
 </div>
 </p>
 <br>  
+
 -------------
-- [<h1> Anàlisis </h1>](#h1-anàlisis-h1)
-- [<br>](#)
-- [- Funció](#--funció)
-- [El codi PDB:5P21 correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.](#el-codi-pdb5p21-correspon-a-lestructura-de-la-proteïna-h-ras-p21codi-uniprotp01112-amb-una-gran-conservació-de-seqüència-pel-que-es-pot-veure-a-lalineament-que-el-propi-pdb-ens-dona)
-- [Estructura secundària](#estructura-secundària)
-- [Estructura supersecundària](#estructura-supersecundària)
-- [Plegament](#plegament)
-- [Funció](#funció)
--------------
+
+[El codi PDB:5P21 correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.](#el-codi-pdb5p21-correspon-a-lestructura-de-la-proteïna-h-ras-p21codi-uniprotp01112-amb-una-gran-conservació-de-seqüència-pel-que-es-pot-veure-a-lalineament-que-el-propi-pdb-ens-dona)
+
  El codi [PDB:5P21](https://www.rcsb.org/structure/5p21) correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.
 -------------
 
@@ -65,33 +60,33 @@ Pots visualitzar la proteïna en aquesta finestra proveïda per [Mol*](https://m
 ## Estructura secundària
 
 L'estructura presenta tant hèlix alfa com fulles beta
-
+-------------
 |![](../figures/5p21_2nd.png)|
 |:--:|
 |Imatge de la proteïna mostrant els elements d'estructura secundària.|
-
+-------------
 La següent figura mostra la seqüència de la proteïna i les regions amb hèlix alfa (groc) i fulles beta (verd)
-
+-------------
 |![](../figures/5p21_seq.png)|
 |:--:|
 |Seqüència de la proteïna mostrant els elements d'estructura secundària|
-
+-------------
 ## Estructura supersecundària
 
 La figura mostra l'estructura amb un codi de colors progressiu que permet identificar la regió N-terminal (blau) i la regió C-terminal (vermell).
-
+-------------
 |![](../figures/5p21_rainbow.png)|
 |:--:|
 |Imatge de la proteïna amb la representació amb colors de fred (blau) a calent (vermell) en funció de la seqüència.|
-
+-------------
 Malauradament el fitxer PBD no conté massa informació sbre l'estructura secundària i no en podem treure massa profit, en aquest cas. Anem a [visualitzar la proteïna a Chimera](../code/5p21.py). Podem observar diversos motius d'estructura supersecundària, que es poden deduir també de l'observació de la seqüència a la figura de més amunt.
-
+-------------
 | motiu | regio | imatge |
 |:-------:|:-------:|:--------:|
 |   $\beta$-hairpin    |   ```EDSYRKQVVIDGETCLLDILDT```    |   ![](../figures/5p21_hairpin.png)     |
 |    P-loop / Walker motif  |    ```GAGGVGKS```   |    ![](../figures/5p21_ploop.png)       |
 |     motius $\beta-\alpha-\beta$ amb la fulla $\beta$ tancada    |    ```SAMRDQYMRTGEGFLCVFAINNTKSFED```<br>```IHQYREQIKRVKDSDDVPMVLVGNKCDL```<br>```AARTVESRQAQDLARSYGIPYIETSAKT```<br>```RQGVEDAFYTLVREIR``` |    ![](../figures/5p21_betaalphabeta.png)       |
-
+-------------
 ## Plegament
 
 Es tracta d'una proteïna $\alpha/\beta$, amb un plegament de tipus *G-domain-like* quin representant és PDB:1CTQ [segons la clasificació a SCOP](https://scop.mrc-lmb.cam.ac.uk/term/8019404)
