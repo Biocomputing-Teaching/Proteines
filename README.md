@@ -1,1 +1,1 @@
-Un repositori per ensenyar relacions estructura-funci
+Un repositori per ensenyar relacions estructura-funció en proteïnes
