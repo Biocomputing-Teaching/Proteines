@@ -25,7 +25,13 @@ permalink: /Tallers/
     </style>
   </head>
 
-<h1> Anàlisis de les relacions seqüència-estructura-funció de la proteïna H-RAS p21 (PDB: 5P21)</h1>
+<h1> Anàlisis </h1>
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="false"></pdbe-molstar>
+</div>
+</p>
+<br>  
 
 - [Estructura secundària](#estructura-secundària)
 - [Estructura supersecundària](#estructura-supersecundària)
