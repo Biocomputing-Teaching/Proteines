@@ -25,11 +25,24 @@ HMM length: (specific number) amino acids long
 The E-value or the excpect value, this is similar to what is found in blast research, the smaller E value , the better the alignment quality
 ![](The%20E%20value.png)
 
-In the top, there is HMM residue 
 
-In the bottom , you find amino acid sequence 
+![](HMM.png)
+
+ 
 Color coded has a significance. Green means 100% and red 0% of matching 
 
 View the structure ![](View%20structure%20.png)
+
+
+#finding Pfam's protein families data in the InterPro Website Tutorial
+InterPro is a resource for functional analysis of protein sequences that predicts protein families and the presence of domains and important sites
+By using this link www.ebi.ac.uk/interpro/ , you can sequence any protein you want as following: 
+![](InterPro.png)
+You will be redirected to the results, where there is an option to save them by finding a green icon.
+![](Green%20Icon.png)
+By selecting one of the previous result, the Enterprise scan search page, there is a over review, entries tab that uses protein has been matching and the second step which allows you to sign in your research again as follows : 
+![](InterPro%20Results.png)
+You can export your results:
+![](Export%20results.png)
 
 
