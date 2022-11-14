@@ -25,7 +25,7 @@ permalink: /Tallers/
     </style>
   </head>
 
-<h1> Anàlisi de les relacions seqüència-estructura-funció de la proteïna H-RAS p21 (PDB: 5P21)</h1>
+<h1> Anàlisis de les relacions seqüència-estructura-funció de la proteïna H-RAS p21 (PDB: 5P21)</h1>
 
 - [Estructura secundària](#estructura-secundària)
 - [Estructura supersecundària](#estructura-supersecundària)
