@@ -26,21 +26,25 @@ permalink: /Tallers/
   </head>
 
 <h1> Anàlisis </h1>
+-------------
 <p>
 <div id="myViewer">
 <pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="false"></pdbe-molstar>
 </div>
 </p>
 <br>  
-
+-------------
+- [<h1> Anàlisis </h1>](#h1-anàlisis-h1)
+- [<br>](#)
+- [- Funció](#--funció)
+- [El codi PDB:5P21 correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.](#el-codi-pdb5p21-correspon-a-lestructura-de-la-proteïna-h-ras-p21codi-uniprotp01112-amb-una-gran-conservació-de-seqüència-pel-que-es-pot-veure-a-lalineament-que-el-propi-pdb-ens-dona)
 - [Estructura secundària](#estructura-secundària)
 - [Estructura supersecundària](#estructura-supersecundària)
 - [Plegament](#plegament)
 - [Funció](#funció)
-
-
+-------------
  El codi [PDB:5P21](https://www.rcsb.org/structure/5p21) correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.
-
+-------------
 
 La seqüència de la proteïna al PDB és
 
@@ -48,7 +52,7 @@ La seqüència de la proteïna al PDB és
 >5P21
 MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH
 ```
-
+-------------
 Pots visualitzar la proteïna en aquesta finestra proveïda per [Mol*](https://molstar.org):
 
 <p>
