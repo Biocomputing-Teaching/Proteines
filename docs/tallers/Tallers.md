@@ -25,102 +25,63 @@ permalink: /COVID19/
     </style>
   </head>
 
-<h1> Anàlisis </h1>
--------------
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg?t=42)
+
+Com ataca el coronavirus?
+
+------
+
+![](./figures/sars-cov-2-fusion.png)
+
+[Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)
+
+------
+
 <p>
 <div id="myViewer">
-<pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="false"></pdbe-molstar>
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="7df4" hide-controls="false"></pdbe-molstar>
 </div>
+Proteïna Spike interaccionant amb ACE2
 </p>
 <br>  
 
--------------------------------------
+------
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg?t=42)
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="6wpt" hide-controls="false"></pdbe-molstar>
+</div>
+Proteïna Spike amb un anticós neutralitzant
+</p>
+<br>  
 
--------------
 
-[El codi PDB:5P21 correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.](#el-codi-pdb5p21-correspon-a-lestructura-de-la-proteïna-h-ras-p21codi-uniprotp01112-amb-una-gran-conservació-de-seqüència-pel-que-es-pot-veure-a-lalineament-que-el-propi-pdb-ens-dona)
-
- El codi [PDB:5P21](https://www.rcsb.org/structure/5p21) correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.
--------------
-
+------
+# Genoma del SARS-CoV-2
 ![](./figures/genome-illustr-2021-update2.png)
+
+------
+
+![](./figures/variabilitatOmicron.png)
+[Alta variabilitat de la proteïna SPIKE](https://covdb.stanford.edu/variants/omicron_ba_1_3/)
+
+------
+
+# Millor una proteïna menys variant: 3CLPro
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WQzjXHKBSY8/0.jpg)](https://youtu.be/WQzjXHKBSY8)
 
 ![](./figures/44_2022_2951_Fig1_HTML.png)
 
 https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6
 
-La seqüència de la proteïna al PDB és
+![](./figures/MSA_variants_Mpro.png)
 
-```fasta
->5P21
-MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH
-```
 -------------
-Pots visualitzar la proteïna en aquesta finestra proveïda per [Mol*](https://molstar.org):
 
 <p>
 <div id="myViewer">
-<pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="false"></pdbe-molstar>
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="6yb7" hide-controls="false"></pdbe-molstar>
 </div>
 </p>
 <br>  
-
-## Estructura secundària
-
-L'estructura presenta tant hèlix alfa com fulles beta
--------------
-|![](../figures/5p21_2nd.png)|
-|:--:|
-|Imatge de la proteïna mostrant els elements d'estructura secundària.|
--------------
-La següent figura mostra la seqüència de la proteïna i les regions amb hèlix alfa (groc) i fulles beta (verd)
--------------
-|![](../figures/5p21_seq.png)|
-|:--:|
-|Seqüència de la proteïna mostrant els elements d'estructura secundària|
--------------
-## Estructura supersecundària
-
-La figura mostra l'estructura amb un codi de colors progressiu que permet identificar la regió N-terminal (blau) i la regió C-terminal (vermell).
--------------
-|![](../figures/5p21_rainbow.png)|
-|:--:|
-|Imatge de la proteïna amb la representació amb colors de fred (blau) a calent (vermell) en funció de la seqüència.|
--------------
-Malauradament el fitxer PBD no conté massa informació sbre l'estructura secundària i no en podem treure massa profit, en aquest cas. Anem a [visualitzar la proteïna a Chimera](../code/5p21.py). Podem observar diversos motius d'estructura supersecundària, que es poden deduir també de l'observació de la seqüència a la figura de més amunt.
--------------
-| motiu | regio | imatge |
-|:-------:|:-------:|:--------:|
-|   $\beta$-hairpin    |   ```EDSYRKQVVIDGETCLLDILDT```    |   ![](../figures/5p21_hairpin.png)     |
-|    P-loop / Walker motif  |    ```GAGGVGKS```   |    ![](../figures/5p21_ploop.png)       |
-|     motius $\beta-\alpha-\beta$ amb la fulla $\beta$ tancada    |    ```SAMRDQYMRTGEGFLCVFAINNTKSFED```<br>```IHQYREQIKRVKDSDDVPMVLVGNKCDL```<br>```AARTVESRQAQDLARSYGIPYIETSAKT```<br>```RQGVEDAFYTLVREIR``` |    ![](../figures/5p21_betaalphabeta.png)       |
--------------
-## Plegament
-
-Es tracta d'una proteïna $\alpha/\beta$, amb un plegament de tipus *G-domain-like* quin representant és PDB:1CTQ [segons la clasificació a SCOP](https://scop.mrc-lmb.cam.ac.uk/term/8019404)
-
-|![](../figures/1CTQ_SCOP.png)|
-|:--:|
-|Estructura jeràrquica del domini al qual pertany PDB:5P21, representada a SCOP per PDB:1CTQ|
-
-i de domini que forma part de la superfamília *P-loop containing nucleotide triosephosphate hydrolases* [segons CATH](http://www.cathdb.info/search?q=5p21).
-
-## Funció
-
-Podem començar per [cercar a PFAM el codi uniprot de la proteïna](http://pfam.xfam.org/protein/P01112). Veiem que es tracta d'una proteïna amb un sol domini ben caracteritzat:
-
-|![](../figures/5p21_pfam1.png)|
-|:--:|
-|Taula resum dels dominis PFAM per al PDB:5p21, UNIPROT: P01112|
-
-Podem aleshores explorar l'entrada per a aquest domini específic: PFAM: PF00071, i observem que es tracta d'una GTPasa. El domini concret Ras està altament distribuït, trobat en més de [1500 arquitectures diferents](http://pfam.xfam.org/family/PF00071#tabview=tab1), vora [2000 espècies](http://pfam.xfam.org/family/PF00071#tabview=tab7)
-
-L'estudi del [logo HMM](http://pfam.xfam.org/family/ras#tabview=tab4) ens mostra una regió molt enriquida en glicines corresponent al P-loop, i també la gran conservació de la Treonina 35 del fitxer PDB (posició 31 en el logo HMM), que és essencial per a la coordinació de l'ió magnesi, que participa en la reacció GTPasa, com es pot apreciar en el centre actiu de la proteïna:
-
-|![](../figures/5p21_centreactiu.png)|
-|:--:|
-|Centre actiu de la proteïna PDB:5p21. S'aprecia que l'ió magnesi està coordinat per 6 àtoms d'oxigen: dos provinents de sengles molècules d'aigua, dos dels fosfats $\beta$ i $\gamma$ del GTP, un de la serina 17 i un altre de la treonina 35 (aquests dos residus, altament conservats en les posicions [13 i 31 del logo HMM](http://pfam.xfam.org/family/ras#tabview=tab4)).|
-
-Altres residus altament conservats que s'aprecien al logo PFAM tenen tasques  importants en l'activitat de la proteïna Ras.
