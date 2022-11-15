@@ -33,6 +33,8 @@ permalink: /Guio/
 - [Rational Drug Discovery](#rational-drug-discovery)
 - [Complez 3CLpro-Nirmatelvir](#complez-3clpro-nirmatelvir)
 - [Referències](#referències)
+
+
 En aquest taller il·lustrarem els elements claus en la cerca d'un nou fàrmac. En concret, donarem una ullada, amb l'ajut de l'ordinador, del camí que han seguit els científics per trobar els primers medicaments antivirals per a la COVID-19. T'hi sumes?
 
 # Entenent el mecanisme d'acció del SARS-CoV-2

@@ -71,9 +71,13 @@ Proteïna Spike amb un anticós neutralitzant
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WQzjXHKBSY8/0.jpg)](https://youtu.be/WQzjXHKBSY8)
 
+--------
+
 ![](./figures/44_2022_2951_Fig1_HTML.png)
 
-https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6
+[Article](https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6)
+
+-------
 
 ![](./figures/MSA_variants_Mpro.png)
 
