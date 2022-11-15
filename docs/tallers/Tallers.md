@@ -45,9 +45,9 @@ permalink: /Tallers/
  El codi [PDB:5P21](https://www.rcsb.org/structure/5p21) correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.
 -------------
 
-![](figures/genome-illustr-2021-update2.png)
+![](./figures/genome-illustr-2021-update2.png)
 
-![](figures/44_2022_2951_Fig1_HTML.png)
+![](./figures/44_2022_2951_Fig1_HTML.png)
 
 https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6
 
