@@ -2,7 +2,7 @@
 layout: default
 title: Tallers Bioinformàtica Estructural FTCE
 author: Jordi Villà-Freixa
-permalink: /Tallers/
+permalink: /GuioEstudiant/
 ---
  <head>
     <meta charset="utf-8">
