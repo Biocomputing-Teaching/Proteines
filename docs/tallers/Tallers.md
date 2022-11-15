@@ -34,12 +34,22 @@ permalink: /Tallers/
 </p>
 <br>  
 
+-------------------------------------
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg?t=42)
+
 -------------
 
 [El codi PDB:5P21 correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.](#el-codi-pdb5p21-correspon-a-lestructura-de-la-proteïna-h-ras-p21codi-uniprotp01112-amb-una-gran-conservació-de-seqüència-pel-que-es-pot-veure-a-lalineament-que-el-propi-pdb-ens-dona)
 
  El codi [PDB:5P21](https://www.rcsb.org/structure/5p21) correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.
 -------------
+
+![](figures/genome-illustr-2021-update2.png)
+
+![](figures/44_2022_2951_Fig1_HTML.png)
+
+https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6
 
 La seqüència de la proteïna al PDB és
 
