@@ -2,7 +2,7 @@
 layout: default
 title: Tallers Bioinformàtica Estructural FTCE
 author: Jordi Villà-Freixa
-permalink: /GuioTallerista/
+permalink: /Guio/
 ---
  <head>
     <meta charset="utf-8">
@@ -31,6 +31,7 @@ En aquest taller il·lustrarem els elements claus en la cerca d'un nou fàrmac. 
 
 # Entenent el mecanisme d'acció del SARS-CoV-2
 
+El virus SARS-CoV-2 és el causant de la malaltia coneguda com COVID19
 
 <p>
 <div id="myViewer">
