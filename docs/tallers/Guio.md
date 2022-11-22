@@ -37,6 +37,7 @@ permalink: /GuioCOVID19/
 
 En aquest taller il·lustrarem els elements claus en la cerca d'un nou fàrmac. En concret, donarem una ullada, amb l'ajut de l'ordinador, del camí que han seguit els científics per trobar els primers medicaments antivirals per a la COVID-19. T'hi sumes?
 
+
 # Entenent el mecanisme d'acció del SARS-CoV-2
 
 El virus SARS-CoV-2 és el causant de la malaltia coneguda com COVID19. La proteïna Spike és l'encarregada d'ancorar el virus a la superfície cel·lular. A partir d'aquí es dóna la fusió de els membranes i el virus aboca el seu contingut de RNA dins la cèl·lula. Aquest RNA usa la maquinària cel·lular per replicar el virus i generar-ne molts més que puguin infectar altres cèl·lules. En aquest taller estduaiarem dos tipus d'estructures:
