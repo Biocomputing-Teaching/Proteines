@@ -31,7 +31,7 @@ permalink: /GuioCOVID19/
 - [Estudiem les interaccions de la proteïna SPIKE](#estudiem-les-interaccions-de-la-proteïna-spike)
 - [Variabilitat del genoma de SARS-CoV-2](#variabilitat-del-genoma-de-sars-cov-2)
 - [Rational Drug Discovery](#rational-drug-discovery)
-- [Complez 3CLpro-Nirmatelvir](#complez-3clpro-nirmatelvir)
+- [Complex 3CLpro-Nirmatelvir](#complex-3clpro-nirmatelvir)
 - [Referències](#referències)
 
 
@@ -65,7 +65,7 @@ Alternativament, si Chimera no et funciona, pots observar aquestes proteïnes en
 4. Observa el fitxer que has baixat (pots usar wordpad). Veuràs que hi ha algun problema amb aquesta estructura i necessita que l'arreglem. Obre openbabel a l'ordinador i mira d'arreglar-la.
 5. Torna a obrir la molècula a chimera i intenta identificar els diferents grups funcionals. Per on creus que interaccionarà amb la proteïna?
 
-# Complez 3CLpro-Nirmatelvir
+# Complex 3CLpro-Nirmatelvir
 
 1. Accedeix al PDB i busca el complex de 3CLpro amb Nirmatelvir (PDB: 8DZ2)
 2. Obre'l a Chimera i intenta identificar de quina manera interaccions. Pots identificar la histidina i la cisteïna del centre actiu de la proteïna?
