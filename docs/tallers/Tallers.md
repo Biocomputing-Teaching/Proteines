@@ -25,17 +25,23 @@ permalink: /COVID19/
     </style>
   </head>
 
+<h1>En cerca d'un antiviral per a la COVID19</h1>
+
+Com s'ho fan els científics per trobar un antiviral per a un virus com el SARS-Cov-2? Com escullen la proteïna que els servirà de diana terapèutica? Com aprofiten el coneixement existent?
+
+- [Com ataca el coronavirus?](#com-ataca-el-coronavirus)
+- [Com muta el genoma del SARS-CoV-2](#com-muta-el-genoma-del-sars-cov-2)
+- [Millor una proteïna menys variant per generar un antiviral: 3CLPro](#millor-una-proteïna-menys-variant-per-generar-un-antiviral-3clpro)
+- [Ara et toca a tu!](#ara-et-toca-a-tu)
+
+# Com ataca el coronavirus?
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg?t=42)
 
-Com ataca el coronavirus?
-
-------
 
 ![](./figures/sars-cov-2-fusion.png)
 
 [Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)
-
-------
 
 <p>
 <div id="myViewer">
@@ -45,8 +51,6 @@ Proteïna Spike interaccionant amb ACE2
 </p>
 <br>  
 
-------
-
 <p>
 <div id="myViewer">
 <pdbe-molstar id="pdbeMolstarComponent" molecule-id="6wpt" hide-controls="false"></pdbe-molstar>
@@ -55,37 +59,33 @@ Proteïna Spike amb un anticós neutralitzant
 </p>
 <br>  
 
-
-------
-# Genoma del SARS-CoV-2
+# Com muta el genoma del SARS-CoV-2
 ![](./figures/genome-illustr-2021-update2.png)
-
-------
 
 ![](./figures/variabilitatOmicron.png)
 [Alta variabilitat de la proteïna SPIKE](https://covdb.stanford.edu/variants/omicron_ba_1_3/)
 
-------
-
-# Millor una proteïna menys variant: 3CLPro
+# Millor una proteïna menys variant per generar un antiviral: 3CLPro
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WQzjXHKBSY8/0.jpg)](https://youtu.be/WQzjXHKBSY8)
-
---------
 
 ![](./figures/44_2022_2951_Fig1_HTML.png)
 
 [Article](https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6)
 
--------
-
 ![](./figures/MSA_variants_Mpro.png)
 
--------------
 
 <p>
 <div id="myViewer">
 <pdbe-molstar id="pdbeMolstarComponent" molecule-id="6yb7" hide-controls="false"></pdbe-molstar>
 </div>
+Proteasa principal del SARS-CoV-2 amb un inhibidor covalent.
 </p>
 <br>  
+
+# Ara et toca a tu!
+
+Per seguir els diferents passos d'aquesta apassionant història t'hem preparat [un guió](https://jordivillafreixa.github.io/Proteines/Guio/) on, pas a pas, podràs raonar com ho ha fet la comunitat científica per trobar una possible solució a la COVID-19. Encara queda molta més feina per fer. T'animes a seguir els passos d'aquests investigadors?
+
+Sovint parlem de com d'important és invertir en recerca, tot i que de vegades els resultats no siguin immediatament aparents. Aquí us hem mostrat un exemple de com la recerca en genòmica, virologia, bioinformàtica, química mèdica, biologia molecular, descobriment de fàrmacs i modelatge molecular van de la mà quan cal trobar una resposta a un problema. L'acumulació de resultats i de coneixement al llarg de molts anys acaba essent determinant per trobar solucions ràpides a crisis sanitàries sobtades!
