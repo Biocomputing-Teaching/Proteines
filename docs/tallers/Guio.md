@@ -37,6 +37,11 @@ permalink: /GuioCOVID19/
 
 En aquest taller il·lustrarem els elements claus en la cerca d'un nou fàrmac. En concret, donarem una ullada, amb l'ajut de l'ordinador, del camí que han seguit els científics per trobar els primers medicaments antivirals per a la COVID-19. T'hi sumes?
 
+Programari necessari:
+
+1. [OpenBabel](http://openbabel.org/wiki/Main_Page) per poder convertir fitxers amb les coordenades Cartesianes de molècules d'un format a un altre
+2. [Chimera](https://www.cgl.ucsf.edu/chimera/) per poder visualitzar les molècules en local. També hi ha eines online a moltes de les bases de dades de lligands i proteïnes.
+
 
 # Entenent el mecanisme d'acció del SARS-CoV-2
 
@@ -63,7 +68,7 @@ Alternativament, si Chimera no et funciona, pots observar aquestes proteïnes en
 1. Accedeix a la web de [DRUGBANK](https://go.drugbank.com/)
 2. Cerca l'estructura de Nirmatrelvir ![](./figures/44_2022_2951_Fig1_HTML.png)
 3. Baixa l'estructura en PDB de la molècula i visualitza-la a chimera. És correcta? Què li falta? 
-4. Observa el fitxer que has baixat (pots usar wordpad). Veuràs que hi ha algun problema amb aquesta estructura i necessita que l'arreglem. Obre openbabel a l'ordinador i mira d'arreglar-la.
+4. Observa el fitxer que has baixat (pots usar wordpad). Veuràs que hi ha algun problema amb aquesta estructura i necessita que l'arreglem (manca d'hidrogens, estructura plana, etc). Obre [openbabel](http://openbabel.org/wiki/Main_Page) a l'ordinador i mira d'arreglar-la.
 5. Torna a obrir la molècula a chimera i intenta identificar els diferents grups funcionals. Per on creus que interaccionarà amb la proteïna?
 
 # Complex 3CLpro-Nirmatelvir
@@ -83,3 +88,6 @@ Alternativament, si Chimera no et funciona, pots observar aquestes proteïnes en
 # Referències
 
 1. Podeu trobar molta informació estructural i també enllaços a material didàctic interessant a la web del Protein Data Bank: [COVID-19/SARS-CoV-2 Resources](https://www.rcsb.org/news/feature/5e74d55d2d410731e9944f52).
+
+
+&copy; Jordi Villà Freixa 2022
