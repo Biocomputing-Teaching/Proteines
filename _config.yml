@@ -1,5 +1,5 @@
 #theme: jekyll-theme-minimal
-theme: architect
+remote-theme: cotes2020/jekyll-theme-chirpy 
 baseurl: /Proteines/docs
 github: [metadata]
 kramdown:
