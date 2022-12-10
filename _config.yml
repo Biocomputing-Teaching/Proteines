@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+theme: architect
 baseurl: /Proteines/docs
 github: [metadata]
 kramdown:
