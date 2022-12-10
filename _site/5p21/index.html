@@ -1,0 +1,179 @@
+<head>
+    <meta charset="utf-8" />
+    <title>5P21</title>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <!-- Web component polyfill (only loads what it needs) -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+    <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css" />
+<script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-component-1.2.1.js"></script>
+<style>
+        #myViewer{
+          float:none;
+          width:400px;
+          height:400px;
+          position:relative;
+        }
+    </style>
+  </head>
+
+<h1> Anàlixi de les relacions seqüència-estructura-funció de la proteïna H-RAS p21 (PDB: 5P21)</h1>
+
+<ul>
+  <li><a href="#estructura-secundària">Estructura secundària</a></li>
+  <li><a href="#estructura-supersecundària">Estructura supersecundària</a></li>
+  <li><a href="#plegament">Plegament</a></li>
+  <li><a href="#funció">Funció</a></li>
+</ul>
+
+<p>El codi <a href="https://www.rcsb.org/structure/5p21">PDB:5P21</a> correspon a l’estructura de la proteïna H-RAS p21,codi <a href="https://www.uniprot.org/uniprot/P01112">UNIPROT:P01112</a>, amb una gran conservació de seqüència pel que es pot veure a l’<a href="https://www.rcsb.org/uniprot/P01112">alineament</a> que el propi PDB ens dona.</p>
+
+<p>La seqüència de la proteïna al PDB és</p>
+
+<pre><code class="language-fasta">&gt;5P21
+MTEYKLVVVGAGGVGKSALTIQLIQNHFVDEYDPTIEDSYRKQVVIDGETCLLDILDTAGQEEYSAMRDQYMRTGEGFLCVFAINNTKSFEDIHQYREQIKRVKDSDDVPMVLVGNKCDLAARTVESRQAQDLARSYGIPYIETSAKTRQGVEDAFYTLVREIRQH
+</code></pre>
+
+<p>Pots visualitzar la proteïna en aquesta finestra proveïda per <a href="https://molstar.org">Mol*</a>:</p>
+
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="5p21" hide-controls="true"></pdbe-molstar>
+</div>
+</p>
+<p><br /></p>
+
+<h2 id="estructura-secundària">Estructura secundària</h2>
+
+<p>L’estructura presenta tant hèlix alfa com fulles beta</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="/docs/figures/5p21_2nd.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Imatge de la proteïna mostrant els elements d’estructura secundària.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La següent figura mostra la seqüència de la proteïna i les regions amb hèlix alfa (groc) i fulles beta (verd)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/5p21_seq.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Seqüència de la proteïna mostrant els elements d’estructura secundària</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="estructura-supersecundària">Estructura supersecundària</h2>
+
+<p>La figura mostra l’estructura amb un codi de colors progressiu que permet identificar la regió N-terminal (blau) i la regió C-terminal (vermell).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/5p21_rainbow.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Imatge de la proteïna amb la representació amb colors de fred (blau) a calent (vermell) en funció de la seqüència.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Malauradament el fitxer PBD no conté massa informació sbre l’estructura secundària i no en podem treure massa profit, en aquest cas. Anem a <a href="../code/5p21.py">visualitzar la proteïna a Chimera</a>. Podem observar diversos motius d’estructura supersecundària, que es poden deduir també de l’observació de la seqüència a la figura de més amunt.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">motiu</th>
+      <th style="text-align: center">regio</th>
+      <th style="text-align: center">imatge</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">$\beta$-hairpin</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">EDSYRKQVVIDGETCLLDILDT</code></td>
+      <td style="text-align: center"><img src="../figures/5p21_hairpin.png" alt="" /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">P-loop / Walker motif</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">GAGGVGKS</code></td>
+      <td style="text-align: center"><img src="../figures/5p21_ploop.png" alt="" /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">motius $\beta-\alpha-\beta$ amb la fulla $\beta$ tancada</td>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">SAMRDQYMRTGEGFLCVFAINNTKSFED</code><br /><code class="language-plaintext highlighter-rouge">IHQYREQIKRVKDSDDVPMVLVGNKCDL</code><br /><code class="language-plaintext highlighter-rouge">AARTVESRQAQDLARSYGIPYIETSAKT</code><br /><code class="language-plaintext highlighter-rouge">RQGVEDAFYTLVREIR</code></td>
+      <td style="text-align: center"><img src="../figures/5p21_betaalphabeta.png" alt="" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="plegament">Plegament</h2>
+
+<p>Es tracta d’una proteïna $\alpha/\beta$, amb un plegament de tipus <em>G-domain-like</em> quin representant és PDB:1CTQ <a href="https://scop.mrc-lmb.cam.ac.uk/term/8019404">segons la clasificació a SCOP</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/1CTQ_SCOP.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Estructura jeràrquica del domini al qual pertany PDB:5P21, representada a SCOP per PDB:1CTQ</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>i de domini que forma part de la superfamília <em>P-loop containing nucleotide triosephosphate hydrolases</em> <a href="http://www.cathdb.info/search?q=5p21">segons CATH</a>.</p>
+
+<h2 id="funció">Funció</h2>
+
+<p>Podem començar per <a href="http://pfam.xfam.org/protein/P01112">cercar a PFAM el codi uniprot de la proteïna</a>. Veiem que es tracta d’una proteïna amb un sol domini ben caracteritzat:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/5p21_pfam1.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Taula resum dels dominis PFAM per al PDB:5p21, UNIPROT: P01112</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Podem aleshores explorar l’entrada per a aquest domini específic: PFAM: PF00071, i observem que es tracta d’una GTPasa. El domini concret Ras està altament distribuït, trobat en més de <a href="http://pfam.xfam.org/family/PF00071#tabview=tab1">1500 arquitectures diferents</a>, vora <a href="http://pfam.xfam.org/family/PF00071#tabview=tab7">2000 espècies</a></p>
+
+<p>L’estudi del <a href="http://pfam.xfam.org/family/ras#tabview=tab4">logo HMM</a> ens mostra una regió molt enriquida en glicines corresponent al P-loop, i també la gran conservació de la Treonina 35 del fitxer PDB (posició 31 en el logo HMM), que és essencial per a la coordinació de l’ió magnesi, que participa en la reacció GTPasa, com es pot apreciar en el centre actiu de la proteïna:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="figures/5p21_centreactiu.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Centre actiu de la proteïna PDB:5p21. S’aprecia que l’ió magnesi està coordinat per 6 àtoms d’oxigen: dos provinents de sengles molècules d’aigua, dos dels fosfats $\beta$ i $\gamma$ del GTP, un de la serina 17 i un altre de la treonina 35 (aquests dos residus, altament conservats en les posicions <a href="http://pfam.xfam.org/family/ras#tabview=tab4">13 i 31 del logo HMM</a>).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Altres residus altament conservats que s’aprecien al logo PFAM tenen tasques  importants en l’activitat de la proteïna Ras.</p>

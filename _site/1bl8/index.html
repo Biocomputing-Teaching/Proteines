@@ -1,0 +1,173 @@
+<head>
+    <meta charset="utf-8" />
+    <title>1BL8</title>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <!-- Web component polyfill (only loads what it needs) -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+    <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css" />
+<script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-component-1.2.1.js"></script>
+<style>
+        #myViewer{
+          float:none;
+          width:400px;
+          height:400px;
+          position:relative;
+        }
+    </style>
+  </head>
+
+<h1> Anàlisi de les relacions seqüència-estructura-funció del canal iònic de potassi  (PDB: 1BL8)</h1>
+
+<ul>
+  <li><a href="#estructura-secundària">Estructura secundària</a></li>
+  <li><a href="#estructura-supersecundària">Estructura supersecundària</a></li>
+  <li><a href="#plegament">Plegament</a></li>
+  <li><a href="#funció">Funció</a></li>
+</ul>
+
+<p>El codi <a href="https://www.rcsb.org/structure/1bl8">PDB:1BL8</a> correspon a l’estructura de la proteïna KcsA d’Streptomyces lividans, codi <a href="https://www.uniprot.org/uniprot/P0A334">UNIPROT:P0A334</a>, amb una gran conservació de seqüència pel que es pot veure a l’<a href="https://www.rcsb.org/uniprot/P0A334">alineament</a> que el propi PDB ens dona.</p>
+
+<p>La seqüència de la proteïna al PDB és</p>
+
+<pre><code class="language-fasta">&gt;1BL8_1|Chains A, B, C, D|PROTEIN (POTASSIUM CHANNEL PROTEIN)|Streptomyces lividans (1916)
+ALHWRAAGAATVLLVIVLLAGSYLAVLAERGAPGAQLITYPRALWWSVETATTVGYGDLYPVTLWGRCVAVVVMVAGITSFGLVTAALATWFVGREQ
+</code></pre>
+
+<p>Pots visualitzar la proteïna en aquesta finestra proveïda per <a href="https://molstar.org">Mol*</a>:</p>
+
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="1bl8" hide-controls="true"></pdbe-molstar>
+</div>
+</p>
+<p><br /></p>
+
+<h2 id="estructura-secundària">Estructura secundària</h2>
+
+<p>Es veu com la proteïna és un homotetràmer, format per unitats que contenen dues hèlix alfa transmembrana unides per una alfa hèlix més curta en el porus extern</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/kcsa.jpg" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Resum de l’estructura del canal KcsA (Martinac et al. <a href="https://journals.physiology.org/doi/full/10.1152/physrev.00005.2008">2008</a>)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La següent figura mostra la seqüència de la proteïna i les regions amb hèlix alfa (groc):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/1bl8_seq.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Seqüència de la proteïna mostrant els elements d’estructura secundària</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Si examinem el fitxer PDB, observem que es repeteix l’estructura de tres hèlix alfa (TM1, hèlix del porus i TM2; <a href="https://www.wwpdb.org/documentation/file-format-content/format33/sect5.html">tipus 1 seguint la nomenclatura del fitxer PDB</a>) a cadascuna de les quatre cadenes:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HELIX    1   1 ARG A   27  GLU A   51  1                                  25    
+HELIX    2   2 TYR A   62  THR A   74  1                                  13    
+HELIX    3   3 LEU A   86  THR A  112  1                                  27    
+</code></pre></div></div>
+
+<h2 id="estructura-supersecundària">Estructura supersecundària</h2>
+
+<p>La figura mostra l’estructura amb un codi de colors progressiu que permet identificar la regió N-terminal (blau) i la regió C-terminal (vermell).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/1bl8_rainbow.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Imatge d’una de les quatre cadenes idèntiques de la proteïna amb la representació amb colors de fred (blau, N-terminal) a calent (vermell, C-terminal) en funció de la seqüència</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>es poden apreciar els loops que uneixen les hèlix $\alpha$, i en especial el loop entre l’`helix del porus i la TM2, que conté els residus responsables del filtre de selctivitat del canal de potassi (ions potassi mostrats en color lila).</p>
+
+<h2 id="plegament">Plegament</h2>
+
+<p>Es tracta d’una proteïna all $\alpha$, amb un plegament característic dels canals de potassi controlats per voltatge, quin representant és PDB:2P7T <a href="https://scop.mrc-lmb.cam.ac.uk/term/8003436">segons la clasificació a SCOP</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/2p7t_scop.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Estructura jeràrquica del domini al qual pertany PDB:1BL8, representada a SCOP per PDB:2P7T</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>i de domini <em>helix hairpins</em> <a href="http://www.cathdb.info/version/latest/domain/1bl8A00">segons CATH</a>.</p>
+
+<h2 id="funció">Funció</h2>
+
+<p>Podem començar per <a href="http://pfam.xfam.org/protein/P0A334">cercar a PFAM el codi uniprot de la proteïna</a>. Veiem que es tracta d’una proteïna amb un sol domini ben caracteritzat:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/1bl8_pfam1.png" alt="" />.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Taula resum dels dominis PFAM per al PDB:1BL8, UNIPROT: P0A334</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Podem aleshores explorar l’entrada per a aquest domini específic: PFAM: PF07885, i reconfirmem que es tracta d’un canal de potassi. El domini concret està altament distribuït, trobat en més de <a href="http://pfam.xfam.org/family/Ion_trans_2#tabview=tab1">500 arquitectures diferents</a>, vora <a href="http://pfam.xfam.org/family/Ion_trans_2#tabview=tab7">6000 espècies</a></p>
+
+<p>L’estudi del <a href="http://pfam.xfam.org/family/Ion_trans_2#tabview=tab4">logo HMM</a> ens mostra una forta conservació d’alguns residus clau en la regió 30-52 de l’alineament que s’ha usat per construir aquest logo. :</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/1bl8_logo.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><a href="http://pfam.xfam.org/family/Ion_trans_2#tabview=tab4">Logo HMM</a> obtingut al portal PFAM per al domini del canal iònic de potassi</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="../figures/1bl8_centreactiu_seq.png" alt="" /> <img src="../figures/1bl8_centreactiu.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Detall dels residus conservats de la proteïna (representats amb esferes)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Detall dels residus conservats de la proteïna (representats amb esferes)</td>
+    </tr>
+  </tbody>
+</table>

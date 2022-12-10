@@ -1,0 +1,220 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Pràctica de Relacions seqüència-estrcutura-funció</title>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <!-- Web component polyfill (only loads what it needs) -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+    <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css" />
+<script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-component-1.2.1.js"></script>
+<style>
+        #myViewer{
+          float:none;
+          width:400px;
+          height:400px;
+          position:relative;
+        }
+    </style>
+  </head>
+
+<h1 id="exercicis-relacions-seqüència-estructura-funció">Exercicis relacions seqüència-estructura-funció</h1>
+
+<h2 id="preparació">Preparació</h2>
+
+<ol>
+  <li>Instal·lació de <a href="http://www.jalview.org/getdown/release/#">Jalview</a></li>
+  <li>Familiarització amb <strong><a href="https://pfam.xfam.org/">Pfam</a></strong></li>
+  <li><a href="./TutorialPFAM.pdf">Tutorial</a> de PFAM</li>
+</ol>
+
+<h2 id="exercici-1-exploració-dels-dominis-duna-proteïna">EXERCICI 1) Exploració dels dominis d’una proteïna</h2>
+
+<h3 id="qüestió">Qüestió</h3>
+
+<p>Considereu la següent proteina. Fent servir informació dels dominis presents indiqueu de quin tipus de proteïna es tracta. Raoneu la vostra resposta: Indiqueu quins dominis presenta, a quines posicions, quines funcions porten associades, a quin clan PFAM, etc. Il·lustreu la vostra resposta amb alineaments trobats a PFAM, amb estructures del PDB, etc.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;protein x
+MAEDDPYLGRPEQMFHLDPSLTHTIFNPEVFQPQMALPTDGPYLQILEQPKQRGFRFRYV
+CEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCED
+GICTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTEACIRGYNPGLLVHPDLAYLQA
+EGGGDRQLGDREKELIRQAALQQTKEMDLSVVRLMFTAFLPDSTGSFTRRLEPVVSDAIY
+DSKAPNASNLKIVRMDRTAGCVTGGEEIYLLCDKVQKDDIQIRFYEEEENGGVWEGFGDF
+SPTDVHRQFAIVFKTPKYKDINITKPASVFVQLRRKSDLETSEPKPFLYYPEIKDKEEVQ
+RKRQKLMPNFSDSFGGGSGAGAGGGGMFGSGGGGGGTGSTGPGYSFPHYGFPTYGGITFH
+PGTTKSNAGMKHGTMDTESKKDPEGCDKSDDKNTVNLFGKVIETTEQDQEPSEATVGNGE
+VTLTYATGTKEESAGVQDNLFLEKAMQLAKRHANALFDYAVTGDVKMLLAVQRHLTAVQD
+ENGDSVLHLAIIHLHSQLVRDLLEVTSGLISDDIINMRNDLYQTPLHLAVITKQEDVVED
+LLRAGADLSLLDRLGNSVLHLAAKEGHDKVLSILLKHKKAALLLDHPNGDGLNAIHLAMM
+SNSLPCLLLLVAAGADVNAQEQKSGRTALHLAVEHDNISLAGCLLLEGDAHVDSTTYDGT
+TPLHIAAGRGSTRLAALLKAAGADPLVENFEPLYDLDDSWENAGEDEGVVPGTTPLDMAT
+SWQVFDILNGKPYEPEFTSDDLLAQGDMKQLAEDVKLQLYKLLEIPDPDKNWATLAQKLG
+LGILNNAFRLSPAPSKTLMDNYEVSGGTVRELVEALRQMGYTEAIEVIQAASSPVKTTSQ
+AHSLPLSPASTRQQIDELRDSDSVCDSGVETSFRKLSFTESLTSGASLLTLNKMPHDYGQ
+EGPLEGKI
+</code></pre></div></div>
+
+<p>NOTA: A part del <code class="language-plaintext highlighter-rouge">sequence search</code> link a la web de PFAM també pots utilitzar el servidor <a href="https://www.ebi.ac.uk/Tools/hmmer/search/hmmscan">HMMER</a> de l’EBI, més ràpid. Selecciona la base de dades PFAM per fer la cerca).</p>
+
+<h3 id="resposta">Resposta</h3>
+
+<p>Usant la web de l’EBI, i fent una cerca de la seqüència, obtenim la imatge següent:</p>
+
+<p><img src="figures/Pr2Ex1a.png" alt="" /></p>
+
+<p>La taula mostra 4 clars dominis:</p>
+
+<ul>
+  <li><a href="http://pfam.xfam.org/family/RHD_DNA_bind">Rel homology DNA-binding domain</a></li>
+  <li><a href="http://pfam.xfam.org/family/RHD_dimer">Rel homology dimerisation domain</a></li>
+  <li>Ankyrin repeats (diverses còpies i variants: <a href="http://pfam.xfam.org/family/Ank">ANK</a>, <a href="http://pfam.xfam.org/family/Ank_2">ANK_2</a> i <a href="http://pfam.xfam.org/family/Ank_4">ANK_4</a>)</li>
+  <li><a href="http://pfam.xfam.org/family/Death">Death domain</a></li>
+</ul>
+
+<p>Com expliquem al <a href="./TutorialPFAM.md">Tutorial</a> de PFAM, observem famílies PFAM (dominis RHD_DNA_bind,  RHD_dimer i DEATH), així com dominis repetits (Ankyrin, en aquest cas).</p>
+
+<p>La informació a les pàgines de PFAM ens mostra que:</p>
+
+<ul>
+  <li>el domini RHD_DNA_bind és típic de factors de transcripció, entre els quals la proteïna NF-KB;</li>
+  <li>el domini RHD_Dimer ajuda a la dimerització del domini RHD_DNA_bind, que té sempre en N-terminal;</li>
+  <li>el domini DEATH està composat de 6 hèlix alfa;</li>
+  <li>finalment, els repeats Ankyrin</li>
+</ul>
+
+<p>Una cerca amb BLAST a NCBI ens mostra que, certament,  es tracta de la proteïna NF-KB, i entrant amb més detall als resultats del BLAST obtenim informació sobre els dominis des del propi NCBI.</p>
+
+<p><img src="figures/Pr2Ex1b.png" alt="" /></p>
+
+<p>Finalment, és molt interessant usar el portal <a href="https://www.ebi.ac.uk/interpro/">InterPro</a> de l’EBI. Allà, amb una sola cerca per seqüència, podem accedir a informació sobre les diferents regions de la seqüència en una gran varietat de bases de dades i servidors. <a href="figures/InterProScan.pdf">Aquí disposeu d’un fitxer PDF</a> amb el resultat de la cerca de la nostra seqüència problema, confirmant que es tracta de la subunitat p105 del factor nuclear NF$\kappa$B, i podem accedir a les diverses bases de dades que descriuen els dominis de la proteïna (<code class="language-plaintext highlighter-rouge">RHD_DNA_bind</code> en vermell , <code class="language-plaintext highlighter-rouge">RHD_Dimer</code> en blau, <code class="language-plaintext highlighter-rouge">ANK</code> en verd i <code class="language-plaintext highlighter-rouge">DEATH</code> en  groc):</p>
+
+<pre>
+&gt;protein x
+MAEDDPYLGRPEQMFHLDPSLTHTIFNPEVFQPQMALP<span class="inner-pre" style="color: red">TDGPYLQILEQPKQRGFRFRYV
+CEGPSHGGLPGASSEKNKKSYPQVKICNYVGPAKVIVQLVTNGKNIHLHAHSLVGKHCED
+GICTVTAGPKDMVVGFANLGILHVTKKKVFETLEARMTEACIRGYNPGLLVHPDLAYLQA
+EGGGDRQLGDREKELIRQAALQQTKEMDLSVVRLMFTAFLPDSTGSFTRRLEPVVSDAIY
+DSKAPNA</span><span class="inner-pre" style="color: blue">SNLKIVRMDRTAGCVTGGEEIYLLCDKVQKDDIQIRFYEEEENGGVWEGFGDF
+SPTDVHRQFAIVFKTPKYKDINITKPASVFVQLRRKSDLETSEPKPFLYYP</span>EIKDKEEVQ
+RKRQKLMPNFSDSFGGGSGAGAGGGGMFGSGGGGGGTGSTGPGYSFPHYGFPTYGGITFH
+PGTTKSNAGMKHGTMDTESKKDPEGCDKSDDKNTVNLFGKVIETTEQDQEPSEATVGNGE
+VTLTYATGTKEESAGVQDNLFLEKAMQLAKRHANALFDYAVTGDVKMLLAVQRH<span class="inner-pre" style="color: green">LTAVQD
+ENGDSVLHLAIIHLHSQLVRDLLEVTSGLISDDIINMRNDLYQTPLHLAVITKQEDVVED
+LLRAGADLSLLDRLGNSVLHLAAKEGHDKVLSILLKHKKAALLLDHPNGDGLNAIHLAMM
+SNSLPCLLLLVAAGADVNAQEQKSGRTALHLAVEHDNISLAGCLLLEGDAHVDSTTYDGT
+TPLHIAAGRGSTRLAALLKAAGADPLVENFEPLYDLDDSWENAGEDEGVVPGTTPLDMAT
+SWQVFDILNGKPY</span>EPEFTSDDLLA<span class="inner-pre" style="color: yellow">QGDMKQLAEDVKLQLYKLLEIPDPDKNWATLAQKLG
+LGILNNAFRLSPAPSKTLMDNYEVSGGTVRELVEALRQMGYTEAIEVIQAAS</span>SPVKTTSQ
+AHSLPLSPASTRQQIDELRDSDSVCDSGVETSFRKLSFTESLTSGASLLTLNKMPHDYGQ
+EGPLEGKI
+</pre>
+
+<h2 id="exercici-2-dominis-compartits">EXERCICI 2) Dominis compartits</h2>
+
+<h3 id="qüestió-1">Qüestió</h3>
+
+<p>Considereu les proteïnes amb codis UNIPROT: P00749, P00734, P00750 i P00747. Quins tipus de dominis presenten aquestes proteïnes? Presenten algun tipus de dominis comuns? Podeu especular quelcom sobre la seva relació funcional basant-vos en la composició de dominis i la seva conservació? PISTA: Formen part de la <a href="https://www.osmosis.org/answers/coagulation-cascade">cascada de coagulació</a>.</p>
+
+<h3 id="resposta-1">Resposta</h3>
+
+<p>Comencem per accedir a Uniprot i explorar cadascun d’aquests codis.</p>
+
+<p><img src="figures/coagulacio.png" alt="" /></p>
+
+<p>Els dominis trobats a PFAM són:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>uniprot</th>
+      <th>nom</th>
+      <th>dominis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/P00749">P00749</a></td>
+      <td>UROK_HUMAN</td>
+      <td><a href="https://pfam.xfam.org/family/PF00051">Kringle</a>, <a href="https://pfam.xfam.org/family/PF00089">Trypsin</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/P00734">P00734</a></td>
+      <td>THRB_HUMAN</td>
+      <td><a href="https://pfam.xfam.org/family/PF00594">Gla</a>, <a href="https://pfam.xfam.org/family/PF00051">Kringle</a>, <a href="https://pfam.xfam.org/family/PF09396">Thrombin_light</a>, <a href="https://pfam.xfam.org/family/PF00089">Trypsin</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/P00750">P00750</a></td>
+      <td>TPA_HUMAN</td>
+      <td><a href="https://pfam.xfam.org/family/PF00008">EGF</a>, <a href="https://pfam.xfam.org/family/PF00039">fn1</a>, <a href="https://pfam.xfam.org/family/PF00051">Kringle</a>, <a href="https://pfam.xfam.org/family/PF00089">Trypsin</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/P00747">P00747</a></td>
+      <td>PLMN_HUMAN</td>
+      <td><a href="https://pfam.xfam.org/family/PF00051">Kringle</a>, <a href="https://pfam.xfam.org/family/PF00024">PAN_1</a>, <a href="https://pfam.xfam.org/family/PF00089">Trypsin</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Observem que hi ha dos dominis comuns:</p>
+
+<ul>
+  <li>Els kringles són dominis estructurals autònoms que es troben a la coagulació de la sang i les proteïnes fibrinolítiques. Tenen un paper rellevant en la regulació de l’activitat proteolítica [(PUBMED:<a href="https://pubmed.ncbi.nlm.nih.gov/3886654/">3886654</a>) (PUBMED:<a href="https://pubmed.ncbi.nlm.nih.gov/6373375/">6373375</a>) (PUBMED:<a href="https://pubmed.ncbi.nlm.nih.gov/2157850/">2157850</a>)]. Els dominis Kringle [ (PUBMED:<a href="https://pubmed.ncbi.nlm.nih.gov/3131537/">3131537</a>) (PUBMED:<a href="https://pubmed.ncbi.nlm.nih.gov/3891096/">3891096</a>) (PUBMED:<a href="https://pubmed.ncbi.nlm.nih.gov/1879523/">1879523</a>)] es caracteritzen per una estructura de triple bucle, incloent 3 ponts disulfur, la conformació del qual està definida per una sèrie d’enllaços d’hidrogen i petites peces de fulles beta antiparal·leles. Es troben en un nombre variable de còpies en algunes proteïnes plasmàtiques, incloent les quatre de la cascada que ens demanen en aquesta pregunta. La imatge mostra el domini Kringle (en verd) en l’estructura de la protrombina de la vaca (PDB: <a href="https://www.rcsb.org/3d-sequence/1A0H?assemblyId=1">1A0H</a>):</li>
+</ul>
+
+<p><img src="figures/kringle.png" alt="" /></p>
+
+<ul>
+  <li>Les proteïnes de la familia de la tripsina són proteases de serina. És a dir, presenta una tríada catalítica ASP-HIS-SER en el centre actiu. La imatge mostra el domini tripsina (en verd) en la mateixa estructura (PDB: <a href="https://www.rcsb.org/3d-sequence/1A0H?assemblyId=1">1A0H</a>):</li>
+</ul>
+
+<p><img src="figures/tripsina.png" alt="" /></p>
+
+<p>El fet de disposar de dominis d’interacció entre proteases (kringle) i de les pròpies proteases (domini tripsina) mostra clarament un seguit de proteïnes que treballen en cascada, amb interaccions entre elles i les proteïnes a catalitzar.</p>
+
+<h2 id="exercici-3-homologia">EXERCICI 3) Homologia</h2>
+
+<h3 id="qüestió-2">Qüestió</h3>
+
+<p>Considereu aquestes 3 proteïnes (codi Uniprot entre parèntesis):</p>
+
+<ul>
+  <li>Lin-49 (Q20318) de C. Elegans</li>
+  <li>Peregrin (P55201) de H. Sapiens</li>
+  <li>YOR031W (Q12311) de S. cerevisiae</li>
+</ul>
+
+<p>Primer, definiu quin podria ser l’ancestre comú d’aquestes tres proteïnes, tenint en compte la seva composició de dominis. Justifiqueu la vostra resposta. Un cop definit l’ancestre comú, hipotetitzeu sobre el possible camí evolutiu d’aquestes tres proteïnes. Justifiqueu la vostra resposta.</p>
+
+<h3 id="resposta-2">Resposta</h3>
+
+<p>Aquest cop treballarem amb Interpro enlloc de PFAM, ja que ens ofereix un major ventall d’interrelacions, però la discussió és anàloga.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>uniprot</th>
+      <th>nom</th>
+      <th>dominis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/Q20318">Q20318</a></td>
+      <td>LIN49_CAEEL, Lin-49</td>
+      <td><a href="https://www.ebi.ac.uk/interpro/entry/IPR001487">Bromodomain</a>, <a href="https://www.ebi.ac.uk/interpro/entry/IPR034732">EPHD</a>, <a href="https://www.ebi.ac.uk/interpro/entry/IPR001965">Znf_PHD</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/P55201">P55201</a></td>
+      <td>BRPF1_HUMAN, Peregrin</td>
+      <td><a href="P55201">EPL1</a>,  <a href="https://www.ebi.ac.uk/interpro/entry/IPR034732">EPHD</a>,  <a href="https://www.ebi.ac.uk/interpro/entry/IPR001965">Znf_PHD</a>, <a href="https://www.ebi.ac.uk/interpro/entry/IPR001487">Bromodomain</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.uniprot.org/uniprot/Q12311">Q12311</a></td>
+      <td>NTO1_YEAST, NuA3</td>
+      <td><a href="P55201">EPL1</a>,  <a href="https://www.ebi.ac.uk/interpro/entry/IPR034732">EPHD</a>,  <a href="https://www.ebi.ac.uk/interpro/entry/IPR001965">Znf_PHD</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Començariem per aquella proteïna que presentés els dominis comuns a tots: PH i ZF. A partir d’aquí hauriem de pensar en diferents posibilitats per anar incorporant la resta: EPL1 i Bromodomain. És important veure que el EPL1 es comú a Peregrin i YOR031W però no esta present a Lin-49, per tant la primera especiació implica que una de les branques incorpora EPL1, però l’altra no. A partir d’aquestes dues branques, la que ha incorporat EPL1, es tornaria a bifurcar amb una proteina que ja no canviaria més: NuA3 i l’altra que incorporaria Bromodomain per donar lloc a Peregrin. La segona branca original que no va incorporar EPL1, incorporaria Bromodomain per donar lloc a Lin-49. El dominis Bromodomains estan presents a Lin-49 i Peregrin però s’haurien d’haver incorporat de forma independent, cadascun en la seva propia branca.</p>

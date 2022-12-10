@@ -1,0 +1,42 @@
+#pfam tutorial
+In order to do a perform a sequence of a protein:
+
+1-Use the website : pfam-legacy.xfam.org
+![](Pfam%20link%20.png)
+
+2- Choose a specific protein in PDB ( protein data bank ) ![](Protein%20data%20bank%20pic.png)
+
+3- Select FASTA sequence from display files on the top
+4- Batch sequence search
+5- Put the FASTA sequence in sequence file
+![](FASTA%20sequence%20.png)
+6- Paste FASTA sequence in search box, press and submit it
+![](FASTA%20.png)
+7- You find Significant PFAM-A-matches
+![](sequence%20mapping.png)
+HMM length is Hidden Markov Moldel, it is a statistical model
+HMM length: (specific number) amino acids long
+The E-value or the excpect value, this is similar to what is found in blast research, the smaller E value , the better the alignment quality
+![](The%20E%20value.png)
+
+
+![](HMM.png)
+
+ 
+Color coded has a significance. Green means 100% and red 0% of matching 
+
+View the structure ![](View%20structure%20.png)
+
+
+#finding Pfam's protein families data in the InterPro Website Tutorial
+InterPro is a resource for functional analysis of protein sequences that predicts protein families and the presence of domains and important sites
+By using this link www.ebi.ac.uk/interpro/ , you can sequence any protein you want as following: 
+![](InterPro.png)
+You will be redirected to the results, where there is an option to save them by finding a green icon.
+![](Green%20Icon.png)
+By selecting one of the previous result, the Enterprise scan search page, there is a over review, entries tab that uses protein has been matching and the second step which allows you to sign in your research again as follows : 
+![](InterPro%20Results.png)
+You can export your results:
+![](Export%20results.png)
+
+
