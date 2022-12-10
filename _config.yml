@@ -1,5 +1,5 @@
 #theme: jekyll-theme-minimal
-remote-theme: cotes2020/jekyll-theme-chirpy 
+remote-theme: benbalter/retlab 
 baseurl: /Proteines/docs
 github: [metadata]
 kramdown:
