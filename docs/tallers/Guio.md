@@ -90,4 +90,4 @@ Alternativament, si Chimera no et funciona, pots observar aquestes proteïnes en
 1. Podeu trobar molta informació estructural i també enllaços a material didàctic interessant a la web del Protein Data Bank: [COVID-19/SARS-CoV-2 Resources](https://www.rcsb.org/news/feature/5e74d55d2d410731e9944f52).
 
 
-&copy; Jordi Villà Freixa 2022
+&copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2022

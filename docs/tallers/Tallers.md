@@ -96,4 +96,4 @@ Per seguir els diferents passos d'aquesta apassionant història t'hem preparat [
 Sovint parlem de com d'important és invertir en recerca, tot i que de vegades els resultats no siguin immediatament aparents. Aquí us hem mostrat un exemple de com la recerca en genòmica, virologia, bioinformàtica, química mèdica, biologia molecular, descobriment de fàrmacs i modelatge molecular van de la mà quan cal trobar una resposta a un problema. L'acumulació de resultats i de coneixement al llarg de molts anys acaba essent determinant per trobar solucions ràpides a crisis sanitàries sobtades!
 
 
-&copy; Jordi Villà Freixa 2022
+&copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2022
