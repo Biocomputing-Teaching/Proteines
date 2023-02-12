@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tallers Bioinformàtica Estructural FTCE
+title: Assignment for Systems Biology course; molecular level; University of Iceland 02/2023
 author: Jordi Villà-Freixa
 permalink: /LVF601M/
 ---
