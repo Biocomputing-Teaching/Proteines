@@ -2,7 +2,7 @@
 layout: default
 title: Tallers Bioinformàtica Estructural FTCE
 author: Jordi Villà-Freixa
-permalink: /Assignment/
+permalink: /LVF601M/
 ---
  <head>
     <meta charset="utf-8">
@@ -28,7 +28,7 @@ permalink: /Assignment/
 <h1> How a drug for COVID-19 is designed?</h1>
 
 - [Understanding the mechanism of action of SARS-CoV-2](#understanding-the-mechanism-of-action-of-sars-cov-2)
-  - [1. Spike interactions with ACE2](#1-spike-interactions-with-ace2)
+  - [1. Virus-cell interactions](#1-virus-cell-interactions)
 - [Variabilitat del genoma de SARS-CoV-2](#variabilitat-del-genoma-de-sars-cov-2)
 - [Rational Drug Discovery](#rational-drug-discovery)
 - [Complex 3CLpro-Nirmatelvir](#complex-3clpro-nirmatelvir)
@@ -55,9 +55,9 @@ We will work with two different proteins of the virus:
 * the 3CLpro proteins
 
 
-## 1. Spike interactions with ACE2
+## 1. Virus-cell interactions
 
-
+![glyco spike](../figures/glyco.png)
 
 1. Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.
 2. Look in the PDB for a structure of the complex between Spike protein and the above cell membrane protein.
