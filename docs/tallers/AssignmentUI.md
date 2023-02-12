@@ -20,7 +20,7 @@ permalink: /LVF601M/
 
 # Introduction
 
-In this assignment for the LVF601M course on Systems Biology at the University opf Iceland, we will get some hints on the rational design of a new drug. In particular, we will visualize some simple details on the way an antiviral for SARS-CoV-2 can be designed.
+In this assignment for the LVF601M course on Systems Biology at the University of Iceland, we will get some hints on the rational design of a new drug. In particular, we will visualize some simple details on the way an antiviral for SARS-CoV-2 can be designed.
 
 Needed software and databases:
 
@@ -34,11 +34,25 @@ The SARS-CoV-2 virus is the cause of the disease known as COVID19. The Spike pro
 
 |![](../figures/glyco.png)|
 |:--:|
-|Detail of the structure of the SARS-CoV-2, showing the Spike proteins in theri glycosilated form|
+|Detail of the structure of the SARS-CoV-2, showing the Spike proteins in their glycosilated form|
 
  From here the fusion of the membranes occurs and the virus pours its RNA content into the cell. This RNA uses the cellular machinery to replicate the virus and to generate many more that can infect other cells. 
 
+|![](../figures/sars-cov-2-fusion.png)|
+|:--:|
+|[Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)|
+
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg)
+
+
+|![](../figures/sars-cov-2-fusion.png)|
+|:--:|
+|[Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)|
+
+|![](./figures/genome-illustr-2021-update2.png)|
+|:--:|
+|The proteome of SARS-CoV-2|
 
 # Assignment questions
 
@@ -74,8 +88,9 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 
 11. Can you find a structure in the PDB that contains Nirmatrelivir with its target? 
 2. The target is based on a conserved catalytic dyad, Can you recognize it using Chimera? 
-3. What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?
-4. Can you find information about the way Nirmatrelvir was designed? Innparticular, what are its precursors?
+3. Check the variability of the target and show in the structure where those variants at the level of aminoacids appear. Are they relevant for the function?
+4. What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?
+5. Can you find information about the way Nirmatrelvir was designed? Innparticular, what are its precursors?
 
 # References
 
