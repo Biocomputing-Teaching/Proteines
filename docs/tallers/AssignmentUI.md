@@ -38,7 +38,7 @@ The SARS-CoV-2 virus is the cause of the disease known as COVID19. The Spike pro
 
  From here the fusion of the membranes occurs and the virus pours its RNA content into the cell. This RNA uses the cellular machinery to replicate the virus and to generate many more that can infect other cells. 
 
-|<img src="../figures/sars-cov-2-fusion.png"  width="50%" >|<a href="https://youtu.be/5DGwOJXSxqg"><img src="https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg></a>|
+|<img src="./figures/sars-cov-2-fusion.png"  width="50%" >|<a href="https://youtu.be/5DGwOJXSxqg"><img src="https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg></a>|
 |:--:|:--:|
 |[Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)|Overview of SARS-CoV-2 infection|
 
