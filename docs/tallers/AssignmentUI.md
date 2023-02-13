@@ -43,8 +43,6 @@ The SARS-CoV-2 virus is the cause of the disease known as COVID19. The Spike pro
 |[Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)|Overview of SARS-CoV-2 infection|
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg)
-
 |![](./figures/genome-illustr-2021-update2.png)|
 |:--:|
 |The proteome of SARS-CoV-2|
