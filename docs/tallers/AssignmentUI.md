@@ -45,6 +45,8 @@ The SARS-CoV-2 virus is the cause of the disease known as COVID19. The Spike pro
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg)
 
+The virus machinery includes the information to translate a collection of proteins that, once assembled into new viral particles to infect new host cells. Some of these proteins are sructural and other have a precise funcion to help the maturation of the virus within the cell. See the details of the SARS-CoC-2 proteome in the figure.
+
 |![](./figures/genome-illustr-2021-update2.png)|
 |:--:|
 |The proteome of SARS-CoV-2|
