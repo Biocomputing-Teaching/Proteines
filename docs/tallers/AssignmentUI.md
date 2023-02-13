@@ -77,10 +77,10 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 
 |![](../figures/nirmatrelvir.png)|
 |:--:|
-|Some related molecules with antiviral properties, including Nirmatrelvir [(Greasley et al., 2022)](https://doi.org/10.1016/j.jbc.2022.101972)|
+|Some related molecules with antiviral properties, including Nirmatrelvir [(Joyce et al., 2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9425786/)|
 
-9.  Try fixing the structure using [openbabel](http://openbabel.org/wiki/Main_Page). Paste the new structure as seen in Chimera.
-10. Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? 
+1.  Try fixing the structure using [openbabel](http://openbabel.org/wiki/Main_Page). Paste the new structure as seen in Chimera.
+2.  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? 
 
 ### Complex
 
@@ -93,6 +93,7 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 # References
 
 * You can find interesting material on COVID19 structural biology at the web of the PDB: [COVID-19/SARS-CoV-2 Resources](https://www.rcsb.org/news/feature/5e74d55d2d410731e9944f52).
-* Greasley, S. E.; Noell, S.; Plotnikova, O.; Ferre, R.; Liu, W.; Bolanos, B.; Fennell, K.; Nicki, J.; Craig, T.; Zhu, Y.; Stewart, A. E.; Steppan, C. M. [Structural Basis for the in Vitro Efficacy of Nirmatrelvir against SARS-CoV-2 Variants](https://doi.org/10.1016/j.jbc.2022.101972). Journal of Biological Chemistry 2022, 298 (6), 101972.
+* Greasley, S. E.; Noell, S.; Plotnikova, O.; Ferre, R.; Liu, W.; Bolanos, B.; Fennell, K.; Nicki, J.; Craig, T.; Zhu, Y.; Stewart, A. E.; Steppan, C. M. [Structural Basis for the in Vitro Efficacy of Nirmatrelvir against SARS-CoV-2 Variants](https://doi.org/10.1016/j.jbc.2022.101972). Journal of Biological Chemistry 2022, 298 (6), 101972.    
+* Ryan P. Joyce, Vivian W. Hu & Jun Wang [The history, mechanism, and perspectives of nirmatrelvir (PF-07321332): an orally bioavailable main protease inhibitor used in combination with ritonavir to reduce COVID-19-related hospitalizations](https://link.springer.com/article/10.1007/s00044-022-02951-6). Medicinal Chemistry Research 2022; 31, 1637-1646.
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2023
