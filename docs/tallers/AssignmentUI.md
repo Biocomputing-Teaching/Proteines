@@ -24,9 +24,10 @@ In this assignment for the LVF601M course on Systems Biology at the University o
 
 Needed software and databases:
 
-1. [OpenBabel](http://openbabel.org/wiki/Main_Page) to convert small molecules coordinates from one format to another
+1. [OpenBabel](http://openbabel.org/wiki/Main_Page) to convert small molecules coordinates from one format to another. You can also use its [online version](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html).
 2. [Chimera](https://www.cgl.ucsf.edu/chimera/) to visualize proteins and their interactions.
-3. [UNIPROT](https://www.uniprot.org/) to obtain information about a particular protein (sequence, structure, interactions...)
+3. [UNIPROT](https://www.uniprot.org/) to obtain information about a particular protein (sequence, structure, interactions...).
+4. [PDB](https://www.rcsb.org/) to obtain 3D structures of proteins.
 
 # Briefing on the mechanism of action of SARS-CoV-2
 
@@ -58,8 +59,8 @@ The virus machinery includes the information to translate a collection of protei
 
 1. Get the human SARS-CoV-2 virus Spike protein Uniprot code.
 2. Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.
-3. Look in the PDB for a structure of the complex between Spike protein and the above cell membrane protein.
-4. Look in the PDB for a structure of the complex between Spike protein and antibodies. What this structure tells you? 
+3. Look in the PDB database for a structure of the complex between Spike protein and the above cell membrane protein. Add an image of the PDB obtained with Chimera.
+4. Look in the PDB database for a structure of the complex between Spike protein and antibodies. Add an image of the PDB obtained with Chimera.
 5. Identify the residues that are in the interface regions, using the `select zone` tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?
 
 ## 2) Variability in the SARS-CoV-2 genome
@@ -67,7 +68,7 @@ The virus machinery includes the information to translate a collection of protei
 Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https://covdb.stanford.edu/variants/omicron_ba_1_3/). Look for the page devoted to the omicron variants:
 
 6. Is the variability homogeneous? why do you think it is like this in terms of viral-host interaction evolution?
-7. Check in particular the genomic region for 3CLpro. Can you give a measure of the percentage of variation of Spike and 3CLpro?
+7. Check in particular the genomic region for 3CLpro. Can you give a rough measure of the percentage of variation of Spike and 3CLpro?
 
 ## 3) Rational Drug Discovery
 
@@ -79,12 +80,12 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 |:--:|
 |Some related molecules with antiviral properties, including Nirmatrelvir [(Joyce et al., 2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9425786/)|
 
-9.  Try fixing the structure using [openbabel](http://openbabel.org/wiki/Main_Page). Paste the new structure as seen in Chimera.
+9.  Try fixing the structure using [openbabel](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html). Paste the new structure as seen in Chimera.
 10.  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? 
 
 ### Complex
 
-11. Can you find a structure in the PDB that contains Nirmatrelivir with its target? 
+11. Can you find a structure in the PDB database that contains Nirmatrelivir with its target?
 12. The target is based on a conserved catalytic dyad, Can you recognize it using Chimera? 
 13. Check the variability of the target and show in the structure where those variants at the level of aminoacids appear. Are they relevant for the function?
 14. What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?
