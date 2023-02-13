@@ -42,6 +42,7 @@ The SARS-CoV-2 virus is the cause of the disease known as COVID19. The Spike pro
 |:--:|
 |[Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)|
 
+A nice introductory video on the wat SARS-CoV-2 infects a cell and on the development of vaccines against it:
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg)
 
