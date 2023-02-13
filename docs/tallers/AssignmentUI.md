@@ -59,8 +59,8 @@ The virus machinery includes the information to translate a collection of protei
 1. Get the human SARS-CoV-2 virus Spike protein Uniprot code.
 2. Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.
 3. Look in the PDB for a structure of the complex between Spike protein and the above cell membrane protein.
-41. Look in the PDB for a structure of the complex between Spike protein and antibodies. What this structure tells you? 
-2. Identify the residues that are in the interface regions, using the `select zone` tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?
+4. Look in the PDB for a structure of the complex between Spike protein and antibodies. What this structure tells you? 
+5. Identify the residues that are in the interface regions, using the `select zone` tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?
 
 ## 2) Variability in the SARS-CoV-2 genome
 
@@ -79,16 +79,16 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 |:--:|
 |Some related molecules with antiviral properties, including Nirmatrelvir [(Joyce et al., 2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9425786/)|
 
-1.  Try fixing the structure using [openbabel](http://openbabel.org/wiki/Main_Page). Paste the new structure as seen in Chimera.
-2.  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? 
+9.  Try fixing the structure using [openbabel](http://openbabel.org/wiki/Main_Page). Paste the new structure as seen in Chimera.
+10.  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? 
 
 ### Complex
 
 11. Can you find a structure in the PDB that contains Nirmatrelivir with its target? 
-2. The target is based on a conserved catalytic dyad, Can you recognize it using Chimera? 
-3. Check the variability of the target and show in the structure where those variants at the level of aminoacids appear. Are they relevant for the function?
-4. What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?
-5. Can you find information about the way Nirmatrelvir was designed? Innparticular, what are its precursors?
+12. The target is based on a conserved catalytic dyad, Can you recognize it using Chimera? 
+13. Check the variability of the target and show in the structure where those variants at the level of aminoacids appear. Are they relevant for the function?
+14. What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?
+15. Can you find information about the way Nirmatrelvir was designed? In particular, what are its precursors?
 
 # References
 
