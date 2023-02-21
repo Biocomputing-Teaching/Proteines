@@ -77,7 +77,7 @@ If we then click on the `Interaction AC / EBI-25475360` which, at the time of wr
 
 4. Look in the PDB database for a structure of the complex between Spike protein and antibodies. Add an image of the PDB obtained with Chimera.
 
-We use here a simpler trick. Simply go to the web of the PDB database that we reached before and write `Spike antibody` in the search box. For example, we can check the PDB file [6XDG](https://www.rcsb.org/structure/6XDG), that contains the complex of SARS-CoV-2 receptor binding domain with the Fab fragments of two neutralizing antibodies.
+We use here a simpler trick. Simply go to the web of the PDB database that we reached before and write `Spike antibody` in the search box. For example, we can check the PDB file [6XDG](https://www.rcsb.org/structure/6XDG), that contains the complex of SARS-CoV-2 receptor binding domain with the Fab fragments of two neutralizing antibodies. I show here the PDB file in an interactive way:
 
 <p>
 <div id="myViewer">
@@ -86,14 +86,46 @@ We use here a simpler trick. Simply go to the web of the PDB database that we re
 </p>
 <br> 
 
+In order to get it into Chimera, I open the program in the laptop and access the code through `File / fetch by ID`, inputting 6XDG in the corresponding box. 
+
+|![](./figures/6XDGsnapshot.png)|
+|:--:|
+|Chimera snapshot of the structure of [6XDG](https://www.rcsb.org/structure/6XDG). The figure has been obtained by, first selecting `Presets / Publication 1` and then activating `Favorites / Command Line` and typing the `rainbow chain` parameter in the command line box|
+
+|![](./figures/6XDGseqs.png)|
+|:--:|
+|Sequences of the different chains in the [6XDG](https://www.rcsb.org/structure/6XDG) PDB code, corresponding to a fragment of the spike protein (chain E) and the light (chain  A and chain D -equal sequence, not shown) and heavy (chain B and chain C -equal sequence, not shown) chains of the REGN10933 neutralizing antibody.|
+
 5. Identify the residues that are in the interface regions, using the `select zone` tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?
+
+For example, in the case of [6M0J](https://www.rcsb.org/structure/6M0J), we can first select a residue that is in the region by CONTRL+Left mouse button, and then find all the residues that are in that partiucular zone by `Select / zone` and follow the steps:
+
+|![](./figures/6M0Jinteraction.png)|
+|:--:|
+|selected interaction region between ACE2 (blue) and Spike (orange).|
+
+If you want to go further and explore the interface regions as a whole, you can use [ChimeraX](https://www.cgl.ucsf.edu/chimerax/), which I leave to you as an exercise. 
+
+The answer to the question if the interface interactions aree the same is NO, in general. This implies that the antobodies are not targetting speciffically the same region in the spike protein as ACE2 does.
 
 ## 2) Variability in the SARS-CoV-2 genome
 
 Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https://covdb.stanford.edu/variants/omicron_ba_1_3/). Look for the page devoted to the omicron variants:
 
 6. Is the variability homogeneous? why do you think it is like this in terms of viral-host interaction evolution?
+
+Taking for example the case of the [Omicron variant BA.1](https://covdb.stanford.edu/variants/omicron_ba_1_3/), we can see that the Spike protein presents astronger variation than the rest of the virus genom. In particular, much more that proteins that are responsible for the replication machinery.
+
+|![](./figures/OmicronBA1variation.png)|
+|:--:|
+|Detail on the variation of the SARS-CoV-2 genome, where we can see how the Spike protein (green region) presents a large variability as compared to other regions.|
+
+The virus includes a recognition site (Spike) that can mutate easily because it is exposed and under strong selection pressure. Instead, other proteins in the genome are less prone to mutations, because they are pieces of the complex replication machinery, so they are less easy to be replaced or modified.
+
 7. Check in particular the genomic region for 3CLpro. Can you give a rough measure of the percentage of variation of Spike and 3CLpro?
+
+Folowing with the [Omicron variant BA.1](https://covdb.stanford.edu/variants/omicron_ba_1_3/) we can see that there a single aminoacid change among around 333 residues (approx 1000 base pairs, looking at the figure above). Instead, as a rough estimation, the Spike protein presents 34 in around 400 resudes (1273 base pairs) with respect to the Wuhan sequence. So the different in variability is huge among the two virus proteins.
+
 
 ## 3) Rational Drug Discovery
 
@@ -101,9 +133,11 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 
 8. Go to the [DRUGBANK](https://go.drugbank.com/) web site, and check for the Nirmatrelvir file. Download the structure in the PDB format and visualize it in Chimera. Paste it here Does it look right to you? What is missing?
 
-|![](../figures/nirmatrelvir.png)|
-|:--:|
-|Some related molecules with antiviral properties, including Nirmatrelvir [(Joyce et al., 2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9425786/)|
+The molecule is shown flat in Chimera, which comes from the fact that the [PDB file in Drugbank](https://go.drugbank.com/structures/small_molecule_drugs/DB16691.pdb) is directly obtained from its SMILES code, without taking into accound the 3D structure. Using OpenBabel, one can modify this by adding the correct 3D structure, including hydrogens.
+
+We can fix this by going to any version of OpenBabel. For example, [its online implementation](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html).
+
+
 
 9.  Try fixing the structure using [openbabel](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html). Paste the new structure as seen in Chimera.
 10.  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? 
