@@ -1,4 +1,4 @@
-# Repositori Proteines
+# Repositori Proteïnes
 
 Eines per a l'estudi de les relacions estructura-funció en proteïnes.
 
