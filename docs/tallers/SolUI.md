@@ -219,7 +219,7 @@ Where we can appreciate that the ligand is covalently bound to Cys145, which mak
 
 **3.8) Can you find information about the way Nirmatrelvir was designed? In particular, what are its precursors?**
 
-Well, the discovery of PF-07321332 (Nirmatrelvir) is a very long and interesting story, and it is better [you explore it](https://cen.acs.org/pharmaceuticals/drug-discovery/How-Pfizer-scientists-transformed-an-old-drug-lead-into-a-COVID-19-antiviral/100/i3) by yourselves.
+Well, the discovery of PF-07321332 (Nirmatrelvir) is a very long and interesting story, and it is better if [you explore it](https://cen.acs.org/pharmaceuticals/drug-discovery/How-Pfizer-scientists-transformed-an-old-drug-lead-into-a-COVID-19-antiviral/100/i3) by yourselves.
 
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2023
