@@ -43,7 +43,7 @@ permalink: /LVF601MSol/
 
 **1.1) Get the human SARS-CoV-2 virus Spike protein Uniprot code.**
 
-[P0DTC2](https://www.uniprot.org/uniprotkb/P0DTC2/entry)
+A simple search in the UNIPROT web site leads to: [P0DTC2](https://www.uniprot.org/uniprotkb/P0DTC2/entry)
 
 **1.2) Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.**
 
