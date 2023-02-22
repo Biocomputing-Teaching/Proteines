@@ -37,7 +37,7 @@ permalink: /LVF601MSol/
 
 
 
-# [Assignment](LVF601M) answers
+# [Assignment](AssignmentUI.md) answers
 
 ## 1) Virus-cell interactions
 
