@@ -58,13 +58,13 @@ To deep into this, we can access the IntAct database through the [link in the ri
 
 Again, many routes lead to the same place. For example, in the interactions section we have identified an interaction with 254 experiments (see image above). If we click in the link in the right of the row pointing to the `INTACT` database, we reach this page, where we can filtrate by `Interaction Method / x-ray diffraction`:
 
-|![](./figures/intactSpikeACE2.png)|
+|![](../figures/intactSpikeACE2.png)|
 |:--:|
 |`INTACT` page for the interaction between Spkie and ACE2, filtered by X-ray diffraction|
 
 If we then click on the `Interaction AC / EBI-25475360` which, at the time of writing this document, is the first document linked in the table (see figure), we reach this information, where, in the right hand side, points us to the PDB code [6M0J](https://www.rcsb.org/structure/6M0J).
 
-|![](./figures/EBISpikeACE2.png)|
+|![](../figures/EBISpikeACE2.png)|
 |:--:|
 |`EBI` page for the interaction between Spike and ACE2, filtered by X-ray diffraction|
 
@@ -88,11 +88,11 @@ We use here a simpler trick. Simply go to the web of the PDB database that we re
 
 In order to get it into Chimera, I open the program in the laptop and access the code through `File / fetch by ID`, inputting 6XDG in the corresponding box. 
 
-|![](./figures/6XDGsnapshot.png)|
+|![](../figures/6XDGsnapshot.png)|
 |:--:|
 |Chimera snapshot of the structure of [6XDG](https://www.rcsb.org/structure/6XDG). The figure has been obtained by, first selecting `Presets / Publication 1` and then activating `Favorites / Command Line` and typing the `rainbow chain` parameter in the command line box|
 
-|![](./figures/6XDGseqs.png)|
+|![](../figures/6XDGseqs.png)|
 |:--:|
 |Sequences of the different chains in the [6XDG](https://www.rcsb.org/structure/6XDG) PDB code, corresponding to a fragment of the spike protein (chain E) and the light (chain  A and chain D -equal sequence, not shown) and heavy (chain B and chain C -equal sequence, not shown) chains of the REGN10933 neutralizing antibody.|
 
@@ -100,7 +100,7 @@ In order to get it into Chimera, I open the program in the laptop and access the
 
 For example, in the case of [6M0J](https://www.rcsb.org/structure/6M0J), we can first select a residue that is in the region by CONTRL+Left mouse button, and then find all the residues that are in that partiucular zone by `Select / zone` and follow the steps:
 
-|![](./figures/6M0Jinteraction.png)|
+|![](../figures/6M0Jinteraction.png)|
 |:--:|
 |selected interaction region between ACE2 (blue) and Spike (orange).|
 
@@ -116,7 +116,7 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 
 Taking for example the case of the [Omicron variant BA.1](https://covdb.stanford.edu/variants/omicron_ba_1_3/), we can see that the Spike protein presents astronger variation than the rest of the virus genom. In particular, much more that proteins that are responsible for the replication machinery.
 
-|![](./figures/OmicronBA1variation.png)|
+|![](../figures/OmicronBA1variation.png)|
 |:--:|
 |Detail on the variation of the SARS-CoV-2 genome, where we can see how the Spike protein (green region) presents a large variability as compared to other regions.|
 

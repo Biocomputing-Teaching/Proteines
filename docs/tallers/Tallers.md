@@ -44,7 +44,7 @@ Com s'ho fan els científics per trobar un antiviral per a un virus com el SARS-
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5DGwOJXSxqg/0.jpg)](https://youtu.be/5DGwOJXSxqg?t=42)
 
 
-![](./figures/sars-cov-2-fusion.png)
+![](../figures/sars-cov-2-fusion.png)
 
 [Credit: David S. Goodsell](https://pdb101.rcsb.org/sci-art/goodsell-gallery/sars-cov-2-fusion)
 
@@ -65,20 +65,20 @@ Proteïna Spike amb un anticós neutralitzant
 <br>  
 
 # Com muta el genoma del SARS-CoV-2
-![](./figures/genome-illustr-2021-update2.png)
+![](../figures/genome-illustr-2021-update2.png)
 
-![](./figures/variabilitatOmicron.png)
+![](../figures/variabilitatOmicron.png)
 [Alta variabilitat de la proteïna SPIKE](https://covdb.stanford.edu/variants/omicron_ba_1_3/)
 
 # Millor una proteïna menys variant per generar un antiviral: 3CLPro
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/WQzjXHKBSY8/0.jpg)](https://youtu.be/WQzjXHKBSY8)
 
-![](./figures/44_2022_2951_Fig1_HTML.png)
+![](../figures/44_2022_2951_Fig1_HTML.png)
 
 [Article](https://link-springer-com.biblioremot.uvic.cat/article/10.1007/s00044-022-02951-6)
 
-![](./figures/MSA_variants_Mpro.png)
+![](../figures/MSA_variants_Mpro.png)
 
 
 <p>

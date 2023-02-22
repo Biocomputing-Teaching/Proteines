@@ -66,7 +66,7 @@ Alternativament, si Chimera no et funciona, pots observar aquestes proteïnes en
 # Rational Drug Discovery
 
 1. Accedeix a la web de [DRUGBANK](https://go.drugbank.com/)
-2. Cerca l'estructura de Nirmatrelvir ![](./figures/44_2022_2951_Fig1_HTML.png)
+2. Cerca l'estructura de Nirmatrelvir ![](../figures/44_2022_2951_Fig1_HTML.png)
 3. Baixa l'estructura en PDB de la molècula i visualitza-la a chimera. És correcta? Què li falta? 
 4. Observa el fitxer que has baixat (pots usar wordpad). Veuràs que hi ha algun problema amb aquesta estructura i necessita que l'arreglem (manca d'hidrogens, estructura plana, etc). Obre [openbabel](http://openbabel.org/wiki/Main_Page) a l'ordinador i mira d'arreglar-la.
 5. Torna a obrir la molècula a chimera i intenta identificar els diferents grups funcionals. Per on creus que interaccionarà amb la proteïna?
