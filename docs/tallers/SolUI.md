@@ -157,7 +157,7 @@ Functional groups are man-assigned descriptors. Instead of moving into chemical 
 |:--:|:--:|
 |Nirmatrelvir|![](../figures/frag.svg)  |
 |CN(C)C(C)=O|![](../figures/fragCC=ONC.svg)   |
-|CCC#N|![](../figures/fragCCN.svg)|Nirmatrelvir|
+|CCC#N|![](../figures/fragCCN.svg)|
 |CF|![](../figures/fragCF.svg)|
 |CN(C)C(C)=O|![](../figures/fragCNCCC=O.svg)|
 |CNC(C)=O|![](../figures/fragCNCC=O.svg)|
