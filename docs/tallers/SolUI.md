@@ -206,6 +206,8 @@ Taking as reference the same structure PDB:7U29, we see where those mutations ar
 |:--:|
 |Position of the known variants in the main protease of SAARS-CoV-2, mapped on the structure PDB:7U29. Ribbons have been removed from the view, to emphasize the position of the mutations. In whit, the catalytic dyad. In yellow, the ligand (Nirmatrelvir). The two chains in the biological unit of the protein are shown.|
 
+You have the session in Chimera [here](../files/3CLpro_variants.py), if you want to play with it.
+
 
 **3.7) What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?**
 
