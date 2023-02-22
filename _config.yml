@@ -1,6 +1,6 @@
 #theme: jekyll-theme-minimal
 remote-theme: benbalter/retlab 
-website: https://jordivillafreixa.github.io/Proteines
+website: https://jordivillafreixa.github.io/
 baseurl: /docs
 permalink: date
 github: [metadata]

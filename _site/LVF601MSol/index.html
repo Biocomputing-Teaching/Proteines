@@ -1,0 +1,231 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment for Systems Biology course; molecular level; University of Iceland 02/2023</title>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <!-- Web component polyfill (only loads what it needs) -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+    <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css" />
+<script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-component-1.2.1.js"></script>
+<style>
+        #myViewer{
+          float:none;
+          width:400px;
+          height:400px;
+          position:relative;
+        }
+    </style>
+  </head>
+
+<h1> How a drug for COVID-19 is designed?</h1>
+
+<ul>
+  <li><a href="#assignment-anwers">Assignment anwers</a>
+    <ul>
+      <li><a href="#1-virus-cell-interactions">1) Virus-cell interactions</a></li>
+      <li><a href="#2-variability-in-the-sars-cov-2-genome">2) Variability in the SARS-CoV-2 genome</a></li>
+      <li><a href="#3-rational-drug-discovery">3) Rational Drug Discovery</a>
+        <ul>
+          <li><a href="#ligand">Ligand</a></li>
+          <li><a href="#complex">Complex</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+<h1 id="assignment-anwers">Assignment anwers</h1>
+
+<h2 id="1-virus-cell-interactions">1) Virus-cell interactions</h2>
+
+<ol>
+  <li>Get the human SARS-CoV-2 virus Spike protein Uniprot code.</li>
+</ol>
+
+<p><a href="https://www.uniprot.org/uniprotkb/P0DTC2/entry">P0DTC2</a></p>
+
+<ol>
+  <li>Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.</li>
+</ol>
+
+<p>In the section “interactions, we can see how most of the important ones (with more evidence from experiments, at least) refer to the Spike-ACE2 interaction.</p>
+
+<p><img src="../figures/spikeint.png" alt="" /></p>
+
+<p>To deep into this, we can access the IntAct database through the <a href="https://www.ebi.ac.uk/intact/search?query=(id:EBI-25474821%20AND%20id:EBI-7730807)#interactor">link in the right of the row</a> with more experiments associated.</p>
+
+<ol>
+  <li>Look in the PDB database for a structure of the complex between Spike protein and the above cell membrane protein. Add an image of the PDB obtained with Chimera.</li>
+</ol>
+
+<p>Again, many routes lead to the same place. For example, in the interactions section we have identified an interaction with 254 experiments (see image above). If we click in the link in the right of the row pointing to the <code class="language-plaintext highlighter-rouge">INTACT</code> database, we reach this page, where we can filtrate by <code class="language-plaintext highlighter-rouge">Interaction Method / x-ray diffraction</code>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="./figures/intactSpikeACE2.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">INTACT</code> page for the interaction between Spkie and ACE2, filtered by X-ray diffraction</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If we then click on the <code class="language-plaintext highlighter-rouge">Interaction AC / EBI-25475360</code> which, at the time of writing this document, is the first document linked in the table (see figure), we reach this information, where, in the right hand side, points us to the PDB code <a href="https://www.rcsb.org/structure/6M0J">6M0J</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="./figures/EBISpikeACE2.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><code class="language-plaintext highlighter-rouge">EBI</code> page for the interaction between Spike and ACE2, filtered by X-ray diffraction</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="6m0j" hide-controls="false"></pdbe-molstar>
+</div>
+</p>
+<p><br /></p>
+
+<ol>
+  <li>Look in the PDB database for a structure of the complex between Spike protein and antibodies. Add an image of the PDB obtained with Chimera.</li>
+</ol>
+
+<p>We use here a simpler trick. Simply go to the web of the PDB database that we reached before and write <code class="language-plaintext highlighter-rouge">Spike antibody</code> in the search box. For example, we can check the PDB file <a href="https://www.rcsb.org/structure/6XDG">6XDG</a>, that contains the complex of SARS-CoV-2 receptor binding domain with the Fab fragments of two neutralizing antibodies. I show here the PDB file in an interactive way:</p>
+
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="6xdg" hide-controls="false"></pdbe-molstar>
+</div>
+</p>
+<p><br /></p>
+
+<p>In order to get it into Chimera, I open the program in the laptop and access the code through <code class="language-plaintext highlighter-rouge">File / fetch by ID</code>, inputting 6XDG in the corresponding box.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="./figures/6XDGsnapshot.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Chimera snapshot of the structure of <a href="https://www.rcsb.org/structure/6XDG">6XDG</a>. The figure has been obtained by, first selecting <code class="language-plaintext highlighter-rouge">Presets / Publication 1</code> and then activating <code class="language-plaintext highlighter-rouge">Favorites / Command Line</code> and typing the <code class="language-plaintext highlighter-rouge">rainbow chain</code> parameter in the command line box</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="./figures/6XDGseqs.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Sequences of the different chains in the <a href="https://www.rcsb.org/structure/6XDG">6XDG</a> PDB code, corresponding to a fragment of the spike protein (chain E) and the light (chain  A and chain D -equal sequence, not shown) and heavy (chain B and chain C -equal sequence, not shown) chains of the REGN10933 neutralizing antibody.</td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>Identify the residues that are in the interface regions, using the <code class="language-plaintext highlighter-rouge">select zone</code> tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?</li>
+</ol>
+
+<p>For example, in the case of <a href="https://www.rcsb.org/structure/6M0J">6M0J</a>, we can first select a residue that is in the region by CONTRL+Left mouse button, and then find all the residues that are in that partiucular zone by <code class="language-plaintext highlighter-rouge">Select / zone</code> and follow the steps:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="./figures/6M0Jinteraction.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">selected interaction region between ACE2 (blue) and Spike (orange).</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If you want to go further and explore the interface regions as a whole, you can use <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a>, which I leave to you as an exercise.</p>
+
+<p>The answer to the question if the interface interactions aree the same is NO, in general. This implies that the antobodies are not targetting speciffically the same region in the spike protein as ACE2 does.</p>
+
+<h2 id="2-variability-in-the-sars-cov-2-genome">2) Variability in the SARS-CoV-2 genome</h2>
+
+<p>Go to the SARS-CoV-2 genome variation site at Stanford University: <a href="https://covdb.stanford.edu/variants/omicron_ba_1_3/">COVDB</a>. Look for the page devoted to the omicron variants:</p>
+
+<ol>
+  <li>Is the variability homogeneous? why do you think it is like this in terms of viral-host interaction evolution?</li>
+</ol>
+
+<p>Taking for example the case of the <a href="https://covdb.stanford.edu/variants/omicron_ba_1_3/">Omicron variant BA.1</a>, we can see that the Spike protein presents astronger variation than the rest of the virus genom. In particular, much more that proteins that are responsible for the replication machinery.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><img src="./figures/OmicronBA1variation.png" alt="" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Detail on the variation of the SARS-CoV-2 genome, where we can see how the Spike protein (green region) presents a large variability as compared to other regions.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The virus includes a recognition site (Spike) that can mutate easily because it is exposed and under strong selection pressure. Instead, other proteins in the genome are less prone to mutations, because they are pieces of the complex replication machinery, so they are less easy to be replaced or modified.</p>
+
+<ol>
+  <li>Check in particular the genomic region for 3CLpro. Can you give a rough measure of the percentage of variation of Spike and 3CLpro?</li>
+</ol>
+
+<p>Folowing with the <a href="https://covdb.stanford.edu/variants/omicron_ba_1_3/">Omicron variant BA.1</a> we can see that there a single aminoacid change among around 333 residues (approx 1000 base pairs, looking at the figure above). Instead, as a rough estimation, the Spike protein presents 34 in around 400 resudes (1273 base pairs) with respect to the Wuhan sequence. So the different in variability is huge among the two virus proteins.</p>
+
+<h2 id="3-rational-drug-discovery">3) Rational Drug Discovery</h2>
+
+<h3 id="ligand">Ligand</h3>
+
+<ol>
+  <li>Go to the <a href="https://go.drugbank.com/">DRUGBANK</a> web site, and check for the Nirmatrelvir file. Download the structure in the PDB format and visualize it in Chimera. Paste it here Does it look right to you? What is missing?</li>
+</ol>
+
+<p>The molecule is shown flat in Chimera, which comes from the fact that the <a href="https://go.drugbank.com/structures/small_molecule_drugs/DB16691.pdb">PDB file in Drugbank</a> is directly obtained from its SMILES code, without taking into accound the 3D structure. Using OpenBabel, one can modify this by adding the correct 3D structure, including hydrogens.</p>
+
+<p>We can fix this by going to any version of OpenBabel. For example, <a href="http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html">its online implementation</a>.</p>
+
+<ol>
+  <li>Try fixing the structure using <a href="http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html">openbabel</a>. Paste the new structure as seen in Chimera.</li>
+  <li>Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target?</li>
+</ol>
+
+<h3 id="complex">Complex</h3>
+
+<ol>
+  <li>Can you find a structure in the PDB database that contains Nirmatrelivir with its target?</li>
+  <li>The target is based on a conserved catalytic dyad, Can you recognize it using Chimera?</li>
+  <li>Check the variability of the target and show in the structure where those variants at the level of aminoacids appear. Are they relevant for the function?</li>
+  <li>What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?</li>
+  <li>Can you find information about the way Nirmatrelvir was designed? In particular, what are its precursors?</li>
+</ol>
+
+<h1 id="references">References</h1>
+
+<ul>
+  <li>You can find interesting material on COVID19 structural biology at the web of the PDB: <a href="https://www.rcsb.org/news/feature/5e74d55d2d410731e9944f52">COVID-19/SARS-CoV-2 Resources</a>.</li>
+  <li>Greasley, S. E.; Noell, S.; Plotnikova, O.; Ferre, R.; Liu, W.; Bolanos, B.; Fennell, K.; Nicki, J.; Craig, T.; Zhu, Y.; Stewart, A. E.; Steppan, C. M. <a href="https://doi.org/10.1016/j.jbc.2022.101972">Structural Basis for the in Vitro Efficacy of Nirmatrelvir against SARS-CoV-2 Variants</a>. Journal of Biological Chemistry 2022, 298 (6), 101972.</li>
+  <li>Ryan P. Joyce, Vivian W. Hu &amp; Jun Wang <a href="https://link.springer.com/article/10.1007/s00044-022-02951-6">The history, mechanism, and perspectives of nirmatrelvir (PF-07321332): an orally bioavailable main protease inhibitor used in combination with ritonavir to reduce COVID-19-related hospitalizations</a>. Medicinal Chemistry Research 2022; 31, 1637-1646.</li>
+</ul>
+
+<p>© <a href="https://mon.uvic.cat/cbbl/members/">Jordi Villà Freixa</a> 2023</p>
