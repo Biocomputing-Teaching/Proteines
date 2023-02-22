@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assignment for Systems Biology course; molecular level; University of Iceland 02/2023
+title: Solutions to the assignment for Systems Biology course; molecular level; University of Iceland 02/2023
 author: Jordi Villà-Freixa
 permalink: /LVF601MSol/
 ---
