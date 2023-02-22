@@ -204,7 +204,7 @@ Taking as reference the same structure PDB:7U29, we see where those mutations ar
 
 |![](../figures/7U29_variants.png)|
 |:--:|
-|Position of the known variants in the main protease of SAARS-CoV-2, mapped on the structure PDB:7U29. Ribbons have been removed from the view, to emphasize the position of the mutations. In whit, the catalytic dyad. In yellow, the ligand (Nirmatrelvir). The two chains in the biological unit of the protein are shown.|
+|Position of the known variants in the main protease of SAARS-CoV-2, mapped on the structure PDB:7U29. Ribbons have been removed from the view, to emphasize the position of the mutations. In white, the catalytic dyad. In yellow, the ligand (Nirmatrelvir). The two chains in the biological unit of the protein are shown.|
 
 You have the session in Chimera [here](../files/3CLpro_variants.py), if you want to play with it.
 
