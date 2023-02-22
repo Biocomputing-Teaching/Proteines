@@ -133,15 +133,28 @@ Folowing with the [Omicron variant BA.1](https://covdb.stanford.edu/variants/omi
 
 **3.1) Go to the [DRUGBANK](https://go.drugbank.com/) web site, and check for the Nirmatrelvir file. Download the structure in the PDB format and visualize it in Chimera. Paste it here Does it look right to you? What is missing?**
 
-The molecule is shown flat in Chimera, which comes from the fact that the [PDB file in Drugbank](https://go.drugbank.com/structures/small_molecule_drugs/DB16691.pdb) is directly obtained from its SMILES code, without taking into accound the 3D structure. Using OpenBabel, one can modify this by adding the correct 3D structure, including hydrogens.
-
-We can fix this by going to any version of OpenBabel. For example, [its online implementation](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html).
-
-
+The molecule is shown flat in Chimera (see image below), which comes from the fact that the [PDB file in Drugbank](https://go.drugbank.com/structures/small_molecule_drugs/DB16691.pdb) is directly obtained from its SMILES code, without taking into accound the 3D structure. 3D structure is missing, as well as the hydrogen atoms in the moleculae.
 
 **3.2)  Try fixing the structure using [openbabel](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html). Paste the new structure as seen in Chimera.**
 
-**3.3)  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target? **
+Using OpenBabel, one can modify this by adding the correct 3D structure, including hydrogens.
+
+We can fix this by going to any version of OpenBabel. For example, [its online implementation](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html).
+
+|![](../figures/Nirmatrelvir_flat.png)|![](../figures/Nirmatrelvir_3D.png)|
+|:--:|:--:|
+|Nirmatrelvir PDB file obtained from Drugbank|Nirmatrelvir PDB after being fixed by OpenBabel|
+
+|![](../figures/Nirmatrelvir_openbabel.png)|
+|:--:|
+|Detail on the use of OpenBabel to fix Nirmatrelvir structure. Left: we input the [SMILES](https://go.drugbank.com/structures/small_molecule_drugs/DB16691.smiles) of the molecule. Middle: setting up the parameters for the generation of the PDB format from SMILES. Right: final PDB file (right hand side of previous panel of images).|
+
+**3.3)  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target?**
+
+Following the info in the Drugbank page, we identify the mechanism of action of the molecule:
+
+![](../figures/Nirmatrelvir_mechanismofaction.png)
+
 
 ### Complex
 
