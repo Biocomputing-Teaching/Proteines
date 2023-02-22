@@ -222,4 +222,4 @@ Where we can appreciate that the ligand is covalently bound to Cys145, which mak
 Well, the discovery of PF-07321332 (Nirmatrelvir) is a very long and interesting story, and it is better if [you explore it](https://cen.acs.org/pharmaceuticals/drug-discovery/How-Pfizer-scientists-transformed-an-old-drug-lead-into-a-COVID-19-antiviral/100/i3) by yourselves.
 
 
-&copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2023
+&copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/), [Facultat de Ciències, Tecnologia i Enginyeries](https://mon.uvic.cat/fcte/), [Universitat de Vic - Universitat Central de Catalunya](https://www.uvic.cat/), 2023
