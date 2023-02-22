@@ -151,6 +151,18 @@ We can fix this by going to any version of OpenBabel. For example, [its online i
 
 **3.3)  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target?**
 
+Functional groups are man-assigned descriptors. Instead of moving into chemical description of the functional groups existing in the molecule, I have provided you a simple script to generate the different molecular fragments existing in the molecule, using RDKit, a very popular tool in chemoinformatics.
+
+| molecular fragment | |
+|:--:|:--:|
+|Nirmatrelvir|![](../figures/frag.svg)  |
+|CN(C)C(C)=O|![](../figures/fragCC(=O)NC.svg)   |
+|CCC#N|![](../figures/fragCCN.svg)|Nirmatrelvir|
+|CF|![](../figures/fragCF.svg)|
+|CN(C)C(C)=O|![](../figures/fragCN(C)C(C)=O.svg)|
+|CNC(C)=O|![](../figures/fragCNC(C)=O.svg)|
+
+
 Following the info in the Drugbank page, we identify the mechanism of action of the molecule:
 
 ![](../figures/Nirmatrelvir_mechanismofaction.png)
