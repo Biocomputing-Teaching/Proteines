@@ -28,7 +28,7 @@ permalink: /LVF601MSol/
 
 <h1> How a drug for COVID-19 is designed?</h1>
 
-- [Assignment anwers](#assignment-anwers)
+- [Assignment answers](#assignment-answers)
   - [1) Virus-cell interactions](#1-virus-cell-interactions)
   - [2) Variability in the SARS-CoV-2 genome](#2-variability-in-the-sars-cov-2-genome)
   - [3) Rational Drug Discovery](#3-rational-drug-discovery)
@@ -37,7 +37,7 @@ permalink: /LVF601MSol/
 
 
 
-# [Assignment](/LVF601M) anwers
+# [Assignment](LVF601M) answers
 
 ## 1) Virus-cell interactions
 
