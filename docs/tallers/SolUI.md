@@ -163,7 +163,7 @@ Functional groups are man-assigned descriptors. Instead of moving into chemical 
 |CNC(C)=O|![](../figures/fragCNCC=O.svg)|
 
 
-Following the info in the Drugbank page, we identify the mechanism of action of the molecule:
+Following the info in the [Drugbank page](https://go.drugbank.com/drugs/DB16691), we identify the mechanism of action of the molecule:
 
 ![](../figures/Nirmatrelvir_mechanismofaction.png)
 
