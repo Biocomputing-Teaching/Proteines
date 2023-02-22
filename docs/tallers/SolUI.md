@@ -151,7 +151,7 @@ We can fix this by going to any version of OpenBabel. For example, [its online i
 
 **3.3)  Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target?**
 
-Functional groups are man-assigned descriptors. Instead of moving into chemical description of the functional groups existing in the molecule, I have provided you a simple script to generate the different molecular fragments existing in the molecule, using RDKit, a very popular tool in chemoinformatics.
+Functional groups are man-assigned descriptors. Instead of moving into chemical description of the functional groups existing in the molecule, I have provided you a [simple script](https://github.com/CompBiochBiophLab/Tools/blob/master/chemoinformaticsTools/IdentifyFG.ipynb) to generate the different molecular fragments existing in the molecule, using RDKit, a very popular tool in chemoinformatics.
 
 | molecular fragment | |
 |:--:|:--:|
@@ -167,18 +167,57 @@ Following the info in the Drugbank page, we identify the mechanism of action of 
 
 ![](../figures/Nirmatrelvir_mechanismofaction.png)
 
+So, it is the catalytic Cysteine residue who interacts with Nirmatrelvir.
 
 ### Complex
 
 **3.4) Can you find a structure in the PDB database that contains Nirmatrelivir with its target?**
 
+With a simple search of Nirmatrelvir in the PDB site, we obtain up to 42 structures of the molecule bound to SARS-CoV-2 Mpro, the protease that Nirmatrelvir targets.
+
+I take the first one, [PDB:7U29](https://www.rcsb.org/structure/7U29), a variant with the K90R mutation.
+
+<p>
+<div id="myViewer">
+<pdbe-molstar id="pdbeMolstarComponent" molecule-id="6xdg" hide-controls="false"></pdbe-molstar>
+</div>
+</p>
+<br> 
+
 **3.5) The target is based on a conserved catalytic dyad, Can you recognize it using Chimera?**
+
+A search in google leads us to many articles describing the catalytic dyad in the protease. For example, for 6Y2E (see figure caption below):
+
+|![](../figures/fchem-09-692168-g001.jpg)|
+|:--:|
+|The crystal structure of 3CLpro. (A) Cartoon representation of 3CLpro of SARS-CoV-2 (PDB code 6Y2E) with domain I (residues 10–96) is shown in yellow, domain II (residues 102–180) in green, and domain III (residues 200–303) in pink. The peptide-substrate (blue) is shown in ball and stick representation, and it is located at the interface between domains I and II. (B) The active site of 3CLpro showing the peptide-substrate in blue and glutamine at P1-site is white. The catalytic residue Cys145, which is part of domain II, is 2.5 Å from the backbone carbonyl carbon of glutamine of the peptide-substrate. Residues of the catalytic dyad, His41 in domain I, is 3.6 Å from Cys145 in domain II. The figure was prepared using PyMol (Schrodinger LLC). (reproduced from Juliana C. Ferreira,Samar Fadl, Adrian J. Villanueva and Wael M. Rabeh [Front. Chem., Volume 9 - 2021 ]( https://doi.org/10.3389/fchem.2021.692168))|
+
+and in our Chimera session for PDB:7U29, we can see it like
+
+![](../figures/7U29_dyad.png)
+
 
 **3.6) Check the variability of the target and show in the structure where those variants at the level of aminoacids appear. Are they relevant for the function?**
 
+Checking the info in the COVBD page as above, we see that for the Omicron BA.1, for example, the only mutation in the 3CL protease is P132H for Omicron and K90R for Beta variants. For other variants there are more variants like L205V (Zeta/P.2 variant), G15S (Lambda/C.37, C.1.2 and C.36.3 variants), V303I (B.1.1.523 variant) and T21I (for B.1.1.318 variant)
+Taking as reference the same structure PDB:7U29, we see where those mutations are located in the following image taken from Chimera, where we have removed the visualization of the protein secondary structure to emphasize the position of the variants, along with the active site. As you can see, all variants are relativelky far from the binding site of the ligand and, thus, from the active site. They may produce more complex effects that are not seen from the still image shown here, but in principle it is reasonable to assume that the drug may be effective for most knopwn variants, if not all, based on this simple exploration.
+
+|![](../figures/7U29_variants.png)|
+|:--:|
+|Position of the known variants in the main protease of SAARS-CoV-2, mapped on the structure PDB:7U29. Ribbons have been removed from the view, to emphasize the position of the mutations. In whit, the catalytic dyad. In yellow, the ligand (Nirmatrelvir). The two chains in the biological unit of the protein are shown.|
+
+
 **3.7) What is the mode of interaction between ligand and target? Can you elaborate on why would you consider it strong and specific? How can this be related to the activity of the protein?**
 
+Taking again PDB:7U29 as our reference, and showing in sticks the structure of the ligand in Chimera (`Select / Residue / 4WI`) we get:
+
+![](../figures/7U29_dyad_plus_ligand.png)
+
+Where we can appreciate that the ligand is covalently bound to Cys145, which makes it more potent and irreversible. The ligand is, thus, a real obstacle for the protein to  properly function.
+
 **3.8) Can you find information about the way Nirmatrelvir was designed? In particular, what are its precursors?**
+
+Well, the discovery of PF-07321332 (Nirmatrelvir) is a very long and interesting story, and it is better [you explore it](https://cen.acs.org/pharmaceuticals/drug-discovery/How-Pfizer-scientists-transformed-an-old-drug-lead-into-a-COVID-19-antiviral/100/i3) by yourselves.
 
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2023
