@@ -156,11 +156,11 @@ Functional groups are man-assigned descriptors. Instead of moving into chemical 
 | molecular fragment | |
 |:--:|:--:|
 |Nirmatrelvir|![](../figures/frag.svg)  |
-|CN(C)C(C)=O|![](../figures/fragCC(=O)NC.svg)   |
+|CN(C)C(C)=O|![](../figures/fragCC=ONC.svg)   |
 |CCC#N|![](../figures/fragCCN.svg)|Nirmatrelvir|
 |CF|![](../figures/fragCF.svg)|
-|CN(C)C(C)=O|![](../figures/fragCN(C)C(C)=O.svg)|
-|CNC(C)=O|![](../figures/fragCNC(C)=O.svg)|
+|CN(C)C(C)=O|![](../figures/fragCNCCC=O.svg)|
+|CNC(C)=O|![](../figures/fragCNCC=O.svg)|
 
 
 Following the info in the Drugbank page, we identify the mechanism of action of the molecule:
