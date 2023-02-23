@@ -55,7 +55,7 @@ The virus machinery includes the information to translate a collection of protei
 
 # Assignment questions
 
-## 1) Virus-cell interactions
+## 1) Virus-cell interactions 
 
 1. Get the human SARS-CoV-2 virus Spike protein Uniprot code.
 2. Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.
