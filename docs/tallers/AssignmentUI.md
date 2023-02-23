@@ -60,7 +60,7 @@ The virus machinery includes the information to translate a collection of protei
 1. Get the human SARS-CoV-2 virus Spike protein Uniprot code.
 2. Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.
 3. Look in the PDB database for a structure of the complex between Spike protein and the above cell membrane protein. Add an image of the PDB obtained with Chimera.
-4. Look in the PDB database for a structure of the complex between Spike protein and antibodies. Add an image of the PDB obtained with Chimera.
+4. Look in the PDB database for a structure of the complex between Spike protein and antibodies. Add an image of the PDB obtained with Chimera. 
 5. Identify the residues that are in the interface regions, using the `select zone` tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?
 
 ## 2) Variability in the SARS-CoV-2 genome
