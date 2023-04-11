@@ -99,19 +99,20 @@ També activa KMT2D/MLL2 (Per similitud).
 Mitjançant l'activació del substrat, controla l'expressió dels gens HOXA i l'expressió de reguladors clau del cicle cel·lular, inclosos CCNA1, CCNB1, CCNE1 i CDKN2A (Per similitud) | [2A8J](https://www.rcsb.org/structure/2A8J)_A |
 | F: Carboxipeptidasa A1 [P15085](https://www.uniprot.org/uniprotkb/P15085/entry) | Carboxipeptidasa que catalitza l'alliberament d'un aminoàcid C-terminal, però té poca o cap acció amb -Asp, -Glu, -Arg, -Lys o -Pro | [5OM9](https://www.rcsb.org/structure/5OM9)_A |
 
-[^3]: Si no s'especifica el contrari, la informació està extreta de la fitxa UNIPROT
-[^4]: Informació obtinguda de la fitxa a BRENDA.
-[^5]: S'inclou la cadena més rellevant per a l'estudi estructural
+
+
 
 | Grup: proteïna          | Funció [^3]                                                                                                             | Codi PDB        |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------|----------------|
 | A: Caspasa-8  [Q14790]  | Proteasa de tiol que juga un paper clau en la mort cel·lular programada actuant com a interruptor molecular per a l'apoptosi, la necroptosi i la piroptosi, i és necessària per prevenir danys en el teixit durant el desenvolupament embrionari i la vida adulta. | [1QTN](https://www.rcsb.org/structure/1QTN) |
-| B: Kumamolisina [Q8RR56] | L'enzim hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d'aminoàcids carregats com Glu o Arg a la posició P2'.                                   | [1T1E](https://www.rcsb.org/structure/1T1E) |
+| B: Kumamolisina [Q8RR56] | L'enzim hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d'aminoàcids carregats com Glu o Arg a la posició P2'.[^4]                                   | [1T1E](https://www.rcsb.org/structure/1T1E) |
 | C: Quimotripsina-C [Q99895]| Regula l'activació i la degradació de tripsinògens i procarboxipeptidases dirigint-se a llocs de tall específics dins dels seus zimogens. Té activitat proteasa de tipus quimotripsina i activitat hipocalcèmica.   | [4H4F](https://www.rcsb.org/structure/4H4F) |
 | D: BACE1   [P56817]     | Responsable del processament proteolític de la proteïna precursora de l'amiloide (APP). L'escissió a l'extrem N de la seqüència de pèptids A-beta, entre els residus 671 i 672 de l'APP, condueix a la generació i l'alliberament extracel·lular d'APP soluble escindida en beta, i un fragment C-terminal associat a la cèl·lula corresponent que s'allibera més tard. per gamma-secretasa | [1TQF](https://www.rcsb.org/structure/1TQF)_A |
 | E: Taspasa 1  [Q9H6P5]  | Proteasa responsable del processament i activació de KMT2A/MLL1. També activa KMT2D/MLL2 (Per similitud). Mitjançant l'activació del substrat, controla l'expressió dels gens HOXA i l'expressió de reguladors clau del cicle cel·lular, inclosos CCNA1, CCNB1, CCNE1 i CDKN2A (Per similitud)   | [2A8J](https://www.rcsb.org/structure/2A8J)_A |
 | F: Carboxipeptidasa A1 [P15085] | Carboxipeptidasa que catalitza l'alliberament d'un aminoàcid C-terminal, però té poca o cap acció amb -Asp, -Glu, -Arg, -Lys o -Pro | [5OM9](https://www.rcsb.org/structure/5OM9)_A |
 
+[^3]: Si no s'especifica el contrari, la informació està extreta de la fitxa UNIPROT
+[^4]: Informació obtinguda de la fitxa a BRENDA.
 
 # Treball amb ChimeraX
 
