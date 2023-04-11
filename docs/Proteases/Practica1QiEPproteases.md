@@ -1,22 +1,29 @@
 ---
 layout: default
-title: Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23
+title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
 permalink: /QiEP-P1/
 ---
-<h1>QiEP: Pràctica 1. Digerim proteïnes</h1>
+<h1>QiEP: Pràctica 1. Proteïnes que digereixen proteïnes</h1>
 
-- [Introducció](#introducció)
+<!-- toc -->
+
+- [Introducció](#introduccio)
+- [Sobre la proteïna:](#sobre-la-proteina)
 - [Briefing on the mechanism of action of SARS-CoV-2](#briefing-on-the-mechanism-of-action-of-sars-cov-2)
 - [Assignment questions](#assignment-questions)
-  - [1) Virus-cell interactions](#1-virus-cell-interactions)
-  - [2) Variability in the SARS-CoV-2 genome](#2-variability-in-the-sars-cov-2-genome)
-  - [3) Rational Drug Discovery](#3-rational-drug-discovery)
-    - [Ligand](#ligand)
-    - [Complex](#complex)
+  * [1. 1) Virus-cell interactions](#1-1-virus-cell-interactions)
+  * [2. 2) Variability in the SARS-CoV-2 genome](#2-2-variability-in-the-sars-cov-2-genome)
+  * [3. 3) Rational Drug Discovery](#3-3-rational-drug-discovery)
+    + [3.1. Ligand](#31-ligand)
+    + [3.2. Complex](#32-complex)
 - [References](#references)
 
+<!-- tocstop -->
+
 # Introducció
+
+
 
 L'exercici consisteix a explorar l'estructura de sis proteïnes, una per a cada grup de la classe, de les quals ens donen les seqüències:
 
@@ -37,7 +44,7 @@ MRGLLVLSVLLGAVFGKEDFVGHQVLRISVADEAQVQKVKELEDLEHLQLDFWRGPAHPGSPIDVRVPFPSIQAVKIFLE
 
 # Sobre la proteïna:
 
-    **Cerqueu la seqüència donada a UNIPROT i trobeu el nom del gen corresponent. Anoteu el codi UNIPROT i també la classifició EC.X.X.X.X de l'enzim segons la base de dades BRENDA.**
+**Cerqueu la seqüència donada a UNIPROT i trobeu el nom del gen corresponent. Anoteu el codi UNIPROT i també la classifició EC.X.X.X.X de l'enzim segons la base de dades BRENDA.**
 
 El primer que farem serà identificar quines són aquestes seqüències usant el programa [BLAST a NCBI](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) per a buscar les proteïnes per a les quals codifiquen (tinguem cura d'especificar que volem executar BLAST "contra" la base de dades Uniprot en el desplegable corresponent). Per exemple, en el cas de la proteîna del grup `A` obtenim un resultat a BLAST com el de la figura següent (mostrem només els 5 millors resultats):
 ![blast per a la proteïna A](figures/ncbi_caspase8_blast.png)
@@ -121,7 +128,7 @@ The virus machinery includes the information to translate a collection of protei
 
 # Assignment questions
 
-## 1) Virus-cell interactions
+##  1. <a name='Virus-cellinteractions'></a>1) Virus-cell interactions
 
 1. Get the human SARS-CoV-2 virus Spike protein Uniprot code.
 2. Identify the name of the cell surface protein that the SARS-CoV-2 Spike protein interacts with.
@@ -129,16 +136,16 @@ The virus machinery includes the information to translate a collection of protei
 4. Look in the PDB database for a structure of the complex between Spike protein and antibodies. Add an image of the PDB obtained with Chimera.
 5. Identify the residues that are in the interface regions, using the `select zone` tool in Chimera. Are they many? What do you think a good strategy for preventing SARS-CoV-2 to interact with the cell could be? Are the regions of interaction the same in the complexes you located in the above steps?
 
-## 2) Variability in the SARS-CoV-2 genome
+##  2. <a name='VariabilityintheSARS-CoV-2genome'></a>2) Variability in the SARS-CoV-2 genome
 
 Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https://covdb.stanford.edu/variants/omicron_ba_1_3/). Look for the page devoted to the omicron variants:
 
 6. Is the variability homogeneous? why do you think it is like this in terms of viral-host interaction evolution?
 7. Check in particular the genomic region for 3CLpro. Can you give a rough measure of the percentage of variation of Spike and 3CLpro?
 
-## 3) Rational Drug Discovery
+##  3. <a name='RationalDrugDiscovery'></a>3) Rational Drug Discovery
 
-### Ligand
+###  3.1. <a name='Ligand'></a>Ligand
 
 8. Go to the [DRUGBANK](https://go.drugbank.com/) web site, and check for the Nirmatrelvir file. Download the structure in the PDB format and visualize it in Chimera. Paste it here Does it look right to you? What is missing?
 
@@ -149,7 +156,7 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 9. Try fixing the structure using [openbabel](http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html). Paste the new structure as seen in Chimera.
 10. Can you identify the different functional groups. Discover the protein target of this molecule. Which of them is relevant for the interaction with the target?
 
-### Complex
+###  3.2. <a name='Complex'></a>Complex
 
 11. Can you find a structure in the PDB database that contains Nirmatrelivir with its target?
 12. The target is based on a conserved catalytic dyad, Can you recognize it using Chimera?
@@ -164,3 +171,7 @@ Go to the SARS-CoV-2 genome variation site at Stanford University: [COVDB](https
 * Ryan P. Joyce, Vivian W. Hu & Jun Wang [The history, mechanism, and perspectives of nirmatrelvir (PF-07321332): an orally bioavailable main protease inhibitor used in combination with ritonavir to reduce COVID-19-related hospitalizations](https://link.springer.com/article/10.1007/s00044-022-02951-6). Medicinal Chemistry Research 2022; 31, 1637-1646.
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/), [Facultat de Ciències, Tecnologia i Enginyeries](https://mon.uvic.cat/fcte/), [Universitat de Vic - Universitat Central de Catalunya](https://www.uvic.cat/), 2023
+
+
+
+
