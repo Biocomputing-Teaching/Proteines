@@ -68,7 +68,6 @@ Així, identifiquem:
 [^1]: Cal notar que en aquest cas l'entrada UNIPROT no enllaça a BRENDA, però si entrem a BRENDA i cerquem directament el nom de la proteïna obtenim un *preliminary BRENDA supplied EC number*
 [^2]: En aquest cas, en accedir a ENZYME des de la pàgina d'UNIPROT, obtenim [dues opcions de codi](https://enzyme.expasy.org/EC/3.4.25.-), i hem agafat el primer.
 
-* Proteïna A: Caspasa-8 humana, codi UNIPROT Q14790,
 
 A Cystein protease https://rest.uniprot.org/uniprotkb/Q14790.fasta Caspase 8
 B Serine protease https://www.uniprot.org/uniprotkb/Q8RR56/entry Kumamolysin
@@ -79,6 +78,16 @@ F metalloprotease https://www.uniprot.org/uniprotkb/P15085/entry Carboxipeptidas
 
     Cerqueu a la base de dades del Protein Data Bank si l'estructura de la proteïna és coneguda i, en aquest cas, doneu-ne el codi PDB (si n'hi ha més d'un justifiqueu amb quin treballareu a partir d'aquest punt en base a la resolució de l'experiment on s'ha resolt l'estructura i també la cobertura de seqüència que s'ha fet). En cas que la seqüència no sigui exactament coincident amb la de la proteïna resolta al PDB, justifiqueu perquè heu escollit aquest codi.
     Expliqueu breument la funció de la proteïna.
+
+El més fàcil és accedir a aquesta informació directament des de la pàgina d'UNIPROT (secció `Structure`) sempre que estigui disponible (en general el més comú és no trobar estructures resoltes d'una proteïna al PDB i aleshores podem fer ús de la predicció que ens dona Alphafold2 accessible directament des de la pàgina d'UNIPROT). Fent-ho i escollint els PDB amb millor resolució i major cobertura, obtenim aquesta nova taula:
+
+| Grup: proteïna        | Funció                                          | Codi PDB                                                                                      |
+| ---------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| A: Caspasa-8   [Q14790](https://www.uniprot.org/uniprotkb/Q14790/entry) | Proteasa de tiol que juga un paper clau en la mort cel·lular programada actuant com a interruptor molecular per a l'apoptosi, la necroptosi i la piroptosi, i és necessària per prevenir danys en el teixit durant el desenvolupament embrionari i la vida adulta.  | [1QTN](https://www.rcsb.org/structure/1QTN) | L'enzim hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d'aminoàcids carregats com Glu o Arg a la posició P2'.   | [1T1E](https://www.rcsb.org/structure/1T1E) |
+| C: Quimotripsina-C [Q99895](https://www.uniprot.org/uniprotkb/Q99895/entry) | [EC 3.4.21.2](https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.21.2&UniProtAcc=Q99895&OrganismID=2681)   | |
+| D: BACE1   [P56817](https://www.uniprot.org/uniprotkb/P56817/entry) | [EC 3.4.23.46](https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.23.46&UniProtAcc=P56817&OrganismID=2681) | |
+| E: Taspasa 1  [Q9H6P5](https://www.uniprot.org/uniprotkb/Q9H6P5/entry) | [EC 3.4.25.1](https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.25.1) [^2]                                    | |
+| F: Carboxipeptidasa A1 [P15085](https://www.uniprot.org/uniprotkb/P15085/entry) |[EC 3.4.17.1](https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.17.1&UniProtAcc=P15085&OrganismID=2681) | |
 
  Treball amb ChimeraX
 
