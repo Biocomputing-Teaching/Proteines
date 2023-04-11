@@ -103,7 +103,7 @@ Mitjançant l'activació del substrat, controla l'expressió dels gens HOXA i l'
 [^4]: Informació obtinguda de la fitxa a BRENDA.
 [^5]: S'inclou la cadena més rellevant per a l'estudi estructural
 
-| Grup: proteïna          | Funció                                                                                                              | Codi PDB        |
+| Grup: proteïna          | Funció [^3]                                                                                                             | Codi PDB        |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------|----------------|
 | A: Caspasa-8  [Q14790]  | Proteasa de tiol que juga un paper clau en la mort cel·lular programada actuant com a interruptor molecular per a l'apoptosi, la necroptosi i la piroptosi, i és necessària per prevenir danys en el teixit durant el desenvolupament embrionari i la vida adulta. | [1QTN](https://www.rcsb.org/structure/1QTN) |
 | B: Kumamolisina [Q8RR56] | L'enzim hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d'aminoàcids carregats com Glu o Arg a la posició P2'.                                   | [1T1E](https://www.rcsb.org/structure/1T1E) |
