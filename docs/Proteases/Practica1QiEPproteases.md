@@ -129,49 +129,62 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
 | Grup: proteïna [UNIPROT]         | Codi PDB i cadena       |              Visualització |
 |-------------------------|----------------|--------------------------|
-| A: Caspasa-8  [Q14790]  | [1QTN](https://www.rcsb.org/structure/1QTN)_A |  <div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>                        |
-| B: Kumamolisina [Q8RR56] | [1T1E](https://www.rcsb.org/structure/1T1E)_A |   <div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>                     |
-| C: Quimotripsina-C [Q99895]| [4H4F](https://www.rcsb.org/structure/4H4F)_A |      <div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>                    |
-| D: BACE1   [P56817]     | [1TQF](https://www.rcsb.org/structure/1TQF)_A |      <div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>                    |
-| E: Taspasa 1  [Q9H6P5]  | [2A8J](https://www.rcsb.org/structure/2A8J)_A |     <div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>                     |
-| F: Carboxipeptidasa A1 [P15085] | [5OM9](https://www.rcsb.org/structure/5OM9)_A |    <div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>                      |
+| A: Caspasa-8  [Q14790]  | [1QTN](https://www.rcsb.org/structure/1QTN)_A |                          |
+| B: Kumamolisina [Q8RR56] | [1T1E](https://www.rcsb.org/structure/1T1E)_A |                        |
+| C: Quimotripsina-C [Q99895]| [4H4F](https://www.rcsb.org/structure/4H4F)_A |                          |
+| D: BACE1   [P56817]     | [1TQF](https://www.rcsb.org/structure/1TQF)_A |                          |
+| E: Taspasa 1  [Q9H6P5]  | [2A8J](https://www.rcsb.org/structure/2A8J)_A |                          |
+| F: Carboxipeptidasa A1 [P15085] | [5OM9](https://www.rcsb.org/structure/5OM9)_A |                          |
 
+
+<table>
+  <thead>
+    <tr>
+      <th>Grup: proteïna [UNIPROT]</th>
+      <th>Codi PDB i cadena</th>
+      <th>Visualització</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A: Caspasa-8  [Q14790]</td>
+      <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a></td>
+      <td>    
+        <script>
+          var viewerInstance = new PDBeMolstarPlugin();
+          var options = {moleculeId: '1qtn',hideControls: true}
+          var viewerContainer = document.getElementById('myViewer');
+          viewerInstance.render(viewerContainer, options);
+        </script>
+      </td>
+    </tr>
+    <tr>
+      <td>B: Kumamolisina [Q8RR56]</td>
+      <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>C: Quimotripsina-C [Q99895]</td>
+      <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>D: BACE1   [P56817]</td>
+      <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>E: Taspasa 1  [Q9H6P5]</td>
+      <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>F: Carboxipeptidasa A1 [P15085]</td>
+      <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
