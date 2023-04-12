@@ -4,20 +4,24 @@ title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
 permalink: /QiEP-P1/
 ---
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <title>PDBe Molstar - Basic</title>
-    <!-- Molstar CSS & JS -->
-    <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-3.1.0.css">
-    <script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-3.1.0.js"></script>
-    <style>
-      #myViewer{
-        float:left;
-        width:300px;
-        height: 300px;
-        position:relative;
-      }
+ <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <!-- Web component polyfill (only loads what it needs) -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+    <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css">
+<script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-component-1.2.1.js"></script>
+<style>
+        #myViewer{
+          float:none;
+          width:400px;
+          height:400px;
+          position:relative;
+        }
     </style>
   </head>
 
@@ -127,15 +131,6 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 
 Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
-| Grup: proteïna [UNIPROT]         | Codi PDB i cadena       |              Visualització |
-|-------------------------|----------------|--------------------------|
-| A: Caspasa-8  [Q14790]  | [1QTN](https://www.rcsb.org/structure/1QTN)_A |                          |
-| B: Kumamolisina [Q8RR56] | [1T1E](https://www.rcsb.org/structure/1T1E)_A |                        |
-| C: Quimotripsina-C [Q99895]| [4H4F](https://www.rcsb.org/structure/4H4F)_A |                          |
-| D: BACE1   [P56817]     | [1TQF](https://www.rcsb.org/structure/1TQF)_A |                          |
-| E: Taspasa 1  [Q9H6P5]  | [2A8J](https://www.rcsb.org/structure/2A8J)_A |                          |
-| F: Carboxipeptidasa A1 [P15085] | [5OM9](https://www.rcsb.org/structure/5OM9)_A |                          |
-
 
 <table>
   <thead>
@@ -163,62 +158,34 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
     <tr>
       <td>C: Quimotripsina-C [Q99895]</td>
       <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a></td>
-      <td></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="4h4f" hide-controls="false"></pdbe-molstar></div> 
+      </td>
     </tr>
     <tr>
       <td>D: BACE1   [P56817]</td>
       <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a></td>
-      <td></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1tqf" hide-controls="false"></pdbe-molstar></div> 
+      </td>
     </tr>
     <tr>
       <td>E: Taspasa 1  [Q9H6P5]</td>
       <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a></td>
-      <td></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="2a8j" hide-controls="false"></pdbe-molstar></div> 
+      </td>
     </tr>
     <tr>
       <td>F: Carboxipeptidasa A1 [P15085]</td>
       <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a></td>
-      <td></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="5om9" hide-controls="false"></pdbe-molstar></div> 
+      </td>
     </tr>
   </tbody>
 </table>
 
-<div id="myViewer"></div> 
-        <script>
-          var viewerInstance = new PDBeMolstarPlugin();
-          var options = {moleculeId: '1qtn',hideControls: true}
-          var viewerContainer = document.getElementById('myViewer');
-          viewerInstance.render(viewerContainer, options);
-        </script>
-
-<div id="myViewer"></div> 
-        <script>
-          var viewerInstance = new PDBeMolstarPlugin();
-          var options = {moleculeId: '1t1e',hideControls: true}
-          var viewerContainer = document.getElementById('myViewer');
-          viewerInstance.render(viewerContainer, options);
-        </script>
-
-## A: Caspasa-8  [1QTN_A] 
-
-<h4>PDBe Mol* JS Plugin Demo</h4>
-
-<p>
-<div id="myViewer"></div>
-    <script>
-      var viewerInstance = new PDBeMolstarPlugin();
-      var options = {moleculeId: '1qtn',hideControls: true}
-      var viewerContainer = document.getElementById('myViewer');
-      viewerInstance.render(viewerContainer, options);
-    </script>
-<p>
-<br>
-
-## B: Kumamolisina [Q8RR56]
-## C: Quimotripsina-C [Q99895]
-## D: BACE1   [P56817]
-## E: Taspasa 1  [Q9H6P5]
-## F: Carboxipeptidasa A1 [P15085]
 
 # Funció de la proteïna:
 
