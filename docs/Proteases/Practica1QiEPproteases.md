@@ -4,29 +4,18 @@ title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
 permalink: /QiEP-P1/
 ---
-  <head>
+   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <title>PDBe Molstar - Helper functions</title>
+    <title>PDBe Molstar - Basic</title>
     <!-- Molstar CSS & JS -->
-    <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-light-3.1.0.css">
+    <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-3.1.0.css">
     <script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-3.1.0.js"></script>
     <style>
-      * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-      }
-      .msp-plugin ::-webkit-scrollbar-thumb {
-          background-color: #474748 !important;
-      }
-      .viewerSection {
-        margin: 120px 0 0 50px;
-      }
       #myViewer{
         float:left;
-        width:400px;
-        height: 400px;
+        width:300px;
+        height: 300px;
         position:relative;
       }
     </style>
@@ -138,31 +127,30 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 
 Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
-## A: Caspasa-8  [Q14790] 
+## A: Caspasa-8  [1QTN_A] 
 
-   <div class="viewerSection">
-      <!-- Molstar container -->
-      <div id="myViewer"></div>
+    <h4>PDBe Mol* JS Plugin Demo</h4>
+    
+    <!-- Molstar container -->
+    <div id="myViewer"></div>
+    <script>
+
+      //Create plugin instance
+      var viewerInstance = new PDBeMolstarPlugin();
+  
+      //Set options (Checkout available options list in the documentation)
+      var options = {
+        moleculeId: '1QTN',
+        hideControls: true
+      }
       
-   </div>
-  <script>
-    //Create plugin instance
-    var viewerInstance = new PDBeMolstarPlugin();
-    //Set options (Checkout available options list in the documentation)
-    var options = {
-        customData: {
-          url: 'https://alphafold.ebi.ac.uk/files/AF-O15552-F1-model_v1.cif',
-          format: 'cif'
-        },
-        alphafoldView: true,
-        bgColor: {r:255, g:255, b:255},
-        hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo']
-      }    
       //Get element from HTML/Template to place the viewer 
-      var viewerContainer = document.getElementById('myViewer'); 
+      var viewerContainer = document.getElementById('myViewer');
+  
       //Call render method to display the 3D view
-      viewerInstance.render(viewerContainer, options);   
-  </script>
+      viewerInstance.render(viewerContainer, options);
+      
+    </script>
 
 ## B: Kumamolisina [Q8RR56]
 ## C: Quimotripsina-C [Q99895]
