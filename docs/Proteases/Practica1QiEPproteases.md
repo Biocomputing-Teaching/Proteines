@@ -195,7 +195,21 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
   </tbody>
 </table>
 
+<div id="myViewer"></div> 
+        <script>
+          var viewerInstance = new PDBeMolstarPlugin();
+          var options = {moleculeId: '1qtn',hideControls: true}
+          var viewerContainer = document.getElementById('myViewer');
+          viewerInstance.render(viewerContainer, options);
+        </script>
 
+<div id="myViewer"></div> 
+        <script>
+          var viewerInstance = new PDBeMolstarPlugin();
+          var options = {moleculeId: '1t1e',hideControls: true}
+          var viewerContainer = document.getElementById('myViewer');
+          viewerInstance.render(viewerContainer, options);
+        </script>
 
 ## A: Caspasa-8  [1QTN_A] 
 
