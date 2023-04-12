@@ -111,25 +111,17 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 
 | Grup: proteïna [UNIPROT]         | Funció [^3]                                                                                                             | Codi PDB i cadena       |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------|----------------|
-| A: Caspasa-8  [Q14790]  | Proteasa de tiol que juga un paper clau en la mort cel·lular programada actuant com a interruptor molecular per a l'apoptosi, la necroptosi i la piroptosi, i és necessària per prevenir danys en el teixit durant el desenvolupament embrionari i la vida adulta. | [1QTN](https://www.rcsb.org/structure/1QTN)_A |
-| B: Kumamolisina [Q8RR56] | L'enzim hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d'aminoàcids carregats com Glu o Arg a la posició P2'.[^4]                                   | [1T1E](https://www.rcsb.org/structure/1T1E)_A |
-| C: Quimotripsina-C [Q99895]| Regula l'activació i la degradació de tripsinògens i procarboxipeptidases dirigint-se a llocs de tall específics dins dels seus zimogens. Té activitat proteasa de tipus quimotripsina i activitat hipocalcèmica.   | [4H4F](https://www.rcsb.org/structure/4H4F)_A |
-| D: BACE1   [P56817]     | Responsable del processament proteolític de la proteïna precursora de l'amiloide (APP). L'escissió a l'extrem N de la seqüència de pèptids A-beta, entre els residus 671 i 672 de l'APP, condueix a la generació i l'alliberament extracel·lular d'APP soluble escindida en beta, i un fragment C-terminal associat a la cèl·lula corresponent que s'allibera més tard. per gamma-secretasa | [1TQF](https://www.rcsb.org/structure/1TQF)_A |
-| E: Taspasa 1  [Q9H6P5]  | Proteasa responsable del processament i activació de KMT2A/MLL1. També activa KMT2D/MLL2 (Per similitud). Mitjançant l'activació del substrat, controla l'expressió dels gens HOXA i l'expressió de reguladors clau del cicle cel·lular, inclosos CCNA1, CCNB1, CCNE1 i CDKN2A (Per similitud)   | [2A8J](https://www.rcsb.org/structure/2A8J)_A |
-| F: Carboxipeptidasa A1 [P15085] | Carboxipeptidasa que catalitza l'alliberament d'un aminoàcid C-terminal, però té poca o cap acció amb -Asp, -Glu, -Arg, -Lys o -Pro | [5OM9](https://www.rcsb.org/structure/5OM9)_A |
+| A: Caspasa-8  [Q14790]  | **Cisteina proteasa** que juga un paper clau en la mort cel·lular programada actuant com a interruptor molecular per a l'apoptosi, la necroptosi i la piroptosi, i és necessària per prevenir danys en el teixit durant el desenvolupament embrionari i la vida adulta. | [1QTN](https://www.rcsb.org/structure/1QTN)_A |
+| B: Kumamolisina [Q8RR56] | **Serina proteasa, sedolisina** hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d'aminoàcids carregats com Glu o Arg a la posició P2'.[^4]                                   | [1T1E](https://www.rcsb.org/structure/1T1E)_A |
+| C: Quimotripsina-C [Q99895]| **Serina proteasa**, Regula l'activació i la degradació de tripsinògens i procarboxipeptidases dirigint-se a llocs de tall específics dins dels seus zimogens. Té activitat proteasa de tipus quimotripsina i activitat hipocalcèmica.   | [4H4F](https://www.rcsb.org/structure/4H4F)_A |
+| D: BACE1   [P56817]     | **Aspartat proteasa** Responsable del processament proteolític de la proteïna precursora de l'amiloide (APP). L'escissió a l'extrem N de la seqüència de pèptids A-beta, entre els residus 671 i 672 de l'APP, condueix a la generació i l'alliberament extracel·lular d'APP soluble escindida en beta, i un fragment C-terminal associat a la cèl·lula corresponent que s'allibera més tard. per gamma-secretasa | [1TQF](https://www.rcsb.org/structure/1TQF)_A |
+| E: Taspasa 1  [Q9H6P5]  | **Treonina proteasa**, responsable del processament i activació de KMT2A/MLL1. També activa KMT2D/MLL2 (Per similitud). Mitjançant l'activació del substrat, controla l'expressió dels gens HOXA i l'expressió de reguladors clau del cicle cel·lular, inclosos CCNA1, CCNB1, CCNE1 i CDKN2A (Per similitud)   | [2A8J](https://www.rcsb.org/structure/2A8J)_A |
+| F: Carboxipeptidasa A1 [P15085] |**Metaloproteasa** Carboxipeptidasa que catalitza l'alliberament d'un aminoàcid C-terminal, però té poca o cap acció amb -Asp, -Glu, -Arg, -Lys o -Pro | [5OM9](https://www.rcsb.org/structure/5OM9)_A |
 
 [^3]: Si no s'especifica el contrari, la informació està extreta de la fitxa UNIPROT
 [^4]: Informació obtinguda de la fitxa a BRENDA.
 
-# Treball amb l'estructura
-
-**Detecteu les diferents estructures secundàries de la proteïna (fulles, hèlix, llaços) i determina el seu tipus. Mireu de descriure amb un cert detall els diferents tipus d'enllaços que podeu trobar dins aquestes estructures secundàries (mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries).**
-
-**Podeu detectar-hi motius d'estructura supersecundària? Mostreu les interaccions (ponts d'hidrogen, van der Waals) entre els diferents elements que constitueixen aquestes estructures supersecundàries.**
-
-**L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquía d'aquest plegament.**
-
-Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
+# Estructura i funció
 
 
 <table>
@@ -143,55 +135,48 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
   <tbody>
     <tr>
       <td>A: Caspasa-8  [Q14790] </td>
-      <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=30999)</td>
+      <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a><br> <a href="https://scop.berkeley.edu/sunid=30999" target="_blank">SCOPe</a></td>
       <td>   
         <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1qtn" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>B: Kumamolisina [Q8RR56]</td>
-      <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=106244)</td>
+      <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a><br> <a href="https://scop.berkeley.edu/sunid=106244" target="_blank">SCOPe</a></td>
       <td>   
         <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1t1e" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>C: Quimotripsina-C [Q99895]</td>
-      <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=26067)</td>
+      <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a><br> <a href="https://scop.berkeley.edu/sunid=26067" target="_blank">SCOPe</a></td>
       <td>   
         <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="4h4f" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>D: BACE1   [P56817]</td>
-      <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=112613)</td>
+      <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a><br> <a href="https://scop.berkeley.edu/sunid=112613" target="_blank">SCOPe</a></td>
       <td>   
         <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1tqf" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>E: Taspasa 1  [Q9H6P5]</td>
-      <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a><br> [PFAM](https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPfamStr.pl?pfam_id=PF01112)</td>
+      <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a><br> <a href="https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPfamStr.pl?pfam_id=PF01112" target="_blank">PFAM</a></td>
       <td>   
         <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="2a8j" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>F: Carboxipeptidasa A1 [P15085]</td>
-      <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a><br> [SCOP](http://scop.mrc-lmb.cam.ac.uk/term/3000662)</td>
+      <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a><br> <a href="http://scop.mrc-lmb.cam.ac.uk/term/3000662" target="_blank">SCOP</a></td>
       <td>   
         <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="5om9" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
   </tbody>
 </table>
-
-
-# Funció de la proteïna:
-
-**Identifiqueu el centre actiu de la proteïna. Quins residus són rellevants, a partir de la literatura? L'estructura que heu explorat, inclou algun substrat o inhibidor? Podeu descriure les interaccions que presenten entre ells els residus del centre actiu i, eventualment, d'aquests amb el possible substrat/inhibidor (ponts d'hidrogen, van der Waals, càrregues, etc)?**
-
-**Cerqueu informació sobre la funció fa aquesta proteïna? Podeu mostrar el mecanisme detallat que segueix? Relació seqüència-estructura-funció: Com relacionaríeu l'estructura que heu analitzat amb la funció de la proteïna? Quins elements estructurals participen en aquesta funció? Quins residus en concret són claus per a la funció? Cerqueu eventuals variants de la proteïna que tinguin implicacions funcionals i comenteu els seus efectes a nivell molecular.**
 
 
 
