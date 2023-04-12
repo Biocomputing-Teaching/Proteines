@@ -104,10 +104,21 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 
 **Obriu l'estructura del PDB amb el programa Chimera. Detecteu les diferents estructures secundàries de la proteïna (fulles, hèlix, llaços) i determina el seu tipus. Mireu de descriure amb un cert detall els diferents tipus d'enllaços que podeu trobar dins aquestes estructures secundàries (mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries).**
 
-
 **Podeu detectar-hi motius d'estructura supersecundària? Mostreu les interaccions (ponts d'hidrogen, van der Waals) entre els diferents elements que constitueixen aquestes estructures supersecundàries.**
 
 **L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquía d'aquest plegament.**
+
+Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
+
+## A: Caspasa-8  [Q14790] 
+
+
+
+## B: Kumamolisina [Q8RR56]
+## C: Quimotripsina-C [Q99895]
+## D: BACE1   [P56817]
+## E: Taspasa 1  [Q9H6P5]
+## F: Carboxipeptidasa A1 [P15085]
 
 # Funció de la proteïna:
 
