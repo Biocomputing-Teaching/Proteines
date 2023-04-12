@@ -138,7 +138,7 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
       var viewerInstance = new PDBeMolstarPlugin();
 //Set options (Checkout available options list in the documentation)
       var options = {
-        moleculeId: '1QTN',
+        moleculeId: '1qtn',
         hideControls: true
       }
 //Get element from HTML/Template to place the viewer 
