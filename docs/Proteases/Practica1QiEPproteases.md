@@ -4,7 +4,7 @@ title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
 permalink: /QiEP-P1/
 ---
-   <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>PDBe Molstar - Basic</title>
@@ -27,14 +27,14 @@ permalink: /QiEP-P1/
 
 - [Introducció](#introduccio)
 - [Sobre la proteïna:](#sobre-la-proteina)
-- [Briefing on the mechanism of action of SARS-CoV-2](#briefing-on-the-mechanism-of-action-of-sars-cov-2)
-- [Assignment questions](#assignment-questions)
-  * [1. 1) Virus-cell interactions](#1-1-virus-cell-interactions)
-  * [2. 2) Variability in the SARS-CoV-2 genome](#2-2-variability-in-the-sars-cov-2-genome)
-  * [3. 3) Rational Drug Discovery](#3-3-rational-drug-discovery)
-    + [3.1. Ligand](#31-ligand)
-    + [3.2. Complex](#32-complex)
-- [References](#references)
+- [Treball amb l'estructura](#treball-amb-lestructura)
+  * [A: Caspasa-8 [1QTN_A]](#a-caspasa-8--1qtn_a)
+  * [B: Kumamolisina [Q8RR56]](#b-kumamolisina-q8rr56)
+  * [C: Quimotripsina-C [Q99895]](#c-quimotripsina-c-q99895)
+  * [D: BACE1 [P56817]](#d-bace1---p56817)
+  * [E: Taspasa 1 [Q9H6P5]](#e-taspasa-1--q9h6p5)
+  * [F: Carboxipeptidasa A1 [P15085]](#f-carboxipeptidasa-a1-p15085)
+- [Funció de la proteïna:](#funcio-de-la-proteina)
 
 <!-- tocstop -->
 
@@ -117,9 +117,9 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 [^3]: Si no s'especifica el contrari, la informació està extreta de la fitxa UNIPROT
 [^4]: Informació obtinguda de la fitxa a BRENDA.
 
-# Treball amb ChimeraX
+# Treball amb l'estructura
 
-**Obriu l'estructura del PDB amb el programa Chimera. Detecteu les diferents estructures secundàries de la proteïna (fulles, hèlix, llaços) i determina el seu tipus. Mireu de descriure amb un cert detall els diferents tipus d'enllaços que podeu trobar dins aquestes estructures secundàries (mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries).**
+**Detecteu les diferents estructures secundàries de la proteïna (fulles, hèlix, llaços) i determina el seu tipus. Mireu de descriure amb un cert detall els diferents tipus d'enllaços que podeu trobar dins aquestes estructures secundàries (mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries).**
 
 **Podeu detectar-hi motius d'estructura supersecundària? Mostreu les interaccions (ponts d'hidrogen, van der Waals) entre els diferents elements que constitueixen aquestes estructures supersecundàries.**
 
@@ -130,20 +130,13 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 ## A: Caspasa-8  [1QTN_A] 
 
 <h4>PDBe Mol* JS Plugin Demo</h4>
+
 <p>
-<!-- Molstar container -->
 <div id="myViewer"></div>
     <script>
-//Create plugin instance
       var viewerInstance = new PDBeMolstarPlugin();
-//Set options (Checkout available options list in the documentation)
-      var options = {
-        moleculeId: '1qtn',
-        hideControls: true
-      }
-//Get element from HTML/Template to place the viewer 
+      var options = {moleculeId: '1qtn',hideControls: true}
       var viewerContainer = document.getElementById('myViewer');
-//Call render method to display the 3D view
       viewerInstance.render(viewerContainer, options);
     </script>
 <p>
@@ -164,3 +157,4 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/), [Facultat de Ciències, Tecnologia i Enginyeries](https://mon.uvic.cat/fcte/), [Universitat de Vic - Universitat Central de Catalunya](https://www.uvic.cat/), 2023
+
