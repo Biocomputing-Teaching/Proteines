@@ -129,28 +129,25 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
 ## A: Caspasa-8  [1QTN_A] 
 
-    <h4>PDBe Mol* JS Plugin Demo</h4>
-    
-    <!-- Molstar container -->
-    <div id="myViewer"></div>
+<h4>PDBe Mol* JS Plugin Demo</h4>
+<p>
+<!-- Molstar container -->
+<div id="myViewer"></div>
     <script>
-
-      //Create plugin instance
+//Create plugin instance
       var viewerInstance = new PDBeMolstarPlugin();
-  
-      //Set options (Checkout available options list in the documentation)
+//Set options (Checkout available options list in the documentation)
       var options = {
         moleculeId: '1QTN',
         hideControls: true
       }
-      
-      //Get element from HTML/Template to place the viewer 
+//Get element from HTML/Template to place the viewer 
       var viewerContainer = document.getElementById('myViewer');
-  
-      //Call render method to display the 3D view
+//Call render method to display the 3D view
       viewerInstance.render(viewerContainer, options);
-      
     </script>
+<p>
+<br>
 
 ## B: Kumamolisina [Q8RR56]
 ## C: Quimotripsina-C [Q99895]
