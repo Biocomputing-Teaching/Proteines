@@ -136,51 +136,51 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
   <thead>
     <tr>
       <th>Grup: proteïna [UNIPROT]</th>
-      <th>Codi PDB i cadena</th>
+      <th>Codi PDB i cadena / Domini</th>
       <th>Visualització</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>A: Caspasa-8  [Q14790]</td>
-      <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a></td>
+      <td>A: Caspasa-8  [Q14790] </td>
+      <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=30999)</td>
       <td>   
-        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1qtn" hide-controls="false"></pdbe-molstar></div> 
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1qtn" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>B: Kumamolisina [Q8RR56]</td>
-      <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a></td>
+      <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=106244)</td>
       <td>   
-        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1t1e" hide-controls="false"></pdbe-molstar></div> 
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1t1e" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>C: Quimotripsina-C [Q99895]</td>
-      <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a></td>
+      <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=26067)</td>
       <td>   
-        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="4h4f" hide-controls="false"></pdbe-molstar></div> 
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="4h4f" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>D: BACE1   [P56817]</td>
-      <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a></td>
+      <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a><br> [SCOPe](https://scop.berkeley.edu/sunid=112613)</td>
       <td>   
-        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1tqf" hide-controls="false"></pdbe-molstar></div> 
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1tqf" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>E: Taspasa 1  [Q9H6P5]</td>
-      <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a></td>
+      <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a><br> [PFAM](https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPfamStr.pl?pfam_id=PF01112)</td>
       <td>   
-        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="2a8j" hide-controls="false"></pdbe-molstar></div> 
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="2a8j" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
     <tr>
       <td>F: Carboxipeptidasa A1 [P15085]</td>
-      <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a></td>
+      <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a><br> [SCOP](http://scop.mrc-lmb.cam.ac.uk/term/3000662)</td>
       <td>   
-        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="5om9" hide-controls="false"></pdbe-molstar></div> 
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="5om9" hide-controls="true"></pdbe-molstar></div> 
       </td>
     </tr>
   </tbody>
