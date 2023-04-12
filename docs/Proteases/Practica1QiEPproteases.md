@@ -4,7 +4,7 @@ title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
 permalink: /QiEP-P1/
 ---
- <head>
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
 <script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
@@ -29,22 +29,9 @@ permalink: /QiEP-P1/
 
 <!-- toc -->
 
-- [Introducció](#introduccio)
-- [Sobre la proteïna:](#sobre-la-proteina)
-- [Treball amb l'estructura](#treball-amb-lestructura)
-  * [A: Caspasa-8 [1QTN_A]](#a-caspasa-8--1qtn_a)
-  * [B: Kumamolisina [Q8RR56]](#b-kumamolisina-q8rr56)
-  * [C: Quimotripsina-C [Q99895]](#c-quimotripsina-c-q99895)
-  * [D: BACE1 [P56817]](#d-bace1---p56817)
-  * [E: Taspasa 1 [Q9H6P5]](#e-taspasa-1--q9h6p5)
-  * [F: Carboxipeptidasa A1 [P15085]](#f-carboxipeptidasa-a1-p15085)
-- [Funció de la proteïna:](#funcio-de-la-proteina)
+
 
 <!-- tocstop -->
-
-# Introducció
-
-
 
 L'exercici consisteix a explorar l'estructura de sis proteïnes, una per a cada grup de la classe, de les quals ens donen les seqüències:
 
@@ -71,9 +58,6 @@ Usarem eines com:
 4. [BRENDA](https://www.brenda-enzymes.org). En tant que enzims, explorarem la seva funció i la seva classificació.
 
 
-# Sobre la proteïna:
-
-**Cerqueu la seqüència donada a UNIPROT i trobeu el nom del gen corresponent. Anoteu el codi UNIPROT i també la classifició EC.X.X.X.X de l'enzim segons la base de dades BRENDA.**
 
 El primer que farem serà identificar quines són aquestes seqüències usant el programa [BLAST a NCBI](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) per a buscar les proteïnes per a les quals codifiquen (tinguem cura d'especificar que volem executar BLAST "contra" la base de dades Uniprot en el desplegable corresponent). Per exemple, en el cas de la proteîna del grup `A` obtenim un resultat a BLAST com el de la figura següent (mostrem només els 5 millors resultats):
 ![blast per a la proteïna A](figures/ncbi_caspase8_blast.png)
@@ -98,16 +82,9 @@ Així, identifiquem:
 [^2]: En aquest cas, en accedir a ENZYME des de la pàgina d'UNIPROT, obtenim [dues opcions de codi](https://enzyme.expasy.org/EC/3.4.25.-), i hem agafat el primer.
 
 
-A Cystein protease https://rest.uniprot.org/uniprotkb/Q14790.fasta Caspase 8
-B Serine protease https://www.uniprot.org/uniprotkb/Q8RR56/entry Kumamolysin
-C Serine Protease https://www.uniprot.org/uniprotkb/Q99895/entry Chymotrypsin-C
-D Aspartate protease https://www.uniprot.org/uniprotkb/P56817/entry BACE1
-E Threonine protease https://www.uniprot.org/uniprotkb/Q9H6P5/entry Taspase 1
-F metalloprotease https://www.uniprot.org/uniprotkb/P15085/entry Carboxipeptidase A1
 
-**Cerqueu a la base de dades del Protein Data Bank si l'estructura de la proteïna és coneguda i, en aquest cas, doneu-ne el codi PDB (si n'hi ha més d'un justifiqueu amb quin treballareu a partir d'aquest punt en base a la resolució de l'experiment on s'ha resolt l'estructura i també la cobertura de seqüència que s'ha fet). En cas que la seqüència no sigui exactament coincident amb la de la proteïna resolta al PDB, justifiqueu perquè heu escollit aquest codi. Expliqueu breument la funció de la proteïna.**
 
-El més fàcil és accedir a aquesta informació directament des de la pàgina d'UNIPROT (secció `Structure`) sempre que estigui disponible (en general el més comú és no trobar estructures resoltes d'una proteïna al PDB i aleshores podem fer ús de la predicció que ens dona Alphafold2 accessible directament des de la pàgina d'UNIPROT). Fent-ho i escollint els PDB amb millor resolució i major cobertura, obtenim aquesta nova taula:
+El més fàcil és accedir a la informació estructural directament des de la pàgina d'UNIPROT (secció `Structure`) sempre que estigui disponible (en general el més comú és no trobar estructures resoltes d'una proteïna al PDB i aleshores podem fer ús de la predicció que ens dona Alphafold2 accessible directament des de la pàgina d'UNIPROT). Fent-ho i escollint els PDB amb millor resolució i major cobertura, obtenim aquesta nova taula:
 
 | Grup: proteïna [UNIPROT]         | Funció [^3]                                                                                                             | Codi PDB i cadena       |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------|----------------|
@@ -121,7 +98,6 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 [^3]: Si no s'especifica el contrari, la informació està extreta de la fitxa UNIPROT
 [^4]: Informació obtinguda de la fitxa a BRENDA.
 
-# Estructura i funció
 
 
 <table>
@@ -181,4 +157,7 @@ El més fàcil és accedir a aquesta informació directament des de la pàgina d
 
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/), [Facultat de Ciències, Tecnologia i Enginyeries](https://mon.uvic.cat/fcte/), [Universitat de Vic - Universitat Central de Catalunya](https://www.uvic.cat/), 2023
+
+
+
 
