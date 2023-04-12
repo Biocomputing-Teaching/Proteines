@@ -149,7 +149,8 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
     <tr>
       <td>A: Caspasa-8  [Q14790]</td>
       <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a></td>
-      <td>    
+      <td>   
+        <div id="myViewer"></div> 
         <script>
           var viewerInstance = new PDBeMolstarPlugin();
           var options = {moleculeId: '1qtn',hideControls: true}
@@ -161,7 +162,15 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
     <tr>
       <td>B: Kumamolisina [Q8RR56]</td>
       <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a></td>
-      <td></td>
+      <td>   
+        <div id="myViewer"></div> 
+        <script>
+          var viewerInstance = new PDBeMolstarPlugin();
+          var options = {moleculeId: '1t1e',hideControls: false}
+          var viewerContainer = document.getElementById('myViewer');
+          viewerInstance.render(viewerContainer, options);
+        </script>
+      </td>
     </tr>
     <tr>
       <td>C: Quimotripsina-C [Q99895]</td>
