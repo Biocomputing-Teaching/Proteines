@@ -4,6 +4,35 @@ title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
 permalink: /QiEP-P1/
 ---
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>PDBe Molstar - Helper functions</title>
+
+    <!-- Molstar CSS & JS -->
+    <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-light-3.1.0.css">
+    <script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-3.1.0.js"></script>
+    <style>
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+      .msp-plugin ::-webkit-scrollbar-thumb {
+          background-color: #474748 !important;
+      }
+      .viewerSection {
+        margin: 120px 0 0 50px;
+      }
+      #myViewer{
+        float:left;
+        width:400px;
+        height: 400px;
+        position:relative;
+      }
+    </style>
+  </head>
+
 <h1>QiEP: Pràctica 1. Proteïnes que digereixen proteïnes</h1>
 
 <!-- toc -->
@@ -112,17 +141,29 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
 ## A: Caspasa-8  [Q14790] 
 
-<!-- Load the Mol* library from the RCSB PDB -->
-<script src="https://www.rcsb.org/foundation/marlib/0.7/js/mar.js"></script>
-
-<!-- Create a container element for the Mol* viewer -->
-<div id="molstar-container"></div>
-
-<!-- Initialize the Mol* viewer with the PDB code and chain ID -->
-<script>
-    mar_report_error = true; // enable error reporting
-    mar_embed("#molstar-container", "pdb:1QTN", { chainid: "A" }); // embed the Mol* viewer
-</script>
+   <div class="viewerSection">
+      <!-- Molstar container -->
+      <div id="myViewer"></div>
+      
+   </div>
+    <script>
+    //Create plugin instance
+    var viewerInstance = new PDBeMolstarPlugin();
+    //Set options (Checkout available options list in the documentation)
+    var options = {
+        customData: {
+          url: 'https://alphafold.ebi.ac.uk/files/AF-O15552-F1-model_v1.cif',
+          format: 'cif'
+        },
+        alphafoldView: true,
+        bgColor: {r:255, g:255, b:255},
+        hideCanvasControls: ['selection', 'animation', 'controlToggle', 'controlInfo']
+      }    
+      //Get element from HTML/Template to place the viewer 
+      var viewerContainer = document.getElementById('myViewer'); 
+      //Call render method to display the 3D view
+      viewerInstance.render(viewerContainer, options);   
+  </script>
 
 ## B: Kumamolisina [Q8RR56]
 ## C: Quimotripsina-C [Q99895]
