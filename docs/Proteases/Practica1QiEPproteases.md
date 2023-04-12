@@ -112,7 +112,17 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
 
 ## A: Caspasa-8  [Q14790] 
 
+<!-- Load the Mol* library from the RCSB PDB -->
+<script src="https://www.rcsb.org/foundation/marlib/0.7/js/mar.js"></script>
 
+<!-- Create a container element for the Mol* viewer -->
+<div id="molstar-container"></div>
+
+<!-- Initialize the Mol* viewer with the PDB code and chain ID -->
+<script>
+    mar_report_error = true; // enable error reporting
+    mar_embed("#molstar-container", "pdb:1QTN", { chainid: "A" }); // embed the Mol* viewer
+</script>
 
 ## B: Kumamolisina [Q8RR56]
 ## C: Quimotripsina-C [Q99895]
