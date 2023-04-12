@@ -8,7 +8,6 @@ permalink: /QiEP-P1/
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <title>PDBe Molstar - Helper functions</title>
-
     <!-- Molstar CSS & JS -->
     <link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-light-3.1.0.css">
     <script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-plugin-3.1.0.js"></script>
@@ -146,7 +145,7 @@ Mirarem de respondre les preguntes de forma col·lectiva per a cada proteïna:
       <div id="myViewer"></div>
       
    </div>
-    <script>
+  <script>
     //Create plugin instance
     var viewerInstance = new PDBeMolstarPlugin();
     //Set options (Checkout available options list in the documentation)
