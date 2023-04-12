@@ -154,7 +154,7 @@ El més fàcil és accedir a la informació estructural directament des de la p�
   </tbody>
 </table>
 
-
+Veure intro a estructures supersecundàries [aquí](./supersec.pdf).
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/), [Facultat de Ciències, Tecnologia i Enginyeries](https://mon.uvic.cat/fcte/), [Universitat de Vic - Universitat Central de Catalunya](https://www.uvic.cat/), 2023
 
