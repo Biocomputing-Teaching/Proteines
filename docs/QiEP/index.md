@@ -14,6 +14,7 @@ Material de pràctiques del curs de QiEP a 3er curs del Grau en Biotecnologia, U
 * [Curs 2022-2023](/QiEP-P1-2023/)
 * Curs 2023-2024
 * Curs 2024-2025
+  * Grup B: Glutathione S-transferase GstA
 
 Eines per a l'estudi de les relacions estructura-funció en proteïnes.
 
