@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 8CHD
-author: Marina Garcia Baco i Malena ortolà Bilbao
-permalink: /8CHD/
+author: Marina Garcia Baco i Malena Ortolà Bilbao
+permalink: /QiEP-P1-2025-I/
 
 ---
  <head>
