@@ -18,7 +18,7 @@ Material de pràctiques del curs de QiEP a 3er curs del Grau en Biotecnologia, U
   * Grup B: [Glutathione S-transferase GstA](/QiEP-P1-2025-B)
   * Grup C
   * Grup D
-  * Grup E: [Sucrosa isomerasa](/QiEP-P1-2025-E)
+  * Grup E: [Sucrosa isomerasa](/Proteines/QiEP-P1-2025-E)
   * Grup F
   * Grup G
   * Grup H
