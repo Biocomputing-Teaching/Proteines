@@ -2,6 +2,7 @@
 layout: default
 title: 'Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23'
 author: Jordi Villà-Freixa
+date: 2023
 permalink: /QiEP-P1-2023/
 ---
 <head>
