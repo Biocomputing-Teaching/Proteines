@@ -3,7 +3,6 @@ layout: default
 title: "Relacions estructura-funció: Glicosiltransferasa"
 author: "Marina Garcia Baco i Malena Ortolà Bilbao"
 date: "2025-03-03"
-output: html_document
 permalink: /QiEP-P1-2025-I/
 ---
 
