@@ -103,7 +103,7 @@ MAterial del [curs 2022-2023](/Proteines/QiEP-P1-2023)
 
 ### Treballs realitzats
 
-  * Grup A
+  * Grup A: [Amina oxidasa](/Proteines/QiEP-P1-2025-A)
   * Grup B: [Glutathione S-transferase GstA](/Proteines/QiEP-P1-2025-B)
   * Grup C
   * Grup D
