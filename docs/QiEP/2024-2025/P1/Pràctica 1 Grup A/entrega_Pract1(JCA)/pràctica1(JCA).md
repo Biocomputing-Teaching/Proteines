@@ -30,7 +30,7 @@ permalink: /QiEP-P1-2025-A/
 
 **1. Detecteu les diferents estructures secundàries de la proteïna i determineu-ne el tipus (fulles, hèlix, llaços i les seves diferents variants). Mireu de descriure amb un cert detall els diferents tipus d'interaccions que podeu trobar dins aquestes estructures secundàries (mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries).**
 
-![Captura de la imatge](imatges/chimera_punt1.png)                                                   
+![Captura de la imatge](./imatges/chimera_punt1.1.PNG)                                                   
 **Figura 1:** Imatge pròpia que mostra estrcutures sencundàries
 
 Com podem apreciar en la imatge, l’enzim té diverses estructures secundàries. Les estructures acolorides de color taronja corresponen a estructures hèlix-alfa, i les de color verd corresponen a làmines beta. Entre aquestes, les estructures de color blanc que es mostren corresponen a seqüències d’aminoàcids que les uneixen, però que no presenten una estructura secundària definida.
