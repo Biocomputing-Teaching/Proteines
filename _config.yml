@@ -19,3 +19,4 @@ whitelist:
   - jekyll-mentions
   - jekyll-paginate
   - jekyll-redirect-from
+actions/upload-artifact: v4
