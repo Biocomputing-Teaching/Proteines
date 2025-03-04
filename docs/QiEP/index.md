@@ -113,7 +113,7 @@ MAterial del [curs 2022-2023](/Proteines/QiEP-P1-2023)
   * Grup H
   * Grup I: [Glicosil transferasa](/Proteines/QiEP-P1-2025-I) 
   * Grup J
-  * Grup K
+  * Grup K: [Pectat liasa](/Proteines/QiEP-P1-2025-K)
   * Grup L
 
 
