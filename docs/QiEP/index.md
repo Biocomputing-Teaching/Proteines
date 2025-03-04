@@ -106,7 +106,7 @@ MAterial del [curs 2022-2023](/Proteines/QiEP-P1-2023)
   * Grup A: [Amina oxidasa](/Proteines/QiEP-P1-2025-A)
   * Grup B: [Glutathione S-transferase GstA](/Proteines/QiEP-P1-2025-B)
   * Grup C
-  * Grup D
+  * Grup D: [Fenilalanina amoni liasa](/Proteines/QiEP-P1-2025-D)
   * Grup E: [Sucrosa isomerasa](/Proteines/QiEP-P1-2025-E)
   * Grup F
   * Grup G
