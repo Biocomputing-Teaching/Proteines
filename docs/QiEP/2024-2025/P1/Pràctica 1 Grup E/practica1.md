@@ -61,7 +61,7 @@ Hem diferenciat les següents estructures secundàries en la proteïna:
 - **Llaços:** 7 llaços connectant estructures secundàries i permeten canvis de direcció.
 
 <figure>
-  <img src="./ponts hidrogen.png" alt="Ponts d'hidrogen" width="500">
+  <img src="ponts hidrogen.png" alt="Ponts d'hidrogen" width="500">
   <figcaption>Figura 1: Estructura de la proteïna amb els ponts d'hidrogen marcats.</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ Identifiquem 3158 **Ponts d'hidrogen interns** en total.
 Per una millor visualització, hem assignat colors: vermell per a les hèlixs, blau per a les fulles i verd per als llaços.
 
 <figure>
-  <img src="./visualitzacio.png" alt="Diferenciació estructures" width="500">
+  <img src="visualitzacio.png" alt="Diferenciació estructures" width="500">
   <figcaption>Figura 2: Estructura de la porteïna amb diferenciació de colors segons les estructures.</figcaption>
 </figure>
 
