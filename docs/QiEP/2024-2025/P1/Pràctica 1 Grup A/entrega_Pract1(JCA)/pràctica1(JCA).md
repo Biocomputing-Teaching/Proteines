@@ -54,7 +54,7 @@ Aquests "hairpins", en el mateix moment, es pot apreciar en la imatge com en qua
 
 També, podem apreciar de color blau diferents superestructures secundàries amb conformació helix alfa-loop-helix alfa.
 
-![Captura de la imatge](./imatges/chimera_punt2.3.png)
+![Captura de la imatge](./imatges/chimera_punt2.3.png) 
 **Figura 5:** Imatge pròpia que mostra diferents superestructures
 
 **3. L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquía d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.**
