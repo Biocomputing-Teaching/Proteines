@@ -37,75 +37,75 @@ Com podem apreciar en la imatge, l’enzim té diverses estructures secundàries
 
 La imatge següent ens mostra de color blau els ponts d’hidrogen presents a la proteïna. Hi ha un total de 4386 ponts d’hidrogen presents. Podem distingir que tots els enllaços es donen entres les estructures secundàries, o bé a les hèlix alfa o bé les fulles beta. A més a més, també es veuen involucrades en les estructures supersecundàries que es formen els motius Beta. 
 
-![Captura de la imatge](./imatges/chimera_punt1.1.png)
+![Captura de la imatge](./imatges/chimera_punt1.1.PNG)
 **Figura 2:** Imatge pròpia que mostra els ponts d'hidrogen
 
 **2. Podeu detectar-hi motius d'estructura supersecundària? Mostreu les interaccions (ponts d'hidrogen, van der Waals) entre els diferents elements que constitueixen aquestes estructures supersecundàries.**
 
 Com es pot apreciar en la imatge sí que s’observa diferents motius d’estructura supersecundària, les estructures acolorides de color verd corresponen a fulles beta formant hairpins de manera antiparal·lela una darrera l’altre amb girs de 180 graus. 
 
-![Captura de la imatge](./imatges/chimera_punt2.1.png)
+![Captura de la imatge](./imatges/chimera_punt2.1.PNG)
 **Figura 3:** Imatge pròpia que mostra estrcutures supersecundàries
 
 Aquests "hairpins", en el mateix moment, es pot apreciar en la imatge com en quatre disposicions de l’enzim formen un altre tipus de subestructura, anomenats barrils beta (Els barrils beta són una seria de làmines beta unida per ponts d’hidrogen formant una estructura secundària tancada amb forma de cercle). Cada un d’aquestes forma un domini independent.
 
-![Captura de la imatge](/Proteines/imatges/chimera_punt2.2.png)
+![Captura de la imatge](/Proteines/imatges/chimera_punt2.2.PNG)
 **Figura 4:** Imatge pròpia que mostra els barrils beta
 
 També, podem apreciar de color blau diferents superestructures secundàries amb conformació helix alfa-loop-helix alfa.
 
-![Captura de la imatge](/imatges/chimera_punt2.3.png)
+![Captura de la imatge](/imatges/chimera_punt2.3.PNG)
 **Figura 5:** Imatge pròpia que mostra diferents superestructures
 
 **3. L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquía d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.**
 
-![Captura de la imatge](./imatges/chimera_punt3.1.png)                                              
+![Captura de la imatge](./imatges/chimera_punt3.1.PNG)                                              
 **Figura 6:** Imatge extreta de la base de dades SCOP que detalla el plegament de la familia del plegament
 
 **SCOP ID 4000117:** Al gràfic superior podem veure la jerarquia, mostrant les estructures ancestre d’aquest plegament.  El domini concret de la nostra proteïna no es troba referència a la base de dades SCOP, es troba un homòleg d’un organisme diferent d’Homo sapiens, però amb una funció de monooxidasa igual a la nostra proteïna
 
-![Captura de la imatge](imatges/chimera_punt3.2.png)
+![Captura de la imatge](imatges/chimera_punt3.2.PNG)
 **Figura 7 i 8:** A l'esquerra podem visualitzar la proteïna homòloga que s'ha fet referencia anteriorment extreta de PDB i a la dreta podem veure l'esquema extret de la base de dades SCOP que detallem el domini del nostre organisme
 
 **SCOP ID 8057763:** Pel domini que pertany a l’organisme Thermobidia fusca. A external links mostra que el codi per consultar l'estructura superior de la base de dades PDB és 1w4x. 
 
 La nostra proteïna presenta estructura quaternària, podem veure, cadascuna de les cadenes que la conformen es poden considerar una interacció entre dos dominis tipus l’esmentat anteriorment, ja que consta d’una cadena alfa i una cadena beta, és a dir, dues estructures terciàries que en interaccionar formen la proteïna. 
 
-![Captura de la imatge](./imatges/chimera_punt3.3.png)                                                     
+![Captura de la imatge](./imatges/chimera_punt3.3.PNG)                                                     
 **Figura 9:** Representació de la estructura quaternària de la nostre proteïna, en blanc es veu la cadena beta i en vermell l’alfa.
 
 ## Funció de la proteïna
 
 **1. Identifiqueu el centre actiu de la proteïna. Quins residus són rellevants, a partir de la literatura? L'estructura que heu explorat, inclou algun substrat o inhibidor? Podeu descriure les interaccions que presenten entre ells els residus del centre actiu i, eventualment, d'aquests amb el possible substrat/inhibidor (ponts d'hidrogen, van der Waals, càrregues, etc)?**
 
-![Captura de la imatge](./imatges/chimera_punt4.1.png)                                                    
+![Captura de la imatge](./imatges/chimera_punt4.1.PNG)                                                    
 **Figura 10:** Fragment de l'article 1 que indica les posicions del centre actiu (214-295)
 
-![Captura de la imatge](./imatges/chimera_punt4.2.png)                                             
+![Captura de la imatge](./imatges/chimera_punt4.2.PNG)                                             
 **Figura 11 i 12:** Imatge pròpia on es representa el centre actiu a l'esquerra i a la dreta els residus rellevants
 
 L’enzim està tot de color taronja excepte el centre actiu que es troba pintat de color blanc per així poder-ho apreciar de millor forma. Segons la literatura els resiuds més rellevants són: Thr62, Ser62, Thr63; Glu 281, Glu 281, His 282; Ile378, Thr378, Ile378 (marcats en blau fort), ja que els altres residus són estrictament conservats per tenir conformacions idèntiques. Els substrats o inhibidors que té la nostra molècula són els que es mostren a continuació marcats en verd.
 
-![Captura de la imatge](./imatges/chimera_punt4.3.png)                                                      
+![Captura de la imatge](./imatges/chimera_punt4.3.PNG)                                                      
 **Figura 13:** Imatge pròpia on es poden veure els substrats units a la nostre molècula
 
 D’aquests substrats marcats en verd podem destacar en la següent imatge en aquests podem destacar que tenim 2 cofactors els quals són el FAD (Flavin Adenine Dinucleotide), marcat de color magenta, NAP (NADP⁺ - Nicotinamide Adenine Dinucleotide Phosphate), marcat de color groc. 
 
 A més també trobem un buffer utilitzat en la cristal·lització com és EPE (HEPES - 4-(2-hydroxyethyl)-1-piperazine ethanesulfonic àcid), marcat de color blau claret, un possible substrat com és GLC (Glucose - α-D-Glucopyranose), marcat de color rosa i per últim un detergent també fet servir en la cristal·lització com és el LMT (Dodecyl-β-D-Maltoside), marcat de color verd fosc.
 
-![Captura de la imatge](./imatges/chimera_punt4.4.png)
+![Captura de la imatge](./imatges/chimera_punt4.4.PNG)
 **Taula 1 i Figura 14:** Taula on podem veure els substrats que interaccionen i figura on es mostre aquesta interacció
 
 Les interaccions realitzades pels substrats amb la nostra proteïna són ponts d’hidrogen i forces de Van der Waals.
 
-![Captura de la imatge](./imatges/chimera_punt4.5.png)
+![Captura de la imatge](./imatges/chimera_punt4.5.PNG)
 **Figura 15 i 16:** Imatge pròpia on a l'esquerra veiem els ponts d'hidrogen de color blau i a la dreta les forces de Van der Waals de color verd.
 
 **2. Cerqueu informació sobre la funció fa aquesta proteïna? Podeu mostrar el mecanisme detallat que segueix si es tracta d'un enzim? (mireu la figura 6.5.1 d'aquest enllaç per entendre a què ens referim amb el mecanisme de reacció d'un enzim)?**
 
 La nostra proteïna pertany a la família de les monooxigenases que contenen flavina, que són enzims dependents de NADPH (i els seus derivats com NADH) que catalitzen l'oxidació de centres heteroatòmics nucleòfils en fàrmacs, pesticides i altres compostos xenobiòtics. Com hem comentat breument a la introducció, la FMO5 presenta una activitat com a Baeyer-Villiger monooxigenasa, que implica la inserció d'un àtom d'oxigen en un enllaç carboni-carboni adjacent a un grup carbonil, convertint cetones en èsters.
 
-![Captura de la imatge](./imatges/chimera_punt5.1.png)                                                 
+![Captura de la imatge](./imatges/chimera_punt5.1.PNG)                                                 
 **Figura 17:** Imatge extreta de l'article 1 on podem veure la reacció de l'enzim. 
 
 El mecanisme catalític implica la reducció del cofactor FAD per NADPH, seguida de la formació d'un intermediari hidroperòxid que oxida el substrat. Aquest mecanisme és eficient i no requereix la unió prèvia del substrat per activar l'oxigen, a diferència d'altres monooxigenases.
