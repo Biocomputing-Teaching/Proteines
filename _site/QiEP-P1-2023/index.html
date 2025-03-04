@@ -1,0 +1,222 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Pràctica 1; Química i Enginyeria de Proteïnes, UVic-UCC 22-23</title>
+<script src="https://cdn.jsdelivr.net/npm/babel-polyfill/dist/polyfill.min.js"></script>
+    <!-- Web component polyfill (only loads what it needs) -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-lite.js" charset="utf-8"></script>
+    <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="https://www.ebi.ac.uk/pdbe/pdb-component-library/css/pdbe-molstar-1.2.1.css" />
+<script type="text/javascript" src="https://www.ebi.ac.uk/pdbe/pdb-component-library/js/pdbe-molstar-component-1.2.1.js"></script>
+<style>
+        #myViewer{
+          float:none;
+          width:400px;
+          height:400px;
+          position:relative;
+        }
+    </style>
+  </head>
+
+<h1>QiEP: Pràctica 1. Proteïnes que digereixen proteïnes</h1>
+
+<!-- toc -->
+
+<!-- tocstop -->
+
+<p>L’exercici consisteix a explorar l’estructura de sis proteïnes, una per a cada grup de la classe, de les quals ens donen les seqüències:</p>
+
+<pre><code class="language-fasta">&gt;A
+MDFSRNLYDIGEQLDSEDLASLKFLSLDYIPQRKQEPIKDALMLFQRLQEKRMLEESNLSFLKELLFRINRLDLLITYLNTRKEEMERELQTPGRAQISAYRVMLYQISEEVSRSELRSFKFLLQEEISKCKLDDDMNLLDIFIEMEKRVILGEGKLDILKRVCAQINKSLLKIINDYEEFSKERSSSLEGSPDEFSNGEELCGVMTISDSPREQDSESQTLDKVYQMKSKPRGYCLIINNHNFAKAREKVPKLHSIRDRNGTHLDAGALTTTFEELHFEIKPHDDCTVEQIYEILKIYQLMDHSNMDCFICCILSHGDKGIIYGTDGQEAPIYELTSQFTGLKCPSLAGKPKVFFIQACQGDNYQKGIPVETDSEEQPYLEMDLSSPQTRYIPDEADFLLGMATVNNCVSYRNPAEGTWYIQSLCQSLRERCPRGDDILTILTEVNYEVSNKDDKKNMGKQMPQPTFTLRKKLVFPSD
+&gt;B
+MSDMEKPWKEEEKREVLAGHARRQAPQAVDKGPVTGDQRISVTVVLRRQRGDELEAHVERQAALAPHARVHLEREAFAASHGASLDDFAEIRKFAEAHGLTLDRAHVAAGTAVLSGPVDAVNQAFGVELRHFDHPDGSYRSYVGDVRVPASIAPLIEAVLGLDTRPVARPHFRLRRRAEGEFEARSQSAAPTAYTPLDVAQAYQFPEGLDGQGQCIAIIELGGGYDETSLAQYFASLGVSAPQVVSVSVDGATNQPTGDPNGPDGEVELDIEVAGALAPGAKIAVYFAPNTDAGFLNAITTAVHDPTHKPSIVSISWGGPEDSWAPASIAAMNRAFLDAAALGVTVLAAAGDSGSTDGEQDGLYHVDFPAASPYVLACGGTRLVASAGRIERETVWNDGPDGGSTGGGVSRIFPLPSWQERANVPPSANPGAGSGRGVPDVAGNADPATGYEVVIDGETTVIGGTAAVAPLFAALVARINQKLGKPVGYLNPTLYQLPPEVFHDITEGNNDIANRARIYQAGPGWDPCTGLGSPIGIRLLQALLPSASQAQP
+&gt;C
+MLGITVLAALLACASSCGVPSFPPNLSARVVGGEDARPHSWPWQISLQYLKNDTWRHTCGGTLIASNFVLTAAHCISNTRTYRVAVGKNNLEVEDEEGSLFVGVDTIHVHKRWNALLLRNDIALIKLAEHVELSDTIQVACLPEKDSLLPKDYPCYVTGWGRLWTNGPIADKLQQGLQPVVDHATCSRIDWWGFRVKKTMVCAGGDGVISACNGDSGGPLNCQLENGSWEVFGIVSFGSRRGCNTRKKPVVYTRVSAYIDWINEKMQL
+&gt;D
+MAQALPWLLLWMGAGVLPAHGTQHGIRLPLRSGLGGAPLGLRLPRETDEEPEEPGRRGSFVEMVDNLRGKSGQGYYVEMTVGSPPQTLNILVDTGSSNFAVGAAPHPFLHRYYQRQLSSTYRDLRKGVYVPYTQGKWEGELGTDLVSIPHGPNVTVRANIAAITESDKFFINGSNWEGILGLAYAEIARPDDSLEPFFDSLVKQTHVPNLFSLQLCGAGFPLNQSEVLASVGGSMIIGGIDHSLYTGSLWYTPIRREWYYEVIIVRVEINGQDLKMDCKEYNYDKSIVDSGTTNLRLPKKVFEAAVKSIKAASSTEKFPDGFWLGEQLVCWQAGTTPWNIFPVISLYLMGEVTNQSFRITILPQQYLRPVEDVATSQDDCYKFAISQSSTGTVMGAVIMEGFYVVFDRARKRIGFAVSACHVHDEFRTAAVEGPFVTLDMEDCGYNIPQTDESTLMTIAYVMAAICALFMLPLCLMVCQWRCLRCLRQQHDDFADDISLLK
+&gt;E
+MTMEKGMSSGEGLPSRSSQVSAGKITAKELETKQSYKEKRGGFVLVHAGAGYHSESKAKEYKHVCKRACQKAIEKLQAGALATDAVTAALVELEDSPFTNAGMGSNLNLLGEIECDASIMDGKSLNFGAVGALSGIKNPVSVANRLLCEGQKGKLSAGRIPPCFLVGEGAYRWAVDHGIPSCPPNIMTTRFSLAAFKRNKRKLELAERVDTDFMQLKKRRQSSEKENDSGTLDTVGAVVVDHEGNVAAAVSSGGLALKHPGRVGQAALYGCGCWAENTGAHNPYSTAVSTSGCGEHLVRTILARECSHALQAEDAHQALLETMQNKFISSPFLASEDGVLGGVIVLRSCRCSAEPDSSQNKQTLLVEFLWSHTTESMCVGYMSAQDGKAKTHISRLPPGAVAGQSVAIEGGVCRLESPVN
+&gt;F
+MRGLLVLSVLLGAVFGKEDFVGHQVLRISVADEAQVQKVKELEDLEHLQLDFWRGPAHPGSPIDVRVPFPSIQAVKIFLESHGISYETMIEDVQSLLDEEQEQMFAFRSRARSTDTFNYATYHTLEEIYDFLDLLVAENPHLVSKIQIGNTYEGRPIYVLKFSTGGSKRPAIWIDTGIHSREWVTQASGVWFAKKITQDYGQDAAFTAILDTLDIFLEIVTNPDGFAFTHSTNRMWRKTRSHTAGSLCIGVDPNRNWDAGFGLSGASSNPCSETYHGKFANSEVEVKSIVDFVKDHGNIKAFISIHSYSQLLMYPYGYKTEPVPDQDELDQLSKAAVTALASLYGTKFNYGSIIKAIYQASGSTIDWTYSQGIKYSFTFELRDTGRYGFLLPASQIIPTAKETWLALLTIMEHTLNHPY
+</code></pre>
+
+<p>Usarem eines com:</p>
+
+<ol>
+  <li><a href="https://www.cgl.ucsf.edu/chimera/">Chimera</a> per a la visualització de proteïnes.</li>
+  <li><a href="https://www.uniprot.org/">UNIPROT</a> per a obtenir informació sobre una proteïna determinada.</li>
+  <li><a href="https://www.rcsb.org/">PDB</a> per a obtenir l’estructura tridimensional d’una proteïna.</li>
+  <li><a href="https://www.brenda-enzymes.org">BRENDA</a>. En tant que enzims, explorarem la seva funció i la seva classificació.</li>
+</ol>
+
+<p>El primer que farem serà identificar quines són aquestes seqüències usant el programa <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastp&amp;PAGE_TYPE=BlastSearch&amp;LINK_LOC=blasthome">BLAST a NCBI</a> per a buscar les proteïnes per a les quals codifiquen (tinguem cura d’especificar que volem executar BLAST “contra” la base de dades Uniprot en el desplegable corresponent). Per exemple, en el cas de la proteîna del grup <code class="language-plaintext highlighter-rouge">A</code> obtenim un resultat a BLAST com el de la figura següent (mostrem només els 5 millors resultats):
+<img src="figures/ncbi_caspase8_blast.png" alt="blast per a la proteïna A" /></p>
+
+<p>Accedint al codi d’accés <code class="language-plaintext highlighter-rouge">Q14790.1</code>de la drerta de la primera línea trobem que es tracta de la caspasa-8 humana, amb codi d’accés <a href="https://www.uniprot.org/uniprotkb/Q14790/entry">UNIPROT <code class="language-plaintext highlighter-rouge">Q14790</code></a>.
+<img src="figures/ncbi_caspase8.png" alt="entrada per a la Caspasa 8" /></p>
+
+<p>A la pròpia entrada UNIPROT hi trobem l’enllaç a BRENDA i el codi EC de l’enzim.</p>
+
+<p>Així, identifiquem:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grup: proteïna</th>
+      <th>Codi UNIPROT</th>
+      <th>Codi BRENDA/ENZYME</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A: Caspasa-8</td>
+      <td><a href="https://www.uniprot.org/uniprotkb/Q14790/entry">Q14790</a></td>
+      <td><a href="https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.22.61&amp;UniProtAcc=Q14790&amp;OrganismID=2681">EC 3.4.22.61</a></td>
+    </tr>
+    <tr>
+      <td>B: Kumamolisina</td>
+      <td><a href="https://www.uniprot.org/uniprotkb/Q8RR56/entry">Q8RR56</a></td>
+      <td><a href="https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.21.B48">EC 3.4.21.B48</a> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></td>
+    </tr>
+    <tr>
+      <td>C: Quimotripsina-C</td>
+      <td><a href="https://www.uniprot.org/uniprotkb/Q99895/entry">Q99895</a></td>
+      <td><a href="https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.21.2&amp;UniProtAcc=Q99895&amp;OrganismID=2681">EC 3.4.21.2</a></td>
+    </tr>
+    <tr>
+      <td>D: BACE1</td>
+      <td><a href="https://www.uniprot.org/uniprotkb/P56817/entry">P56817</a></td>
+      <td><a href="https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.23.46&amp;UniProtAcc=P56817&amp;OrganismID=2681">EC 3.4.23.46</a></td>
+    </tr>
+    <tr>
+      <td>E: Taspasa 1</td>
+      <td><a href="https://www.uniprot.org/uniprotkb/Q9H6P5/entry">Q9H6P5</a></td>
+      <td><a href="https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.25.1">EC 3.4.25.1</a> <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></td>
+    </tr>
+    <tr>
+      <td>F: Carboxipeptidasa A1</td>
+      <td><a href="https://www.uniprot.org/uniprotkb/P15085/entry">P15085</a></td>
+      <td><a href="https://www.brenda-enzymes.org/enzyme.php?ecno=3.4.17.1&amp;UniProtAcc=P15085&amp;OrganismID=2681">EC 3.4.17.1</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>El més fàcil és accedir a la informació estructural directament des de la pàgina d’UNIPROT (secció <code class="language-plaintext highlighter-rouge">Structure</code>) sempre que estigui disponible (en general el més comú és no trobar estructures resoltes d’una proteïna al PDB i aleshores podem fer ús de la predicció que ens dona Alphafold2 accessible directament des de la pàgina d’UNIPROT). Fent-ho i escollint els PDB amb millor resolució i major cobertura, obtenim aquesta nova taula:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grup: proteïna [UNIPROT]</th>
+      <th>Funció <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup></th>
+      <th>Codi PDB i cadena</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A: Caspasa-8  [Q14790]</td>
+      <td><strong>Cisteina proteasa</strong> que juga un paper clau en la mort cel·lular programada actuant com a interruptor molecular per a l’apoptosi, la necroptosi i la piroptosi, i és necessària per prevenir danys en el teixit durant el desenvolupament embrionari i la vida adulta.</td>
+      <td><a href="https://www.rcsb.org/structure/1QTN">1QTN</a>_A</td>
+    </tr>
+    <tr>
+      <td>B: Kumamolisina [Q8RR56]</td>
+      <td><strong>Serina proteasa, sedolisina</strong> hidrolitza preferentment pèptids que tenen un residu Ala o Pro a la posició P2 i prefereix residus d’aminoàcids carregats com Glu o Arg a la posició P2’.<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></td>
+      <td><a href="https://www.rcsb.org/structure/1T1E">1T1E</a>_A</td>
+    </tr>
+    <tr>
+      <td>C: Quimotripsina-C [Q99895]</td>
+      <td><strong>Serina proteasa</strong>, Regula l’activació i la degradació de tripsinògens i procarboxipeptidases dirigint-se a llocs de tall específics dins dels seus zimogens. Té activitat proteasa de tipus quimotripsina i activitat hipocalcèmica.</td>
+      <td><a href="https://www.rcsb.org/structure/4H4F">4H4F</a>_A</td>
+    </tr>
+    <tr>
+      <td>D: BACE1   [P56817]</td>
+      <td><strong>Aspartat proteasa</strong> Responsable del processament proteolític de la proteïna precursora de l’amiloide (APP). L’escissió a l’extrem N de la seqüència de pèptids A-beta, entre els residus 671 i 672 de l’APP, condueix a la generació i l’alliberament extracel·lular d’APP soluble escindida en beta, i un fragment C-terminal associat a la cèl·lula corresponent que s’allibera més tard. per gamma-secretasa</td>
+      <td><a href="https://www.rcsb.org/structure/1TQF">1TQF</a>_A</td>
+    </tr>
+    <tr>
+      <td>E: Taspasa 1  [Q9H6P5]</td>
+      <td><strong>Treonina proteasa</strong>, responsable del processament i activació de KMT2A/MLL1. També activa KMT2D/MLL2 (Per similitud). Mitjançant l’activació del substrat, controla l’expressió dels gens HOXA i l’expressió de reguladors clau del cicle cel·lular, inclosos CCNA1, CCNB1, CCNE1 i CDKN2A (Per similitud)</td>
+      <td><a href="https://www.rcsb.org/structure/2A8J">2A8J</a>_A</td>
+    </tr>
+    <tr>
+      <td>F: Carboxipeptidasa A1 [P15085]</td>
+      <td><strong>Metaloproteasa</strong> Carboxipeptidasa que catalitza l’alliberament d’un aminoàcid C-terminal, però té poca o cap acció amb -Asp, -Glu, -Arg, -Lys o -Pro</td>
+      <td><a href="https://www.rcsb.org/structure/5OM9">5OM9</a>_A</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Grup: proteïna [UNIPROT]</th>
+      <th>Codi PDB i cadena / Domini</th>
+      <th>Visualització</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A: Caspasa-8  [Q14790] </td>
+      <td><a href="https://www.rcsb.org/structure/1QTN" target="_blank">1QTN_A</a><br /> <a href="https://scop.berkeley.edu/sunid=30999" target="_blank">SCOPe</a></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1qtn" hide-controls="true"></pdbe-molstar></div> 
+      </td>
+    </tr>
+    <tr>
+      <td>B: Kumamolisina [Q8RR56]</td>
+      <td><a href="https://www.rcsb.org/structure/1T1E" target="_blank">1T1E_A</a><br /> <a href="https://scop.berkeley.edu/sunid=106244" target="_blank">SCOPe</a></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1t1e" hide-controls="true"></pdbe-molstar></div> 
+      </td>
+    </tr>
+    <tr>
+      <td>C: Quimotripsina-C [Q99895]</td>
+      <td><a href="https://www.rcsb.org/structure/4H4F" target="_blank">4H4F_A</a><br /> <a href="https://scop.berkeley.edu/sunid=26067" target="_blank">SCOPe</a></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="4h4f" hide-controls="true"></pdbe-molstar></div> 
+      </td>
+    </tr>
+    <tr>
+      <td>D: BACE1   [P56817]</td>
+      <td><a href="https://www.rcsb.org/structure/1TQF" target="_blank">1TQF_A</a><br /> <a href="https://scop.berkeley.edu/sunid=112613" target="_blank">SCOPe</a></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="1tqf" hide-controls="true"></pdbe-molstar></div> 
+      </td>
+    </tr>
+    <tr>
+      <td>E: Taspasa 1  [Q9H6P5]</td>
+      <td><a href="https://www.rcsb.org/structure/2A8J" target="_blank">2A8J_A</a><br /> <a href="https://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPfamStr.pl?pfam_id=PF01112" target="_blank">PFAM</a></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="2a8j" hide-controls="true"></pdbe-molstar></div> 
+      </td>
+    </tr>
+    <tr>
+      <td>F: Carboxipeptidasa A1 [P15085]</td>
+      <td><a href="https://www.rcsb.org/structure/5OM9" target="_blank">5OM9_A</a><br /> <a href="http://scop.mrc-lmb.cam.ac.uk/term/3000662" target="_blank">SCOP</a></td>
+      <td>   
+        <div id="myViewer"><pdbe-molstar id="pdbeMolstarComponent" molecule-id="5om9" hide-controls="true"></pdbe-molstar></div> 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Veure intro a estructures supersecundàries <a href="./supersec.pdf">aquí</a>.</p>
+
+<p>© <a href="https://mon.uvic.cat/cbbl/members/">Jordi Villà Freixa</a>, <a href="https://mon.uvic.cat/fcte/">Facultat de Ciències, Tecnologia i Enginyeries</a>, <a href="https://www.uvic.cat/">Universitat de Vic - Universitat Central de Catalunya</a>, 2023</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Cal notar que en aquest cas l’entrada UNIPROT no enllaça a BRENDA, però si entrem a BRENDA i cerquem directament el nom de la proteïna obtenim un <em>preliminary BRENDA supplied EC number</em> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>En aquest cas, en accedir a ENZYME des de la pàgina d’UNIPROT, obtenim <a href="https://enzyme.expasy.org/EC/3.4.25.-">dues opcions de codi</a>, i hem agafat el primer. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Si no s’especifica el contrari, la informació està extreta de la fitxa UNIPROT <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>Informació obtinguda de la fitxa a BRENDA. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>

@@ -1,0 +1,261 @@
+<h1 id="pràctica-1">PRÀCTICA 1</h1>
+<h2 id="relacions-estructura-funció-de-proteïnes">Relacions estructura-funció de proteïnes</h2>
+<h3 id="queralt-datzira-elsa-gutiérrez-i-ariadna-parisi">Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi</h3>
+
+<ul>
+  <li><a href="#pràctica-1">PRÀCTICA 1</a>
+    <ul>
+      <li><a href="#relacions-estructura-funció-de-proteïnes">Relacions estructura-funció de proteïnes</a>
+        <ul>
+          <li><a href="#queralt-datzira-elsa-gutiérrez-i-ariadna-parisi">Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#informació-sobre-la-proteïna">Informació sobre la proteïna</a></li>
+  <li><a href="#estructura-de-la-proteïna">Estructura de la proteïna</a>
+    <ul>
+      <li><a href="#treball-amb-chimerax">Treball amb ChimeraX</a>
+        <ul>
+          <li><a href="#tipus-destructures-secundàries-detectades">Tipus d’estructures secundàries detectades</a></li>
+        </ul>
+      </li>
+      <li><a href="#motius-de-lestructura-supersecundària">Motius de l’estructura supersecundària</a></li>
+      <li><a href="#estructura-terciària-i-classificació-scop">Estructura terciària i classificació SCOP</a></li>
+    </ul>
+  </li>
+  <li><a href="#funció-de-la-proteïna">Funció de la proteïna</a>
+    <ul>
+      <li><a href="#localització-del-centre-actiu">Localització del centre actiu</a>
+        <ul>
+          <li><a href="#residus-rellevants">Residus rellevants</a></li>
+          <li><a href="#substrats-i-inhibidors">Substrats i inhibidors</a></li>
+          <li><a href="#interaccions-entre-residus-del-centre-actiu-i-substratinhibidor">Interaccions entre residus del centre actiu i substrat/inhibidor</a>
+            <ul>
+              <li><a href="#ponts-salins">Ponts salins</a></li>
+              <li><a href="#ponts-dhidrogen">Ponts d’hidrogen</a></li>
+              <li><a href="#interaccions-aromàtiques">Interaccions aromàtiques</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#funció-de-la-proteïna-i-mecanisme-de-reacció">Funció de la proteïna i mecanisme de reacció</a></li>
+      <li><a href="#relació-seqüència-estructura-funció">Relació seqüència-estructura-funció</a>
+        <ul>
+          <li><a href="#residus-clau-per-a-la-funció">Residus clau per a la funció</a></li>
+          <li><a href="#variants-de-la-proteïna-i-efectes-funcionals">Variants de la proteïna i efectes funcionals</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="informació-sobre-la-proteïna">Informació sobre la proteïna</h1>
+<p>La proteïna estudiada és <strong>l’enzim isomerasa de sacarosa</strong>, més concretament el gen <strong>mutB</strong> d’aquest enzim.
+El codi Uniprot d’aquest enzim: <a href="https://www.uniprot.org/uniprotkb/M1E1F7/entry"><strong>M1E1F7</strong></a> i al tractar-se d’un enzim torbem també codi Brenda: <a href="https://www.brenda-enzymes.org/enzyme.php?ecno=5.4.99.11"><strong>EC.5.4.99.11</strong></a>.
+El codi PDB: <a href="https://www.rcsb.org/structure/4H2C"><strong>4H2C</strong></a>, ens determina que només hi ha una estructura a 1,70Å vàlida.</p>
+
+<p>La seqüència de la proteïna és:</p>
+
+<pre><code class="language-fasta">&gt;4H2C_1|Chain A|Sucrose isomerase|Rhizobium (1071045)
+KPGAPWWKSAVFYQVYPRSFKDTNGDGIGDFKGLTEKLDYLKGLGIDAIWINPHYASPNTDNGYDISDYREVMKEYGTMEDFDRLMAELKKRGMRLMVDVVINHSSDQHEWFKSSRASKDNPYRDYYFWRDGKDGHEPNNYPSFFGGSAWEKDPVTGQYYLHYFGRQQPDLNWDTPKLREELYAMLRFWLDKGVSGMRFDTVATYSKTPGFPDLTPEQMKNFAEAYTQGPNLHRYLQEMHEKVFDHYDAVTAGEIFGAPLNQVPLFIDSRRKELDMAFTFDLICYDRALDRWHTIPRTLADFRQTIDKVDAIAGEYGWNTFFLGNHDNPRAVSHFGDDRPQWREASAKALATVTLTQRGTPFIFQGDELGMTNYPFKTLQDFDDIEVKGFFQDYVETGKATAEELLTNVALTSRDNARTPFQWDDSANAGFTTGKPWLKVNPNYTEINAAREIGDPKSVYSFYRNLISIRHETPALSTGSYRDIDPSNADVYAYTRSQDGETYLVVVNFKAEPRSFTLPDGMHIAETLIESSSPAAPAAGAASLELQPWQSGIYKVK
+</code></pre>
+
+<h1 id="estructura-de-la-proteïna">Estructura de la proteïna</h1>
+<h2 id="treball-amb-chimerax">Treball amb ChimeraX</h2>
+<h3 id="tipus-destructures-secundàries-detectades">Tipus d’estructures secundàries detectades</h3>
+<p>Hem diferenciat les següents estructures secundàries en la proteïna:</p>
+
+<ul>
+  <li><strong>Hèlix alfa</strong>:
+    <ul>
+      <li><strong>Hèlix 3₁₀:</strong> Més compacta, amb 3 residus per volta i ponts d’hidrogen entre residus separats per 3 posicions.</li>
+      <li><strong>Hèlix α:</strong> La més comuna, amb 3.6 residus per volta estabilitzada per ponts d’hidrogen entre el C=O d’un residu i el N-H del residu situat 4 posicions més endavant.</li>
+    </ul>
+  </li>
+  <li><strong>Fulles beta:</strong>
+    <ul>
+      <li><strong>Tipus 0:</strong> Cadenes perfectament alineades sense desplaçament.</li>
+      <li><strong>Tipus 1:</strong> Desplaçament d’un residu entre les cadenes.</li>
+      <li><strong>Tipus -1:</strong> Desplaçament en direcció oposada.</li>
+    </ul>
+  </li>
+  <li><strong>Llaços:</strong> 7 llaços connectant estructures secundàries i permeten canvis de direcció.</li>
+</ul>
+
+<figure>
+  <img src="./ponts hidrogen.png" alt="Ponts d'hidrogen" width="500" />
+  <figcaption>Figura 1: Estructura de la proteïna amb els ponts d'hidrogen marcats.</figcaption>
+</figure>
+
+<p>Identifiquem 3158 <strong>Ponts d’hidrogen interns</strong> en total.</p>
+<ul>
+  <li>Que formen part d’<strong>Hèlix alfa:</strong> 838</li>
+  <li>Que formen part de <strong>Fulles beta:</strong> 273</li>
+  <li>I la resta, formen part d’ <strong>Altres interaccions:</strong> 2047 (llaços, aigua, subunitats, etc.)</li>
+</ul>
+
+<p>Per una millor visualització, hem assignat colors: vermell per a les hèlixs, blau per a les fulles i verd per als llaços.</p>
+
+<figure>
+  <img src="./visualitzacio.png" alt="Diferenciació estructures" width="500" />
+  <figcaption>Figura 2: Estructura de la porteïna amb diferenciació de colors segons les estructures.</figcaption>
+</figure>
+
+<h2 id="motius-de-lestructura-supersecundària">Motius de l’estructura supersecundària</h2>
+<p>El motiu detectat és <strong>helix-turn-helix</strong>, freqüent en factors de transcripció.</p>
+
+<figure>
+  <img src="./supersecundaria.png" alt="Motiu helix-turn-helix" width="500" />
+  <figcaption>Figura 3: Visualització d'un motiu helix-turn-helix a l'estructura de la proteïna.</figcaption>
+</figure>
+
+<figure>
+  <img src="./ph_supersecundaria.png" alt="Motiu helix-turn-helix amb ponts d'hidrogen" width="500" />
+  <figcaption>Figura 4: Motiu helix-turn-helix amb les interaccions ponts d'hidrogen marcats.</figcaption>
+</figure>
+
+<p>Aquest motiu <strong>beta-loop</strong> és comú en estructures beta i permet la connexió entre dues làmines beta antiparal·leles mitjançant un gir.</p>
+
+<figure>
+  <img src="./betta_supersecundaria.png" alt="Motiu helix-turn-helix amb ponts d'hidrogen" width="500" />
+  <figcaption>Figura 5: Visualització d'un motiu beta-loop a l'estructura de la proteïna.</figcaption>
+</figure>
+
+<figure>
+  <img src="./ph_betta_supersecundaria.png" alt="Motiu helix-turn-helix amb ponts d'hidrogen" width="500" />
+  <figcaption>Figura 6: Motiu beta-loop amb les interaccions ponts d'hidrogen marcats.</figcaption>
+</figure>
+
+<p>Trobem <strong>Interaccions estabilitzadores</strong> com:</p>
+<ul>
+  <li><strong>Ponts d’hidrogen</strong> , els observem a través de les línies blaves discontínues i estabilitzen aquestes estructures.</li>
+  <li><strong>Interaccions van der Waals</strong> entre diferents elements estructurals.</li>
+</ul>
+
+<h2 id="estructura-terciària-i-classificació-scop">Estructura terciària i classificació SCOP</h2>
+<p>L’estructura terciària es caracteritza per un <strong>plegament globular</strong> amb una disposició de <strong>barrel α/β</strong>, típic de les <strong>isomerases de sucrosa</strong>.</p>
+
+<ul>
+  <li><strong>Codi SCOP:</strong> <code class="language-plaintext highlighter-rouge">a.118.1.2</code></li>
+  <li><strong>Jerarquia SCOP:</strong>
+    <ul>
+      <li><strong>Classe:</strong> Proteïnes α/β</li>
+      <li><strong>Plegament:</strong> Barrel α/β tancat</li>
+      <li><strong>Superfamília:</strong> Barrel tipus isomerasa</li>
+      <li><strong>Família:</strong> Barrel tipus isomerasa</li>
+      <li><strong>Proteïna:</strong> Sucrose isomerase</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Aquesta proteïna <strong>no té una estructura quaternària</strong>, ja que es presenta com una <strong>proteïna monomèrica</strong> i no forma complexos amb altres cadenes polipeptídiques.</p>
+
+<h1 id="funció-de-la-proteïna">Funció de la proteïna</h1>
+<h2 id="localització-del-centre-actiu">Localització del centre actiu</h2>
+<p>El centre actiu de la proteïna es localitza al <strong>domini A</strong> i té forma de <strong>butxaca</strong>.</p>
+
+<figure>
+  <img src="./centre actiu.png" alt="Centre actiu" width="500" />
+  <figcaption>Figura 7: Centre actiu de l'enzim localitzat al domini A.</figcaption>
+</figure>
+
+<h3 id="residus-rellevants">Residus rellevants</h3>
+<ul>
+  <li><strong>Un residu nucleòfil</strong></li>
+  <li><strong>El residu que actua com a àcid/base general</strong>: Glu254</li>
+</ul>
+
+<figure>
+  <img src="./residu.png" alt="Residu àcid/base" width="500" />
+  <figcaption>Figura 8: Residu àcid/base de la cadena A de l'enzim isomerasa de sacarosa identificat com Glu254.</figcaption>
+</figure>
+
+<ul>
+  <li><strong>El residu que estabilitza l’estat de transició</strong>: Asp327 <em>(No localitzable per la cristal·lografia de raigs X)</em></li>
+</ul>
+
+<h3 id="substrats-i-inhibidors">Substrats i inhibidors</h3>
+<ul>
+  <li><strong>Substrat</strong>: La <strong>sacarosa</strong>, que es transforma per una reacció d’isomerització a <strong>isomaltulosa</strong> i <strong>trehalulosa</strong>.</li>
+  <li><strong>Inhibidors</strong>:
+    <ul>
+      <li><strong>Glucosa</strong>: Quan està unida al centre actiu, impedeix la unió del substrat i bloqueja la reacció.</li>
+      <li><strong>Deoxynojirimycin</strong>: Mencionat com a possible inhibidor, però sense activitat inhibidora demostrada.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="interaccions-entre-residus-del-centre-actiu-i-substratinhibidor">Interaccions entre residus del centre actiu i substrat/inhibidor</h3>
+<h5 id="ponts-salins">Ponts salins</h5>
+<ul>
+  <li><strong>Arg414 - Asp61</strong></li>
+  <li><strong>Arg414 - Asp384</strong></li>
+  <li>Aquestes interaccions ajuden a mantenir la forma de butxaca funcional.</li>
+</ul>
+
+<h5 id="ponts-dhidrogen">Ponts d’hidrogen</h5>
+<ul>
+  <li><strong>Wat4101</strong> (<em>molècula d’aigua catalítica</em>) forma enllaços d’hidrogen amb:
+    <ul>
+      <li>Asn325</li>
+      <li>Asp327</li>
+      <li>Glu254</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="interaccions-aromàtiques">Interaccions aromàtiques</h5>
+<ul>
+  <li><strong>Phe164 i Phe280</strong> estableixen interaccions aromàtiques amb la glucosa.</li>
+</ul>
+
+<h2 id="funció-de-la-proteïna-i-mecanisme-de-reacció">Funció de la proteïna i mecanisme de reacció</h2>
+<p>L’<strong>isomerasa de sacarosa</strong> catalitza la conversió de <strong>sacarosa</strong> en <strong>isomaltulosa</strong> i <strong>trehalulosa</strong> per mitjà d’una <strong>isomerització</strong>, sense trencar la molècula. També pot hidrolitzar la sacarosa en monosacàrids.</p>
+
+<figure>
+  <img src="./variants.png" alt="Funcionalitat variants" width="500" />
+  <figcaption>
+    Figura Figura 9: Mecanisme de reacció de l'enzim
+    <p><a href="https://journals.iucr.org/paper?S0907444912045532">Acta Crystallographica</a></p>
+  </figcaption>
+</figure>
+
+<h2 id="relació-seqüència-estructura-funció">Relació seqüència-estructura-funció</h2>
+
+<ul>
+  <li><strong>Centre actiu en forma de butxaca</strong>: Impedeix l’entrada d’aigua i afavoreix la reacció d’isomerització.</li>
+  <li><strong>Interaccions estabilitzadores</strong>:
+    <ul>
+      <li>Ponts salins <strong>(Arg414 - Asp61 - Asp384)</strong> mantenen la forma de la butxaca.</li>
+      <li><strong>Residus aromàtics (Phe164, Phe280)</strong> controlen la interacció amb el substrat.</li>
+      <li><strong>Asp327 i Glu254</strong> són essencials per a la funció catalítica.</li>
+      <li><strong>Residus conservats (Asp61, Phe145, Phe164, Gln168, Arg414)</strong> contribueixen al reconeixement del substrat i estabilització del complex.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="residus-clau-per-a-la-funció">Residus clau per a la funció</h3>
+<ul>
+  <li><strong>Asp327 i Glu254</strong>: Participen en la catàlisi mitjançant ponts d’hidrogen.</li>
+  <li><strong>Phe164 i Phe280</strong>: Regulen l’accés del substrat.</li>
+  <li><strong>Arg414, Asp61 i Asp384</strong>: Formen ponts salins per estabilitzar la conformació.</li>
+</ul>
+
+<h3 id="variants-de-la-proteïna-i-efectes-funcionals">Variants de la proteïna i efectes funcionals</h3>
+<p>S’han identificat mutacions en:</p>
+<ul>
+  <li><strong>R284C i F164L</strong>: Afecten el centre actiu, obrint la butxaca i permetent l’entrada d’aigua.
+    <ul>
+      <li>Això redueix la capacitat d’isomerització i afavoreix la hidròlisi de la sacarosa en glucosa i fructosa.</li>
+    </ul>
+  </li>
+</ul>
+
+<figure>
+  <img src="./variants.png" alt="Funcionalitat variants" width="500" />
+  <figcaption>
+    Figura 10: Funcionalitat de les variants de l'enzim
+    <p><a href="https://journals.iucr.org/paper?S0907444912045532">Acta Crystallographica</a></p>
+  </figcaption>
+</figure>

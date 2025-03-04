@@ -1,0 +1,1121 @@
+<h1> Anàlixi de les relacions structura-funció de la proteïna fenilalanina/tirosina amoníolasa (PAL) </h1>
+
+<ul>
+  <li><a href="#introducció">Introducció</a></li>
+  <li><a href="#sobre-la-proteïna">Sobre la proteïna</a>
+    <ul>
+      <li><a href="#cerca-de-la-seqüència-a-uniprot">Cerca de la seqüència a UNIPROT</a></li>
+      <li><a href="#estructura-de-la-proteïna-pdb-o-alphafold2">Estructura de la proteïna (PDB o AlphaFold2)</a></li>
+      <li><a href="#funció-de-la-proteïna">Funció de la proteïna</a></li>
+    </ul>
+  </li>
+  <li><a href="#treball-amb-chimerax">Treball amb ChimeraX</a>
+    <ul>
+      <li><a href="#anàlisi-destructures-secundàries">Anàlisi d’estructures secundàries</a>
+        <ul>
+          <li><a href="#hèlix-alfa">Hèlix alfa:</a></li>
+          <li><a href="#full-beta">Full beta</a></li>
+        </ul>
+      </li>
+      <li><a href="#anàlisi-destructures-supersecundàries">Anàlisi d’estructures supersecundàries</a></li>
+      <li><a href="#estructura-terciària-plegament-i-scop-i-estructura-quaternària">Estructura terciària (Plegament i SCOP) i estructura quaternària</a></li>
+    </ul>
+  </li>
+  <li><a href="#funció-de-la-proteïna-1">Funció de la proteïna</a>
+    <ul>
+      <li><a href="#centre-actiu-i-residus-rellevants">Centre actiu i residus rellevants</a></li>
+      <li><a href="#funció-biològica-i-mecanisme-dacció">Funció biològica i mecanisme d’acció</a></li>
+      <li><a href="#relació-seqüència-estructura-funció">Relació seqüència-estructura-funció</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h1 id="introducció">Introducció</h1>
+
+<p>En aquesta pràctica es va dur a terme un anàlisi detallat de la proteïna PAL (Phenylalanine Ammonia Lyase) de Rhodotorula toruloides, un llevat.</p>
+
+<p>L’objectiu principal va ser estudiar a partir de la seqüència d’una proteïna, l’estructura i la funció utilitzant eines bioinformàtiques com UNIPROT, Protein Data Bank (PDB) i ChimeraX. A més, es va explorar la relació entre la seqüència, l’estructura i la funció de la proteïna.</p>
+
+<p>La seqüència proporcionada va estar:</p>
+
+<pre><code class="language-fasta">MAPSLDSISHSFANGVASAKQAVNGASTNLAVAGSHLPTTQVTQVDIVEKMLAAPTDSTLELDGYSLNLGDVVSAARKGRPVRVKDSDEIRSKIDKSVEFLRSQLSMSVYGVTTGFGGSADTRTEDAISLQKALLEHQLCGVLPSSFDSFRLGRGLENSLPLEVVRGAMTIRVNSLTRGHSAVRLVVLEALTNFLNHGITPIVPLRGTISASGDLSPLSYIAAAISGHPDSKVHVVHEGKEKILYAREAMALFNLEPVVLGPKEGLGLVNGTAVSASMATLALHDAHMLSLLSQSLTAMTVEAMVGHAGSFHPFLHDVTRPHPTQIEVAGNIRKLLEGSRFAVHHEEEVKVKDDEGILRQDRYPLRTSPQWLGPLVSDLIHAHAVLTIEAGQSTTDNPLIDVENKTSHHGGNFQAAAVANTMEKTRLGLAQIGKLNFTQLTEMLNAGMNRGLPSCLAAEDPSLSYHCKGLDIAAAAYTSELGHLANPVTTHVQPAEMANQAVNSLALISARRTTESNDVLSLLLATHLYCVLQAIDLRAIEFEFKKQFGPAIVSLIDQHFGSAMTGSNLRDELVEKVNKTLAKRLEQTNSYDLVPRWHDAFSFAAGTVVEVLSSTSLSLAAVNAWKVAAAESAISLTRQVRETFWSAASTSSPALSYLSPRTQILYAFVREELGVKARRGDVFLGKQEVTIGSNVSKIYEAIKSGRINNVLLKMLA
+</code></pre>
+
+<hr />
+
+<h1 id="sobre-la-proteïna">Sobre la proteïna</h1>
+
+<h2 id="cerca-de-la-seqüència-a-uniprot">Cerca de la seqüència a UNIPROT</h2>
+
+<p>La seqüència de la proteïna PAL es va cercar a la base de dades UNIPROT realitzant un blast. El codi de la proteïna és: <a href="https://www.uniprot.org/uniprotkb/P11544/entry1">P11544</a>. Aquesta proteïna pertany al llevat Rhodotorula toruloides i la seva classificació enzimàtica és <a href="#https://www.brenda-enzymes.org/enzyme.php?ecno=4.3.1.24&amp;UniProtAcc=P11544&amp;OrganismID=5424">EC 4.3.1.24</a> i <a href="#https://www.brenda-enzymes.org/enzyme.php?ecno=4.3.1.25&amp;UniProtAcc=P11544&amp;OrganismID=5424">EC 4.3.1.25</a>.</p>
+
+<h2 id="estructura-de-la-proteïna-pdb-o-alphafold2">Estructura de la proteïna (PDB o AlphaFold2)</h2>
+
+<p>L’estructura tridimensional de la proteïna es va trobar a la base de dades PDB sota el codi <a href="#https://www.rcsb.org/structure/1Y2M">1Y2M</a>, sent aquesta la estructura de major resolució disponible.</p>
+
+<p><img src="https://cdn.rcsb.org/images/structures/1y2m_assembly-1.jpeg" alt="Estructura 1Y2M" /></p>
+
+<h2 id="funció-de-la-proteïna">Funció de la proteïna</h2>
+
+<p>Es va determinar que la proteïna porta a terme una desaminació no oxidativa, eliminant el grup amino dels aminoàcids L-fenilalanina i L-tirosina sense involucrar processos d’oxidació. Com a resultat, la L-fenilalanina es transforma en àcid trans-cinàmic i la L-tirosina en àcid p-cumàric.</p>
+
+<h1 id="treball-amb-chimerax">Treball amb ChimeraX</h1>
+
+<h2 id="anàlisi-destructures-secundàries">Anàlisi d’estructures secundàries</h2>
+
+<p>Per tal de detectar les estructures secundaries, determinar el tipus i la localització s’ha fet servir l’arxiu PDB de l’estrcutura d ela proteína ( <a href="#https://www.rcsb.org/structure/1Y2M">1Y2M</a>). S’ha extret la longitud de l’estructura i la posició d’inici i fi.</p>
+
+<h4 id="hèlix-alfa">Hèlix alfa:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hèlix nº</th>
+      <th>Inici</th>
+      <th>Fi</th>
+      <th>Longitud</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>ASN A 29</td>
+      <td>GLY A 34</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>THR A 43</td>
+      <td>ALA A 53</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>ASN A 68</td>
+      <td>LYS A 78</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>SER A 87</td>
+      <td>ARG A 102</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>THR A 124</td>
+      <td>LEU A 139</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>SER A 146</td>
+      <td>PHE A 150</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>PRO A 161</td>
+      <td>THR A 177</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>ARG A 184</td>
+      <td>HIS A 197</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>ASP A 214</td>
+      <td>SER A 226</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>ALA A 246</td>
+      <td>PHE A 253</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>LYS A 263</td>
+      <td>ASN A 270</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>THR A 272</td>
+      <td>MSE A 304</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>HIS A 307</td>
+      <td>HIS A 316</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>HIS A 322</td>
+      <td>GLU A 337</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>HIS A 344</td>
+      <td>VAL A 349</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>ARG A 362</td>
+      <td>THR A 367</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>THR A 367</td>
+      <td>GLN A 392</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>ALA A 415</td>
+      <td>LEU A 444</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>PRO A 453</td>
+      <td>ALA A 457</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>ASP A 460</td>
+      <td>SER A 464</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>CYS A 467</td>
+      <td>ALA A 485</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>VAL A 488</td>
+      <td>VAL A 492</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>LEU A 505</td>
+      <td>GLY A 561</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>ASN A 568</td>
+      <td>GLU A 586</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>ASP A 592</td>
+      <td>LEU A 612</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>SER A 618</td>
+      <td>ALA A 647</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>ALA A 648</td>
+      <td>TYR A 657</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>ARG A 661</td>
+      <td>GLU A 671</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>GLY A 680</td>
+      <td>GLY A 685</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>THR A 690</td>
+      <td>SER A 704</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>ILE A 707</td>
+      <td>LEU A 715</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>ASN B 29</td>
+      <td>GLY B 34</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>THR B 43</td>
+      <td>ALA B 53</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>ASN B 68</td>
+      <td>LYS B 78</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>SER B 87</td>
+      <td>SER B 108</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>THR B 124</td>
+      <td>LEU B 139</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td>SER B 146</td>
+      <td>PHE B 150</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td>PRO B 161</td>
+      <td>THR B 177</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>ARG B 184</td>
+      <td>GLY B 198</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>ASP B 214</td>
+      <td>SER B 226</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>ALA B 246</td>
+      <td>PHE B 253</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>LYS B 263</td>
+      <td>ASN B 270</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>THR B 272</td>
+      <td>MSE B 304</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>HIS B 307</td>
+      <td>HIS B 316</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>HIS B 322</td>
+      <td>GLU B 337</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>HIS B 344</td>
+      <td>VAL B 349</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>ARG B 362</td>
+      <td>THR B 367</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>THR B 367</td>
+      <td>GLN B 392</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td>ALA B 415</td>
+      <td>LEU B 444</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>PRO B 453</td>
+      <td>ALA B 457</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>ASP B 460</td>
+      <td>SER B 464</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td>CYS B 467</td>
+      <td>ALA B 485</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>VAL B 488</td>
+      <td>VAL B 492</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>LEU B 505</td>
+      <td>GLY B 561</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>LEU B 569</td>
+      <td>THR B 588</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>ASP B 592</td>
+      <td>LEU B 612</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>SER B 618</td>
+      <td>ALA B 647</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>58</td>
+      <td>ALA B 648</td>
+      <td>TYR B 657</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>ARG B 661</td>
+      <td>GLU B 671</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>GLY B 680</td>
+      <td>GLY B 685</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>THR B 690</td>
+      <td>SER B 704</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>ILE B 707</td>
+      <td>LEU B 715</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>ASN C 29</td>
+      <td>GLY C 34</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>THR C 43</td>
+      <td>ALA C 53</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>ASN C 68</td>
+      <td>LYS C 78</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>SER C 87</td>
+      <td>SER C 103</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>GLU C 125</td>
+      <td>LEU C 139</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>SER C 146</td>
+      <td>PHE C 150</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>PRO C 161</td>
+      <td>THR C 177</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>ARG C 184</td>
+      <td>GLY C 198</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>ASP C 214</td>
+      <td>SER C 226</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>ALA C 246</td>
+      <td>PHE C 253</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>LYS C 263</td>
+      <td>ASN C 270</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>THR C 272</td>
+      <td>MSE C 304</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>75</td>
+      <td>HIS C 307</td>
+      <td>HIS C 316</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>76</td>
+      <td>HIS C 322</td>
+      <td>GLU C 337</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>77</td>
+      <td>ARG C 362</td>
+      <td>THR C 367</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>78</td>
+      <td>THR C 367</td>
+      <td>GLN C 392</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>79</td>
+      <td>ALA C 415</td>
+      <td>LEU C 444</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>PRO C 453</td>
+      <td>ALA C 457</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>ASP C 460</td>
+      <td>SER C 464</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>CYS C 467</td>
+      <td>ALA C 485</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td>VAL C 488</td>
+      <td>VAL C 492</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>84</td>
+      <td>LEU C 505</td>
+      <td>THR C 565</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>ASN C 568</td>
+      <td>GLU C 586</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>ASP C 592</td>
+      <td>LEU C 612</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>SER C 618</td>
+      <td>SER C 646</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>ALA C 648</td>
+      <td>TYR C 657</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>ARG C 661</td>
+      <td>GLU C 671</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>GLY C 680</td>
+      <td>GLY C 685</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>THR C 690</td>
+      <td>SER C 704</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>ILE C 707</td>
+      <td>ALA C 716</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>THR D 43</td>
+      <td>ALA D 53</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>ASN D 68</td>
+      <td>LYS D 78</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>SER D 87</td>
+      <td>SER D 103</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>96</td>
+      <td>THR D 124</td>
+      <td>LEU D 139</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>97</td>
+      <td>SER D 146</td>
+      <td>PHE D 150</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>PRO D 161</td>
+      <td>THR D 177</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>99</td>
+      <td>ARG D 184</td>
+      <td>HIS D 197</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>ASP D 214</td>
+      <td>SER D 226</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>ALA D 246</td>
+      <td>PHE D 253</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>LYS D 263</td>
+      <td>ASN D 270</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>103</td>
+      <td>THR D 272</td>
+      <td>MSE D 304</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>104</td>
+      <td>HIS D 307</td>
+      <td>HIS D 316</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>105</td>
+      <td>HIS D 322</td>
+      <td>GLU D 337</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>HIS D 344</td>
+      <td>VAL D 349</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>ARG D 362</td>
+      <td>THR D 367</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>THR D 367</td>
+      <td>GLN D 392</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>ALA D 415</td>
+      <td>LEU D 444</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>110</td>
+      <td>PRO D 453</td>
+      <td>ALA D 457</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>ASP D 460</td>
+      <td>SER D 464</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>112</td>
+      <td>CYS D 467</td>
+      <td>ALA D 485</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>113</td>
+      <td>LEU D 505</td>
+      <td>THR D 565</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>114</td>
+      <td>LEU D 569</td>
+      <td>GLU D 586</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>115</td>
+      <td>ASP D 592</td>
+      <td>LEU D 612</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>116</td>
+      <td>SER D 618</td>
+      <td>SER D 646</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>117</td>
+      <td>ALA D 648</td>
+      <td>TYR D 657</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>118</td>
+      <td>SER D 659</td>
+      <td>GLU D 671</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>119</td>
+      <td>GLY D 680</td>
+      <td>GLY D 685</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>120</td>
+      <td>THR D 690</td>
+      <td>SER D 704</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>ILE D 707</td>
+      <td>ALA D 716</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="full-beta">Full beta</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Fulla Beta</th>
+      <th>Núm. Strand</th>
+      <th>Cadena</th>
+      <th>Residus inici</th>
+      <th>Residus final</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>1</td>
+      <td>A</td>
+      <td>LEU 60</td>
+      <td>LEU 62</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>2</td>
+      <td>A</td>
+      <td>VAL 82</td>
+      <td>VAL 84</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>1</td>
+      <td>A</td>
+      <td>THR 200</td>
+      <td>PRO 201</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>2</td>
+      <td>A</td>
+      <td>LYS 232</td>
+      <td>HIS 237</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>3</td>
+      <td>A</td>
+      <td>LYS 240</td>
+      <td>TYR 245</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>1</td>
+      <td>A</td>
+      <td>LEU 399</td>
+      <td>ASP 401</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>2</td>
+      <td>A</td>
+      <td>THR 406</td>
+      <td>HIS 408</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>1</td>
+      <td>B</td>
+      <td>LEU 60</td>
+      <td>LEU 62</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>2</td>
+      <td>B</td>
+      <td>VAL 82</td>
+      <td>VAL 84</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>1</td>
+      <td>B</td>
+      <td>THR 200</td>
+      <td>PRO 201</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>2</td>
+      <td>B</td>
+      <td>LYS 232</td>
+      <td>HIS 237</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>3</td>
+      <td>B</td>
+      <td>LYS 240</td>
+      <td>TYR 245</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>1</td>
+      <td>B</td>
+      <td>LEU 399</td>
+      <td>ASP 401</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>2</td>
+      <td>B</td>
+      <td>THR 406</td>
+      <td>HIS 408</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>1</td>
+      <td>C</td>
+      <td>LEU 60</td>
+      <td>LEU 62</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>2</td>
+      <td>C</td>
+      <td>VAL 82</td>
+      <td>VAL 84</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>1</td>
+      <td>C</td>
+      <td>THR 200</td>
+      <td>PRO 201</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>2</td>
+      <td>C</td>
+      <td>LYS 232</td>
+      <td>HIS 237</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>3</td>
+      <td>C</td>
+      <td>LYS 240</td>
+      <td>TYR 245</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>1</td>
+      <td>C</td>
+      <td>LEU 399</td>
+      <td>ASP 401</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>2</td>
+      <td>C</td>
+      <td>THR 406</td>
+      <td>HIS 408</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>1</td>
+      <td>D</td>
+      <td>LEU 60</td>
+      <td>LEU 62</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>2</td>
+      <td>D</td>
+      <td>VAL 82</td>
+      <td>VAL 84</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>1</td>
+      <td>D</td>
+      <td>THR 200</td>
+      <td>PRO 201</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>2</td>
+      <td>D</td>
+      <td>LYS 232</td>
+      <td>HIS 237</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>3</td>
+      <td>D</td>
+      <td>LYS 240</td>
+      <td>TYR 245</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td>1</td>
+      <td>D</td>
+      <td>LEU 399</td>
+      <td>ASP 401</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td>2</td>
+      <td>D</td>
+      <td>THR 406</td>
+      <td>HIS 408</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>En color blau trobem els ponts d’hidrogen que presenta en aquest cas 8950. Els ponts d’hidrogen són interaccions clau que estabilitzen les estructures secundàries, aquests es produeixen entre un àtom d’hidrogen d’un grup amida i l’àtom d’oxigen carbonil d’un residu en la cadena polipeptídica.</p>
+
+<p><img src="ph.png" alt="ph" /></p>
+
+<p>En les hèlix alfa, aquests ponts es formen entre el grup carbonil d’un residu i el grup amino d’un altre residu, normalment quatre posicions més endavant. Això crea un patró helicoidal repetitiu que aporta estabilitat i rigidesa a la hèlix.</p>
+
+<p>En canvi, en les fulles beta, els ponts d’hidrogen es formen entre els residus de cadenes laterals, que poden estar disposats de manera paral·lela o antiparal·lela. Les fulles antiparal·leles solen tenir ponts més estables i regulars, mentre que en les paral·leles la disposició pot ser una mica menys ordenada, tot i que també contribueix a la rigidesa de l’estructura.</p>
+
+<p>Les interaccions clau que estabilitzen aquestes estructures son els ponts d’hidrogen, les forçes de Van der Waals i les interaccions hidrofòbiques. Aquests son els detalls fundamentals per tal d’entendre la estabilitat i funcionalitat de la proteïna.</p>
+
+<p><img src="helice.png" alt="helice" />
+<img src="beta.png" alt="beta" /></p>
+
+<h2 id="anàlisi-destructures-supersecundàries">Anàlisi d’estructures supersecundàries</h2>
+
+<p>Seguint amb el programa ChimeraX s’han analitzat les estructures supersecundàries trobades:</p>
+
+<p>A la imatge es poden veure els ponts d’hidrogen en color blau i les forçes de van der Waals en color verd. 
+També s’observa l’estructura hèlix α de color vermell, l’estructura full β de color groc i els llaços i girs de color blanc.</p>
+
+<p><img src="22.png" alt="22" /></p>
+
+<p>Tot i que es poden identificar motius d’estructura supersecundària, aquests consisteixen en combinacions d’hèlixs α i fulles β que s’organitzen en patrons regulars i estables per formar estructures més complexes, sense arribar a constituir per si mateixes una estructura terciària completa. En la lisozima C (1Y2M), es poden destacar els següents motius:</p>
+
+<ol>
+  <li>
+    <p>Motius β-α-β:
+Consisteixen en una fulla β seguida d’una hèlix α i una altra fulla β. La seva estabilitat s’aconsegueix gràcies als ponts d’hidrogen entre les fulles β i a les interaccions hidrofòbiques amb l’hèlix.</p>
+
+    <p><img src="bab.png" alt="bab" /></p>
+  </li>
+  <li>
+    <p>Gir β (Beta Turn):
+Representa una connexió breu entre dues fulles β antiparal·leles, estabilitzada per ponts d’hidrogen interns i interaccions dipol–dipol.</p>
+
+    <p><img src="ap.png" alt="ap" /></p>
+  </li>
+</ol>
+
+<h2 id="estructura-terciària-plegament-i-scop-i-estructura-quaternària">Estructura terciària (Plegament i SCOP) i estructura quaternària</h2>
+
+<p>L’estructura terciària de la proteïna 1Y2M correspon a un plegament de tipus “Lisozima-like”, segons la base de dades SCOPe.</p>
+
+<p>Aquest tipus de plegament pertany a la classe de proteïnes “α i β (a/b)”, caracteritzades per la presència d’hèlixs α i fulles β disposades de manera específica per formar el nucli estructural.</p>
+
+<p>Segons la classificació de SCOPe, la jerarquia per al plegament de la lisozima C és la següent:</p>
+<ul>
+  <li>Classe: α i β (a/b)</li>
+  <li>Plegament: Lisozima-like</li>
+  <li>Superfamília: Lisozima-like</li>
+  <li>Família: Lisozima C</li>
+  <li>Proteïna: Lisozima C</li>
+  <li>Espècie: Gallus gallus (ou de gallina)</li>
+</ul>
+
+<p>La lisozima C és una proteïna monomèrica, la qual cosa significa que la seva forma funcional està constituïda per una sola cadena polipeptídica. Per tant, no presenta estructura quaternària com sí que ho fan altres proteïnes que necessiten diverses subunitats per a la seva funció biològica ja  que no s’associa amb altres cadenes per formar complexes multimerics. La estructura quaternària es refereix a la disposició d’unitats polipeptídiques en un complex proteic, és a dir, quan diverses cadenes polipeptídiques interactuen per formar una proteïna funcional.</p>
+
+<h1 id="funció-de-la-proteïna-1">Funció de la proteïna</h1>
+
+<h2 id="centre-actiu-i-residus-rellevants">Centre actiu i residus rellevants</h2>
+
+<p>El centre actiu de l’enzim PAL té el grup MIO (4-methylidene-imidazole-5-one), que és essencial per a la seva activitat.</p>
+
+<p>Al voltant d’aquest centre hi ha un bucle flexible format pels residus 102 a 124, que actua com una porta per al substrat. Els residus Tyr110 i Arg123 són molt importants.</p>
+
+<p>El residu Tyr110 és clau perquè, si es canvia, l’enzim perd la seva funció. Probablement ajuda a fixar o orientar el substrat amb ponts d’hidrogen o altres interaccions.</p>
+
+<p>El residu Arg123 també ajuda a mantenir la forma correcta del centre actiu mitjançant interaccions electrostàtiques i de Van der Waals.</p>
+
+<p>Tot i que a la estructura PDB no es veu cap substrat o inhibidor, segons la literatura, el substrat es connectaria al centre actiu a través d’aquestes mateixes interaccions, que són necessàries per a una bona fixació i reacció.</p>
+
+<h2 id="funció-biològica-i-mecanisme-dacció">Funció biològica i mecanisme d’acció</h2>
+
+<p>La funció de la proteïna PAL és fer una reacció de desaminació no oxidativa. Aquesta reacció elimina el grup amino de la fenilalanina, amb l’ajuda del cofactor MIO.</p>
+
+<p>El bucle flexible permet que el substrat entri al centre actiu, on les interaccions amb els residus clau asseguren que el substrat estigui ben col·locat per a la reacció.</p>
+
+<p>Això transforma la L-fenilalanina en àcid trans-cinàmic i la L-tirosina en àcid p-cumàric, compostos que són importants en la via dels fenilpropanoides.</p>
+
+<p><img src="reaccion.png" alt="Reacción descargada de Rhea" /></p>
+
+<p>En el programa ChimeraX no es pot veure el centre actiu ni els residus importants. Al buscar els residus Tyr110 i Arg123 no apareixen. Com es pot veure a la imatge els dos residus marcats amb color groc no esta present a la estructura.</p>
+
+<p><img src="chimera.png" alt="chimera" /></p>
+
+<p><img src="seq.png" alt="seq" /></p>
+
+<p>Això pot ser degut a flexibilitat del centre actiu i a la mobilitat del bucle que l’envolta (amb els residus importants) durant el procés de cristal·lització o perquè quan es van recollir les dades, la reacció ja havia ocorregut.</p>
+
+<h2 id="relació-seqüència-estructura-funció">Relació seqüència-estructura-funció</h2>
+
+<p>La seqüència de la proteïna PAL permet que es formi el cofactor MIO de manera automàtica. Aquesta seqüència també fa que el centre actiu tingui la forma adequada i que el bucle flexible controli l’accés al centre catalític.</p>
+
+<p>Els residus Tyr110 i Arg123 són essencials per a la funció de l’enzim, ja que ajuden a mantenir la seva activitat i estabilitat.</p>
+
+<p>Canvis en la seqüència, com la mutació R91K, poden millorar l’estabilitat sense afectar el centre actiu. Això demostra com la seqüència influeix en l’estructura.</p>
+
+<p>Altres variants de la proteïna també tenen implicacions funcionals importants. Les mutacions en els residus Tyr110 o Arg123 poden eliminar l’activitat enzimàtica, demostrant que aquests residus són crítics per al centre actiu.</p>
+
+<p>S’han realitzat intents de reduir la mida de la proteïna, però aquests experiments van mostrar que les formes truncades, tot i tenir una bona expressió, no conserven l’activitat enzimàtica.</p>
