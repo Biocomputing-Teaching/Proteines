@@ -5,14 +5,15 @@ date: 03-2025
 author: Alex Durán, Ariadna Gómez, Jordi Martín
 permalink: /QiEP-P1-2025-B/
 ---
-
 # PRÀCTICA 1 Química i Enginyeria de Proteïnes
 ## Grup B (Alex Durán, Ariadna Gómez, Jordi Martín)
 
 **Seqüència:** 
 MKLFYKPGACSLASHITLRESGKDFTLVSVDLMKKRLENGDDYFAVNPKGQVPALLLDDGTLLTEGVAIMQYLADSVPDRQLLAPVNSISRYKTIEWLNYIATELHKGFTPLFRPDTPEEYKPTVRAQLEKKLQYVNEALKDEHWICGQRFTIADAYLFTVLRWAYAVKLNLEGLEHIAAFMQRMAERPEVQDALSAEGLK
 
-**1. Nom de la proteina i codi Uniprot:**                                                                         
+**1. Nom de la proteina i codi Uniprot:**                                                                        
+
+
 Aquesta seqüència prové de l'Escherichia coli K-12, i codifica per la proteïna Glutathione S-transferase GstA (Amino àcids: 201)
 
 - **Codi Uniprot:** P0A9D2

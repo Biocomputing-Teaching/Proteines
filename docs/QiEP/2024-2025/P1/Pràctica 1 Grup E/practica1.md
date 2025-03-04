@@ -5,7 +5,7 @@ date: 03-2025
 author: Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi
 permalink: /QiEP-P1-2025-E/
 ---
-
+ 
 # PRÀCTICA 1
 ## Relacions estructura-funció de proteïnes
 ### Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi

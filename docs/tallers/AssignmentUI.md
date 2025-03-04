@@ -7,7 +7,8 @@ permalink: /LVF601M/
 
 <h1> How a drug for COVID-19 is designed?</h1>
 
-- [Introduction](#introduction)
+
+- [Introduction to the assignment](#introduction-to-the-assignment)
 - [Briefing on the mechanism of action of SARS-CoV-2](#briefing-on-the-mechanism-of-action-of-sars-cov-2)
 - [Assignment questions](#assignment-questions)
   - [1) Virus-cell interactions](#1-virus-cell-interactions)
@@ -18,7 +19,7 @@ permalink: /LVF601M/
 - [References](#references)
 
 
-# Introduction
+# Introduction to the assignment
 
 In this assignment for the LVF601M course on Systems Biology at the University of Iceland, we will get some hints on the rational design of a new drug. In particular, we will visualize some simple details on the way an antiviral for SARS-CoV-2 can be designed.
 
