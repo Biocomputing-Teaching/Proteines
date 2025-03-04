@@ -27,7 +27,6 @@ permalink: /QiEP-P1-2025-I/
     </style>
   </head>
   
-
 <h1> Anàlisi de les relacions seqüència-estructura-funció de la proteïna glicosiltransferasa a Nicotiana tabacum (PDB: 8CHD)</h1>
 
 - [Estructura secundària](#estructura-secundària)
