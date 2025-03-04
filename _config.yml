@@ -1,5 +1,5 @@
 #theme: jekyll-theme-minimal
-title: "Jekyll Website for teaching on proteins"
+title: "Protin explorer"
 remote-theme: benbalter/retlab 
 website: https://biocomputing-teaching.github.io/Proteines
 baseurl: /
