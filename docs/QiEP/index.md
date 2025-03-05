@@ -18,7 +18,7 @@ Material de pràctiques del curs de QiEP a 3er curs del Grau en Biotecnologia, U
 
 ## Curs 2022-2023
 
-MAterial del [curs 2022-2023](/Proteines/QiEP-P1-2023)
+Material del [curs 2022-2023](/Proteines/QiEP-P1-2023)
 
 ## Curs 2023-2024
 
