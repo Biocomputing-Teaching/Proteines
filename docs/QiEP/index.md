@@ -14,7 +14,6 @@ Material de pràctiques del curs de QiEP a 3er curs del Grau en Biotecnologia, U
   - [Curs 2024-2025](#curs-2024-2025)
     - [Desenvolupament de la pràctica](#desenvolupament-de-la-pràctica)
     - [Treballs realitzats](#treballs-realitzats)
-  - [permalink: /QiEP-P1-2025-E/](#permalink-qiep-p1-2025-e)
 # Pràctica 1
 
 ## Curs 2022-2023
@@ -118,12 +117,5 @@ MAterial del [curs 2022-2023](/Proteines/QiEP-P1-2023)
   * Grup L: [Xilosa isomerasa](/Proteines/QiEP-P1-2025-L)
   * Grup M: [Lipasa](/Proteines/QiEP-P1-2025-M)
 
----
-layout: default
-title: 'Relacions estructura-funció: Sucrosa isomerasa'
-date: 03-2025
-author: Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi
-permalink: /QiEP-P1-2025-E/
----
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2022-2025
