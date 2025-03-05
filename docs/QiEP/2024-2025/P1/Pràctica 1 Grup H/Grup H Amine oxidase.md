@@ -33,12 +33,12 @@ permalink: /QiEP-P1-2025-H/
         Hem escollit aquesta estructura ja que es la que presenta millor resolució, és a dir, més baixa i cobreix el major nombre de posicions de la seqüència. Tambè he utilitzat la interfície d'AlphaFold per obtenir una predicció de la seva estructura tridimensional i poder comparar-les.
 
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 12.46.25-1.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 12.46.25-1.png)
 
 
         Estructura tridimensional PDB 2Z5Y	
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 12.48.10-1.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 12.48.10-1.png)
 
 
         Estructura tridimensional Alphafold
@@ -57,11 +57,11 @@ permalink: /QiEP-P1-2025-H/
 
 *   Obriu l'estructura del PDB amb el programa ChimeraX
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 12.34.28.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 12.34.28.png)
 
 *   Detecteu les diferents estructures secundàries de la proteïna i determineu-ne el tipus (fulles, hèlix, llaços i les seves diferents variants). Mireu de descriure amb un cert detall els diferents tipus d'interaccions que podeu trobar dins aquestes estructures secundàries (mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries).
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 12.30.50.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 12.30.50.png)
 
         Identificació estructures secundaries:
             - Fulles α → Vermell
@@ -75,7 +75,7 @@ permalink: /QiEP-P1-2025-H/
 
         S'han seleccionat 1945 àtoms en total, 1966 enllaços dins de la selecció i 241 residus en total, la selecció pertany a un sol model estructural dins del PDB carregat.
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 12.52.54.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 12.52.54.png)
 
 <u>Fulles β  </u>: 20 estructures ; 
 
@@ -83,11 +83,11 @@ permalink: /QiEP-P1-2025-H/
 
         S'han seleccionat 736 àtoms en total, 735 enllaços dins de la selecció i 87 residus en total, la selecció pertany a un sol model estructural dins del PDB carregat.
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 13.02.36.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 13.02.36.png)
 
 Respecte els ponts d'hidrogen es troben 1016 (imatge de sota)
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 13.00.34.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 13.00.34.png)
 
 
 
@@ -95,11 +95,11 @@ Respecte els ponts d'hidrogen es troben 1016 (imatge de sota)
 
         S'han detectat diferents tipus d'interaccions estabilitzadores dins d'aquestes estructures com per exemple; Ponts d'hidrogen , majoritàriament entre els grups amida i carbonil de les làmines β i hèlix α
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 13.20.33.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 13.20.33.png)
 
         També s'han localitzat les interaccions de van der Waals entre residus hidrofòbics de les làmines β i hèlix α.
 
-![alt text](<Captura de Pantalla 2025-03-03 a las 13.26.44-1.png>)
+![alt text](Captura de Pantalla 2025-03-03 a las 13.26.44-1.png)
 
 
 *  L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquía d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.
