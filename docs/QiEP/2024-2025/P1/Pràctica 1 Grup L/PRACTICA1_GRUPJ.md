@@ -33,8 +33,6 @@ La seqüència proporcionada va ser la següent:
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEJIGn2euurcSEs-7JxAuspkJ3rBeL_-hUti2Cz9JBQP4GncR3F_WisYD3JE1SYA58W16NzEws2zxQalIe8Q5Fzmze64hTL9DPd2NNQ7NgZS0ekEZL8yL9j0Vje_nWRzvJn-92?key=IIFDaqnBsluiSPqK4L2VHfZA)
 _Figura 1: Codi PDB de la nostre proteïna_
 
-[![App Platorm](https://doimages.nyc3.cdn.digitaloceanspaces.com/002Blog/0-BLOG-BANNERS/app_platform.png)](https://www.digitalocean.com/products/app-platform)
-
 L'estructura tridimensional de la _Xylose Isomerase_ està disponible a la base de dades del **Protein Data Bank** amb el codi _1MNZ_. Aquesta estructura proporciona informació sobre els elements estructurals de la proteïna, incloent les seves estructures secundàries (hèlix alfa, fulles beta) i les interaccions que estabilitzen la seva conformació, amb el qual podrem observar la seva estructura amb el programa _ChimeraX_.
 
 ### Funció de la proteïna
