@@ -60,7 +60,7 @@ Trobem 1780 ponts d’hidrogen.
 
 *Fig 6*: Imatge pròpia, Ponts d'hidrogen de la cutinasa
 
-### Motius d'estructura supersecundària:
+### Motius d'estructura supersecundària [3]:
 
 - **Forquilla beta-beta**:
 
@@ -131,7 +131,7 @@ Trobem 1780 ponts d’hidrogen.
 
 ### L'estructura terciària de la proteïna:
 
-SCOP no conté una classificació directa de la nostra proteïna, possiblement perquè no ha estat inclosa en la base de dades estructuralment classificades. Per això, hem buscat estructures similars de proteïnes hidrolases (cutinases) com la nostra. Hem trobat una proteïna cutinasa de Fusarium solani que té una estructura similar a la nostra proteïna. De tots els dominis que ens dona, el que té el codi PDB: 1oxm, és el més semblant a la nostra proteïna ja que també té dues cadenes (A i B).
+SCOP no conté una classificació directa de la nostra proteïna, possiblement perquè no ha estat inclosa en la base de dades estructuralment classificades. Per això, hem buscat estructures similars de proteïnes hidrolases (cutinases) com la nostra. Hem trobat una proteïna cutinasa de Fusarium solani que té una estructura similar a la nostra proteïna. De tots els dominis que ens dona, el que té el codi PDB: 1oxm, és el més semblant a la nostra proteïna ja que també té dues cadenes (A i B) [4].
 
 Tot i que són organismes molt diferents (bacteri i fong), les seves hidrolases tenen funcions similars, i per això hem realitzat una cerca d'estructures similars en SCOP utilitzant "cutinase" com a referència.
 
@@ -155,7 +155,7 @@ Centre actiu (marcat en verd):
 
 ### Residus rellevants:
 
-La cutinasa està formada per un residu catalític de serina, d'histidina que actua com a base general i un residu d’àcid aspàrtic. Aquests tres aminoàcids formen la tríada catalítica. A l'estructura s'ha trobat també un residu no estàndard, l'ió malonate, que actua com a inhibidor.
+El centre actiu de la cutinasa està format per un residu catalític de serina, d'histidina que actua com a base general i un residu d’àcid aspàrtic. Aquests tres aminoàcids formen la tríada catalítica. A l'estructura s'ha trobat també un residu no estàndard, l'ió malonate, que actua com a inhibidor.
 
 ### Interaccions: 
 
@@ -193,12 +193,12 @@ La cutinasa segueix un mecanisme catalític amb un patró típic de les serines 
 
 ![Captura de pantalla 1](imatges/mecanisme.PNG)
 
-*Fig. 22*: Mecanisme catalític de las serín-proteasas.
+*Fig. 22*: Mecanisme catalític de las serín-proteasas [1].
 
 ## Relació seqüència-estructura-funció:
 
 Les cutinases són serina hidrolases que pertanyen al gran conjunt de les hidrolases α/β; aquests enzims presenten una triada catalítica composta per Serina, Histidina i Aspartat; en la qual la serina actua com a catalitzador en contacte amb el substrat.
-A diferència de les lipases tradicionals, les cutinases no compten amb una coberta hidrològica sobre la serina del lloc actiu, sinó que presenta un lloc actiu ampli que permet interactuar amb substrats d'alt pes molecular, com ho és el cas de la cutina, i fins i tot amb polímers sintètics. 
+A diferència de les lipases tradicionals, les cutinases no compten amb una coberta hidrològica sobre la serina del lloc actiu, sinó que presenta un lloc actiu ampli que permet interactuar amb substrats d'alt pes molecular, com ho és el cas de la cutina, i fins i tot amb polímers sintètics. [2] 
 
 Residus clau per a la funció:
 - Serina: Actua com a nucleòfil en la reacció d'hidròlisi.
@@ -217,10 +217,11 @@ Variants de l'enzim cutinasa obtingudes mitjançant modificacions a la seva estr
 
 
 ## Referències:
-- https://www.researchgate.net/publication/337399798_Las_cutinasas_como_una_herramienta_valiosa_para_la_descontaminacion_de_residuos_plasticos
 
-- https://www.researchgate.net/publication/386256021_Estado_actual_de_las_cutinasas_en_la_problematica_de_la_degradacion_de_plasticos_de_un_solo_uso
+- [1] PEÑA, Carolina & Farrés, Amelia & Bermudez, Eva. (2018). Las cutinasas como una herramienta valiosa para la descontaminación de residuos plásticos. 42. 24. 
+  
+- [2] Arrieta, Marcel. (2024). Estado actual de las cutinasas en la problemática de la degradación de plásticos de un solo uso. Revista Tecnología en Marcha. 10.18845/tm.v37i9.7615. 
 
-- https://biomodel.uah.es/model1j/prot/supersec/inicio.htm
+- [3] Estructures supersecundàries: https://biomodel.uah.es/model1j/prot/supersec/inicio.htm
 
-- https://scop.berkeley.edu/sunid=52261
+- [4] SCOP: https://scop.berkeley.edu/sunid=52261
