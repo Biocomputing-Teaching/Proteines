@@ -1,6 +1,0 @@
-#Visual Code Insturctuction
-1.Do not leave space between words
-1.Use [](Figures/nameofthefigure.png) to find a figure in the file of interest.
-1.Instead of leaving space, leave (/)
-1.Add (1.) in case you want to make  individual instructions
-1.Make #for every title
