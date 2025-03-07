@@ -80,15 +80,18 @@ La nostra proteïna presenta estructura quaternària, podem veure, cadascuna de 
 
 **1. Identifiqueu el centre actiu de la proteïna. Quins residus són rellevants, a partir de la literatura? L'estructura que heu explorat, inclou algun substrat o inhibidor? Podeu descriure les interaccions que presenten entre ells els residus del centre actiu i, eventualment, d'aquests amb el possible substrat/inhibidor (ponts d'hidrogen, van der Waals, càrregues, etc)?**
 
-![Captura de la imatge](imatges/chimera_punt4.1.png)                                                    
+![Captura de la imatge](imatges/chimera_punt4.1.png)
+
 **Figura 11:** Fragment de l'article 1 que indica les posicions del centre actiu (214-295)
 
-![Captura de la imatge](imatges/chimera_punt4.2.png)                                             
+![Captura de la imatge](imatges/chimera_punt4.2.png)
+
 **Figura 12 i 13:** Imatge pròpia on es representa el centre actiu a l'esquerra i a la dreta els residus rellevants
 
 L’enzim està tot de color taronja excepte el centre actiu que es troba pintat de color blanc per així poder-ho apreciar de millor forma. Segons la literatura els residus més rellevants són: Thr62, Ser62, Thr63; Glu 281, Glu 281, His 282; Ile378, Thr378, Ile378 (marcats en blau fort), ja que els altres residus són estrictament conservats per tenir conformacions idèntiques. Els substrats o inhibidors que té la nostra molècula són els que es mostren a continuació marcats en verd.
 
-![Captura de la imatge](imatges/chimera_punt4.3.png)                                                      
+![Captura de la imatge](imatges/chimera_punt4.3.png)
+
 **Figura 14:** Imatge pròpia on es poden veure els substrats units a la nostra molècula.
 
 D’aquests substrats marcats en verd podem destacar en la següent imatge en aquests podem destacar que tenim 2 cofactors els quals són el FAD (Flavin Adenine Dinucleotide), marcat de color magenta, NAP (NADP⁺ - Nicotinamide Adenine Dinucleotide Phosphate), marcat de color groc. 
@@ -96,18 +99,21 @@ D’aquests substrats marcats en verd podem destacar en la següent imatge en aq
 A més també trobem un buffer utilitzat en la cristal·lització com és EPE (HEPES - 4-(2-hydroxyethyl)-1-piperazine ethanesulfonic àcid), marcat de color blau claret, un possible substrat com és GLC (Glucose - α-D-Glucopyranose), marcat de color rosa i per últim un detergent també fet servir en la cristal·lització com és el LMT (Dodecyl-β-D-Maltoside), marcat de color verd fosc.
 
 ![Captura de la imatge](imatges/chimera_punt4.4.png)
+
 **Taula 1 i Figura 15:** Taula on podem veure els substrats que interaccionen i figura on es mostra aquesta interacció
 
 Les interaccions realitzades pels substrats amb la nostra proteïna són ponts d’hidrogen i forces de Van der Waals.
 
 ![Captura de la imatge](imatges/chimera_punt4.5.png)
+
 **Figura 16 i 17:** Imatge pròpia on a l'esquerra veiem els ponts d'hidrogen de color blau i a la dreta les forces de Van der Waals de color verd.
 
 **2. Cerqueu informació sobre la funció fa aquesta proteïna? Podeu mostrar el mecanisme detallat que segueix si es tracta d'un enzim? (mireu la figura 6.5.1 d'aquest enllaç per entendre a què ens referim amb el mecanisme de reacció d'un enzim)?**
 
 La nostra proteïna pertany a la família de les monooxigenases que contenen flavina, que són enzims dependents de NADPH (i els seus derivats com NADH) que catalitzen l'oxidació de centres heteroatòmics nucleòfils en fàrmacs, pesticides i altres compostos xenobiòtics. Com hem comentat breument a la introducció, la FMO5 presenta una activitat com a Baeyer-Villiger monooxigenasa, que implica la inserció d'un àtom d'oxigen en un enllaç carboni-carboni adjacent a un grup carbonil, convertint cetones en èsters.
 
-![Captura de la imatge](imatges/chimera_punt5.1.png)                                                 
+![Captura de la imatge](imatges/chimera_punt5.1.png)
+                                                 
 **Figura 18:** Imatge extreta de l'article 1 on podem veure la reacció de l'enzim. 
 
 El mecanisme catalític implica la reducció del cofactor FAD per NADPH, seguida de la formació d'un intermediari hidroperòxid que oxida el substrat. Aquest mecanisme és eficient i no requereix la unió prèvia del substrat per activar l'oxigen, a diferència d'altres monooxigenases.
