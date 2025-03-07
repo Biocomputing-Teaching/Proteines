@@ -10,8 +10,8 @@ permalink: /QiEP-P1-2025-J/
 ## Grup J: Baquero Matabacas Laia, Fernández Marín Lidia i Sastre Miralles Mariona
 
 <!--- TOC--->
-- [Pràctica 1. Anàlisi proteïna Microsomal Epoxide Hydrolase 1 (EPHX1)](#pràctica-1-anàlisi-proteïna-microsomal-epoxide-hydrolase-1-ephx1)
-  - [Grup J: Baquero Matabacas Laia, Fernández Marín Lidia i Sastre Miralles Mariona](#grup-j-baquero-matabacas-laia-fernández-marín-lidia-i-sastre-miralles-mariona)
+
+- 
   - [1. Sobre la proteïna](#1-sobre-la-proteïna)
     - [**Cerqueu la seqüència donada a UNIPROT i trobeu el nom del gen corresponent. Anoteu el codi UNIPROT i també la classificació EC.X.X.X.X, en cas que es tracti d'un enzim, segons la base de dades BRENDA.**](#cerqueu-la-seqüència-donada-a-uniprot-i-trobeu-el-nom-del-gen-corresponent-anoteu-el-codi-uniprot-i-també-la-classificació-ecxxxx-en-cas-que-es-tracti-dun-enzim-segons-la-base-de-dades-brenda)
     - [**Cerqueu a la base de dades del Protein Data Bank si l'estructura de la proteïna és coneguda i, en aquest cas, doneu-ne el codi PDB (si n'hi ha més d'un justifiqueu amb quin treballareu a partir d'aquest punt en base a la resolució de l'experiment on s'ha resolt l'estructura i també la cobertura de seqüència que s'ha fet). En cas que no trobeu la proteïna al PDB, useu la interfície d'Alphafold2 o bé la pròpia base de dades del programa Alphafold2 per trobar una predicció de la seva estructura.**](#cerqueu-a-la-base-de-dades-del-protein-data-bank-si-lestructura-de-la-proteïna-és-coneguda-i-en-aquest-cas-doneu-ne-el-codi-pdb-si-nhi-ha-més-dun-justifiqueu-amb-quin-treballareu-a-partir-daquest-punt-en-base-a-la-resolució-de-lexperiment-on-sha-resolt-lestructura-i-també-la-cobertura-de-seqüència-que-sha-fet-en-cas-que-no-trobeu-la-proteïna-al-pdb-useu-la-interfície-dalphafold2-o-bé-la-pròpia-base-de-dades-del-programa-alphafold2-per-trobar-una-predicció-de-la-seva-estructura)
@@ -28,6 +28,7 @@ permalink: /QiEP-P1-2025-J/
     - [**Relació seqüència-estructura-funció: Com relacionaríeu l'estructura que heu analitzat amb la funció de la proteïna?**](#relació-seqüència-estructura-funció-com-relacionaríeu-lestructura-que-heu-analitzat-amb-la-funció-de-la-proteïna)
     - [**Quins elements estructurals participen en aquesta funció? Quins residus en concret són claus per a la funció?**](#quins-elements-estructurals-participen-en-aquesta-funció-quins-residus-en-concret-són-claus-per-a-la-funció)
     - [**Cerqueu eventuals variants de la proteïna que tinguin implicacions funcionals i comenteu els seus efectes a nivell molecular.**](#cerqueu-eventuals-variants-de-la-proteïna-que-tinguin-implicacions-funcionals-i-comenteu-els-seus-efectes-a-nivell-molecular)
+  - [4.Bibliografia:](#4bibliografia)
 
 <!--- /TOC--->
 
@@ -50,7 +51,7 @@ A més, veiem que aquesta proteïna codifica pel gen EPHx1.
 
 ### **Cerqueu a la base de dades del Protein Data Bank si l'estructura de la proteïna és coneguda i, en aquest cas, doneu-ne el codi PDB (si n'hi ha més d'un justifiqueu amb quin treballareu a partir d'aquest punt en base a la resolució de l'experiment on s'ha resolt l'estructura i també la cobertura de seqüència que s'ha fet). En cas que no trobeu la proteïna al PDB, useu la interfície d'Alphafold2 o bé la pròpia base de dades del programa Alphafold2 per trobar una predicció de la seva estructura.**
 
-![alt text](imatge_1.png)
+![alt text](imatges/1.png)
 
 Un cop vist el resultat de la recerca, hem vist que la base de dades del Protein Data Bank no ens serveix, ja que no ens surt cap codi PDB. En aquest cas, sí que ens surt un codi AlphaFold (AF-P07099-F1), per tant, és en aquesta base de dades on hem de buscar l'estructura de la proteïna.
 
@@ -70,19 +71,19 @@ Gràcies al programa Chimera X, hem pogut extreure les següents conclusions:
 
 <u>Fulles beta:</u> En total trobem 9 làmines beta. Les trobem a les posicions de la cadena A de la proteïna: 48-51, 115-120, 132-130, 142-147, 178-183, 220-224, 243-248, 396-400, 420-425. En total, hi han 431 àtoms implicats, 438 enllaços químics i 52 aminoàcids totals.
     
-![alt text](<Captura de pantalla 2025-03-03 114632.png>)
+![alt text](imatges/2.png)
 
     Podem veure les fulles beta de color verd en la imatge.
 
 <u>Hèlix alfa:</u> En total tenim 23 fulles. Les trobem a les posicions de la cadena A de la proteïna:2-20, 57-68, 87-99, 103-112, 154-157, 161-163, 168-170, 201-214, 226-238, 256-272, 276-282, 285-296, 298-305, 307-316, 318-331, 335-339, 345-347, 351-347, 351-364, 367-378, 386-388, 410-416, 433-436, 438-454. En total, trobem implicats 1901 àtoms en l'estructura, 1927 enllaços químics i 224 aminoàcids totals.
 
-![alt text](imatge_3.png)
+![alt text](imatges/3.png)
 
     En aquesta imatge les hèlix alfa estan reasaltades en color verd.
 
 <u>Loops:</u> En total tenim 33 loops (més regions desordenades). Implicats tenim 1418 àtoms, 1439 enllaços químics i 179 aminoàcids totals.
 
-![alt text](imatge_5.png)
+![alt text](imatges/4.png)
 
     Podem veure els loops i regions desordenades en color verd
 
@@ -90,27 +91,27 @@ Gràcies al programa Chimera X, hem pogut extreure les següents conclusions:
 
 <u>Ponts d'hidrògen:</u> Trobem 449 ponts d'hidrògen.
 
-![alt text](<Captura de pantalla 2025-03-03 125142.png>)
+![alt text](imatges/5.png)
 
     Veiem els ponts d'hidrogen marcats amb colors
 
 <u>Ponts disulfur:</u> en la nostra proteïna trobem un total de 4 ponts.
 
-![alt text](<Captura de pantalla 2025-03-03 195125.png>)
+![alt text](imatges/6.png)
 
     Veiem els 4 ponts marcats en verd
 
 <u>Enllaços de Van der Waalls:</u> Trobem 2861 enllaços de Van der Waals
 
-![alt text](<Captura de pantalla 2025-03-03 200658.png>)
+![alt text](imatges/7.png)
 
     A la imatge estan marcades de color verd les regions on es poden ocasionar aquests enllaços.
 
 ### **L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquía d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.**
 
-Com hem comentat anteriorment, la nostra proteïna no consta de codi PDB i la seva estructura és obtinguda gràcies a la base de dades d'AiphaFold. Per això al buscar el tipus de plegament d'aquesta, no podem trobar-la, ja que al anar seguint el llinatge ens trobem en un punt on tots els resultats són amb entrades de PDB. Adjuntem imatge de fins on es pot seguir la classificació. 
+Com hem comentat anteriorment, la nostra proteïna no consta de codi PDB i la seva estructura és obtinguda gràcies a la base de dades d'AlphaFold. Per això al buscar el tipus de plegament d'aquesta, no podem trobar-la, ja que al anar seguint el llinatge ens trobem en un punt on tots els resultats són amb entrades de PDB. Adjuntem imatge de fins on es pot seguir la classificació. 
 
-![alt text](<Captura de pantalla 2025-03-03 220547.png>)
+![alt text](imatges/8.png)
 
 
 ## 3.Funció de la proteïna:
@@ -123,7 +124,7 @@ El centre actiu està format per una tríada catalítica que inclou els següent
     - Glu: Participa en l'estabilització intermèdia de la reacció i la transferència de protons.
     - His: Operativa com a base general; en el context de la catàlisi, accepta i dona protons
 
-![alt text](Catalytic_triad_of_TEV_protease.png)
+![alt text](imatges/9.png)
 
 Un cop explorat el nostre enzim mitjançant la aplicació Chimera, hem pogut comprovar que no s'inclouen lligands com substrats o inhibidors. d'aquesta manera podriem establir que l'estructura representada no té en compte molècules petites que puguin estar associades al seu centre actiu.
 
@@ -143,7 +144,7 @@ A més, té un paper fonamental en el metabolisme dels lípids, sobretot en la t
 
 Respecte al mecanisme que segueix el nostre enzim, segueix uns passos molt concrets per tal de dur a terme la seva funció. L'activitat comença quan l'epòxid s'uneix al centre actiu del nostre enzim, on un residu d'aminoàcid (ASP) començarà la reacció. Aquest atacarà un dels carbonis de l'anell epòxid, fent que aquest s'obri i formi una unió d'un intermediari covalent entre el substrat i l'enzim. L'acció permetrà que entri una molècula d'aigua al centre actiu i serà activada per altres residus (GLU i HIS), realitzant una hidròlisi sobre l'intermediari covalent. Per últim, l'aigua atacarà el centre actiu i donarà lloc a un dihidrol, el producte serà alliberat del centre actiu i ara podrà ser eliminat més fàcilment en reaccions futures. L'enzim es regenera per el següent cícle catalític.
 
-![alt text](mecanisme.png)
+![alt text](imatges/10.png)
 
 ### **Relació seqüència-estructura-funció: Com relacionaríeu l'estructura que heu analitzat amb la funció de la proteïna?**
 
@@ -171,3 +172,18 @@ El polimorfisme Tyr113His (rs1051740) dona lloc a un canvi d’aminoàcid de tir
 El polimorfisme His139Arg (rs2234922) provoca un canvi d’aminoàcid de histidina (His) a arginina (Arg) en la posició 139. Aquesta variant es troba a l’exó 4 i causa un increment del 25% en l’activitat de l’enzim. Com a conseqüència, pot augmentar la velocitat de metabolisme dels epòxids, alterant la resposta de l’organisme a determinats fàrmacs i compostos tòxics. Tot i que aquest augment en l’activitat pot ser beneficiós en alguns casos, també pot provocar una major propensió al dany oxidatiu en les cèl·lules hepàtiques i modificar la farmacocinètica de diversos medicaments, com els quimioteràpics.
 
 Quan es consideren ambdues variants en conjunt (haplotips), els individus poden presentar una activitat baixa, intermèdia o alta de l’enzim EPHX1. Aquells amb dues còpies de Tyr113His mostren una activitat disminuïda i poden tenir un major risc d’acumulació de compostos tòxics, mentre que els que tenen dues còpies de His139Arg presenten una activitat elevada, fet que podria modificar la metabolització de fàrmacs.
+
+## 4.Bibliografia:
+- https://www.uniprot.org/uniprotkb/P07099
+- https://www.brenda-enzymes.org/enzyme.php?ecno=3.3.2.3
+- https://www.genecards.org/cgi-bin/carddisp.pl?gene=EPHX1&keywords=EPHx1
+- https://alphafold.ebi.ac.uk/search/text/P07099
+- https://scop.berkeley.edu
+- https://www.cgl.ucsf.edu/chimerax/index.html (hem usat la app)
+- https://pubmed.ncbi.nlm.nih.gov/33374956/
+- https://pubmed.ncbi.nlm.nih.gov/26065263/
+- https://pubmed.ncbi.nlm.nih.gov/25714851/
+- https://pubmed.ncbi.nlm.nih.gov/23580125/https://pubmed.ncbi.nlm.nih.gov/23580125/
+
+
+
