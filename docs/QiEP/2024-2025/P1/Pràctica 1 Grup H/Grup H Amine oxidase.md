@@ -7,7 +7,7 @@ permalink: /QiEP-P1-2025-H/
 ---
 # **Pràctica 1. Anàlisi proteïna Amine oxidase [flavin-containing] A**
 
-## **Grup H: Arisó Gómez Irene, Guiu Gorgas Berta i Vila Roca Judith**- 
+## **Grup H: Arisó Gómez Irene, Guiu Gorgas Berta i Vila Roca Judith**
 
 - 
   - [1 - Sobre la proteïna](#1---sobre-la-proteïna)

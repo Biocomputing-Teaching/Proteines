@@ -5,23 +5,23 @@ date: 03-2025
 author: Alex Durán, Ariadna Gómez, Jordi Martín
 permalink: /QiEP-P1-2025-B/
 ---
+
 # PRÀCTICA 1 Química i Enginyeria de Proteïnes
 ## Grup B (Alex Durán, Ariadna Gómez, Jordi Martín)
 
 **Seqüència:** 
 MKLFYKPGACSLASHITLRESGKDFTLVSVDLMKKRLENGDDYFAVNPKGQVPALLLDDGTLLTEGVAIMQYLADSVPDRQLLAPVNSISRYKTIEWLNYIATELHKGFTPLFRPDTPEEYKPTVRAQLEKKLQYVNEALKDEHWICGQRFTIADAYLFTVLRWAYAVKLNLEGLEHIAAFMQRMAERPEVQDALSAEGLK
 
-**1. Nom de la proteina i codi Uniprot:**                                                                        
-
-
-Aquesta seqüència prové de l'Escherichia coli K-12, i codifica per la proteïna Glutathione S-transferase GstA (Amino àcids: 201)
+**1. Nom de la proteina i codi Uniprot:**                                                                         
+Aquesta seqüència prové de l'Escherichia coli K-12, i codifica per la proteïna Glutathione S-transferase GstA (Amino àcids: 201) (https://www.uniprot.org/uniprotkb/P0A9D2/entry)
 
 - **Codi Uniprot:** P0A9D2
 - **Nom del gen:** gstA
 - **Funció breu:** Catalitza la conjugació de glutatió reduït (GSH) a un gran nombre d'electròfils hidrofòbics exògens i endògens.
-- **Classificació Enzim:** EC 2.5.1.18
+- **Classificació Enzim:** EC 2.5.1.18 (https://www.brenda-enzymes.org/enzyme.php?ecno=2.5.1.18)
   
 **2. Codi PDB i estructura:**
+(https://www.rcsb.org/structure/1A0F)
 - **Codi de PDB:** 1A0F_A
 - **Method:** X-RAY DIFFRACTION
 - **Resolution:** 2.10 Å
@@ -64,7 +64,7 @@ En aquesta imatge de l'estructura de la proteïna podem observar estructures sec
 **Figura10:** Imatge pròpia, Trobem ponts d’hidrogen que són les línies blaves (Quantitat: 806)
 
 - **Estructura terciaria:**                                                      
-**Codis de base de dades SCOP:** 1a0f A:81-201 [17737], 1a0f A:1-80 [33031], 1a0f B:81-201 [17738], 1a0f B:1-80 [33032]
+**Codis de base de dades SCOP:** 1a0f A:81-201 [17737], 1a0f A:1-80 [33031], 1a0f B:81-201 [17738], 1a0f B:1-80 [33032] (https://scop.berkeley.edu/search/?ver=2.08&key=1A0F_A)
 
 ![Captura de la imatge](Fotos/Imatge11.png)                                                        
 **Figura11:** Imatge pròpia, d1a0fa1: 1a0f A:81-201 
@@ -113,22 +113,20 @@ Primer el GSH s'uneix al lloc G de GstA, on el grup tiol (-SH) de GSH s'activa p
 Després el substrat electrofílic s'uneix al lloc H de la GstA, es produeix un atac nucleofílic del GSH al substrat i per últim es produeix una formació del producte conjugat i alliberament.
 
 - **Relació seqüència-estructura-funció:**                                                    
-Com es pot veure anteriorment en la nostra proteïna, aquesta presenta un substrat, que és el GTS. Aquest, segons la seva estructura no presenta un grup tiol (SH), el qual segons la funció de la proteïna és capaç d'atacar compostos tòxics electrofílics. Per això, la seva versió reduïda del GTS, el GSH si el conte, llavors, segons l'estructura d’aquest compost, això afectarà a la funció de la proteïna.
-Pel que fa a l'estructura més global de la proteïna, aquesta és un dímer, o sigui que conté dues subunitats les quals són similars. Per tant, aquesta dimerització permet que la proteïna sigui més estable estructuralment. No només això sinó que també ajuda en el seu paper de prevenció de l'estrès oxidatiu. En conclusió, podríem dir que tant el centre actiu com el substrat GTS, tenen un paper molt important en la funció de la proteïna, a més de la seva estructura en dímer. 
+Com es pot veure anteriorment en la nostra proteïna, aquesta presenta un substrat, el qual és el GTS (Glutatión S-transferasa). Segons la seva estructura, el grup S del nostre substrat té un OH i, per tant, provoca que la funció de la proteïna estigui desactivada, ja que no és capaç d’atacar compostos tòxics electrofílics. Per aquest motiu, el grup S es redueix i perd l’oxigen, formant així un grup tiol (SH) canviant el substrat GTS per GSH el qual rep aquest nom perquè és la forma reduïda, aquest nou substrat sí que farà que la proteïna estigui activada i pugui realitzar la seva funció.
+Pel que fa a l'estructura més global de la proteïna, aquesta és un dímer, o sigui que conté dues subunitats les quals són similars. Per tant, aquesta dimerització permet que la proteïna sigui més estable estructuralment. No només això sinó que també ajuda en el seu paper de prevenció de l'estrès oxidatiu. En conclusió, podríem dir que tant el centre actiu com el substrat GTS, tenen un paper molt important en la funció de la proteïna, a més de la seva estructura en dímer.
+
 
 ![Captura de la imatge](Fotos/Imatge18.png)                                                        
 **Figura18:** Imatge pròpia, Procès d’oxidació del GST a GSH
 
 - **Variants:**                                                                     
-Aquesta proteïna pot tenir diverses variants les quals afectaran a la seva funcionalitat. Per exemple, una mutació al lloc d’unió del GSH, això afecta a la capacitat de la proteïna per unir i activar el GSH disminuint l'eficiència de la conjugació amb compostos tòxics. Una altra mutació que pot tenir és en residus de la interfície de dimerització, que provoquen que l'estabilitat de l'estructura es vegi afectada juntament amb la seva activitat enzimàtica. Per últim, també es pot ocasionar mutacions en regions reguladores que afecten l'expressió de GstA, implicant una menor protecció contra l'estrès oxidatiu. 
+Aquesta proteïna pot tenir diverses variants les quals afectaran a la seva funcionalitat. Per exemple, una mutació al lloc d’unió del GSH, això afecta a la capacitat de la proteïna per unir i activar el GSH disminuint l'eficiència de la conjugació amb compostos tòxics. Una altra mutació que pot tenir és en residus de la interfície de dimerització, que provoquen que l'estabilitat de l'estructura es vegi afectada juntament amb la seva activitat enzimàtica. Per últim, també es pot ocasionar mutacions en regions reguladores que afecten l'expressió de GstA, implicant una menor protecció contra l'estrès oxidatiu. Més concretament, una mutació en la posició 10 que canvia la cisteïna per una serina (S) o una alanina (A), això provoca que l'afinitat per la GSH disminueixi, però també fa que augmenti la seva activitat de transferasa. Després, una altra mutació en la posició 106 que canvia la histidina (H) per una fenilalanina (F) o una alanina (A) que provoca una disminució en l'afinitat pel GSH i també en la seva activitat de transferasa. 
 
 ## Bibliografia:
 
-- https://biomodel.uah.es/model1j/prot/supersec/inicio.htm
-- https://www.uniprot.org/uniprotkb/P0A9D2/entry
-- https://www.brenda-enzymes.org/enzyme.php?ecno=2.5.1.18
-- https://scop.berkeley.edu/search/?ver=2.08&key=1A0F_A
-- https://www.rcsb.org/structure/1A0F 
-- https://bio.libretexts.org/Bookshelves/Biochemistry/Fundamentals_of_Biochemistry_%28Jakubowski_and_Flatt%29/01%3A_Unit_I-_Structure_and_Catalysis/06%3A_Enzyme_Activity/6.05%3A_Enzymatic_Reaction_Mechanisms 
+- Estructuras supersecundarias. (s. f.).                                                            
+https://biomodel.uah.es/model1j/prot/supersec/inicio.htm
+- Njälsson, R., & Norgren, S. (2005). Physiological and pathological aspects of GSH metabolism. Acta Paediatrica, 94(2), 132-137. https://doi.org/10.1111/j.1651-2227.2005.tb01878.x
 
 
