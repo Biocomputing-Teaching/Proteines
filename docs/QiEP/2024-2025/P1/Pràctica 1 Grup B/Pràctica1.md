@@ -3,7 +3,7 @@ layout: default
 title: 'Relacions estructura-funció: Glutathione S-transferase GstA'
 date: 03-2025
 author: Alex Durán, Ariadna Gómez, Jordi Martín
-permalink: /QiEP-P1-2025-B/
+permalink: /QiEP-P1-2025-B/ 
 ---
 
 # PRÀCTICA 1 Química i Enginyeria de Proteïnes
