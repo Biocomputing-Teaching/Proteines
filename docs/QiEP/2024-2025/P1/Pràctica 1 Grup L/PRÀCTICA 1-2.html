@@ -1,0 +1,190 @@
+﻿---
+layout: default
+title: 'Relacions estructura-funció: Xilosa isomerasa'
+date: 03-2025
+author: Cloe Capelle, Arnau Garcia i Sofia Lombera
+permalink: /QiEP-P1-2025-L/
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRÀCTICA 1</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="pràctica-1">PRÀCTICA 1</h1>
+<p>Cloe Capelle, Arnau Garcia i Sofia Lombera</p>
+<h2 id="relacions-estructura-funció-de-proteïnes">Relacions estructura-funció de proteïnes</h2>
+<h2 id="introducció">Introducció</h2>
+<p>Aquesta pràctica té com a objectiu treballar l’ús d’eines habituals en bioinformàtica estructural, centrant-nos en l’anàlisi de la proteïna <strong>Xylose Isomerase</strong>. Mitjançant aquesta activitat, busquem familiaritzar-nos amb les eines d’anàlisi i cerca d’homologia de seqüències proteiques, així com dominar les representacions gràfiques de les estructures de proteïnes.</p>
+<p>Per assolir els objectius, utilitzarem eines com <strong>ChimeraX</strong> per visualitzar i analitzar l’estructura tridimensional de la proteïna, així com dades extretes del <strong>Protein Data Bank (PDB)</strong> i, si és necessari, d’<strong>Alphafold2</strong>. La nostra tasca principal consistirà a identificar els elements estructurals clau de la <em>Xylose Isomerase</em> i comprendre com aquestes estructures contribueixen a la seva funció enzimàtica.</p>
+<h2 id="sobre-la-proteïna">Sobre la proteïna</h2>
+<p>La seqüència proporcionada va ser la següent:<br>
+<code>MNYQPTPEDRFTFGLWTVGWQGRDPFGDATRRALDPVESVRRLAELGAHGVTFHDDDLIPFGSSDSEREEHVKRFRQALDDTGMKVPMATTNLFTHPVFKDGGFTANDRDVRRYALRKTIRNIDLAVELGAETYVAWGGREGAESGGAKDVRDALDRMKEAFDLLGEYVTSQGYDIRFAIEPKPNEPRGDILLPTVGHALAFIERLERPELYGVNPEVGHEQMAGLNFPHGIAQALWAGKLFHIDLNGQNGIKYDQDLRFGAGDLRAAFWLVDLLESAGYSGPRHFDFKPPRTEDFDGVWASAAGCMRNYLILKERAAAFRADPEVQEALRASRLDELARPTAADGLQALLDDRSAFEEFDVDAAAARGMAFERLDQLAMDHLLGARG</code></p>
+<h3 id="cerca-de-la-seqüència-a-uniprot">Cerca de la seqüència a UNIPROT</h3>
+<ul>
+<li><strong>Nom UNIPROT</strong>: P24300</li>
+<li><strong>Proteïna</strong>: Xylose Isomerase</li>
+<li><strong>Gen</strong>: xyIA</li>
+<li><strong>Organisme</strong>: Streptomyces rubiginosus</li>
+<li><strong>Aminoàcids</strong>: 388 AA</li>
+</ul>
+<h3 id="estructura-de-la-proteïna">Estructura de la proteïna</h3>
+<ul>
+<li><strong>Codi PDB</strong>: 1MNZ</li>
+<li><strong>EC Number</strong>: EC 5.3.1.5</li>
+</ul>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdEJIGn2euurcSEs-7JxAuspkJ3rBeL_-hUti2Cz9JBQP4GncR3F_WisYD3JE1SYA58W16NzEws2zxQalIe8Q5Fzmze64hTL9DPd2NNQ7NgZS0ekEZL8yL9j0Vje_nWRzvJn-92?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 1: Codi PDB de la nostre proteïna</em></p>
+<p>L’estructura tridimensional de la <em>Xylose Isomerase</em> està disponible a la base de dades del <strong>Protein Data Bank</strong> amb el codi <em>1MNZ</em>. Aquesta estructura proporciona informació sobre els elements estructurals de la proteïna, incloent les seves estructures secundàries (hèlix alfa, fulles beta) i les interaccions que estabilitzen la seva conformació, amb el qual podrem observar la seva estructura amb el programa <em>ChimeraX</em>.</p>
+<h3 id="funció-de-la-proteïna">Funció de la proteïna</h3>
+<p>La <em>Xylose Isomerase</em> (XI) és una enzim que catalitza la interconversió entre dos monosacàrids:</p>
+<ul>
+<li><strong>D-xilosa → D-xilulosa</strong></li>
+<li>També pot convertir <strong>D-glucosa → D-fructosa</strong> (amb menor afinitat per la glucosa).</li>
+</ul>
+<p>Aquesta reacció és crucial en el metabolisme de la pentosa fosfat i en la degradació dels sucres, ja que permet a bacteris i fongs utilitzar la xilosa, un sucre de cinc carbonis present a l’hemicel·lulosa, una part important de les parets cel·lulars de les plantes. Això resulta vital per organismes com <em>Streptomyces rubiginosus</em>, que habiten ambients rics en material vegetal.</p>
+<h4 id="aplicacions-industrials">Aplicacions industrials</h4>
+<p>La <em>Xylose Isomerase</em> té un paper fonamental en la <strong>producció d’alt-fructose corn syrup (HFCS)</strong>. Aquesta proteïna s’utilitza per convertir <strong>D-glucosa en D-fructosa</strong> durant el procés industrial de fabricació del xarop de blat de moro d’alta fructosa, un edulcorant àmpliament emprat en begudes, aliments processats i altres productes.</p>
+<p>A més, per funcionar correctament, la XI necessita ions metàl·lics, com <strong>Mg²⁺</strong> o <strong>Mn²⁺</strong>, que actuen com a cofactors essencials per a l’activitat enzimàtica.</p>
+<h2 id="treball-amb-chimerax">Treball amb ChimeraX</h2>
+<h3 id="anàlisis-destructures-secundàries">Anàlisis d’estructures secundàries</h3>
+<p>Podem veure clarament que presenta estructures secundàries comunes, com ara hèlix α, llaços i làmines β. 3475 atoms, 3131 bonds, 13 pseudobonds, 803 residues, 2 models selected</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcLhTQje66lWnG6pVfV9vt1CAIuALqajhTGUcRVKiUYFqGwFAfZhHg39sc7yM1ISVlYlLt88O75GW_VL7D88vLq9yQe2z5AWBLZV5-Emwh1gU9JWfpNtL1rE-7mkbwNX3tfCFgw?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 2: Estructura de la proteïna amb ChimeraX</em></p>
+<h4 id="hèlix-alfa">Hèlix alfa</h4>
+<p>Podem veure hèlixs α en forma de cintes helicoïdals. Es formen per la formació de ponts d’hidrogen interns entre el grup amida (-NH) d’un residu d’aminoàcid i el grup carbonil d’un residu. Això confereix l’estructura enrotllada. Els ponts d’hidrogen ajuden a estabilitzar la estructura.</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJ_qZNqynhsdFVE9up8-O19bntVWB2Pv2wKVXRZbYD193gh91CHrqHl9vSO839vyC0QcJtUXcqBBPf9ZRB5N9vrDHO8leYHrCirei7qX0xObgw5TTe4dALW1ImhhXSG2-KJFkT4A?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 3: Estructura de la proteïna, on observem les helix alfa en verd</em></p>
+<h4 id="full-beta">Full beta</h4>
+<p>Les fulles β, representades en blau, estan estabilitzades per ponts d’hidrogen entre cadenes adjacents, formant patrons paral·lels o antiparal·lels. Aquestes fulles tenen una estructura més estirada en comparació amb les hèlixs.</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeojHd9K8-w0oYfZV6GGB-UZIQJjLpw-Z1k3dH9oSV1sa0csYGZWHdOlRy0DL-2ceIJDiR1tJItkoIxnJ02YdVTcBoGZoj26mmNTFukN9o9WqztRfubzKiYqbtKH3Te1CSIrx5g?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 4: Estructura de la proteïna, on la part en blau representen les fulles beta</em></p>
+<h4 id="llaços">Llaços</h4>
+<p>Son les parts més desorganitzades que connecten les estructures secundàries i no tenen una estructura regular. Generalment, els llaços més curts estan estabilitzats per ponts d’hidrogen entre residus propers, però no son com les hèlixs o fulles beta.</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXetZwoV9x73Pc_2Wr_OOnHA8Kj4gKVOKEove3EOw__1UF-uEn-wGgjhRnDbiI-GoN_B1JBvyFqvuWroIjboMKeMeQDS9XjgRB1MDnFwANWEcShmK4bRqjQQvS77lY_t7woyMmCn?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 5: Estructura de la proteïna, on en vermell podem obersevar els llaços (o girs)</em></p>
+<h3 id="interaccions-dins-les-estructures-secundàries">Interaccions dins les estructures secundàries</h3>
+<ul>
+<li>Els <strong>ponts d’hidrogen</strong> són les interaccions principals dins les estructures secundàries. A les hèlixs α, els ponts d’hidrogen interns mantenen la cadena enrotllada. En les fulles β (si n’hi hagués), els ponts d’hidrogen s’establirien entre cadenes β paral·leles o antiparal·leles.</li>
+<li>A més dels ponts d’hidrogen, altres forces com les <strong>interaccions hidrofòbiques</strong> poden ajudar a estabilitzar aquestes estructures secundàries, especialment quan els residus hidrofòbics queden enterrats al nucli de la proteïna.</li>
+</ul>
+<h3 id="anàlisis-destructures-supersecundàries">Anàlisis d’estructures supersecundàries</h3>
+<p>La <em>xylose isomerase</em> presenta diversos motius d’estructura supersecundària relacionats amb el seu plec TIM barrel, que inclou interaccions importants com ponts d’hidrogen i interaccions de van der Waals. Aquestes interaccions estabilitzen la seva forma terciària i permeten que la proteïna compleixi la seva funció d’isomeritzar la xilosa. Els visualitzadors moleculars són eines excel·lents per explorar aquestes interaccions detalladament.</p>
+<p>Estructures supersecundàries:</p>
+<ul>
+<li><strong>Motiu de la “cua de corb” (Greek key motif)</strong>: Aquesta és una estructura comuna en proteïnes amb plecs β. Consisteix en una sèrie de làmines β que es lliguen entre elles en un patró determinat.</li>
+<li><strong>Motiu de l’α-helix β-sheet (helix-turn-helix)</strong>: Les helix alfa i fulles beta sovint es combinen en estructures d’aquesta classe, en què les helix envolten els plecs β en patrons característics.</li>
+</ul>
+<p><strong>Ponts hidrogen</strong>: Els grups NH de les helix alfa poden formar ponts d’hidrogen amb els grups carbonils de les llaminetes beta. Aquestes interaccions són fonamentals per mantenir la coherència estructural de la proteïna, especialment en el plegament de la forma TIM barrel.</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd2jP_Hv7jXN5MPBkB3lAjwPvkIY0LBBAwmLoiL7JmIbgvIREcy8taLRB-voWCR7L5iEia9Fc3FARRCz3hZ8yb_Cc6sakg0yf6Hm2CL-dU8I2tbf2iRf6Fso_F1dJnNN6r1ivSuYw?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 6: Observem les interaccions entre el ponts d’hidrogen (343 ponts H)</em></p>
+<p><strong>Interaccions Van der Waals</strong>: Els residus hidrofòbics de les helixs alfa i les llaminetes beta poden interactuar mitjançant forces de van der Waals.</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfH_frvrjqDE05xEH8ba7ESmhEqYI-DrKEUk1okSxcTaXcZ2L06VR0bwtcx43wcTK14H1rmxMHx0T32hWl0qT9xggOD6vlH33gtIBXDi3CQCVnINlXT-_Yu_uwp2b1Nh4JToDtH?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 7: Observem les interaccions Van der Waals (3150)</em></p>
+<h3 id="estructura-terciària-plegament-i-scop-i-estructura-quaternària">Estructura terciària (Plegament i SCOP) i estructura quaternària</h3>
+<p>L’estructura terciària de la Xylose Isomerase (XI) de Streptomyces rubiginosus es caracteritza per un plegament de tipus barril TIM (Triosephosphate Isomerase). La estructura consisteix en vuit hèlixs α i vuit fulles β que s’alternen formant un barril cilíndric tancat.</p>
+<p>La Xylose Isomerase es classifica de la següent manera segons la jerarquia SCOP:</p>
+<ul>
+<li>
+<p>Classe: Proteïnes α/β</p>
+</li>
+<li>
+<p>Plegament: Barril TIM (c.1)</p>
+</li>
+<li>
+<p>Superfamília: Xylose isomerase-like (c.1.15)</p>
+</li>
+<li>
+<p>Família: Xylose isomerase (c.1.15.3)</p>
+</li>
+</ul>
+<p><img src="https://www.researchgate.net/profile/Julianna_Olah/publication/263513933/figure/download/fig21/AS%3A357977258250247%401462359837212/Catalytic-mechanism-of-xylose-isomerase-Top-ring-opening-middle-substrate.png" alt="Catalytic mechanism of xylose isomerase. Top: ring opening, middle:... | Download Scientific Diagram"><br>
+<em>Figura 8: Representa l’estructura terciària d’una proteïna amb un plegament de tipus TIM barrel (barril alfa/beta)</em></p>
+<p><strong>CODI</strong>: (<a href="https://scop.berkeley.edu/sunid=51665">c.1.15</a>.<a href="https://scop.berkeley.edu/sunid=51665">3</a>)<br>
+<strong>Description</strong>: Atomic structure of Glucose isomerase<br>
+<strong>Class</strong>: Alpha and beta proteins (a/b)<br>
+<strong>Superfamily</strong>: Xylose isomera<br>
+<strong>Plegament</strong>: TIM beta/alpha-barrel (barrel:plegament estructural en proteïnes. Es caracteritza per una estructura alternada de vuit hèlixs α i vuit fulles βdisposades en forma de barril cilíndric.)<br>
+<strong>Familia</strong>: Xylose isomerase</p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCTQxlEpNyTZ8SaiGo4WaOv4Ff2p64IuspM3epzNd5ncbhCoYBghwDreCGt4G_hBhkGcOUB_RCfzadQ7vNjMfoObaOK1x5bcGjSTRBDYI5CkH-4km85ao3jB3bED-I_lXq16oZaw?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 9: Imatge de la <strong><a href="https://scop.berkeley.edu/">base de dades SCOP</a></strong> sobre la nostre proteïna</em></p>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeMZQBxX6H08Yrs0qNSiHI_5ZWESBE_-AMPFK_opU9BDBhIIh1wxb9uGDe_QrV_171PwFAFQ17_tgbyJM4p-ndbB4inNZEPaWxQy94_cAhmAGmmOGnOLtlkXZEakqxFn8pwzL3s?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 10: Figura de la nostre proteina a SCOP</em></p>
+<p>La Xylose Isomerase forma un homotetràmer, està composta per quatre subunitats iguales que s’uneixen per formar la proteïna funcional. Aquesta organització tetramèrica és comuna en moltes isomerases de sucres i és clau per a la seva activitat enzimàtica.</p>
+<h2 id="funció-de-la-proteïna-1">Funció de la proteïna</h2>
+<p>És un enzim que catalitza la conversió entre la D-xilosa i la D-xilulosa. Aquest és un pas molt important a la via de metabolisme dels monosacàrids.</p>
+<h3 id="centre-actiu-i-residus-rellevants">Centre actiu i residus rellevants</h3>
+<p>La xilosa isomerasa té un centre actiu on es produeix la reacció d’isomerització, facilitada per residus clau com:</p>
+<ul>
+<li><strong>Histidina</strong>: Actua com a base o àcid, promovent la transferència de protons durant el procés.</li>
+<li><strong>Glutamat</strong>: Estabilitza l’intermediari enolè i participa en les reaccions de protonació.</li>
+<li><strong>Serina o Cisteïna</strong>: Poden contribuir a la formació d’enllaços amb el substrat i estabilitzar l’estructura de l’enzim.</li>
+</ul>
+<p><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf69mgGnyz9tjPyiTLrZpHYqL9bucb-tew2xuiZDddKmv4EE7vx-OVYelwtoBjcxd7J-4cOgFRCgFeHT6uq5c4ei_7wxfEvAijN1ksGWHHCVJ1FkhqUGrAGal6WurMZZJT4G1ut?key=IIFDaqnBsluiSPqK4L2VHfZA" alt=""><br>
+<em>Figura 11: Observem on està el centre actiu dels lligands</em></p>
+<p>A més, la proteïna interacciona amb quatre lligands importants:</p>
+<ul>
+<li><strong>2-AMINO-2-HYDROXYMETHYL-PROPANE-1,3-DIOL</strong> (C4 H12 N O3): Actua com a estabilitzador.</li>
+<li><strong>(4R)-2-METHYLPENTANE-2,4-DIOL</strong> (C6 H14 O2): Funciona com a inhibidor.</li>
+<li><strong>Ió calci (+2)</strong>: Actua com a coenzim.</li>
+<li><strong>Ió magnesi (+2)</strong>: També participa com a coenzim.</li>
+</ul>
+<p>Els ions metàl·lics, especialment el calci i el magnesi, són essencials per a l’activació de l’enzim i per mantenir l’estructura correcta del centre actiu.</p>
+<h3 id="funció-biològica-i-mecanisme-dacció">Funció biològica i mecanisme d’acció</h3>
+<ol>
+<li>
+<p>La xilosa isomerasa catalitza la conversió de D-xilosa en D-xilulosa mitjançant un mecanisme d’isomerització, és a dir que transforma la molècula en un dels seus isòmers</p>
+</li>
+<li>
+<p>L’enzim elimina un protó de la D-xilosa</p>
+</li>
+<li>
+<p>Reorganitzament per convertir-se en D-xilulosa (implica la participació de residus d’histidina o glutamat en el centre actiu per facilitar l’eliminació de protons).</p>
+</li>
+</ol>
+<h3 id="relació-seqüència-estructura-funció">Relació seqüència-estructura-funció</h3>
+<p>Com ja sabem, la seqüència d’aminoàcids d’una proteïna determina com es plegarà en una estructura tridimensional específica. Els residus de la xilosa isomerasa defineixen el seu centre actiu i les interaccions amb el substrat (D-xilosa).</p>
+<p>La xilosa isomerasa presenta la següent estructura específica que inclou:</p>
+<ul>
+<li>
+<p>Llocs actius: Regió on es produeix la interacció amb el substrat.</p>
+</li>
+<li>
+<p>Motius estructurals: Tim barrel o altres estructures secundàries</p>
+</li>
+</ul>
+<p>L’estructura tridimensional permet la mobilitat i flexibilitat dels residus clau durant l’activitat enzimàtica.</p>
+<h3 id="elements-estructurals-que-participen-en-la-funció">Elements estructurals que participen en la funció</h3>
+<h3 id="els-residus-clau-en-la-xilosa-isomerasa-són">Els residus clau en la xilosa isomerasa són:</h3>
+<ul>
+<li>
+<p>Histidina: Actua com a base o àcid, facilitant la transferència de protons en el mecanisme d’isomerització.</p>
+</li>
+<li>
+<p>Glutamat: Participa en l’estabilització de l’intermediari</p>
+</li>
+<li>
+<p>Serina o Cistèina: Estan involucrades en la formació d’enllaços amb el substrat o en la estabilització de l’estructura.</p>
+</li>
+</ul>
+<h3 id="variants-de-la-proteïna-i-implicacions-funcionals">Variants de la proteïna i implicacions funcionals</h3>
+<p>Les variants de la xilosa isomerasa poden ser resultats de mutacions que afecten la seqüència d’aminoàcids. Aquestes mutacions alteren l’estructura de l’enzim i en conseqüència la seva activitat.</p>
+<p>Aquests inclouen canvis en residus clau del centre actiu, que poden afectar la catalisi i la selectivitat per al substrat.</p>
+<p>Les variants que alteren residus en el centre actiu poden acabar en una disminució de l’activitat enzimàtica, afectant la capacitat de metabolitzar la xilosa.</p>
+<p>També poden provocar un augment de la selectivitat cap a substrats alternatius o una reducció de la capacitat de l’enzim per funcionar en condicions fisiològiques.</p>
+<h2 id="bibliografía">Bibliografía</h2>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/6699015/">PubMed</a><br>
+<a href="https://www.wikiwand.com/es/articles/Xilosa_isomerasa">Articles Wikiwand</a><br>
+<a href="https://www.researchgate.net/figure/ylose-isomerase-from-B-cenocepacia-predicted-structure-a-Overall-structure-of-XylA-Bc_fig10_333369688">Imatge Ylose-isomerase</a><br>
+<a href="https://es.wikipedia.org/wiki/Xilosa_isomerasa">Xilosa_isomerasa</a><br>
+<a href="https://www.researchgate.net/figure/ylose-isomerase-from-B-cenocepacia-predicted-structure-a-Overall-structure-of-XylA-Bc_fig10_333369688">Active site</a></p>
+</div>
+</body>
+
+</html>
