@@ -14,7 +14,7 @@ permalink: /QiEP-P1-2025-A/
 
 **Nom del gen:** FMO5
 
-**Codi uniprot:** P49326· FMO5_HUMAN
+**Codi uniprot:** P49326· FMO5_HUMAN 
 
 **Classificació de l’enzim:** EC1.14.13.8	
 
