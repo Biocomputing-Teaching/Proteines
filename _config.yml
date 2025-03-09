@@ -1,8 +1,7 @@
 #theme: jekyll-theme-minimal
 title: "Protein explorer"
 remote-theme: benbalter/retlab 
-website: https://biocomputing-teaching.github.io/Proteines
-baseurl: "/Proteines"
+url: https://biocomputing-teaching.github.io/Proteines
 permalink: date
 github: [metadata]
 kramdown:
