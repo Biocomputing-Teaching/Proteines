@@ -3,7 +3,7 @@ title: "Protein explorer"
 remote-theme: benbalter/retlab 
 url: https://biocomputing-teaching.github.io/Proteines
 permalink: date
-baseurl: /
+baseurl: /Proteines
 github: [metadata]
 kramdown:
   input: GFM
