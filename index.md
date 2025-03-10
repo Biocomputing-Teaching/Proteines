@@ -12,6 +12,8 @@ Welcome to My Home Page
 
 Eines per a l'estudi de les relacions estructura-funció en proteïnes.
 
+* [Pràctiques de Química i Enginyeria de Proteïnes](/QiEP/)
+
 
 &copy; [Jordi Villà Freixa](https://mon.uvic.cat/cbbl/members/) 2022-2025
 
