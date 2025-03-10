@@ -23,7 +23,7 @@ Grup F - Marc Conde, Marc Sánchez, Adrià Segura
 **Tipus d'estructures secundàries:**
 El tipus d'estructures secundàries que conté la nostra proteïna són: 
 - **Hèlix-α:** Format per un total de 3448 àtoms, 3463 bonds (enllaços) i 443 residus repartits en 2 estructures (Humann LIG1 i Human PCNA), també, aquesta estructura està constituïda per 386 pseudoenllaços que tots aquests representen ponts d'hidrogen.
-- 
+  
 ![image](FIGURES/FIGURA_1.jpg)
 
 Figura 1: Imatge pròpia que mostra les hèlixs (ChimeraX).
@@ -33,7 +33,7 @@ Figura 1: Imatge pròpia que mostra les hèlixs (ChimeraX).
 Figura 2: Imatge pròpia que mostra els ponts d'hidrogen interns de les hèlixs (ChimeraX).
  
 - **β-sheet (strand):** Format per un total de 3678 àtoms, 3671 bonds (enllaços) i 470 residus repartits en 2 estructures (Human LIG1 i Human PCNA), també, aquesta estructura està constituïda per 390 pseudoenllaços que tots aquests representen ponts d'hidrogen.
-- 
+  
 ![image](FIGURES/FIGURA_3.jpg)
 
 Figura 3: Imatge pròpia que mostra les fulles (ChimeraX).
@@ -43,7 +43,7 @@ Figura 3: Imatge pròpia que mostra les fulles (ChimeraX).
 Figura 4: Imatge pròpia que mostra els ponts d'hidrogen interns de les fulles (ChimeraX).
 
 - **β-turns(Coils):** Format per un total de 3527 àtoms, 3475 bonds (enllaços) i 477 residus repartatis en 2 estructures(Human LIG1 i Human PCNA), també, aquesta estructura està constituida per 151 pseudoenllaços que tots aquests representen ponts d'hidrogen
-- 
+
 ![image](FIGURES/FIGURA_5.jpg)
 
 Figura 5: Imatge pròpia que mostra els llaços (ChimeraX).
@@ -122,7 +122,7 @@ La LIG1 està conformada per tres dominis diferents:
 - **Domini central catalític:** Lloc catalític el qual és l'encarregat de realitzar la reacció de lligació de l'ADN. Aquest domini conté residus conservats de lisina, els quals s'uneixen al AMP i són especials per a la catàlisi. Aquest domini és altament conservat amb regions hèlix i lamines beta que estabilitzen la reacció amb l'ADN.
 
 - **Domini C-terminal:** Aquest és important per tal d'estabilitzar el complex ADN-ligasa, assegurant la correcta orientació durant la reacció de la ligasa. Conté residus hidrofòbics i amb càrrega, els quals ajuden a estabilitzar la interacció amb la doble hèlix d'ADN. 
-- 
+  
 ![image](FIGURES/FIGURA_16.jpg)
 
 Figura 16: Dominis de la DNA Ligase I obtinguda del PFAM.
@@ -130,7 +130,7 @@ Figura 16: Dominis de la DNA Ligase I obtinguda del PFAM.
 
 Per a la PCNA tenim només dos dominis:
 - **Domini N-terminal i Domini C-terminal:** Els dominis N-terminal i C-terminal de PCNA són topològicament idèntics. Tres molècules de PCNA estan estretament associades per formar un anell tancat que envolta l'ADN dúplex.
-- 
+
 ![image](FIGURES/FIGURA_17.jpg)
 
 Figura 17: Dominis de la proteína PCNA obtinguda del PFAM.
