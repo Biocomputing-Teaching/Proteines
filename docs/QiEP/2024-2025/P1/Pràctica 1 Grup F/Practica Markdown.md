@@ -23,7 +23,7 @@ Grup F - Marc Conde, Marc Sánchez, Adrià Segura
 **Tipus d'estructures secundàries:**
 El tipus d'estructures secundàries que conté la nostra proteïna són: 
 - **Hèlix-α:** Format per un total de 3448 àtoms, 3463 bonds (enllaços) i 443 residus repartits en 2 estructures (Humann LIG1 i Human PCNA), també, aquesta estructura està constituïda per 386 pseudoenllaços que tots aquests representen ponts d'hidrogen.
-![image](<FIGURES/FIGURA_1.jpg>)
+![image](FIGURES/FIGURA_1.jpg)
 ![testing](https://raw.githubusercontent.com/Biocomputing-Teaching/Proteines/refs/heads/main/docs/QiEP/2024-2025/P1/Pr%C3%A0ctica%201%20Grup%20F/FIGURES/FIGURA_1.jpg)
 Figura 1: Imatge pròpia que mostra les hèlixs (ChimeraX).
 ![image](<FIGURES/FIGURA_2.jpg>)
