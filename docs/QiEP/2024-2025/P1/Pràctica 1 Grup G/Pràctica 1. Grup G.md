@@ -24,10 +24,10 @@ Hi ha més d'una estructura disponible per a la proteïna a estudiar. Per això,
 
 **La translocasa de preproteïnes amb activitat ATPasa dimèrica**, correspon a la subunitat **SecA** del sistema Sec en bacteris. SecA és una ATPasa que impulsa la translocació de preproteïnes a través del canal de translocació format pel complex SecYEG a la membrana interna bacteriana utilitzant energia de la hidròlisi d'ATP.
 
-![image](https://hackmd.io/_uploads/SksX9erokl.png)
+![image](Figures/Fig_1.png)
 > *Figura 1: Model amb la via explicada A i una a alternativa B per l'activació de SecA
 
-![image](https://hackmd.io/_uploads/HyBHvj4ike.png)
+![image](Figures/Fig_2.png)
 > *Figura 2: Estructura cristalizada Preprotein translocase dimeric ATPase representada amb molècules aigua. Es pot observar que hi ha cadena A (vermell) i cadena B (verd)*
 
 
@@ -36,15 +36,15 @@ La proteïna 2FSF és l'estructura cristal·lina de la seca de l'E.coli. És un 
 Aquesta proteïna té tres tipus destructura secundària, ja que té: fulles beta, hèlixs alfa i beta-girs. Les fulles beta semblen anar en sentit antiparal·lel en algunes parts, mentre que en altres són paral·leles. Té estructures enllaçants. 
 Hi ha part de la seqüència de la proteïna que no té estructura secundària, que podem considerar com només la cadena d'aminoàcids a la seva estructura primària.
 
-![image](https://hackmd.io/_uploads/SkW8bnVjkg.png)
+![image](Figures/Fig_3.png)
 > *Figura 3: Mostra de l'estructura secundària de la proteïna 2FSF. Representació de les hèlix alfa (blau) amb els ponts d'hidrogen presents (1424).*
 
 
-![image](https://hackmd.io/_uploads/BkvhJhNiJx.png)
+![image](Figures/Fig_4.png)
 > *Figura 4: Mostra de l'estructura secundària de la proteïna 2FSF. Representació de les fulles beta (vermell) amb els ponts d'hidrogen presents (228).*
 
 
-![image](https://hackmd.io/_uploads/BkkGf3Nj1e.png)
+![image](Figures/Fig_5.png)
 > *Figura 5: Mostra de l'estructura secundària de la proteïna 2FSF. Representació dels beta-girs (lila) amb els ponts d'hidrogen presents (594).*
 
 ### Motius d'estructura supersecundària i interaccions
@@ -52,17 +52,17 @@ L'estructura de SecA presenta motius d'estructura supersecundària, com hèlixs 
 Les hèlixs α i les làmines β de SecA estan estabilitzades per:
 **Ponts d'hidrogen**: Entre els grups carbonil i amino de l'esquelet peptídic.
 
-![image](https://hackmd.io/_uploads/SkI7P2Vj1x.png)
+![image](Figures/Fig_6.png)
 > *Figura 6: Mostra de l'estructura secundària de la proteïna 2FSF. Representació dels ponts d'hidrogen totals (2544).*
 
 
-![image](https://hackmd.io/_uploads/ryxd224jkx.png)
+![image](Figures/Fig_7.png)
 > *Figura 7: Ponts d'hidrogen on estabilitzen l'estructura entre les hèlix alfa i les làmines beta.
 
-![image](https://hackmd.io/_uploads/H1FTITEjJl.png)
+![image](Figures/Fig_8.png)
 > *Figura 8: Regions seleccionades en verd: A:10-20 & :A:50-70 & :A:100-120 & :A:200-220.
 
-![image](https://hackmd.io/_uploads/rk7tqa4jyg.png)
+![image](Figures/Fig_9.png)
 > *Figura 9: Zoom in a les regions seleccionades en verd fosfor poden contenir hèlixs embolicades. 
 
 β-hairpin --> EDSYRKQVVIDGETCLLDILDT
@@ -84,7 +84,7 @@ La proteïna es classifica de la següent manera dins de SCOP:
 4. Família g.74.1.1: Sec-C motif [103643] → Família específica dins de la superfamília.
 5. Proteïna: Domini C-terminal de la translocasa de preproteïnes SecA [103644]
 
-![image](https://hackmd.io/_uploads/B1N5X6EsJe.png)
+![image](Figures/Fig_10.png)
 > *Figura 10: Dominis segons SCOP. Preprotein translocase SecA C-terminal domain.*
 
 Es tracta d'una proteïna α/β, amb un plegament de tipus G-domain-like, el representant del qual és PDB:1CTQ segons la classificació a SCOP.
@@ -99,16 +99,16 @@ Explorem l'entrada per a aquest domini específic: PFAM: PF00071, i observem que
 
 L'estudi del logo HMM ens mostra una regió molt enriquida en glicines corresponent al P-loop, i també la gran conservació de la Treonina 35 del fitxer PDB (posició 31 en el logo HMM), que és essencial per a la coordinació de l'ió magnesi, que participa en la reacció GTPasa, com es pot apreciar en el centre actiu de la proteïna:
 
-![image](https://hackmd.io/_uploads/rkHANxHjJl.png)
+![image](Figures/Fig_11.png)
 > *Figura 11: Centre actiu
 
 Centre actiu de la proteïna UNIPROT: P10408. S'aprecia que l'ió magnesi està coordinat per 6 àtoms d'oxigen: dos provinents de sengles molècules d'aigua, dos dels fosfats β i γ del GTP, un de la serina 17 i un altre de la treonina 35 (aquests dos residus, altament conservats en les posicions 13 i 31 del logo HMM).
 
 Altres residus altament conservats que s'aprecien al logo PFAM tenen tasques importants en l'activitat de la proteïna Ras.
 
-![image](https://hackmd.io/_uploads/BkmaLxHjye.png) 
+![image](Figures/Fig_12.png) 
 > *Figura 12: Regions Hidrophobiques de la molècula.
-![image](https://hackmd.io/_uploads/BkyavlHsJg.png)
+![image](Figures/Fig_13.png)
 > *Figura 13: Ilustració del b-factor de la molècula.
 
 SecA s'uneix a les preproteïnes mitjançant la seva seqüència senyal i regions riques en aminoàcids hidrofòbics, unió on es donara el procés de translocació.
@@ -118,7 +118,7 @@ Les molècules d'aigua interaccionen amb SecA mitjançant ponts d'hidrogen i for
 Aquestes interaccions són importants per a l'estabilitat de l'estructura de SecA i per a la coordinació d'ions magnesi (Mg²⁺) durant la hidròlisi d'ATP.
 - L'ATP s'uneix a SecA en presència d'ions magnesi (Mg²⁺), que són necessaris per a l'activitat ATPasa de SecA.
 
-![image](https://hackmd.io/_uploads/B11WjgBo1x.png)
+![image](Figures/Fig_14.png)
 > *Figura 14: Interacció secA i SecYEG
 
 SecA passa per múltiples estats conformacionals durant el cicle de translocació, que inclouen la unió a ATP, la hidròlisi d'ATP i l'alliberament d'ADP i fosfat inorgànic
