@@ -1,0 +1,140 @@
+top_navigation:
+  - title: Inici
+    url: /
+    section: home
+  - title: Tallers
+    url: /tallers/
+    section: tallers
+  - title: QiEP
+    url: /QiEP/
+    section: qiep
+
+nav_groups:
+  - title: Tallers
+    section: tallers
+    items:
+      - title: Tallers
+        url: /tallers/
+      - title: Guió alumnat COVID-19
+        url: /GuioCOVID19/
+      - title: Guió professorat COVID-19
+        url: /COVID19/
+      - title: Assignment UI
+        url: /LVF601M/
+      - title: Solució UI
+        url: /LVF601MSol/
+  - title: QiEP
+    section: qiep
+    items:
+      - title: QiEP
+        url: /QiEP/
+      - title: P1 2022-2023
+        url: /QiEP-P1-2023/
+      - title: P1 2024-2025
+        url: /QiEP/2024-2025/
+      - title: P1 2025-2026
+        url: /QiEP/2025-2026/
+  - title: QiEP 2025-2026
+    section: qiep
+    items:
+      - title: Curs 2025-2026
+        url: /QiEP/2025-2026/
+      - title: Pràctica 1
+        url: /QiEP/2025-2026/practica-1/
+      - title: Pràctica 2
+        url: /QiEP/2025-2026/practica-2/
+  - title: QiEP P1 2024-2025
+    section: qiep
+    items:
+      - title: Grup A
+        url: /QiEP-P1-2025-A/
+      - title: Grup B
+        url: /QiEP-P1-2025-B/
+      - title: Grup C
+        url: /QiEP-P1-2025-C/
+      - title: Grup D
+        url: /QiEP-P1-2025-D/
+      - title: Grup E
+        url: /QiEP-P1-2025-E/
+      - title: Grup F
+        url: /QiEP-P1-2025-F/
+      - title: Grup G
+        url: /QiEP-P1-2025-G/
+      - title: Grup H
+        url: /QiEP-P1-2025-H/
+      - title: Grup I
+        url: /QiEP-P1-2025-I/
+      - title: Grup J
+        url: /QiEP-P1-2025-J/
+      - title: Grup K
+        url: /QiEP-P1-2025-K/
+      - title: Grup L
+        url: /QiEP-P1-2025-L/
+      - title: Grup M
+        url: /QiEP-P1-2025-M/
+
+tallers:
+  - title: Taller COVID-19 per a alumnat
+    url: /GuioCOVID19/
+    summary: "Guió interactiu per estudiar la interacció virus-cèl·lula, la variabilitat i el disseny racional de fàrmacs."
+  - title: Taller COVID-19 per a professorat
+    url: /COVID19/
+    summary: "Versió docent del taller, amb materials i recorregut per conduir l'activitat."
+  - title: Assignment UI
+    url: /LVF601M/
+    summary: "Versió en anglès del taller sobre disseny racional de fàrmacs aplicada a la COVID-19."
+  - title: Solució UI
+    url: /LVF601MSol/
+    summary: "Material de suport i solucions de la proposta internacional."
+
+qiep_courses:
+  - title: Pràctica 1 2022-2023
+    url: /QiEP-P1-2023/
+    summary: "Primera edició de la pràctica centrada en proteases i relacions estructura-funció."
+  - title: Pràctica 1 2024-2025
+    url: /QiEP/2024-2025/
+    summary: "Enunciat, context docent i treballs dels grups del curs 2024-2025."
+  - title: Pràctica 1 2025-2026
+    url: /QiEP/2025-2026/
+    summary: "Accés a les pràctiques 1 i 2 del curs 2025-2026, amb temporització, desenvolupament i avaluació."
+
+qiep_groups_2024_2025:
+  - title: Grup A
+    protein: "Flavin-containing monooxygenase 5"
+    url: /QiEP-P1-2025-A/
+  - title: Grup B
+    protein: "Glutathione S-transferase GstA"
+    url: /QiEP-P1-2025-B/
+  - title: Grup C
+    protein: "Cutinasa"
+    url: /QiEP-P1-2025-C/
+  - title: Grup D
+    protein: "Fenilalanina amoni liasa"
+    url: /QiEP-P1-2025-D/
+  - title: Grup E
+    protein: "Sucrosa isomerasa"
+    url: /QiEP-P1-2025-E/
+  - title: Grup F
+    protein: "DNA ligasa"
+    url: /QiEP-P1-2025-F/
+  - title: Grup G
+    protein: "Traslocasa"
+    url: /QiEP-P1-2025-G/
+  - title: Grup H
+    protein: "Amina oxidasa"
+    url: /QiEP-P1-2025-H/
+  - title: Grup I
+    protein: "Glicosil transferasa"
+    url: /QiEP-P1-2025-I/
+  - title: Grup J
+    protein: "Epoxi hidrolasa"
+    url: /QiEP-P1-2025-J/
+  - title: Grup K
+    protein: "Pectat liasa"
+    url: /QiEP-P1-2025-K/
+  - title: Grup L
+    protein: "Xilosa isomerasa"
+    url: /QiEP-P1-2025-L/
+  - title: Grup M
+    protein: "Lipasa"
+    url: /QiEP-P1-2025-M/

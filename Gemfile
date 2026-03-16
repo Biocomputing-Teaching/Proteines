@@ -2,13 +2,10 @@
 
 source "https://rubygems.org"
 
-gem 'github-pages'
-
-
+gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.8"
 
-gem "jekyll", "3.9.3"
-
 group :jekyll_plugins do
-  gem "jekyll-timeago", "~> 0.13.1"
+  gem "jekyll-relative-links", "~> 0.7"
+  gem "jekyll-sitemap", "~> 1.4"
 end

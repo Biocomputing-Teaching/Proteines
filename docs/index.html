@@ -1,8 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head><title>Provant index.html</title></head>
-   <body>
-    <!-- page content -->
-      testing2
-  </body>
-</html>
+---
+title: "Estudi de proteïnes"
+permalink: /
+---
+
+{% assign tallers = site.data.site.tallers %}
+{% assign qiep_courses = site.data.site.qiep_courses %}
+
+<section class="hero">
+  <div class="hero__panel">
+    <p class="page-card__eyebrow">Bioinformàtica estructural</p>
+    <h1>Estudi de la seqüència, l'estructura i la funció de les proteïnes</h1>
+    <p>Aquesta web reuneix materials docents per entendre com la informació de seqüència es transforma en estructura tridimensional i, finalment, en funció biològica. El lloc queda organitzat en dos blocs principals: els <strong>tallers</strong> i l'assignatura de <strong>Química i Enginyeria de Proteïnes (QiEP)</strong> de la FCTE al Grau en Biotecnologia.</p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{{ '/tallers/' | relative_url }}">Explorar tallers</a>
+      <a class="button button--secondary" href="{{ '/QiEP/' | relative_url }}">Entrar a QiEP</a>
+    </div>
+  </div>
+
+  <div class="feature-card">
+    <div class="logos">
+      <img src="{{ '/figures/FCTE.png' | relative_url }}" alt="Facultat de Ciències, Tecnologia i Enginyeries">
+      <img src="{{ '/figures/UVic-UCC-logo.png' | relative_url }}" alt="Universitat de Vic - Universitat Central de Catalunya">
+    </div>
+    <p class="muted">Materials desenvolupats en el context docent de la FCTE i la UVic-UCC per treballar relacions seqüència-estructura-funció de proteïnes amb eines de bioinformàtica, visualització molecular i anàlisi estructural.</p>
+  </div>
+</section>
+
+<section class="section-grid">
+  <article class="feature-card">
+    <p class="page-card__eyebrow">Bloc 1</p>
+    <h2>Tallers</h2>
+    <p>Recull de tallers guiats per introduir conceptes d'estructura de proteïnes, interacció molecular i disseny racional de fàrmacs. Inclou materials per a alumnat i professorat.</p>
+    <div class="card-grid">
+      {% for item in tallers %}
+        <div class="mini-card">
+          <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+          <p class="muted">{{ item.summary }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+
+  <article class="feature-card">
+    <p class="page-card__eyebrow">Bloc 2</p>
+    <h2>Química i Enginyeria de Proteïnes</h2>
+    <p>Espai docent de l'assignatura QiEP de la FCTE al Grau en Biotecnologia. Inclou enunciats, guions de pràctica i treballs de curs organitzats per edició.</p>
+    <div class="card-grid">
+      {% for item in qiep_courses %}
+        <div class="mini-card">
+          <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+          <p class="muted">{{ item.summary }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</section>
+
+<section class="feature-card">
+  <p class="page-card__eyebrow">Fil conductor</p>
+  <h2>Què s'hi treballa</h2>
+  <div class="card-grid">
+    <div class="link-card">
+      <h3>Seqüència</h3>
+      <p>Identificació de proteïnes, anotació funcional, cerca a UniProt i anàlisi de motius i dominis.</p>
+    </div>
+    <div class="link-card">
+      <h3>Estructura</h3>
+      <p>Exploració de plegaments, estructures secundària, terciària i quaternària amb PDB, AlphaFold i visualitzadors moleculars.</p>
+    </div>
+    <div class="link-card">
+      <h3>Funció</h3>
+      <p>Interpretació de centres actius, interaccions proteïna-lligand i relacions moleculars que expliquen la funció biològica.</p>
+    </div>
+  </div>
+</section>

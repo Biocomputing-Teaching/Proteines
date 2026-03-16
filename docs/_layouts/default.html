@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    {% assign current_section = "" %}
+    {% if page.url == "/" %}
+      {% assign current_section = "home" %}
+    {% elsif page.url contains "/QiEP" or page.url contains "QiEP-" %}
+      {% assign current_section = "qiep" %}
+    {% elsif page.url contains "/tallers/" or page.url == "/GuioCOVID19/" or page.url == "/COVID19/" or page.url == "/LVF601M/" or page.url == "/LVF601MSol/" %}
+      {% assign current_section = "tallers" %}
+    {% endif %}
+
+    {% assign current_group_index = -1 %}
+    {% assign current_item_index = -1 %}
+    {% for group in site.data.site.nav_groups %}
+      {% assign outer_index = forloop.index0 %}
+      {% for item in group.items %}
+        {% if item.url == page.url %}
+          {% assign current_group_index = outer_index %}
+          {% assign current_item_index = forloop.index0 %}
+          {% assign current_section = group.section %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <header class="site-header">
+      <div class="site-shell site-header__inner">
+        <a class="site-brand" href="{{ '/' | relative_url }}">
+          <span class="site-brand__kicker">Proteïnes</span>
+          <span class="site-brand__title">Seqüència, estructura i funció</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegació principal">
+          {% for item in site.data.site.top_navigation %}
+            {% assign is_active = false %}
+            {% if page.url == item.url %}
+              {% assign is_active = true %}
+            {% elsif current_section == item.section %}
+              {% assign is_active = true %}
+            {% endif %}
+            <a class="site-nav__link{% if is_active %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-shell site-main">
+      <article class="page-card">
+        {% if page.title and page.url != "/" %}
+          <header class="page-card__header">
+            <p class="page-card__eyebrow">{{ current_section | default: "proteines" | upcase }}</p>
+            <h1>{{ page.title }}</h1>
+            {% if page.author %}
+              <p class="page-card__meta">{{ page.author }}</p>
+            {% endif %}
+          </header>
+        {% endif %}
+
+        {{ content }}
+      </article>
+
+      {% if current_group_index >= 0 %}
+        {% assign current_group = site.data.site.nav_groups[current_group_index] %}
+        {% if current_group.items.size > 1 %}
+          <nav class="sibling-nav" aria-label="Navegació entre documents del mateix nivell">
+            {% assign previous_index = current_item_index | minus: 1 %}
+            {% assign next_index = current_item_index | plus: 1 %}
+
+            {% if previous_index >= 0 %}
+              {% assign previous_item = current_group.items[previous_index] %}
+              <a class="sibling-nav__link" href="{{ previous_item.url | relative_url }}">
+                <span class="sibling-nav__label">Anterior</span>
+                <strong>{{ previous_item.title }}</strong>
+              </a>
+            {% else %}
+              <span class="sibling-nav__link sibling-nav__link--muted">
+                <span class="sibling-nav__label">Anterior</span>
+                <strong>Sense document anterior</strong>
+              </span>
+            {% endif %}
+
+            {% if next_index < current_group.items.size %}
+              {% assign next_item = current_group.items[next_index] %}
+              <a class="sibling-nav__link sibling-nav__link--next" href="{{ next_item.url | relative_url }}">
+                <span class="sibling-nav__label">Següent</span>
+                <strong>{{ next_item.title }}</strong>
+              </a>
+            {% else %}
+              <span class="sibling-nav__link sibling-nav__link--muted sibling-nav__link--next">
+                <span class="sibling-nav__label">Següent</span>
+                <strong>Sense document següent</strong>
+              </span>
+            {% endif %}
+          </nav>
+        {% endif %}
+      {% endif %}
+    </main>
+  </body>
+</html>
