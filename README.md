@@ -16,7 +16,7 @@ La font del lloc Jekyll es troba a `docs/`. La configuració del projecte es man
 
 ## Requisits locals
 
-- Ruby 3.1 o compatible
+- Ruby 3.3 o compatible
 - Bundler
 
 Si cal instal·lar dependències:
@@ -56,6 +56,7 @@ La sortida es genera a `_site/`.
 ## GitHub Pages
 
 El desplegament es fa amb GitHub Actions a través de [`.github/workflows/jekyll.yml`](./.github/workflows/jekyll.yml).
+El workflow està configurat actualment per executar-se amb Ruby 3.3 i Bundler 2.6.9.
 
 Flux recomanat:
 
@@ -76,3 +77,4 @@ Després del `push`:
 - No s'ha de versionar `_site/`.
 - GitHub Pages és sensible a majúscules i minúscules en noms de fitxer i carpetes.
 - Hi ha materials antics i heterogenis; la navegació comuna s'afegeix via layout i dades Jekyll per no haver de reescriure cada treball individual.
+- Quan es canviï qualsevol aspecte rellevant de la configuració del lloc, de l'execució local de Jekyll o del desplegament a GitHub Pages, cal actualitzar també aquest `README.md`.
