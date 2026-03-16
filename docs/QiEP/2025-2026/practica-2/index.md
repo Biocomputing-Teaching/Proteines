@@ -74,9 +74,9 @@ author: "Química i Enginyeria de Proteïnes"
 <section class="feature-card">
   <h2>Avaluació</h2>
   <ul>
-    <li><strong>Feina interna del grup:</strong> cada grup té assignat un mètode utilitzat habitualment en els protocols d'evolució dirigida en enginyeria de proteïnes. Cal escollir una de les diverses proteïnes proposades, i l'objectiu és desenvolupar un protocol experimental i computacional per millorar aquella proteïna que inclogui necessàriament el mètode proposat, així com altres que siguin necessaris. La valoració d'aquesta part compta un <strong>60%</strong> de la nota de la pràctica.</li>
-    <li><strong>Posada en comú:</strong> els grups desenvoluparan un pòster per presentar el seu treball a la resta de companys. L'avaluació d'aquesta part, un <strong>20%</strong> de la nota de la pràctica, serà realitzada pels companys de curs.</li>
-    <li><strong>Comprensió dels diferents treballs presentats:</strong> en el tercer examen parcial s'hi inclourà una avaluació vinculada a la pràctica. Cada alumne tindrà com a nota, corresponent al <strong>20%</strong> del total de la pràctica, la mitjana de les notes d'aquest test d'elecció múltiple dels diferents membres del seu grup de JC.</li>
+    <li><strong>Feina interna del grup:</strong> cada grup `JC A-L` de la classe, tal com consta a l'aula Moodle, té assignat un mètode utilitzat habitualment en els protocols d'evolució dirigida en enginyeria de proteïnes. Cal escollir una de les diverses proteïnes proposades, i l'objectiu és desenvolupar un protocol experimental i computacional per millorar aquella proteïna que inclogui necessàriament el mètode proposat, així com altres que siguin necessaris. La valoració d'aquesta part compta un <strong>60%</strong> de la nota de la pràctica.</li>
+    <li><strong>Posada en comú:</strong> els grups `JC A-L` desenvoluparan un pòster per presentar el seu treball a la resta de companys. L'avaluació d'aquesta part, un <strong>20%</strong> de la nota de la pràctica, serà realitzada pels companys de curs.</li>
+    <li><strong>Comprensió dels diferents treballs presentats:</strong> en el tercer examen parcial s'hi inclourà una avaluació vinculada a la pràctica. Cada alumne tindrà com a nota, corresponent al <strong>20%</strong> del total de la pràctica, la mitjana de les notes d'aquest test d'elecció múltiple dels diferents membres del seu grup `JC A-L`.</li>
   </ul>
   <p>Cal llegir la guia amb indicacions sobre com escriure una bona memòria i, si escau, la documentació complementària sobre el flux de treball amb <a href="https://www.latex-project.org/">LaTeX</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> i <a href="https://github.com/">GitHub</a>.</p>
 </section>
@@ -86,5 +86,15 @@ author: "Química i Enginyeria de Proteïnes"
   <ul>
     <li><a href="https://www.nobelprize.org/prizes/chemistry/2018/arnold/lecture/">Frances H. Arnold – Nobel Lecture</a></li>
     <li><a href="https://doi.org/10.1039/D2CB00231K">A primer to directed evolution: current methodologies and future directions</a></li>
+  </ul>
+</section>
+
+<section class="feature-card">
+  <h2>Bibliografia</h2>
+  <ul>
+    <li>Arnold FH. Innovation by evolution: bringing new chemistry to life. Nobel Lecture, 2018. <a href="https://www.nobelprize.org/prizes/chemistry/2018/arnold/lecture/">https://www.nobelprize.org/prizes/chemistry/2018/arnold/lecture/</a></li>
+    <li>Mahendran KR. et al. A primer to directed evolution: current methodologies and future directions. <em>RSC Chem Biol</em> 2023;4:1-23. <a href="https://doi.org/10.1039/D2CB00231K">https://doi.org/10.1039/D2CB00231K</a></li>
+    <li>Waman VP. et al. CATH 2024: CATH-AlphaFlow doubles the number of structures in CATH and reveals nearly 200 new folds. <em>J Mol Biol</em> 2024;436:168551. <a href="https://doi.org/10.1016/j.jmb.2024.168551">https://doi.org/10.1016/j.jmb.2024.168551</a></li>
+    <li>Schaeffer RD. et al. ECOD: integrating classifications of protein domains from experimental and predicted structures. <em>Nucleic Acids Res</em> 2025;53:D411-D418. <a href="https://doi.org/10.1093/nar/gkae1029">https://doi.org/10.1093/nar/gkae1029</a></li>
   </ul>
 </section>

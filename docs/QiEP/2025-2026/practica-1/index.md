@@ -77,7 +77,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li>Obriu l'estructura del PDB amb el programa <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a>.</li>
     <li>Detecteu les diferents estructures secundàries de la proteïna i determineu-ne el tipus: fulles, hèlixs, llaços i les seves diferents variants. Mireu de descriure amb un cert detall els diferents tipus d'interaccions que podeu trobar dins aquestes estructures secundàries. Mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries.</li>
     <li>Detecteu, si n'hi ha, motius d'estructura supersecundària. Mostreu les interaccions, ponts d'hidrogen i interaccions de van der Waals, entre els diferents elements que constitueixen aquestes estructures supersecundàries.</li>
-    <li>L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades <a href="https://scop.berkeley.edu/">SCOPe</a>, anoteu el codi que us dona aquesta base de dades i mostreu la jerarquia d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.</li>
+    <li>L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Per a l'estudi dels dominis i de la família estructural, useu preferentment <a href="https://www.cathdb.info/">CATH</a> i/o <a href="http://prodata.swmed.edu/ecod">ECOD</a>, perquè són recursos més actius per a classificació de dominis i relacions evolutives. Podeu usar <a href="https://scop.berkeley.edu/">SCOPe</a> com a recurs complementari o de contrast. Anoteu els codis i la jerarquia que obtingueu, i discutiu també l'estructura quaternària si escau.</li>
   </ol>
 
   <h3>3. Funció de la proteïna</h3>
@@ -91,9 +91,9 @@ author: "Química i Enginyeria de Proteïnes"
 <section class="feature-card">
   <h2>Desenvolupament de la pràctica</h2>
   <ul>
-    <li><strong>Feina interna del grup:</strong> cada grup de JC té assignada una proteïna. Inicialment, el grup treballarà conjuntament el punt 1 de la pràctica.</li>
-    <li><strong>Feina intergrupal:</strong> en grups de 3 alumnes, es treballaran separadament els aspectes 2 i 3 de la pràctica.</li>
-    <li><strong>Posada en comú:</strong> els alumnes es tornaran a reunir dins dels grups de JC per treballar el document final de la seva proteïna.</li>
+    <li><strong>Feina interna del grup:</strong> cada grup `JC A-L` de la classe, tal com consta a l'aula Moodle, té assignada una proteïna. Inicialment, cada grup treballarà conjuntament el punt 1 de la pràctica.</li>
+    <li><strong>Distribució de tasques:</strong> dins de cada grup `JC A-L`, es repartiran els aspectes 2 i 3 de la pràctica segons l'organització que decidiu i d'acord amb les indicacions de l'aula Moodle.</li>
+    <li><strong>Posada en comú:</strong> els membres de cada grup `JC A-L` es reuniran de nou per elaborar el document final de la seva proteïna.</li>
   </ul>
 </section>
 
@@ -103,5 +103,19 @@ author: "Química i Enginyeria de Proteïnes"
   <ul>
     <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del treball realitzat, segons la rúbrica proposada.</li>
     <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en l'examen parcial 1 dels diferents membres de cada grup JC.</li>
+  </ul>
+</section>
+
+<section class="feature-card">
+  <h2>Bibliografia</h2>
+  <ul>
+    <li>Meng EC. et al. UCSF ChimeraX: Tools for structure building and analysis. <em>Protein Sci</em> 2024;33:e4792. <a href="https://doi.org/10.1002/pro.4792">https://doi.org/10.1002/pro.4792</a></li>
+    <li>The UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2025. <em>Nucleic Acids Res</em> 2025;53:D609-D617. <a href="https://doi.org/10.1093/nar/gkae1010">https://doi.org/10.1093/nar/gkae1010</a></li>
+    <li>Jeske L. et al. BRENDA, the ELIXIR core data resource in 2021: new developments and updates. <em>Nucleic Acids Res</em> 2021;49:D498-D508. <a href="https://doi.org/10.1093/nar/gkaa1025">https://doi.org/10.1093/nar/gkaa1025</a></li>
+    <li>Jumper J. et al. Highly accurate protein structure prediction with AlphaFold. <em>Nature</em> 2021;596:583-589. <a href="https://doi.org/10.1038/s41586-021-03819-2">https://doi.org/10.1038/s41586-021-03819-2</a></li>
+    <li>Varadi M. et al. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. <em>Nucleic Acids Res</em> 2024;52:D368-D375. <a href="https://doi.org/10.1093/nar/gkad1011">https://doi.org/10.1093/nar/gkad1011</a></li>
+    <li>Waman VP. et al. CATH 2024: CATH-AlphaFlow doubles the number of structures in CATH and reveals nearly 200 new folds. <em>J Mol Biol</em> 2024;436:168551. <a href="https://doi.org/10.1016/j.jmb.2024.168551">https://doi.org/10.1016/j.jmb.2024.168551</a></li>
+    <li>Schaeffer RD. et al. ECOD: integrating classifications of protein domains from experimental and predicted structures. <em>Nucleic Acids Res</em> 2025;53:D411-D418. <a href="https://doi.org/10.1093/nar/gkae1029">https://doi.org/10.1093/nar/gkae1029</a></li>
+    <li>Fox NK, Brenner SE, Chandonia JM. SCOPe: improvements to the structural classification of proteins: extended database to facilitate variant interpretation and machine learning. <em>Nucleic Acids Res</em> 2022;50:D553-D559. <a href="https://doi.org/10.1093/nar/gkab1054">https://doi.org/10.1093/nar/gkab1054</a></li>
   </ul>
 </section>
