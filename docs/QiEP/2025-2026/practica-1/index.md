@@ -83,7 +83,7 @@ author: "Química i Enginyeria de Proteïnes"
   <h3>3. Funció de la proteïna</h3>
   <ol>
     <li>Identifiqueu el centre actiu de la proteïna. Quins residus són rellevants, segons la literatura? L'estructura que heu explorat inclou algun substrat o inhibidor? Podeu descriure les interaccions entre els residus del centre actiu i, eventualment, entre aquests residus i el possible substrat o inhibidor, com ara ponts d'hidrogen, interaccions de van der Waals o càrregues?</li>
-    <li>Cerqueu informació sobre la funció que fa aquesta proteïna. Podeu mostrar el mecanisme detallat que segueix, si es tracta d'un enzim? Mireu la figura 6.5.1 de l'enllaç de referència indicat a classe per entendre a què ens referim amb el mecanisme de reacció d'un enzim.</li>
+    <li>Cerqueu informació sobre la funció que fa aquesta proteïna. Si es tracta d'un enzim, podeu mostrar i explicar el mecanisme detallat de la reacció que catalitza.</li>
     <li><strong>Relació seqüència-estructura-funció:</strong> com relacionaríeu l'estructura que heu analitzat amb la funció de la proteïna? Quins elements estructurals participen en aquesta funció? Quins residus, en concret, són claus per a la funció? Cerqueu eventuals variants de la proteïna que tinguin implicacions funcionals i comenteu-ne els efectes a nivell molecular.</li>
   </ol>
 </section>

@@ -40,10 +40,10 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Desenvolupament</h2>
-  <p>La pràctica consta de dues sessions. En la primera, el <strong>2/4/2025</strong>, es presenta la pràctica i es comença a treballar en el seu desenvolupament. En la segona, el <strong>21/5/2025</strong>, tindrà lloc una sessió de pòsters en la qual cada grup haurà d'exposar a la resta de companys i professors les troballes realitzades.</p>
+  <p>La pràctica consta de dues sessions presencials principals dins del calendari del curs 2025-2026: una sessió inicial de presentació i orientació del treball, i una sessió final de pòsters en la qual cada grup haurà d'exposar a la resta de companys i professors les troballes realitzades.</p>
   <p>El desenvolupament es divideix en dues fases:</p>
   <ul>
-    <li><strong>Primera fase:</strong> treball escrit, vinculat a la tasca Moodle.</li>
+    <li><strong>Primera fase:</strong> treball escrit.</li>
     <li><strong>Segona fase:</strong> pòster.</li>
   </ul>
 </section>
