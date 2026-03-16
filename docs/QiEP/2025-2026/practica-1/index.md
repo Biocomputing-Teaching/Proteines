@@ -46,6 +46,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li>un únic fitxer en format Markdown amb les respostes;</li>
     <li>una carpeta amb les imatges i altres elements que estiguin vinculats al fitxer Markdown.</li>
   </ul>
+  <p>Per veure el format general esperat del treball final, podeu consultar les pràctiques del curs passat aquí: <a href="{{ '/QiEP/2024-2025/' | relative_url }}">pràctica 1 del curs 2024-2025</a>.</p>
   <p>Recordeu afegir peus de figura descriptius a les figures que inclogueu i referenciar-les de forma adient des del text. Les figures han de ser, en la seva major part, generades per vosaltres mateixos, en general amb ChimeraX, però també usant qualsevol altra eina gràfica que escaigui, com ChemSketch per als mecanismes. En el cas que alguna figura s'hagi obtingut d'altres fonts, cal referenciar-la correctament.</p>
   <p>El fitxer Markdown ha de contenir cites de la literatura en el format adient. No s'hi han d'incloure enllaços web a pàgines d'informació general, llevat d'enllaços a bases de dades consultades, si escau. Us recomanem usar Zotero o Mendeley com a eines de gestió de referències.</p>
 </section>
