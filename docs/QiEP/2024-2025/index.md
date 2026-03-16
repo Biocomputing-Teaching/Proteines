@@ -1,5 +1,4 @@
----
-title: "QiEP · Pràctica 1 · 2024-2025"
+title: "QiEP · Curs 2024-2025"
 permalink: /QiEP/2024-2025/
 author: "Química i Enginyeria de Proteïnes"
 ---
@@ -8,7 +7,7 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Context docent</h2>
-  <p>La pràctica 1 del curs 2024-2025 es dedica a l'anàlisi d'una proteïna problema per relacionar la seva seqüència, la seva estructura i la seva funció. L'activitat combina consulta de bases de dades, visualització molecular i interpretació funcional.</p>
+  <p>El curs 2024-2025 es va dedicar principalment a l'anàlisi d'una proteïna problema per relacionar la seva seqüència, la seva estructura i la seva funció. L'activitat combinava consulta de bases de dades, visualització molecular i interpretació funcional.</p>
 </section>
 
 <section class="feature-card">
