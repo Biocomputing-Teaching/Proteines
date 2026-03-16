@@ -6,7 +6,7 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Objectiu de la pràctica</h2>
-  <p>L'exercici pretén que us familiaritzeu amb ChimeraX i amb els fitxers de la base de dades del Protein Data Bank (PDB; podeu provar també d'accedir-hi a través de PDBsum). Sobretot, però, cerquem que sigueu capaços d'identificar en l'estructura d'una determinada proteïna aquells elements estructurals que la caracteritzen i que la fan funcional.</p>
+  <p>L'exercici pretén que us familiaritzeu amb <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a> i amb els fitxers de la base de dades del <a href="https://www.rcsb.org/">Protein Data Bank (PDB)</a>; podeu provar també d'accedir-hi a través de <a href="https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/">PDBsum</a>. Sobretot, però, cerquem que sigueu capaços d'identificar en l'estructura d'una determinada proteïna aquells elements estructurals que la caracteritzen i que la fan funcional.</p>
 </section>
 
 <section class="feature-card">
@@ -47,8 +47,8 @@ author: "Química i Enginyeria de Proteïnes"
     <li>una carpeta amb les imatges i altres elements que estiguin vinculats al fitxer Markdown.</li>
   </ul>
   <p>Per veure el format general esperat del treball final, podeu consultar les pràctiques del curs passat aquí: <a href="{{ '/QiEP/2024-2025/' | relative_url }}">pràctica 1 del curs 2024-2025</a>.</p>
-  <p>Recordeu afegir peus de figura descriptius a les figures que inclogueu i referenciar-les de forma adient des del text. Les figures han de ser, en la seva major part, generades per vosaltres mateixos, en general amb ChimeraX, però també usant qualsevol altra eina gràfica que escaigui, com ChemSketch per als mecanismes. En el cas que alguna figura s'hagi obtingut d'altres fonts, cal referenciar-la correctament.</p>
-  <p>El fitxer Markdown ha de contenir cites de la literatura en el format adient. No s'hi han d'incloure enllaços web a pàgines d'informació general, llevat d'enllaços a bases de dades consultades, si escau. Us recomanem usar Zotero o Mendeley com a eines de gestió de referències.</p>
+  <p>Recordeu afegir peus de figura descriptius a les figures que inclogueu i referenciar-les de forma adient des del text. Les figures han de ser, en la seva major part, generades per vosaltres mateixos, en general amb <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a>, però també usant qualsevol altra eina gràfica que escaigui, com <a href="https://chemaxon.com/products/chemdraw-alternatives/chemsketch-download">ChemSketch</a> per als mecanismes. En el cas que alguna figura s'hagi obtingut d'altres fonts, cal referenciar-la correctament.</p>
+  <p>El fitxer Markdown ha de contenir cites de la literatura en el format adient. No s'hi han d'incloure enllaços web a pàgines d'informació general, llevat d'enllaços a bases de dades consultades, si escau. Us recomanem usar <a href="https://www.zotero.org/">Zotero</a> o <a href="https://www.mendeley.com/">Mendeley</a> com a eines de gestió de referències.</p>
 </section>
 
 <section class="feature-card">
@@ -67,17 +67,17 @@ author: "Química i Enginyeria de Proteïnes"
 
   <h3>1. Sobre la proteïna</h3>
   <ol>
-    <li>Cerqueu la seqüència donada a UniProt i trobeu el nom del gen corresponent. Anoteu el codi UniProt i també la classificació EC.X.X.X.X, en cas que es tracti d'un enzim, segons la base de dades BRENDA.</li>
-    <li>Cerqueu a la base de dades del Protein Data Bank si l'estructura de la proteïna és coneguda i, en aquest cas, doneu-ne el codi PDB. Si n'hi ha més d'un, justifiqueu amb quin treballareu a partir d'aquest punt en funció de la resolució de l'experiment i de la cobertura de seqüència. En cas que no trobeu la proteïna al PDB, useu la interfície d'AlphaFold2 o bé la pròpia base de dades del programa AlphaFold2 per trobar una predicció de la seva estructura.</li>
+    <li>Cerqueu la seqüència donada a <a href="https://www.uniprot.org/">UniProt</a> i trobeu el nom del gen corresponent. Anoteu el codi UniProt i també la classificació EC.X.X.X.X, en cas que es tracti d'un enzim, segons la base de dades <a href="https://www.brenda-enzymes.org/">BRENDA</a>.</li>
+    <li>Cerqueu a la base de dades del <a href="https://www.rcsb.org/">Protein Data Bank</a> si l'estructura de la proteïna és coneguda i, en aquest cas, doneu-ne el codi PDB. Si n'hi ha més d'un, justifiqueu amb quin treballareu a partir d'aquest punt en funció de la resolució de l'experiment i de la cobertura de seqüència. En cas que no trobeu la proteïna al PDB, useu el <a href="https://deepmind.google/technologies/alphafold/alphafold-server/">servidor oficial d'AlphaFold</a> o bé la <a href="https://alphafold.ebi.ac.uk/">AlphaFold Protein Structure Database</a> per trobar una predicció de la seva estructura.</li>
     <li>Expliqueu breument la funció de la proteïna.</li>
   </ol>
 
   <h3>2. Treball amb ChimeraX</h3>
   <ol>
-    <li>Obriu l'estructura del PDB amb el programa ChimeraX.</li>
+    <li>Obriu l'estructura del PDB amb el programa <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a>.</li>
     <li>Detecteu les diferents estructures secundàries de la proteïna i determineu-ne el tipus: fulles, hèlixs, llaços i les seves diferents variants. Mireu de descriure amb un cert detall els diferents tipus d'interaccions que podeu trobar dins aquestes estructures secundàries. Mostreu els ponts d'hidrogen interns d'aquestes estructures secundàries.</li>
     <li>Detecteu, si n'hi ha, motius d'estructura supersecundària. Mostreu les interaccions, ponts d'hidrogen i interaccions de van der Waals, entre els diferents elements que constitueixen aquestes estructures supersecundàries.</li>
-    <li>L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades i mostreu la jerarquia d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.</li>
+    <li>L'estructura terciària de la proteïna, a quin tipus de plegament correspon? Busqueu el plegament a la base de dades <a href="https://scop.berkeley.edu/">SCOPe</a>, anoteu el codi que us dona aquesta base de dades i mostreu la jerarquia d'aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també.</li>
   </ol>
 
   <h3>3. Funció de la proteïna</h3>

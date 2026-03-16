@@ -78,7 +78,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li><strong>Posada en comú:</strong> els grups desenvoluparan un pòster per presentar el seu treball a la resta de companys. L'avaluació d'aquesta part, un <strong>20%</strong> de la nota de la pràctica, serà realitzada pels companys de curs.</li>
     <li><strong>Comprensió dels diferents treballs presentats:</strong> en el tercer examen parcial s'hi inclourà una avaluació vinculada a la pràctica. Cada alumne tindrà com a nota, corresponent al <strong>20%</strong> del total de la pràctica, la mitjana de les notes d'aquest test d'elecció múltiple dels diferents membres del seu grup de JC.</li>
   </ul>
-  <p>Cal llegir la guia amb indicacions sobre com escriure una bona memòria i, si escau, la documentació complementària sobre el flux de treball amb LaTeX, Visual Studio Code i GitHub.</p>
+  <p>Cal llegir la guia amb indicacions sobre com escriure una bona memòria i, si escau, la documentació complementària sobre el flux de treball amb <a href="https://www.latex-project.org/">LaTeX</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> i <a href="https://github.com/">GitHub</a>.</p>
 </section>
 
 <section class="feature-card">
