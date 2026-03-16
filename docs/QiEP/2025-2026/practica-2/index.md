@@ -63,6 +63,15 @@ author: "Química i Enginyeria de Proteïnes"
 </section>
 
 <section class="feature-card">
+  <h2>Detalls pràctics</h2>
+  <ul>
+    <li>Les referències bibliogràfiques del treball han de provenir preferentment d'articles peer-reviewed i de bases de dades especialitzades.</li>
+    <li>Si un article no està disponible directament en línia, cerqueu-lo primer a <a href="https://www.uvic.cat/biblioteca/colleccions/ucercatot">UCercaTot</a>, el cercador de la Biblioteca de la UVic-UCC. Si encara no hi teniu accés a text complet, el podeu sol·licitar a través del <a href="https://www.uvic.cat/biblioteca/serveis/prestec-obtencio-documents/servei-obtencio-de-documents">Servei d'Obtenció de Documents</a> de la Universitat.</li>
+    <li>No baseu el treball en pàgines generalistes; useu literatura científica, patents o recursos tècnics pertinents segons el cas.</li>
+  </ul>
+</section>
+
+<section class="feature-card">
   <h2>Avaluació</h2>
   <ul>
     <li><strong>Feina interna del grup:</strong> cada grup té assignat un mètode utilitzat habitualment en els protocols d'evolució dirigida en enginyeria de proteïnes. Cal escollir una de les diverses proteïnes proposades, i l'objectiu és desenvolupar un protocol experimental i computacional per millorar aquella proteïna que inclogui necessàriament el mètode proposat, així com altres que siguin necessaris. La valoració d'aquesta part compta un <strong>60%</strong> de la nota de la pràctica.</li>

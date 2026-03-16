@@ -56,6 +56,7 @@ author: "Química i Enginyeria de Proteïnes"
   <ul>
     <li>Tots els codis i referències que useu han d'estar vinculats a l'enllaç corresponent de la web.</li>
     <li>No useu vincles a la Viquipèdia ni a la Wikipedia. Feu servir només vincles a continguts peer-reviewed o a entrades en bases de dades.</li>
+    <li>Si un article no està disponible directament en línia, cerqueu-lo primer a <a href="https://www.uvic.cat/biblioteca/colleccions/ucercatot">UCercaTot</a>, el cercador de la Biblioteca de la UVic-UCC. Si encara no hi teniu accés a text complet, el podeu sol·licitar a través del <a href="https://www.uvic.cat/biblioteca/serveis/prestec-obtencio-documents/servei-obtencio-de-documents">Servei d'Obtenció de Documents</a> de la Universitat.</li>
     <li>ChatGPT pot ser una eina útil per començar un document, però no per acabar-lo professionalment.</li>
   </ul>
 </section>
