@@ -28,11 +28,11 @@ nav_groups:
     items:
       - title: QiEP
         url: /QiEP/
-      - title: P1 2022-2023
+      - title: Curs 2022-2023
         url: /QiEP-P1-2023/
-      - title: P1 2024-2025
+      - title: Pràctica 1 · 2024-2025
         url: /QiEP/2024-2025/
-      - title: P1 2025-2026
+      - title: Curs 2025-2026
         url: /QiEP/2025-2026/
   - title: QiEP 2025-2026
     section: qiep
@@ -88,13 +88,13 @@ tallers:
     summary: "Material de suport i solucions de la proposta internacional."
 
 qiep_courses:
-  - title: Pràctica 1 2022-2023
+  - title: Curs 2022-2023
     url: /QiEP-P1-2023/
-    summary: "Primera edició de la pràctica centrada en proteases i relacions estructura-funció."
-  - title: Pràctica 1 2024-2025
+    summary: "Primera edició disponible del material de QiEP, centrada en l'anàlisi estructura-funció de proteïnes."
+  - title: Pràctica 1 · 2024-2025
     url: /QiEP/2024-2025/
     summary: "Enunciat, context docent i treballs dels grups del curs 2024-2025."
-  - title: Pràctica 1 2025-2026
+  - title: Curs 2025-2026
     url: /QiEP/2025-2026/
     summary: "Accés a les pràctiques 1 i 2 del curs 2025-2026, amb temporització, desenvolupament i avaluació."
 
