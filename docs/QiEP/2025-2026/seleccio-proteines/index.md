@@ -6,13 +6,28 @@ author: "Química i Enginyeria de Proteïnes"
 
 # Selecció interna de proteïnes per a les pràctiques 2025-2026
 
-Aquest espai intern recull una selecció de proteïnes candidates per a les pràctiques del curs 2025-2026. El conjunt s'ha revisat a partir de les entrades del PDB i de la literatura primària associada per prioritzar casos amb treballs de disseny o d'enginyeria de proteïnes orientats a millorar interaccions o activitat catalítica.
+Aquest espai intern recull la selecció definitiva de proteïnes per a les pràctiques del curs 2025-2026. És la mateixa llista per a la pràctica 1 i per a la pràctica 2. A la pràctica 1, l'alumnat rep només la seqüència i ha d'identificar l'estructura corresponent i les seves característiques principals; a la pràctica 2, es reprèn la mateixa proteïna per aplicar-hi metodologies d'enginyeria treballades al curs.
 
 El fitxer FASTA complet es pot descarregar aquí: [proteines-seleccio-2025-2026.fasta]({{ '/files/qiep-2025-2026/proteines-seleccio-2025-2026.fasta' | relative_url }}).
 
-Nota metodològica: la major part de la llista encaixa directament amb el criteri d'enginyeria funcional. `8YL8`, `3H7V` i `3NY9` són casos de frontera: el primer és sobretot un exemple metodològic de disseny de novo; els altres dos són més útils com a referències estructurals o de constructe enginyat que no pas com a exemples nets d'optimització funcional.
+Per ajustar la selecció als 12 grups de `JC A` a `JC L`, s'ha descartat `3H7V`, que era el cas menys adient perquè no respon tan directament a una pregunta de disseny o d'enginyeria funcional com la resta.
 
-## 8T5E
+## Correspondència entre grups i proteïnes
+
+- `JC A`: `8T5E`
+- `JC B`: `8YL8`
+- `JC C`: `7RMX`
+- `JC D`: `9CCE`
+- `JC E`: `6NW4`
+- `JC F`: `5AN7`
+- `JC G`: `4A29`
+- `JC H`: `3NY9`
+- `JC I`: `6C7T`
+- `JC J`: `5UCW`
+- `JC K`: `3QI8`
+- `JC L`: `6I8N`
+
+## JC A · 8T5E
 
 Seqüència emprada: entitat proteica principal del lligador dissenyat contra una hèlix BH3 de Bim.
 
@@ -25,7 +40,7 @@ MSGEEERKEKREKVRAGLKRAIAELPAEVAARCLALLDDASDEEFIEAVLEVLEAMREALVAMAREGRLDAVRRATSHIN
 EVLVDAAELALEKGREYFRRLCLIVCDMMIELIRLEPEQTPELRRIRERLEEIRRRLEGSG
 ```
 
-## 8YL8
+## JC B · 8YL8
 
 Seqüència emprada: proteïna de novo de 211 residus validada estructuralment.
 
@@ -39,7 +54,7 @@ KIAVFREYNARFLAEFDALIDQAFARLKADSLTLKIHLSQGKGSYEIIFPPEVQADPERAAAIEALWKPTLDQLLAVLQE
 KHKGKPATTVTYEISAETLRAAVAALARAAEAALRRKVGSLESSGLEVLFQ
 ```
 
-## 7RMX
+## JC C · 7RMX
 
 Seqüència emprada: proteïna de novo simètrica amb butxaques regulables.
 
@@ -53,7 +68,7 @@ LGDPKLLEQAKRLLERLKEAVERGDEETIKELLDLAHMTYLIAQIFQLVEQLGDPRLLELAKELLKRLKEAQERGDRRTI
 ERLLRLVQMTYLIAQIFQLVRQLGDPRLLETAKTLLTLLKLAFEEGDELLIKSLLTLVAETYRQAAAEQ
 ```
 
-## 9CCE
+## JC D · 9CCE
 
 Seqüència emprada: lligador proteic dissenyat per reconèixer una regió intrínsecament desordenada; el pèptid diana és la dinorfina A.
 
@@ -67,7 +82,7 @@ GEEELAKELEKAIKLLEEKKDAPEEERLKAIAIAIIRSVLVLIKWEGGKDEETIEEIEEILENRENLSLEELREAYVRAE
 IAYLIESGIDPEAAKKVREKYERGAPLEELLKDIEKIEKEAKKREEEKKGSHHHHHH
 ```
 
-## 6NW4
+## JC E · 6NW4
 
 Seqüència emprada: variant evolucionada d'un Kemp eliminase de disseny computacional.
 
@@ -82,7 +97,7 @@ DENDLDIALRIGARFIEICSRDFETLEINKENQRKLISMIPSNVVKVAWGGISERNEIEELRKLGVNAFGIGSSLMRNPE
 KIKEFIL
 ```
 
-## 5AN7
+## JC F · 5AN7
 
 Seqüència emprada: RA95.5-8F, variant altament activa d'una retro-aldolasa artificial.
 
@@ -97,7 +112,7 @@ NDENDLDIALRIGARFITIYSMNFETGEINKENQRKLISMIPSNVVKVPLLDFFEPNEIEELRKLGVNAFMISSSLMRNP
 EKIKELIEGSLEHHHHHH
 ```
 
-## 4A29
+## JC G · 4A29
 
 Seqüència emprada: RA95.0, una etapa anterior de la mateixa línia evolutiva de retro-aldolases artificials.
 
@@ -112,23 +127,7 @@ NDENDLDIALRIGARFIGIMSRDFETGEINKENQRKLISMIPSNVVKVAKLGISERNEIEELRKLGVNAFLISSSLMRNP
 EKIKELIEGSLEHHHHHH
 ```
 
-## 3H7V
-
-Seqüència emprada: O-succinilbenzoat sintasa de *Thermosynechococcus elongatus*.
-
-PDB: [3H7V](https://www.rcsb.org/structure/3H7V). Publicació principal: [PNAS 2014, DOI 10.1073/pnas.1318703111](https://doi.org/10.1073/pnas.1318703111).
-
-Aquest és un cas límit respecte al criteri d'enginyeria funcional. La publicació no descriu un programa de disseny per augmentar activitat, sinó que analitza com la pèrdua d'estructura quaternària s'associa a divergència de seqüència dins la família OSBS. Tot i això, pot ser útil com a proteïna de referència si es vol discutir restriccions estructurals i evolutives sobre la funció enzimàtica.
-
-```text
-LRWQWRIYEEPLQEPLTTAQGVWRSRSGIYLRLEDEQGQVGYGEIAPLPGWGSETLNADIALCQQLPGHLTPEIMATIPE
-ALPAAQFGFATAWQSVGRLPYRVRPWPICALLGSGQAALEQWQQSWQRGQTTFKWKVGVMSPEEEQAILKALLAALPPGA
-KLRLDANGSWDRATANRWFAWLDRHGNGKIEYVEQPLPPDQWQALLSLAQTVTTAIALDESVVSAAEVQRWVDRGWPGFF
-VIKTALFGDPDSLSLLLRRGLEPQRLVFSSALEGAIARTAIFHLLETWQPCHALGFGVDRWRSAPLLTTLTAYERLWERL
-DQEGHHHHHH
-```
-
-## 3NY9
+## JC H · 3NY9
 
 Seqüència emprada: constructe enginyat de receptor β2-adrenèrgic fusionat a lisozim per facilitar l'estudi estructural.
 
@@ -146,7 +145,7 @@ CLKEHKALKTLGIIMGTFTLCWLPFFIVNIVHVIQDNLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRR
 SSLKHHHHHH
 ```
 
-## 6C7T
+## JC I · 6C7T
 
 Seqüència emprada: variant KE07 de ronda 5 de Kemp eliminase.
 
@@ -161,7 +160,7 @@ VEKRGAGEIVLGSIDRLGTKSGYDTEMIRFVRPLTTLPIIAHRGAGKMEHFLEAFLAGADAAKADSVFHFREIDVRELKE
 YLKKHGVNVRLEGLGSLEHHHHHH
 ```
 
-## 5UCW
+## JC J · 5UCW
 
 Seqüència emprada: variant P411 d'una P450 BM3 enginyada per aminar enllaços C-H benzílics.
 
@@ -178,7 +177,7 @@ EALRLWPTVPAFSLYAKEDTVLGGEYPLEKGDEVMVLIPQLHRDKTVWGDDVEEFRPERFENPSAIPQHAFKPFGNGQRA
 SIGQQFALHEATLVLGMMLKHFDFEDHTNYELDIKETLSLKPKGFVVKAKSKKIPLGGIPSPSTLEHHHHHH
 ```
 
-## 3QI8
+## JC K · 3QI8
 
 Seqüència emprada: variant evolucionada de P450 BM3 dissenyada com a mimètic bacterià de CYP2C9 humà.
 
@@ -195,7 +194,7 @@ EALRIWPTAPAFSLYAKEDTMLGGEYPLEKGDELMVLIPQLHRDKTVWGDDVEEFRPERFENPSAIPQHAFKPFGNGQRA
 CIGQQFALHEATLVLGMMLKHFDFEDHTNYELDIEETLTLKPKGFVIKAKSKKIPLGGIPSPSTLEHHHHHH
 ```
 
-## 6I8N
+## JC L · 6I8N
 
 Seqüència emprada: LmrR amb substitució `V15pAF`; el residu no canònic es representa com `X` en la seqüència del PDB.
 
