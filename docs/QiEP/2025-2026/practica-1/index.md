@@ -24,7 +24,7 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Document amb les seqüències a treballar</h2>
-  <p><strong>Format del document:</strong> XLS.</p>
+  <p><strong>Format del document:</strong> XLS. Les seqüències també estan disponibles en format FASTA aquí: <a href="{{ '/files/qiep-2025-2026/proteines-seleccio-2025-2026.fasta' | relative_url }}">proteines-seleccio-2025-2026.fasta</a>.</p>
 </section>
 
 <section class="feature-card">
