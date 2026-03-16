@@ -57,6 +57,7 @@ La sortida es genera a `_site/`.
 
 El desplegament es fa amb GitHub Actions a través de [`.github/workflows/jekyll.yml`](./.github/workflows/jekyll.yml).
 El workflow està configurat actualment per executar-se amb Ruby 3.3 i Bundler 2.6.9.
+La configuració del repositori a GitHub Pages ha d'estar en mode `GitHub Actions` i no en mode de construcció `legacy` des de branca.
 
 Flux recomanat:
 
