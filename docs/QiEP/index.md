@@ -12,6 +12,7 @@ author: "FCTE · Grau en Biotecnologia · UVic-UCC"
     <img src="{{ '/figures/UVic-UCC-logo.png' | relative_url }}" alt="Universitat de Vic - Universitat Central de Catalunya">
   </div>
   <p>Material docent de l'assignatura <strong>Química i Enginyeria de Proteïnes</strong> de la FCTE al Grau en Biotecnologia. El fil conductor de l'assignatura és l'anàlisi integrada de la seqüència, l'estructura i la funció de les proteïnes.</p>
+  <p>La guia general per escriure memòries i gestionar cites, figures i flux de treball digital és aquí: <a href="{{ '/QiEP/guia-memories/' | relative_url }}">guia per escriure una memòria</a>.</p>
 </section>
 
 <section class="card-grid">

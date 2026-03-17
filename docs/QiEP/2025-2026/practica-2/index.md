@@ -75,6 +75,5 @@ author: "Química i Enginyeria de Proteïnes"
     <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del protocol i del document presentat, segons la rúbrica proposada.</li>
     <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en el tercer examen parcial dels diferents membres de cada grup `JC A-L`.</li>
   </ul>
-  <p>Cal llegir la guia amb indicacions sobre com escriure una bona memòria i, si escau, la documentació complementària sobre el flux de treball amb <a href="https://www.latex-project.org/">LaTeX</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> i <a href="https://github.com/">GitHub</a>.</p>
-  <p>Els documents de suport i la bibliografia comuna del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
+  <p>La guia general sobre com escriure una bona memòria, gestionar la bibliografia i organitzar el flux de treball digital és disponible a <a href="{{ '/QiEP/guia-memories/' | relative_url }}">la pàgina general de QiEP</a>. Els documents de suport i la bibliografia comuna del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
 </section>

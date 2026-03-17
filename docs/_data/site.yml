@@ -28,6 +28,8 @@ nav_groups:
     items:
       - title: QiEP
         url: /QiEP/
+      - title: Guia de memòries
+        url: /QiEP/guia-memories/
       - title: Curs 2022-2023
         url: /QiEP-P1-2023/
       - title: Curs 2024-2025
