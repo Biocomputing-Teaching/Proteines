@@ -6,7 +6,7 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Objectiu de la pràctica</h2>
-  <p>L'exercici pretén que us familiaritzeu amb <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a> i amb els fitxers de la base de dades del <a href="https://www.rcsb.org/">Protein Data Bank (PDB)</a>; podeu provar també d'accedir-hi a través de <a href="https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/">PDBsum</a>. Sobretot, però, cerquem que sigueu capaços d'identificar en l'estructura d'una determinada proteïna aquells elements estructurals que la caracteritzen i que la fan funcional.</p>
+  <p>L'exercici pretén que us familiaritzeu amb <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a> i amb els fitxers de la base de dades del <a href="https://www.rcsb.org/">Protein Data Bank (PDB)</a>, així com amb diverses eines de bioinformàtica estructural; podeu provar també d'accedir-hi a través de <a href="https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/">PDBsum</a>. Sobretot, però, cerquem que sigueu capaços d'identificar en l'estructura d'una determinada proteïna aquells elements estructurals que la caracteritzen i que la fan funcional, i establir aquestes relacions estructura-funció.</p>
 </section>
 
 <section class="feature-card">
@@ -16,7 +16,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li>Familiaritzar-nos amb eines d'anàlisi i de cerca d'homologia de seqüències proteiques.</li>
     <li>Dominar les representacions gràfiques d'estructures de proteïnes.</li>
     <li>Identificar i interpretar els elements d'estructura secundària, supersecundària i terciària en proteïnes globulars.</li>
-    <li>Explorar les regions que fan actiu un enzim.</li>
+    <li>Explorar les regions i característiques que participen en la seva funció.</li>
     <li>Treballar en equip.</li>
     <li>Desenvolupar habilitats digitals en la presentació de resultats.</li>
   </ul>
@@ -24,26 +24,22 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Document amb les seqüències a treballar</h2>
-  <p><strong>Format del document:</strong> XLS. Les seqüències també estan disponibles en format FASTA aquí: <a href="{{ '/files/qiep-2025-2026/proteines-seleccio-2025-2026.fasta' | relative_url }}">proteines-seleccio-2025-2026.fasta</a>.</p>
+  <p>Les seqüències de les proteïnes a treballar, una per grup, són disponibles en format FASTA aquí: <a href="{{ '/files/qiep-2025-2026/proteines-seleccio-2025-2026.fasta' | relative_url }}">proteines-seleccio-2025-2026.fasta</a>.</p>
 </section>
 
 <section class="feature-card">
-  <h2>Temporització segons el pla de treball 2025-2026</h2>
+  <h2>Temporització</h2>
   <ul>
     <li><strong>Setmana 7</strong> (16/03/2026-22/03/2026): inici de la pràctica 1.</li>
-    <li><strong>Setmana 8</strong> (23/03/2026-29/03/2026): continuació de la pràctica 1.</li>
-    <li><strong>Setmana 9</strong> (06/04/2026-12/04/2026): continuació de la pràctica 1.</li>
-    <li><strong>Setmana 10</strong> (13/04/2026-19/04/2026): continuació de la pràctica 1.</li>
-    <li><strong>Setmana 11</strong> (20/04/2026-26/04/2026): lliurament de la pràctica 1, coincidint amb el període previ al parcial 2.</li>
+    <li><strong>Setmana 9</strong> (06/04/2026-12/04/2026): lliurament de la pràctica 1.</li>
   </ul>
-  <p><strong>Lliurament de la pràctica 1:</strong> setmana 11 del curs, entre el 20 i el 26 d'abril de 2026, segons el pla de treball compartit.</p>
 </section>
 
 <section class="feature-card">
   <h2>Lliurament</h2>
   <p>El lliurament consisteix en un únic document comprimit (<code>.zip</code>) que ha d'incloure:</p>
   <ul>
-    <li>un únic fitxer en format Markdown amb les respostes;</li>
+    <li>un únic fitxer en format <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> amb les respostes;</li>
     <li>una carpeta amb les imatges i altres elements que estiguin vinculats al fitxer Markdown.</li>
   </ul>
   <p>Per veure el format general esperat del treball final, podeu consultar les pràctiques del curs passat aquí: <a href="{{ '/QiEP/2024-2025/' | relative_url }}">pràctica 1 del curs 2024-2025</a>.</p>
