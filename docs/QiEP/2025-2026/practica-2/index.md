@@ -76,22 +76,5 @@ author: "Química i Enginyeria de Proteïnes"
     <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en el tercer examen parcial dels diferents membres de cada grup `JC A-L`.</li>
   </ul>
   <p>Cal llegir la guia amb indicacions sobre com escriure una bona memòria i, si escau, la documentació complementària sobre el flux de treball amb <a href="https://www.latex-project.org/">LaTeX</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> i <a href="https://github.com/">GitHub</a>.</p>
-</section>
-
-<section class="feature-card">
-  <h2>Documents de suport</h2>
-  <ul>
-    <li><a href="https://www.nobelprize.org/prizes/chemistry/2018/arnold/lecture/">Frances H. Arnold – Nobel Lecture</a></li>
-    <li><a href="https://doi.org/10.1039/D2CB00231K">A primer to directed evolution: current methodologies and future directions</a></li>
-  </ul>
-</section>
-
-<section class="feature-card">
-  <h2>Bibliografia</h2>
-  <ul>
-    <li>Arnold FH. Innovation by evolution: bringing new chemistry to life. Nobel Lecture, 2018. <a href="https://www.nobelprize.org/prizes/chemistry/2018/arnold/lecture/">https://www.nobelprize.org/prizes/chemistry/2018/arnold/lecture/</a></li>
-    <li>Mahendran KR. et al. A primer to directed evolution: current methodologies and future directions. <em>RSC Chem Biol</em> 2023;4:1-23. <a href="https://doi.org/10.1039/D2CB00231K">https://doi.org/10.1039/D2CB00231K</a></li>
-    <li>Waman VP. et al. CATH 2024: CATH-AlphaFlow doubles the number of structures in CATH and reveals nearly 200 new folds. <em>J Mol Biol</em> 2024;436:168551. <a href="https://doi.org/10.1016/j.jmb.2024.168551">https://doi.org/10.1016/j.jmb.2024.168551</a></li>
-    <li>Schaeffer RD. et al. ECOD: integrating classifications of protein domains from experimental and predicted structures. <em>Nucleic Acids Res</em> 2025;53:D411-D418. <a href="https://doi.org/10.1093/nar/gkae1029">https://doi.org/10.1093/nar/gkae1029</a></li>
-  </ul>
+  <p>Els documents de suport i la bibliografia comuna del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
 </section>

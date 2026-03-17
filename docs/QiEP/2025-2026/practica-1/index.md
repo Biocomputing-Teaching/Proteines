@@ -92,18 +92,5 @@ author: "Química i Enginyeria de Proteïnes"
     <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del treball realitzat, segons la rúbrica proposada.</li>
     <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en l'examen parcial 2 dels diferents membres de cada grup.</li>
   </ul>
-</section>
-
-<section class="feature-card">
-  <h2>Bibliografia</h2>
-  <ul>
-    <li>Meng EC. et al. UCSF ChimeraX: Tools for structure building and analysis. <em>Protein Sci</em> 2024;33:e4792. <a href="https://doi.org/10.1002/pro.4792">https://doi.org/10.1002/pro.4792</a></li>
-    <li>The UniProt Consortium. UniProt: the Universal Protein Knowledgebase in 2025. <em>Nucleic Acids Res</em> 2025;53:D609-D617. <a href="https://doi.org/10.1093/nar/gkae1010">https://doi.org/10.1093/nar/gkae1010</a></li>
-    <li>Jeske L. et al. BRENDA, the ELIXIR core data resource in 2021: new developments and updates. <em>Nucleic Acids Res</em> 2021;49:D498-D508. <a href="https://doi.org/10.1093/nar/gkaa1025">https://doi.org/10.1093/nar/gkaa1025</a></li>
-    <li>Jumper J. et al. Highly accurate protein structure prediction with AlphaFold. <em>Nature</em> 2021;596:583-589. <a href="https://doi.org/10.1038/s41586-021-03819-2">https://doi.org/10.1038/s41586-021-03819-2</a></li>
-    <li>Varadi M. et al. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. <em>Nucleic Acids Res</em> 2024;52:D368-D375. <a href="https://doi.org/10.1093/nar/gkad1011">https://doi.org/10.1093/nar/gkad1011</a></li>
-    <li>Waman VP. et al. CATH 2024: CATH-AlphaFlow doubles the number of structures in CATH and reveals nearly 200 new folds. <em>J Mol Biol</em> 2024;436:168551. <a href="https://doi.org/10.1016/j.jmb.2024.168551">https://doi.org/10.1016/j.jmb.2024.168551</a></li>
-    <li>Schaeffer RD. et al. ECOD: integrating classifications of protein domains from experimental and predicted structures. <em>Nucleic Acids Res</em> 2025;53:D411-D418. <a href="https://doi.org/10.1093/nar/gkae1029">https://doi.org/10.1093/nar/gkae1029</a></li>
-    <li>Fox NK, Brenner SE, Chandonia JM. SCOPe: improvements to the structural classification of proteins: extended database to facilitate variant interpretation and machine learning. <em>Nucleic Acids Res</em> 2022;50:D553-D559. <a href="https://doi.org/10.1093/nar/gkab1054">https://doi.org/10.1093/nar/gkab1054</a></li>
-  </ul>
+  <p>Els documents de suport i la bibliografia comuna del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
 </section>
