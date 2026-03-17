@@ -31,7 +31,7 @@ author: "Química i Enginyeria de Proteïnes"
   <h2>Temporització</h2>
   <ul>
     <li><strong>Setmana 7</strong> (16/03/2026-22/03/2026): inici de la pràctica 1.</li>
-    <li><strong>Setmana 9</strong> (06/04/2026-12/04/2026): lliurament de la pràctica 1.</li>
+    <li>Consultar l'aula moodle per a la data de lliurament de la pràctica 1.</li>
   </ul>
 </section>
 
