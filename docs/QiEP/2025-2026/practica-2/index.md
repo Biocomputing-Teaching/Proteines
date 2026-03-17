@@ -40,26 +40,22 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Desenvolupament</h2>
-  <p>La pràctica consta de dues sessions presencials principals dins del calendari del curs 2025-2026: una sessió inicial de presentació i orientació del treball, i una sessió final de pòsters en la qual cada grup haurà d'exposar a la resta de companys i professors les troballes realitzades.</p>
-  <p>El desenvolupament es divideix en dues fases:</p>
+  <p>La pràctica es desenvolupa al llarg de diverses setmanes dins del calendari del curs 2025-2026. Hi haurà una sessió inicial de presentació i orientació del treball, i un seguiment posterior per ajudar-vos a concretar el protocol experimental i computacional que proposeu.</p>
   <ul>
-    <li><strong>Primera fase:</strong> treball escrit.</li>
-    <li><strong>Segona fase:</strong> pòster.</li>
+    <li><strong>Feina interna del grup:</strong> cada grup `JC A-L` treballarà sobre la proteïna que té assignada a l'aula Moodle i sobre el mètode d'enginyeria que se li hagi indicat.</li>
+    <li><strong>Integració de continguts:</strong> el document final haurà de relacionar el cas escollit amb les metodologies d'enginyeria de proteïnes tractades al curs.</li>
   </ul>
 </section>
 
 <section class="feature-card">
-  <h2>Primera fase: treball escrit</h2>
-  <p>El primer lliurament inclou:</p>
+  <h2>Lliurament</h2>
+  <p>El lliurament consisteix en un únic document comprimit (<code>.zip</code>) que ha d'incloure:</p>
   <ul>
-    <li>1 fitxer PDF de no més de 3500 paraules, aproximadament 7 pàgines de text amb espaiat simple o 14 amb doble espai, inclosos el títol, els peus de figura, les referències i tot el contingut en general. Es recomana seguir els detalls de la rúbrica en la creació del fitxer.</li>
-    <li>1 fitxer PDF addicional, opcional, amb qualsevol altre material de reforç que no tingui cabuda al document anterior, com ara gràfiques complementàries, taules de dades no essencials o explicacions detallades de metodologies.</li>
+    <li>un únic fitxer en format <a href="https://www.markdownguide.org/basic-syntax/">Markdown</a> amb les respostes;</li>
+    <li>una carpeta amb les imatges i altres elements que estiguin vinculats al fitxer Markdown.</li>
   </ul>
-</section>
-
-<section class="feature-card">
-  <h2>Segona fase: pòster</h2>
-  <p>Els grups desenvoluparan un pòster per presentar el seu treball a la resta de companys i professors durant la sessió final de la pràctica.</p>
+  <p>El document ha de presentar una proposta raonada d'enginyeria de proteïnes aplicada a la proteïna assignada, incloent-hi la justificació del problema, el context bibliogràfic, la descripció del mètode o conjunt de mètodes escollits, i la discussió dels resultats esperables o dels criteris d'avaluació del protocol proposat.</p>
+  <p>Recordeu afegir peus de figura descriptius a les figures que inclogueu i referenciar-les de forma adient des del text. Les figures poden ser esquemes propis, representacions estructurals o fluxos de treball, sempre que quedin ben justificats dins del document.</p>
 </section>
 
 <section class="feature-card">
@@ -68,15 +64,16 @@ author: "Química i Enginyeria de Proteïnes"
     <li>Les referències bibliogràfiques del treball han de provenir preferentment d'articles peer-reviewed i de bases de dades especialitzades.</li>
     <li>Si un article no està disponible directament en línia, cerqueu-lo primer a <a href="https://www.uvic.cat/biblioteca/colleccions/ucercatot">UCercaTot</a>, el cercador de la Biblioteca de la UVic-UCC. Si encara no hi teniu accés a text complet, el podeu sol·licitar a través del <a href="https://www.uvic.cat/biblioteca/serveis/prestec-obtencio-documents/servei-obtencio-de-documents">Servei d'Obtenció de Documents</a> de la Universitat.</li>
     <li>No baseu el treball en pàgines generalistes; useu literatura científica, patents o recursos tècnics pertinents segons el cas.</li>
+    <li>El fitxer Markdown ha de contenir cites de la literatura en el format adient. Us recomanem usar <a href="https://www.zotero.org/">Zotero</a> o <a href="https://www.mendeley.com/">Mendeley</a> com a eines de gestió de referències.</li>
   </ul>
 </section>
 
 <section class="feature-card">
   <h2>Avaluació</h2>
+  <p>La pràctica s'avaluarà fent la mitjana de dues notes, de manera anàloga a la pràctica 1:</p>
   <ul>
-    <li><strong>Feina interna del grup:</strong> cada grup `JC A-L` de la classe, tal com consta a l'aula Moodle, té assignat un mètode utilitzat habitualment en els protocols d'evolució dirigida en enginyeria de proteïnes. Cal escollir una de les diverses proteïnes proposades, i l'objectiu és desenvolupar un protocol experimental i computacional per millorar aquella proteïna que inclogui necessàriament el mètode proposat, així com altres que siguin necessaris. La valoració d'aquesta part compta un <strong>60%</strong> de la nota de la pràctica.</li>
-    <li><strong>Posada en comú:</strong> els grups `JC A-L` desenvoluparan un pòster per presentar el seu treball a la resta de companys. L'avaluació d'aquesta part, un <strong>20%</strong> de la nota de la pràctica, serà realitzada pels companys de curs.</li>
-    <li><strong>Comprensió dels diferents treballs presentats:</strong> en el tercer examen parcial s'hi inclourà una avaluació vinculada a la pràctica. Cada alumne tindrà com a nota, corresponent al <strong>20%</strong> del total de la pràctica, la mitjana de les notes d'aquest test d'elecció múltiple dels diferents membres del seu grup `JC A-L`.</li>
+    <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del protocol i del document presentat, segons la rúbrica proposada.</li>
+    <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en el tercer examen parcial dels diferents membres de cada grup `JC A-L`.</li>
   </ul>
   <p>Cal llegir la guia amb indicacions sobre com escriure una bona memòria i, si escau, la documentació complementària sobre el flux de treball amb <a href="https://www.latex-project.org/">LaTeX</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> i <a href="https://github.com/">GitHub</a>.</p>
 </section>
