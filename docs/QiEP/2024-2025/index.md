@@ -1,3 +1,4 @@
+---
 title: "QiEP · Curs 2024-2025"
 permalink: /QiEP/2024-2025/
 author: "Química i Enginyeria de Proteïnes"
