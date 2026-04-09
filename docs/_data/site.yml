@@ -30,6 +30,12 @@ nav_groups:
         url: /QiEP/
       - title: Guia de memòries
         url: /QiEP/guia-memories/
+      - title: Tutorial PFAM
+        url: /tutorialPFAM/
+      - title: Pràctica guiada
+        url: /practica2/
+      - title: Exemples d'estructures
+        url: /estructura/
       - title: Curs 2022-2023
         url: /QiEP-P1-2023/
       - title: Curs 2024-2025
@@ -99,6 +105,29 @@ qiep_courses:
   - title: Curs 2025-2026
     url: /QiEP/2025-2026/
     summary: "Accés a les pràctiques 1 i 2 del curs 2025-2026, amb temporització, desenvolupament i avaluació."
+
+qiep_support_resources:
+  - title: Tutorial PFAM
+    url: /tutorialPFAM/
+    summary: "Introducció a famílies, dominis i clans de PFAM per interpretar relacions seqüència-estructura-funció."
+  - title: Pràctica guiada
+    url: /practica2/
+    summary: "Exercicis resolts i guiats per treballar dominis, famílies i homologia funcional."
+  - title: Exemples d'estructures
+    url: /estructura/
+    summary: "Casos d'estudi de proteïnes concretes per revisar plegament, centre actiu i funció."
+  - title: Visualitzador web PDBe Mol*
+    url: /visualPDB.html
+    summary: "Exemple mínim per visualitzar estructures 3D directament al navegador."
+  - title: Notebook NGLView
+    url: /nglview_prots.ipynb
+    summary: "Plantilla mínima per explorar una proteïna en un entorn Jupyter."
+  - title: Superposició amb PyMOL
+    url: /QiEP/2022-2023/superposition_serine_proteases.py
+    summary: "Script simple per descarregar, alinear i exportar una superposició estructural."
+  - title: Introducció a estructures supersecundàries
+    url: /QiEP/2022-2023/supersec.pdf
+    summary: "Suport visual en PDF per identificar motius supersecundaris habituals."
 
 qiep_groups_2024_2025:
   - title: Grup A

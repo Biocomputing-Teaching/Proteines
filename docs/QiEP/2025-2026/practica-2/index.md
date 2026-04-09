@@ -48,6 +48,24 @@ author: "Química i Enginyeria de Proteïnes"
 </section>
 
 <section class="feature-card">
+  <h2>Recursos recomanats per preparar la proposta</h2>
+  <div class="card-grid">
+    <article class="mini-card">
+      <h3><a href="{{ '/QiEP/guia-memories/' | relative_url }}">Guia per escriure la memòria</a></h3>
+      <p class="muted">Per estructurar bé l'argument, la bibliografia i la presentació final del protocol.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/QiEP/2025-2026/' | relative_url }}">Bibliografia comuna del curs</a></h3>
+      <p class="muted">Punt de partida per situar el treball en el context actual de l'enginyeria de proteïnes.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/QiEP/2025-2026/practica-1/' | relative_url }}">Pràctica 1</a></h3>
+      <p class="muted">Referència útil si necessiteu recuperar context estructural sobre la proteïna assignada.</p>
+    </article>
+  </div>
+</section>
+
+<section class="feature-card">
   <h2>Lliurament</h2>
   <p>El lliurament consisteix en un únic document comprimit (<code>.zip</code>) que ha d'incloure:</p>
   <ul>

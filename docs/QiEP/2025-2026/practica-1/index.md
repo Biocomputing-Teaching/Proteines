@@ -28,6 +28,28 @@ author: "Química i Enginyeria de Proteïnes"
 </section>
 
 <section class="feature-card">
+  <h2>Recursos recomanats per començar</h2>
+  <div class="card-grid">
+    <article class="mini-card">
+      <h3><a href="{{ '/tutorialPFAM/' | relative_url }}">Tutorial PFAM</a></h3>
+      <p class="muted">Per interpretar dominis, famílies i relacions evolutives quan comenceu a anotar la proteïna.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/estructura/' | relative_url }}">Exemples d'estructures</a></h3>
+      <p class="muted">Casos d'estudi útils per orientar l'anàlisi de plegament, motius i centre actiu.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/QiEP/guia-memories/' | relative_url }}">Guia per escriure la memòria</a></h3>
+      <p class="muted">Criteris pràctics per redactar, citar i preparar figures de manera consistent.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/QiEP/2024-2025/' | relative_url }}">Treballs del curs 2024-2025</a></h3>
+      <p class="muted">Exemples reals de lliuraments per entendre el nivell de detall i el format esperat.</p>
+    </article>
+  </div>
+</section>
+
+<section class="feature-card">
   <h2>Temporització</h2>
   <ul>
     <li><strong>Setmana 7</strong> (16/03/2026-22/03/2026): inici de la pràctica 1.</li>

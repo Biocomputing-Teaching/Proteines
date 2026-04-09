@@ -32,3 +32,21 @@ author: "Química i Enginyeria de Proteïnes"
     {% endfor %}
   </div>
 </section>
+
+<section class="feature-card">
+  <h2>Recursos per llegir els treballs</h2>
+  <div class="card-grid">
+    <article class="mini-card">
+      <h3><a href="{{ '/tutorialPFAM/' | relative_url }}">Tutorial PFAM</a></h3>
+      <p class="muted">Ajuda a contextualitzar dominis i famílies que apareixen repetidament en els treballs.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/estructura/' | relative_url }}">Exemples d'estructures</a></h3>
+      <p class="muted">Complement útil per comparar tipus de plegament, motius i anàlisi funcional.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="{{ '/QiEP/guia-memories/' | relative_url }}">Guia per escriure una memòria</a></h3>
+      <p class="muted">Criteris generals per entendre millor l'organització i l'estil esperables dels lliuraments.</p>
+    </article>
+  </div>
+</section>

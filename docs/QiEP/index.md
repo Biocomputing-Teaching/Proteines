@@ -5,6 +5,7 @@ author: "FCTE · Grau en Biotecnologia · UVic-UCC"
 ---
 
 {% assign courses = site.data.site.qiep_courses %}
+{% assign support_resources = site.data.site.qiep_support_resources %}
 
 <section class="feature-card">
   <div class="logos">
@@ -17,6 +18,20 @@ author: "FCTE · Grau en Biotecnologia · UVic-UCC"
 
 <section class="card-grid">
   {% for item in courses %}
+    <article class="link-card">
+      <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+      <p class="muted">{{ item.summary }}</p>
+    </article>
+  {% endfor %}
+</section>
+
+<section class="feature-card">
+  <h2>Recursos de suport</h2>
+  <p>Materials complementaris per preparar pràctiques, reforçar conceptes i disposar d'eines ràpides de visualització i anàlisi estructural.</p>
+</section>
+
+<section class="card-grid">
+  {% for item in support_resources %}
     <article class="link-card">
       <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
       <p class="muted">{{ item.summary }}</p>
