@@ -120,8 +120,8 @@ qiep_support_resources:
     url: /visualPDB.html
     summary: "Exemple mínim per visualitzar estructures 3D directament al navegador."
   - title: Notebook NGLView
-    url: /nglview_prots.ipynb
-    summary: "Plantilla mínima per explorar una proteïna en un entorn Jupyter."
+    url: /nglview/
+    summary: "Pàgina d'accés a la plantilla d'NGLView i a la seva alternativa web dins del repositori."
   - title: Superposició amb PyMOL
     url: /QiEP/2022-2023/superposition_serine_proteases.py
     summary: "Script simple per descarregar, alinear i exportar una superposició estructural."
