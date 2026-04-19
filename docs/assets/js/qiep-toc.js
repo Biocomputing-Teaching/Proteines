@@ -7,7 +7,40 @@
     path.indexOf("/QiEP/2022-2023/Practica1") !== -1;
 
   if (!isPractice) return;
-  if (document.querySelector(".qiep-toc, #TOC, .tocify, .qiep-auto-toc")) return;
+  if (document.querySelector("#TOC, .tocify, .qiep-auto-toc")) return;
+
+  function injectStyle() {
+    if (document.getElementById("qiep-auto-toc-style")) return;
+
+    var style = document.createElement("style");
+    style.id = "qiep-auto-toc-style";
+    style.textContent = [
+      ".qiep-toc-layout{display:block}",
+      ".qiep-toc-content{min-width:0;padding-left:min(300px,25%);padding-right:40px}",
+      "#TOC.qiep-auto-toc,.qiep-toc{position:fixed;top:96px;left:max(1rem,calc((100vw - 1120px)/2));width:20%;max-width:260px;max-height:85vh;overflow:auto;margin:25px 0 20px 0;padding:0;border:1px solid #ccc;border-radius:6px;background:#fff;box-shadow:none;z-index:4}",
+      "#TOC.qiep-auto-toc ul,#TOC.qiep-auto-toc li,.qiep-toc ul,.qiep-toc li{list-style:none;margin:0;padding:0;border:none;line-height:20px}",
+      "#TOC.qiep-auto-toc a,.qiep-toc a{display:block;margin:0;padding:5px 8px;color:#2fa4e7;text-decoration:none;border-radius:0;line-height:1.25}",
+      "#TOC.qiep-auto-toc a:hover,#TOC.qiep-auto-toc a:focus,.qiep-toc a:hover,.qiep-toc a:focus{background:#eeeeee;color:#157ab5;text-decoration:none}",
+      "#TOC.qiep-auto-toc a.is-active,.qiep-toc a.is-active{background:#2fa4e7;color:#fff}",
+      ".qiep-auto-toc__item--h1>a,.qiep-toc>ul>li>a{text-indent:10px}",
+      ".qiep-auto-toc__item--h2>a,.qiep-toc .qiep-sub a{text-indent:20px;font-size:.9em}",
+      ".qiep-auto-toc__item--h3>a{text-indent:30px;font-size:.9em}",
+      ".qiep-manual-index-hidden{display:none!important}",
+      "@media(max-width:900px){.qiep-toc-content{padding-left:0;padding-right:0}#TOC.qiep-auto-toc,.qiep-toc{position:relative;top:auto;left:auto;width:100%;max-width:none;max-height:none;margin:0 0 1.5rem 0}}"
+    ].join("");
+
+    document.head.appendChild(style);
+  }
+
+  var existingToc = document.querySelector(".qiep-toc");
+  if (existingToc) {
+    injectStyle();
+    var existingContent = document.querySelector(".qiep-content");
+    var existingShell = document.querySelector(".qiep-shell");
+    if (existingShell) existingShell.classList.add("qiep-toc-layout");
+    if (existingContent) existingContent.classList.add("qiep-toc-content");
+    return;
+  }
 
   var root =
     document.querySelector("article.page-card") ||
@@ -23,7 +56,12 @@
       return (
         !heading.closest("nav") &&
         !heading.closest("header.page-card__header") &&
-        !heading.closest(".qiep-auto-toc")
+        !heading.closest(".qiep-auto-toc") &&
+        !heading.classList.contains("toc-ignore") &&
+        !heading.classList.contains("title") &&
+        !heading.classList.contains("subtitle") &&
+        !heading.classList.contains("author") &&
+        !heading.classList.contains("date")
       );
     });
 
@@ -77,15 +115,11 @@
   hideManualIndex();
 
   var nav = document.createElement("nav");
-  nav.className = "qiep-auto-toc";
+  nav.id = "TOC";
+  nav.className = "tocify qiep-auto-toc";
   nav.setAttribute("aria-label", "Índex de la pràctica");
 
-  var title = document.createElement("p");
-  title.className = "qiep-auto-toc__title";
-  title.textContent = "Menú";
-  nav.appendChild(title);
-
-  var list = document.createElement("ol");
+  var list = document.createElement("ul");
   list.className = "qiep-auto-toc__list";
 
   headings.forEach(function (heading) {
@@ -105,28 +139,44 @@
   if (!list.children.length) return;
 
   nav.appendChild(list);
-
-  var style = document.createElement("style");
-  style.textContent = [
-    ".qiep-auto-toc{position:sticky;top:1rem;float:left;width:min(260px,100%);max-height:calc(100vh - 2rem);overflow:auto;margin:.25rem 1.5rem 1rem 0;padding:.9rem;border:1px solid rgba(30,27,24,.14);border-radius:8px;background:#f6faf9;box-shadow:0 10px 28px rgba(23,33,43,.08);z-index:2}",
-    ".qiep-auto-toc__title{margin:0 0 .55rem;color:#0d6f78;font-size:.84rem;font-weight:800;text-transform:uppercase}",
-    ".qiep-auto-toc__list{margin:0;padding:0;list-style:none}",
-    ".qiep-auto-toc__item+ .qiep-auto-toc__item{margin-top:.18rem}",
-    ".qiep-auto-toc a{display:block;border-radius:6px;padding:.28rem .45rem;color:#17212b;line-height:1.25;text-decoration:none}",
-    ".qiep-auto-toc a:hover,.qiep-auto-toc a:focus{background:#e5f0f1;color:#0d6f78}",
-    ".qiep-auto-toc__item--h2{margin-left:.65rem;border-left:2px solid #c9d9dc;padding-left:.35rem;font-size:.94rem}",
-    ".qiep-auto-toc__item--h3{margin-left:1.2rem;border-left:2px solid #dde7e9;padding-left:.35rem;font-size:.88rem}",
-    ".qiep-manual-index-hidden{display:none!important}",
-    "@media(max-width:900px){.qiep-auto-toc{position:relative;top:auto;float:none;width:auto;max-height:none;margin:0 0 1.5rem}}"
-  ].join("");
-
-  document.head.appendChild(style);
+  injectStyle();
 
   var firstHeading = headings.find(function (heading) {
     return !heading.classList.contains("qiep-manual-index-hidden");
   });
 
   if (firstHeading && firstHeading.parentNode) {
+    root.classList.add("qiep-toc-layout");
+    if (!root.classList.contains("toc-content")) {
+      root.classList.add("qiep-toc-content");
+    }
     firstHeading.parentNode.insertBefore(nav, firstHeading);
+  }
+
+  var links = Array.prototype.slice.call(nav.querySelectorAll("a"));
+  var linkById = links.reduce(function (memo, link) {
+    memo[link.getAttribute("href").slice(1)] = link;
+    return memo;
+  }, {});
+
+  if ("IntersectionObserver" in window) {
+    var observer = new IntersectionObserver(
+      function (entries) {
+        var visible = entries
+          .filter(function (entry) { return entry.isIntersecting; })
+          .sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; })[0];
+
+        if (!visible) return;
+        links.forEach(function (link) { link.classList.remove("is-active"); });
+        if (linkById[visible.target.id]) {
+          linkById[visible.target.id].classList.add("is-active");
+        }
+      },
+      { rootMargin: "0px 0px -70% 0px", threshold: 0.01 }
+    );
+
+    headings.forEach(function (heading) {
+      if (!heading.classList.contains("qiep-manual-index-hidden")) observer.observe(heading);
+    });
   }
 })();
