@@ -1,13 +1,26 @@
 (function () {
   var path = window.location.pathname;
-  var isPractice =
-    path.indexOf("/QiEP-P1-") !== -1 ||
-    path.indexOf("/QiEP/2025-2026/practica-1/") !== -1 ||
-    path.indexOf("/QiEP/2024-2025/P1/") !== -1 ||
-    path.indexOf("/QiEP/2022-2023/Practica1") !== -1;
+  var decodedPath = path;
 
-  if (!isPractice) return;
-  if (document.querySelector("#TOC, .tocify, .qiep-auto-toc")) return;
+  try {
+    decodedPath = decodeURIComponent(path);
+  } catch (error) {
+    decodedPath = path;
+  }
+
+  var isGroupPractice =
+    /\/QiEP-P1-\d{4}-/.test(decodedPath) ||
+    (
+      decodedPath.indexOf("/QiEP/2025-2026/practica-1/") !== -1 &&
+      /\/JC [A-Z][^/]*_/.test(decodedPath)
+    ) ||
+    (
+      decodedPath.indexOf("/QiEP/2024-2025/P1/") !== -1 &&
+      decodedPath.indexOf("Grup ") !== -1
+    );
+
+  if (!isGroupPractice) return;
+  document.body.classList.add("qiep-k-style");
 
   function injectStyle() {
     if (document.getElementById("qiep-auto-toc-style")) return;
@@ -15,6 +28,31 @@
     var style = document.createElement("style");
     style.id = "qiep-auto-toc-style";
     style.textContent = [
+      "body.qiep-k-style{background:#fff;color:#333;font-family:\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143}",
+      "body.qiep-k-style a{color:#2fa4e7}",
+      "body.qiep-k-style a:hover,body.qiep-k-style a:focus{color:#157ab5}",
+      "body.qiep-k-style .site-header{background-color:#2fa4e7;background-image:linear-gradient(#54b4eb,#2fa4e7 60%,#1d9ce5);border-bottom:1px solid #178acc;box-shadow:0 1px 10px rgba(0,0,0,.1)}",
+      "body.qiep-k-style .site-brand,body.qiep-k-style .site-brand__kicker,body.qiep-k-style .site-brand__title,body.qiep-k-style .site-nav__link{color:#fff}",
+      "body.qiep-k-style .site-nav__link:hover,body.qiep-k-style .site-nav__link:focus-visible,body.qiep-k-style .site-nav__link.is-active{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.35);color:#fff}",
+      "body.qiep-k-style .site-shell{width:min(1200px,calc(100vw - 2rem))}",
+      "body.qiep-k-style .site-main{padding:20px 0 40px}",
+      "body.qiep-k-style .page-card{background:#fff;border:0;border-radius:0;box-shadow:none;padding:30px}",
+      "body.qiep-k-style .page-card__header{border-bottom:1px solid #eee;margin-bottom:20px;padding-bottom:15px}",
+      "body.qiep-k-style .page-card__eyebrow{color:#2fa4e7;font-size:14px;letter-spacing:0;text-transform:none}",
+      "body.qiep-k-style .main-container{max-width:1200px}",
+      "body.qiep-k-style h1,body.qiep-k-style h2,body.qiep-k-style h3{color:#333;font-family:\"Helvetica Neue\",Helvetica,Arial,sans-serif;font-weight:500;line-height:1.1}",
+      "body.qiep-k-style h1{font-size:36px}",
+      "body.qiep-k-style h2{font-size:30px}",
+      "body.qiep-k-style h3{font-size:24px}",
+      "body.qiep-k-style table{background:#fff;border-radius:0}",
+      "body.qiep-k-style pre{border-radius:4px}",
+      "body.qiep-k-style .qiep-hero{border-bottom:1px solid #eee;margin:0 0 20px;padding:0 0 15px}",
+      "body.qiep-k-style .qiep-meta li{border-color:#ddd;border-radius:4px;color:#333}",
+      "body.qiep-k-style .qiep-content img,body.qiep-k-style .qiep-content video{background:transparent;border:0;border-radius:0;box-shadow:none}",
+      "body.qiep-k-style #TOC.tocify{margin:25px 0 20px 0;width:20%;max-width:260px;max-height:85%;overflow:auto}",
+      "body.qiep-k-style #TOC.tocify ul,body.qiep-k-style #TOC.tocify li{line-height:20px}",
+      "body.qiep-k-style #TOC.tocify .list-group-item{border-radius:0}",
+      "body.qiep-k-style #TOC.tocify .tocify-subheader .tocify-item{font-size:.9em}",
       ".qiep-toc-layout{display:block}",
       ".qiep-toc-content{min-width:0;padding-left:min(300px,25%);padding-right:40px}",
       "#TOC.qiep-auto-toc,.qiep-toc{position:fixed;top:96px;left:max(1rem,calc((100vw - 1120px)/2));width:20%;max-width:260px;max-height:85vh;overflow:auto;margin:25px 0 20px 0;padding:0;border:1px solid #ccc;border-radius:6px;background:#fff;box-shadow:none;z-index:4}",
@@ -30,6 +68,11 @@
     ].join("");
 
     document.head.appendChild(style);
+  }
+
+  if (document.querySelector("#TOC, .tocify, .qiep-auto-toc")) {
+    injectStyle();
+    return;
   }
 
   var existingToc = document.querySelector(".qiep-toc");
