@@ -6,18 +6,244 @@ author: "Clara Batllé, Anna Galcerà, Carla Gonzalez, Gisell Montaña, Maria Pi
 permalink: /QiEP-P1-2026-B/
 ---
 
-# Context
+<style>
+.qiep-report {
+  --qiep-ink: #17212b;
+  --qiep-muted: #5d6f7a;
+  --qiep-line: #d6e2e4;
+  --qiep-panel: #f6faf9;
+  --qiep-accent: #0d6f78;
+  --qiep-accent-2: #b36b00;
+  color: var(--qiep-ink);
+}
+
+.qiep-hero {
+  margin: 0 0 2rem;
+  padding: 1.6rem 0 1.4rem;
+  border-bottom: 1px solid var(--qiep-line);
+}
+
+.qiep-kicker {
+  margin: 0 0 .45rem;
+  color: var(--qiep-accent);
+  font-size: .82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.qiep-hero h2 {
+  margin: 0;
+  max-width: 980px;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  line-height: 1.02;
+}
+
+.qiep-lead {
+  max-width: 840px;
+  margin: .75rem 0 0;
+  color: var(--qiep-muted);
+  font-size: 1.08rem;
+}
+
+.qiep-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.qiep-meta li {
+  border: 1px solid var(--qiep-line);
+  border-radius: 999px;
+  padding: .28rem .65rem;
+  background: #fff;
+  color: var(--qiep-muted);
+  font-size: .9rem;
+}
+
+.qiep-shell {
+  display: grid;
+  grid-template-columns: minmax(210px, 280px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.qiep-toc {
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow: auto;
+  border: 1px solid var(--qiep-line);
+  border-radius: 8px;
+  background: var(--qiep-panel);
+  padding: .9rem;
+}
+
+.qiep-toc-title {
+  margin: 0 0 .55rem;
+  color: var(--qiep-accent);
+  font-size: .84rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.qiep-toc a {
+  display: block;
+  border-radius: 6px;
+  padding: .28rem .45rem;
+  color: var(--qiep-ink);
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.qiep-toc a:hover,
+.qiep-toc a:focus {
+  background: #e5f0f1;
+  color: var(--qiep-accent);
+}
+
+.qiep-toc ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.qiep-toc li + li {
+  margin-top: .18rem;
+}
+
+.qiep-toc .qiep-sub {
+  margin: .15rem 0 .5rem .75rem;
+  border-left: 2px solid #c9d9dc;
+  padding-left: .45rem;
+  font-size: .92rem;
+}
+
+.qiep-content {
+  min-width: 0;
+}
+
+.qiep-content h1 {
+  margin-top: 2.4rem;
+  padding-bottom: .35rem;
+  border-bottom: 2px solid var(--qiep-line);
+}
+
+.qiep-content h2 {
+  margin-top: 2rem;
+  color: var(--qiep-accent);
+}
+
+.qiep-content h3 {
+  color: var(--qiep-accent-2);
+}
+
+.qiep-content img,
+.qiep-content video {
+  display: block;
+  width: min(100%, 760px);
+  height: auto;
+  margin: 1rem auto;
+  border: 1px solid var(--qiep-line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(23, 33, 43, .08);
+}
+
+.qiep-content pre {
+  border: 1px solid var(--qiep-line);
+  border-radius: 8px;
+}
+
+.qiep-content strong:first-child {
+  color: #263842;
+}
+
+@media (max-width: 900px) {
+  .qiep-shell {
+    display: block;
+  }
+
+  .qiep-toc {
+    position: relative;
+    top: auto;
+    max-height: none;
+    margin-bottom: 1.5rem;
+  }
+}
+</style>
+
+<div class="qiep-report" markdown="1">
+
+<header class="qiep-hero" id="inici">
+  <p class="qiep-kicker">Grup B · Pràctica 1</p>
+  <h2>Proteïna 8YL8</h2>
+  <p class="qiep-lead">Informe navegable sobre una proteïna de disseny de novo, amb èmfasi en l’organització estructural, les interaccions estabilitzadores i la relació seqüència-estructura-funció.</p>
+  <ul class="qiep-meta">
+    <li>PDB 8YL8</li>
+    <li>Homotetràmer</li>
+    <li>ChimeraX</li>
+    <li>Disseny RSO</li>
+    <li>α+β</li>
+  </ul>
+</header>
+
+<div class="qiep-shell" markdown="1">
+
+<nav class="qiep-toc" aria-label="Índex de la pràctica">
+  <p class="qiep-toc-title">Menú</p>
+  <ul>
+    <li><a href="#context">Context</a></li>
+    <li><a href="#introduccio">Introducció</a></li>
+    <li>
+      <a href="#sobre-la-proteina">Sobre la proteïna</a>
+      <ul class="qiep-sub">
+        <li><a href="#sequencia-donada">Seqüència</a></li>
+        <li><a href="#classificacio-ec">Classificació EC</a></li>
+        <li><a href="#organisme-expressio">Organisme</a></li>
+        <li><a href="#pdb-id">PDB ID</a></li>
+        <li><a href="#funcio-resumida">Funció resumida</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#treball-amb-chimerax">ChimeraX</a>
+      <ul class="qiep-sub">
+        <li><a href="#proteina-amb-chimerax">Vista general</a></li>
+        <li><a href="#estructures-secundaries">Estructures secundàries</a></li>
+        <li><a href="#interaccions">Interaccions</a></li>
+        <li><a href="#motius-supersecundaris">Motius supersecundaris</a></li>
+        <li><a href="#estructura-terciaria">Estructura terciària</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#funcio-de-la-proteina">Funció</a>
+      <ul class="qiep-sub">
+        <li><a href="#centre-actiu">Centre actiu</a></li>
+        <li><a href="#distribucio-carregues">Càrregues</a></li>
+        <li><a href="#relacio-sequencia-estructura-funcio">Seqüència-estructura-funció</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusio">Conclusió</a></li>
+    <li><a href="#bibliografia">Bibliografia</a></li>
+  </ul>
+</nav>
+
+<main class="qiep-content" markdown="1">
+
+# Context {#context}
 
 Aquesta pràctica té com a finalitat familiaritzar-se amb l’ús d’eines de bioinformàtica estructural, especialment ChimeraX, i amb la consulta de bases de dades de proteïnes com el Protein Data Bank (PDB) i PDBsum. A partir d’una seqüència proteica inicial, es treballa la cerca d’homologies amb eines com BLAST i la identificació d’estructures relacionades, així com la interpretació dels diferents nivells d’organització estructural (secundària, terciària i quaternària). L’objectiu final és adquirir habilitats en la representació i interpretació d’estructures proteiques, identificant els elements que les caracteritzen i que poden estar relacionats amb les seves propietats.
 
 
-# Introducció
+# Introducció {#introduccio}
 
 En aquest treball s’ha analitzat una proteïna a partir d’una seqüència aminoacídica inicial, utilitzant eines de bioinformàtica estructural com BLAST, UniProt, el Protein Data Bank (PDB) i ChimeraX. La cerca inicial va permetre identificar estructures relacionades i accedir a informació associada a un article científic vinculat al disseny de la proteïna. A partir d’aquestes dades, s’ha dut a terme una anàlisi detallada de l’estructura tridimensional amb l’objectiu d’estudiar la seva organització i estabilitat, així com la relació entre els diferents nivells estructurals i les seves propietats.
 
-# Sobre la proteïna
+# Sobre la proteïna {#sobre-la-proteina}
 
-### Seqüència donada
+### Seqüència donada {#sequencia-donada}
 
 ```text
 PDFTGARERFLAGDVTIVLLIAESHDAPYRLANPEDPEADLSDEQLERALAAYLTLVETLFPELYAEMKAALAAAKTPEEKIAVFREYNARFLAEFDALIDQAFARLKADSLTLKIHLSQGKGSYEIIFPPEVQADPERAAAIEALWKPTLDQLLAVLQEKHKGKPATTVTYEISAETLRAAVAALARAAEAALRRKVGSLESSGLEVLFQ
@@ -27,15 +253,15 @@ Cada cadena té aquesta seqüència, amb una llargada de 211 aa. La proteïna es
 
 No s'ha obtingut cap resultat coherent a UniProt, la llargada de la proteïna que donava UniProt no correspon amb la llargada de la seqüència.
 
-### Classificació EC.X.X.X.X
+### Classificació EC.X.X.X.X {#classificacio-ec}
 
 No és un enzim.
 
-### Organisme d'expressió
+### Organisme d'expressió {#organisme-expressio}
 
 *Escherichia coli*.
 
-### PDB ID
+### PDB ID {#pdb-id}
 
 8YL8 Extended : pdb_00008yl8
 
@@ -43,13 +269,13 @@ Existeixen dues estructures corresponents a la mateixa proteïna dissenyada de n
 
 S'ha seleccionat l'estructura 8YL8, ja que presenta una millor qualitat estructural en comparació amb 8YL4. En concret, posseeix una resolució de 2.21 Å, inferior als 2.88 Å de 8YL4, la qual cosa indica un major nivell de detall atòmic. A més, presenta valors de R-free (0.244) i R-work (0.201) més baixos que els de 8YL4, la qual cosa reflecteix un millor ajust entre el model estructural i les dades experimentals. Per això, 8YL8 es considera l'opció més fiable per a l'anàlisi estructural posterior.
 
-### Funció resumida
+### Funció resumida {#funcio-resumida}
 
 La proteïna corresponent a l'estructura 8YL8 no presenta una funció biològica natural coneguda, ja que es tracta d'una proteïna dissenyada de novo mitjançant el mètode RSO. El seu propòsit principal és actuar com a model experimental per a validar la capacitat de disseny estructural de l'algorisme RSO, demostrant que és possible generar proteïnes sintètiques que adopten amb alta precisió la conformació tridimensional predita. L'estructura 8YL8 presenta un ió sulfat (SO₄²⁻), el qual probablement prové de les condicions en el buffer de cristal·lització (sulfat d’amoni, HEPES i PEG 400). Aquest ió pot establir interaccions electroestàtiques o ponts d'hidrogen amb residus de la proteïna, però no representa un substrat fisiològic ni indica activitat catalítica, i, per tant, no permet afirmar que aquesta sigui la seva funció ni que es tracti d'un enzim. [bank]
 
-# Treball amb ChimeraX
+# Treball amb ChimeraX {#treball-amb-chimerax}
 
-## Proteïna amb ChimeraX
+## Proteïna amb ChimeraX {#proteina-amb-chimerax}
 
 **Totes les imatges i figures han estat elaborades amb ChimeraX, excepte les extretes de les presentacions i Jalview **
 
@@ -78,7 +304,7 @@ Tot l'anàlisi pertany al mateix fitxer PDB.
 
 L’estructura quaternària de la proteïna està formada per quatre cadenes polipeptídiques idèntiques, que s’associen per formar un homotetràmer. Aquesta organització s’ha pogut confirmar mitjançant l’alineament estructural de les quatre cadenes, que mostra una elevada similitud entre elles, indicant que es tracta de subunitats equivalents tant estructuralment com funcionalment.
 
-## Estructures secundàries de la proteïna
+## Estructures secundàries de la proteïna {#estructures-secundaries}
 
 ### Làmines (Taronja)
 
@@ -153,7 +379,7 @@ En aquest model no s'ha observat hèlix $\alpha$ $4.4_16$ ni $2.2_7$.
 **1296 àtoms, 1287 enllaços, 189 residus**.
 
 
-## Interaccions
+## Interaccions {#interaccions}
 
 **Interaccions de van der Waals entre les diferents estructures secundàries.**
 
@@ -215,7 +441,7 @@ En aquest model no s'ha observat hèlix $\alpha$ $4.4_16$ ni $2.2_7$.
 
 **Fig.15**. Rotativa de les interaccions amb el solvent (H2O)
 
-## Motius supersecundaris i les seves interaccions
+## Motius supersecundaris i les seves interaccions {#motius-supersecundaris}
 
 En totes les cadenes trobem $\beta$ hairpins
 
@@ -269,7 +495,7 @@ Ponts d'hidrogen dels $\beta$ hairpins, $\beta$ $\alpha$ $\beta$ i helix-turn-he
 
 **Fig.20**. Rotativa dels ponts d'hidrogen dels $\beta$ hairpins, $\beta$ $\alpha$ $\beta$ i "helix-turn-helix".
 
-## Estructura terciària de la proteïna i el tipus de plegament al qual correspon.
+## Estructura terciària de la proteïna i el tipus de plegament al qual correspon. {#estructura-terciaria}
 
 <video width="500" autoplay loop muted>
 
@@ -301,9 +527,9 @@ S'ha observat un "helical bundle".
 
 Pel que fa a la classificació estructural, no ha estat possible assignar directament aquesta proteïna a una família dins de bases de dades com CATH o SCOPe, degut al fet que es tracta d’una proteïna de disseny de novo. Aquest tipus de proteïnes no sempre es troben representades en bases de dades estructurals clàssiques, ja que no tenen un equivalent evolutiu natural clar. A més, tot i que la cerca amb BLAST mostra proteïnes amb certa similitud de seqüència, aquestes també corresponen majoritàriament a dissenys de novo o seqüències artificials. Aquesta proteïna ha estat dissenyada amb l’objectiu de validar eines de predicció estructural, com el mètode RSO, demostrant la seva capacitat per generar estructures tridimensionals estables a partir de seqüències artificials.
 
-# Funció de la proteïna
+# Funció de la proteïna {#funcio-de-la-proteina}
 
-### Centre actiu
+### Centre actiu {#centre-actiu}
 
 En la proteïna 8YL8 no s’identifica un centre actiu catalític, ja que es tracta d’una proteïna de disseny de novo amb una funció principalment estructural. Per aquest motiu, tampoc es troba cap substrat ni inhibidor co-cristal·litzat, i la proteïna es presenta en estat apo.
 
@@ -314,7 +540,7 @@ En la proteïna 8YL8 no s’identifica un centre actiu catalític, ja que es tra
 
 
 
-### Interaccions
+### Interaccions {#interaccions-funcio}
 
 Tot i això, l’estructura presenta diverses interaccions que contribueixen a la seva estabilitat. S’observen interaccions de van der Waals entre les diferents estructures secundàries, així com ponts d’hidrogen que contribueixen a la unió i estabilització de les quatre cadenes polipeptídiques, formant un homotetràmer.
 
@@ -327,7 +553,7 @@ Tot i això, l’estructura presenta diverses interaccions que contribueixen a l
 **Fig.25**. Visualització de la superfície molecular i distribució de càrregues de la proteïna d'estudi. Les regions representades en vermell indiquen un potencial negatiu, mentre que les blaves indiquen un potencial positiu i les blanques zones neutres o hidrofòbiques.
 
 
-### Distribució de càrregues
+### Distribució de càrregues {#distribucio-carregues}
 
 A partir de la visualització en ChimeraX, es distingeix la distribució de residus segons les seves propietats: els residus apolars es representen en blanc, els residus amb càrrega negativa en vermell i els residus amb càrrega positiva en blau. Aquesta distribució reflecteix l’organització estructural típica de proteïnes globulars, on les interaccions hidrofòbiques i electrostàtiques són clau per a l’estabilitat del plegament.
 
@@ -339,7 +565,7 @@ Atès que es tracta d’una proteïna de disseny de novo, no se li pot assignar 
 
 No es disposa d’informació experimental sobre modificacions post-traduccionals específiques per a la proteïna 8YL8, atès que es tracta d’una proteïna de disseny de novo. Per aquest motiu, no s’han descrit modificacions concretes associades a la seva funció biològica. Tanmateix, considerant proteïnes amb plegament similar de tipus α+β (com les ribonucleases), es poden inferir possibles modificacions post-traduccionals habituals en aquest tipus de proteïnes, com la formació de ponts disulfur en residus de cisteïna, així com possibles fosforilacions en residus de serina, treonina o tirosina, que en proteïnes naturals poden participar en processos d’estabilització o regulació.
 
-## Relació seqüència–estructura–funció
+## Relació seqüència–estructura–funció {#relacio-sequencia-estructura-funcio}
 
 Atès que es tracta d’una proteïna dissenyada mitjançant el mètode RSO, és probable que la seva funció principal sigui validar la capacitat d’aquest sistema per generar estructures estables i correctament plegades, més que no pas exercir una funció biològica específica.
 
@@ -395,7 +621,7 @@ A nivell funcional, tot i que la seqüència i l’estructura global siguin simi
 
 
 
-# Conclusió
+# Conclusió {#conclusio}
 
 En aquest treball s’ha analitzat la proteïna 8YL8, dissenyada de novo mitjançant el mètode RSO, demostrant que és possible generar estructures tridimensionals estables a partir de seqüències artificials. L’anàlisi estructural ha revelat una organització quaternària en forma d’homotetràmer i un plegament de tipus α+β, dominat per α-hèlixs i complementat amb làmines β i motius supersecundaris.
 
@@ -405,7 +631,7 @@ A més, el mètode RSO (Relaxed Sequence Optimization) representa un avenç impo
 
 En conjunt, aquest estudi confirma la relació seqüència–estructura i posa en valor el potencial del disseny de novo per generar proteïnes funcionals i estables amb aplicacions futures en biotecnologia.
 
-# Bibliografia
+# Bibliografia {#bibliografia}
 
 
 
@@ -426,3 +652,9 @@ Universitat de Vic. (n.d.). Tema 5 – Tipus de proteïnes i les seves funcions,
 
 
 Frank, C., Khoshouei, A., Fu, L., Schiwietz, D., Putz, D., Weber, L., Zhao, Z., Hattori, M., Feng, S., de Stigter, Y., Ovchinnikov, S., & Dietz, H. (2024). Scalable protein design using optimization in a relaxed sequence space. Science, 386, 439–445. https://doi.org/10.1126/science.adq1741
+
+</main>
+
+</div>
+
+</div>
