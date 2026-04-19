@@ -4,6 +4,8 @@ permalink: /QiEP/2025-2026/practica-1/
 author: "Química i Enginyeria de Proteïnes"
 ---
 
+{% assign groups = site.data.site.qiep_groups_2025_2026 %}
+
 <section class="feature-card">
   <h2>Objectiu de la pràctica</h2>
   <p>L'exercici pretén que us familiaritzeu amb <a href="https://www.cgl.ucsf.edu/chimerax/">ChimeraX</a> i amb els fitxers de la base de dades del <a href="https://www.rcsb.org/">Protein Data Bank (PDB)</a>, així com amb diverses eines de bioinformàtica estructural; podeu provar també d'accedir-hi a través de <a href="https://www.ebi.ac.uk/thornton-srv/databases/pdbsum/">PDBsum</a>. Sobretot, però, cerquem que sigueu capaços d'identificar en l'estructura d'una determinada proteïna aquells elements estructurals que la caracteritzen i que la fan funcional, i establir aquestes relacions estructura-funció.</p>
@@ -46,6 +48,18 @@ author: "Química i Enginyeria de Proteïnes"
       <h3><a href="{{ '/QiEP/2024-2025/' | relative_url }}">Treballs del curs 2024-2025</a></h3>
       <p class="muted">Exemples reals de lliuraments per entendre el nivell de detall i el format esperat.</p>
     </article>
+  </div>
+</section>
+
+<section class="feature-card">
+  <h2>Treballs dels grups</h2>
+  <div class="card-grid">
+    {% for item in groups %}
+      <article class="mini-card">
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+        <p class="muted">{{ item.protein }}</p>
+      </article>
+    {% endfor %}
   </div>
 </section>
 

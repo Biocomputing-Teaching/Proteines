@@ -169,3 +169,38 @@ qiep_groups_2024_2025:
   - title: Grup M
     protein: "Lipasa"
     url: /QiEP-P1-2025-M/
+
+qiep_groups_2025_2026:
+  - title: Grup A
+    protein: "Bcl-2-like protein BIM"
+    url: /QiEP-P1-2026-A/
+  - title: Grup B
+    protein: "Proteïna de disseny de novo 8YL8"
+    url: /QiEP-P1-2026-B/
+  - title: Grup C
+    protein: "GOLGA6L4"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC C_278983_assignsubmission_file/Practica1_QiEp/QiEP1_GrupC"
+  - title: Grup D
+    protein: "Proenkephalin-B"
+    url: /QiEP-P1-2026-JC_D/
+  - title: Grup F
+    protein: "Indole-3-glycerol phosphate synthase"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC F_278986_assignsubmission_file/pràtica QiEP grupF/pràticaQiEP.html"
+  - title: Grup G
+    protein: "Indole-3-glycerol phosphate synthase"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC G_278987_assignsubmission_file/P1_GrupG/P1_QIEP_GrupG_editat"
+  - title: Grup H
+    protein: "Receptor β2 adrenèrgic"
+    url: /QiEP-P1-2026-H/
+  - title: Grup I
+    protein: "Imidazole glycerol phosphate synthase subunit HisF"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC I_278989_assignsubmission_file/Pràctica1_QEP_Grup_I/Pràctica1_QEP_Grup_I.html"
+  - title: Grup J
+    protein: "CYP102A1"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC J_278990_assignsubmission_file/practica_1 -20260414T202521Z-3-001/practica_1/Pràctica1QiEP_J.html"
+  - title: Grup K
+    protein: "Citocrom P450 BM3"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC K_278991_assignsubmission_file/JCK_P1/Citocrom-P450-BM3.html"
+  - title: Grup L
+    protein: "Regulador transcripcional de la família PadR"
+    url: "/QiEP/2025-2026/practica-1/Química Enginyeria Proteïnes_2025_0_6_13126_11_3-Pràctica 1. Relacions estructura-funció en proteïnes-1419305/JC L_278992_assignsubmission_file/Practica 1 Grup L/Practica1grupL.html"
