@@ -125,7 +125,7 @@ author: "Química i Enginyeria de Proteïnes"
   <h2>Avaluació de la pràctica</h2>
   <p>La pràctica s'avaluarà fent la mitjana de dues notes:</p>
   <ul>
-    <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del treball realitzat, segons la rúbrica proposada.</li>
+    <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del treball realitzat, segons la <a href="{{ '/pdf/rubrica_qiep_practica_1.pdf' | relative_url }}">rúbrica de la pràctica 1</a>.</li>
     <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en l'examen parcial 2 dels diferents membres de cada grup.</li>
   </ul>
   <p>La guia general sobre com escriure una bona memòria, gestionar la bibliografia i organitzar el flux de treball digital és disponible a <a href="{{ '/QiEP/guia-memories/' | relative_url }}">la pàgina general de QiEP</a>. Els documents de suport i la bibliografia comuna del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
