@@ -1,0 +1,28 @@
+# Imatges externes de mecanismes i estructures
+
+Aquest directori conté només imatges amb una font pública clara: esquemes de Wikimedia Commons o imatges estructurals de suport generades des de fitxes RCSB PDB. No s'han copiat figures d'articles científics quan no hi havia una llicència de reutilització prou clara; en aquests casos, les pàgines citen l'article original mitjançant DOI.
+
+- `adrb2_6ps2.jpeg`: [6PS2](https://www.rcsb.org/structure/6PS2)
+- `amine_oxidase.png`: [Hdmethrxn2.png](https://commons.wikimedia.org/wiki/File:Hdmethrxn2.png)
+- `bim_8t5e.jpeg`: [8T5E](https://www.rcsb.org/structure/8T5E)
+- `cutinase_hydrolysis.png`: [Cutinase Hydrolysis Mechanism.png](https://commons.wikimedia.org/wiki/File:Cutinase_Hydrolysis_Mechanism.png)
+- `d3_7rmx.jpeg`: [7RMX](https://www.rcsb.org/structure/7RMX)
+- `dna_ligase_nick.jpg`: [Ligase nick repair mecanism.jpg](https://commons.wikimedia.org/wiki/File:Ligase_nick_repair_mecanism.jpg)
+- `dyna_9cce.jpeg`: [9CCE](https://www.rcsb.org/structure/9CCE)
+- `epoxide_hydrolase.png`: [LEH mechanism.png](https://commons.wikimedia.org/wiki/File:LEH_mechanism.png)
+- `fmo_bvmo.png`: [BVMO reaction mechanism.png](https://commons.wikimedia.org/wiki/File:BVMO_reaction_mechanism.png)
+- `glycosyltransferase.png`: [Glycosyltransferase mechanisms.png](https://commons.wikimedia.org/wiki/File:Glycosyltransferase_mechanisms.png)
+- `gst_glutathione.svg`: [Glutathione-skeletal.svg](https://commons.wikimedia.org/wiki/File:Glutathione-skeletal.svg)
+- `lipase_mechanism.jpg`: [Mecanisme catalític de la lipasa.jpg](https://commons.wikimedia.org/wiki/File:Mecanisme_catalític_de_la_lipasa.jpg)
+- `p450_mechanism.png`: [CYP mechanism.png](https://commons.wikimedia.org/wiki/File:CYP_mechanism.png)
+- `pal_active_site.png`: [Phenylalanine ammonia lysase active site.png](https://commons.wikimedia.org/wiki/File:Phenylalanine_ammonia_lysase_active_site.png)
+- `pectate_1ee6.jpeg`: [1EE6](https://www.rcsb.org/structure/1EE6)
+- `secu_2fsf.jpeg`: [2FSF](https://www.rcsb.org/structure/2FSF)
+- `tim_barrel.png`: [8tim TIM barrel topview.png](https://commons.wikimedia.org/wiki/File:8tim_TIM_barrel_topview.png)
+- `xylose_isomerase.png`: [Structure and mechanism of xylose on glucose.png](https://commons.wikimedia.org/wiki/File:Structure_and_mechanism_of_xylose_on_glucose.png)
+- `sucrose_condensation.svg`: [Sucrose condensation](https://commons.wikimedia.org/wiki/File:Sucrose_condensation.svg)
+- `denovo_8yl8.jpeg`: [8YL8](https://www.rcsb.org/structure/8YL8)
+- `ra95_5an7.jpeg`: [5AN7](https://www.rcsb.org/structure/5AN7)
+- `ra95_4a29.jpeg`: [4A29](https://www.rcsb.org/structure/4A29)
+- `ke07_6c7m.jpeg`: [6C7M](https://www.rcsb.org/structure/6C7M)
+- `padr_6i8n.jpeg`: [6I8N](https://www.rcsb.org/structure/6I8N)

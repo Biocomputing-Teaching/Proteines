@@ -170,6 +170,82 @@ qiep_groups_2024_2025:
     protein: "Lipasa"
     url: /QiEP-P1-2025-M/
 
+qiep_groups_2024_2025_corrected:
+  - title: Flavin-containing monooxygenase 5
+    protein: "FMO5"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-A-corregida/
+  - title: Glutatió S-transferasa GstA
+    protein: "GST; EC 2.5.1.18"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-B-corregida/
+  - title: Cutinasa
+    protein: "Hidrolasa d'èsters"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-C-corregida/
+  - title: Fenilalanina amoni-liasa
+    protein: "PAL; cofactor MIO"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-D-corregida/
+  - title: Sucrosa isomerasa
+    protein: "Isomerització de sucres"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-E-corregida/
+  - title: DNA ligasa
+    protein: "Reparació i unió de DNA"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-F-corregida/
+  - title: Traslocasa SecA
+    protein: "ATPasa de translocació"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-G-corregida/
+  - title: Amina oxidasa
+    protein: "Oxidació d'amines"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-H-corregida/
+  - title: Glicosiltransferasa
+    protein: "Transferència de sucres"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-I-corregida/
+  - title: Epoxi hidrolasa microsomal 1
+    protein: "EPHX1"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-J-corregida/
+  - title: Pectat liasa
+    protein: "Degradació de pectines"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-K-corregida/
+  - title: Xilosa isomerasa
+    protein: "Isomerització aldosa-cetosa"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-L-corregida/
+  - title: Lipasa
+    protein: "Hidròlisi d'èsters lipídics"
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-M-corregida/
+
+qiep_groups_2025_2026_corrected:
+  - title: Bim_fulldiff
+    protein: "Bim_fulldiff; PDB 8T5E"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-A-corregida/
+  - title: Proteïna de disseny de novo 8YL8
+    protein: "Proteïna de disseny de novo; PDB 8YL8"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-B-corregida/
+  - title: D_3_212
+    protein: "D_3_212; PDB 7RMX"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-C-corregida/
+  - title: DYNA_1b7 i dinorfina A
+    protein: "DYNA_1b7 i dinorfina A; PDB 9CCE"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-D-corregida/
+  - title: RA95.5-8F
+    protein: "RA95.5-8F; PDB 5AN7"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-F-corregida/
+  - title: RA95.0
+    protein: "RA95.0; PDB 4A29"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-G-corregida/
+  - title: Receptor beta-2 adrenèrgic amb fusió T4L
+    protein: "ADRB2 amb fusió; PDB 6PS2/5D5A"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-H-corregida/
+  - title: Kemp eliminase KE07
+    protein: "Kemp eliminase KE07; PDB 6C7M"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-I-corregida/
+  - title: Variant P450/P411
+    protein: "Variant P450/P411; PDB 5UCW"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-J-corregida/
+  - title: Domini hemo P450 BM3
+    protein: "Domini hemo P450 BM3; PDB 3QI8/2IJ2"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-K-corregida/
+  - title: Regulador PadR/LmrR
+    protein: "PadR/LmrR; PDB 6I8N"
+    url: /QiEP/2025-2026/P1/Practica-1-Grup-L-corregida/
+
 qiep_groups_2025_2026:
   - title: Grup A
     protein: "Bcl-2-like protein BIM"

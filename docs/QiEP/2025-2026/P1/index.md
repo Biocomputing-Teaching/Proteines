@@ -63,6 +63,21 @@ author: "Química i Enginyeria de Proteïnes"
   </div>
 </section>
 
+{% assign corrected_groups = site.data.site.qiep_groups_2025_2026_corrected %}
+
+<section class="feature-card">
+  <h2>Repositori de proteïnes analitzades</h2>
+  <p>Aquestes entrades parteixen dels treballs dels estudiants i els transformen en material científic consultable: identitat de la proteïna, estructura, funció, mecanisme i figures comentades.</p>
+  <div class="card-grid">
+    {% for item in corrected_groups %}
+      <article class="mini-card">
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+        <p class="muted">{{ item.protein }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="feature-card">
   <h2>Temporització</h2>
   <ul>
@@ -117,7 +132,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li>Identifiqueu el centre actiu de la proteïna. Quins residus són rellevants, segons la literatura? L'estructura que heu explorat inclou algun substrat o inhibidor? Podeu descriure les interaccions entre els residus del centre actiu i, eventualment, entre aquests residus i el possible substrat o inhibidor, com ara ponts d'hidrogen, interaccions de van der Waals o càrregues?</li>
     <li>Cerqueu informació sobre la funció que fa aquesta proteïna. Si es tracta d'un enzim, podeu mostrar i explicar el mecanisme detallat de la reacció que catalitza.</li>
     <li>Cerqueu informació sobre modificacions post-translacionals que es coneguin que afecten la proteïna o bé proteïnes similars. Identifiqueu els residus que podrien ser-ne diana.</li>
-    <li><strong>Relació seqüència-estructura-funció:</strong> com relacionaríeu l'estructura que heu analitzat amb la funció de la proteïna? Quins elements estructurals participen en aquesta funció? Quins residus, en concret, són claus per a la funció? Cerqueu eventuals variants de la proteïna que tinguin implicacions funcionals i comenteu-ne els efectes a nivell molecular.</li>
+    <li><strong>Relació seqüència-estructura-funció:</strong> com relacionaríeu l'estructura que heu analitzat amb la funció de la proteïna? Quins elements estructurals participen en aquesta funció? Quins residus, en concret, són determinants per a la funció? Cerqueu eventuals variants de la proteïna que tinguin implicacions funcionals i comenteu-ne els efectes a nivell molecular.</li>
   </ol>
 </section>
 
@@ -128,5 +143,5 @@ author: "Química i Enginyeria de Proteïnes"
     <li><strong>Sobre el treball fet al grup JC:</strong> una avaluació de la qualitat del treball realitzat, segons la <a href="{{ '/pdf/rubrica_qiep_practica_1.pdf' | relative_url }}">rúbrica de la pràctica 1</a>.</li>
     <li><strong>Sobre la comprensió dels diferents treballs presentats:</strong> la mitjana de les notes del test d'elecció múltiple vinculat a la pràctica en l'examen parcial 2 dels diferents membres de cada grup.</li>
   </ul>
-  <p>La guia general sobre com escriure una bona memòria, gestionar la bibliografia i organitzar el flux de treball digital és disponible a <a href="{{ '/QiEP/guia-memories/' | relative_url }}">la pàgina general de QiEP</a>. Els documents de suport i la bibliografia comuna del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
+  <p>La guia general sobre com escriure una bona memòria, gestionar les referències i organitzar el flux de treball digital és disponible a <a href="{{ '/QiEP/guia-memories/' | relative_url }}">la pàgina general de QiEP</a>. Els documents de suport i les referències comunes del curs són disponibles a <a href="{{ '/QiEP/2025-2026/' | relative_url }}">la pàgina del curs 2025-2026</a>.</p>
 </section>

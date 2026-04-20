@@ -1,7 +1,7 @@
 title: "Proteïnes"
 description: "Estudi de la seqüència, l'estructura i la funció de les proteïnes"
 url: "https://biocomputing-teaching.github.io"
-baseurl: ""
+baseurl: "/Proteines"
 source: docs
 destination: _site
 timezone: Europe/Madrid
