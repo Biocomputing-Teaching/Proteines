@@ -11,11 +11,11 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="card-grid">
   <article class="link-card">
-    <h2><a href="{{ '/QiEP/2025-2026/practica-1/' | relative_url }}">Pràctica 1</a></h2>
+    <h2><a href="{{ '/QiEP/2025-2026/P1/' | relative_url }}">Pràctica 1</a></h2>
     <p class="muted">Anàlisi de la relació seqüència-estructura-funció d'una proteïna problema amb ChimeraX, PDB i eines de bioinformàtica estructural.</p>
   </article>
   <article class="link-card">
-    <h2><a href="{{ '/QiEP/2025-2026/practica-2/' | relative_url }}">Pràctica 2</a></h2>
+    <h2><a href="{{ '/QiEP/2025-2026/P2/' | relative_url }}">Pràctica 2</a></h2>
     <p class="muted">Exploració de mètodes d'enginyeria de proteïnes, amb especial atenció a l'evolució dirigida i al disseny de protocols experimentals i computacionals.</p>
   </article>
 </section>
