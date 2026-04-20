@@ -29,11 +29,11 @@ Seqüència extreta del fitxer FASTA oficial de selecció 2025-2026. Longitud: 4
 
 ## Identificació i estructura de referència
 
-La seqüència anterior defineix la molècula analitzada i evita confondre el nom abreujat del sistema amb una proteïna natural completa. La cerca a RCSB PDB proporciona com a estructura de referència [3QI8](https://www.rcsb.org/structure/3QI8) entitat 1, amb cobertura de la seqüència 100.0%, identitat 100.0% i resolució 3.2 Å. La longitud de la seqüència analitzada és de 472 aminoàcids. Registre UniProt candidat P14779 (citocrom P450/NADPH--P450 reductasa bifuncional), trobat en estructures relacionades. Gen: cyp102A1.
+La seqüència anterior defineix la molècula analitzada i evita confondre el nom abreujat del sistema amb una proteïna natural completa. La cerca a RCSB PDB proporciona com a estructura de referència [3QI8](https://www.rcsb.org/structure/3QI8) entitat 1, amb cobertura de la seqüència 100.0%, identitat 100.0% i resolució 3.2 Å. La longitud de la seqüència analitzada és de 472 aminoàcids. 3QI8 no exposa un mapatge UniProt directe per a aquesta entitat a RCSB/SIFTS, però estructures molt properes del domini hemo de BM3 mapen a [UniProt P14779](https://www.uniprot.org/uniprotkb/P14779), citocrom P450/NADPH--P450 reductasa bifuncional, gen *cyp102A1*.
 
 | Camp | Valor |
 |---|---|
-| UniProt / gen | [P14779](https://www.uniprot.org/uniprotkb/P14779); gen: cyp102A1 |
+| UniProt / gen | context de BM3: [P14779](https://www.uniprot.org/uniprotkb/P14779), gen *cyp102A1*; 3QI8 entitat 1 sense mapatge SIFTS directe |
 | EC / BRENDA | no assignat |
 | Estructura principal | [3QI8](https://www.rcsb.org/structure/3QI8) entitat 1; difracció de raigs X, 3.2 Å |
 | Cobertura i identitat | 100.0% de cobertura; 100.0% d’identitat |

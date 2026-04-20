@@ -26,11 +26,11 @@ Seqüència extreta del fitxer FASTA oficial de selecció 2025-2026. Longitud: 2
 
 ## Identificació i estructura de referència
 
-La seqüència anterior defineix la molècula analitzada i evita confondre el nom abreujat del sistema amb una proteïna natural completa. La cerca a RCSB PDB proporciona com a estructura de referència [9CCE](https://www.rcsb.org/structure/9CCE) entitat 1, amb cobertura de la seqüència 100.0%, identitat 100.0% i resolució 3.15 Å. La longitud de la seqüència analitzada és de 217 aminoàcids. Registre UniProt candidat P01213 (proencefalina-B/prodinorfina), trobat en estructures relacionades però no com a anotació directa de l’entitat recomanada. Gen: PDYN.
+La seqüència anterior defineix la molècula analitzada i evita confondre el nom abreujat del sistema amb una proteïna natural completa. La cerca a RCSB PDB proporciona com a estructura de referència [9CCE](https://www.rcsb.org/structure/9CCE) entitat 1, amb cobertura de la seqüència 100.0%, identitat 100.0% i resolució 3.15 Å. La longitud de la seqüència analitzada és de 217 aminoàcids. Segons RCSB/SIFTS, l’entitat 1, DYNA_1b7, no té un registre UniProt propi; l’entitat 2 del mateix PDB correspon al pèptid dinorfina A i mapeja a [UniProt P01213](https://www.uniprot.org/uniprotkb/P01213), proencefalina-B/prodinorfina, gen *PDYN*.
 
 | Camp | Valor |
 |---|---|
-| UniProt / gen | [P01213](https://www.uniprot.org/uniprotkb/P01213); gen: PDYN |
+| UniProt / gen | constructe DYNA_1b7: sense registre UniProt propi; pèptid dinorfina A associat: [P01213](https://www.uniprot.org/uniprotkb/P01213), gen *PDYN* |
 | EC / BRENDA | no assignat |
 | Estructura principal | [9CCE](https://www.rcsb.org/structure/9CCE) entitat 1; difracció de raigs X, 3.15 Å |
 | Cobertura i identitat | 100.0% de cobertura; 100.0% d’identitat |
@@ -39,7 +39,7 @@ La seqüència anterior defineix la molècula analitzada i evita confondre el no
 | Lligands o cofactors a revisar | No s’han identificat lligands no polimèrics en aquesta entrada PDB; els pèptids, cadenes associades o socis polimèrics s’han de revisar per separat. |
 | Trets de constructe | etiqueta d’histidines 212-217 (HHHHHH) |
 
-Funcionalment, DYNA_1b7 és un constructe d’unió a dinorfina A. La prodinorfina/PDYN aporta el context biològic del pèptid, però la funció del model estructural és el reconeixement proteïna-pèptid. 9CCE entitat 1 cobreix tota la seqüència assignada i correspon a DYNA_1b7. La prodinorfina/PDYN és context del pèptid dinorfina A, però no és la identitat del constructe dissenyat.
+Funcionalment, DYNA_1b7 és un constructe d’unió a dinorfina A. La prodinorfina/PDYN aporta el context biològic del pèptid, però la funció del model estructural és el reconeixement proteïna-pèptid. 9CCE entitat 1 cobreix tota la seqüència assignada i correspon a DYNA_1b7; el mapatge UniProt P01213 correspon al pèptid associat de l’entitat 2 i no a la identitat del constructe dissenyat.
 
 | Paràmetre | Valor |
 |---|---|
@@ -52,9 +52,9 @@ Funcionalment, DYNA_1b7 és un constructe d’unió a dinorfina A. La prodinorfi
 
 JC_D: Luca Espinola, Daniela García, Manel Garcia, Oriol García, Guillem Fortea
 
-### Introducció a la proteïna **Nom de la proteïna:**
+### Identificació del sistema
 
-Proenkephalin-B **Organisme:** Homo sapiens (Human) **Codi UniProt: ** P01213 **Gen:** PDYN **aminoàcids:** 254 **Classificació EC:** No té, ja que no és un enzim.
+La seqüència analitzada correspon al constructe DYNA_1b7. El context biològic del complex ve donat pel pèptid dinorfina A, que deriva de la prodinorfina humana: UniProt P01213, gen *PDYN*, precursor de 254 aminoàcids i sense classificació EC perquè no és un enzim. Aquest registre UniProt descriu el pèptid associat de 9CCE, no la identitat del constructe de disseny.
 
 #### Estructura:
 
@@ -130,7 +130,7 @@ La funció molecular és el reconeixement del pèptid. No es tracta d’un enzim
 
 ## Modificacions, variants i límits d’anotació
 
-La seqüència assignada és un constructe de reconeixement de dinorfina A i no la prodinorfina humana completa. Les variants de PDYN només tenen sentit com a context del pèptid natural i no s’han de traslladar al constructe sense alineament. L’etiqueta d’histidines terminal forma part del constructe experimental.
+La seqüència assignada és un constructe de reconeixement de dinorfina A i no la prodinorfina humana completa. Les variants de *PDYN* i les modificacions del precursor només tenen sentit com a context del pèptid natural; no s’han de traslladar al constructe sense separar entitat, cadena i numeració. L’etiqueta d’histidines terminal forma part del constructe experimental.
 
 ## Relació seqüència-estructura-funció
 
