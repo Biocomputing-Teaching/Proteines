@@ -6,7 +6,6 @@ author: "Carla Gómez, Irene Herrada, Abril Insa, Oriol Martí i Marina Valor"
 
 <p class="qiep-group-label"><strong>Grup C</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
 
-Autors del treball original: **Carla Gómez, Irene Herrada, Abril Insa, Oriol Martí i Marina Valor**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -15,7 +14,7 @@ Autors del treball original: **Carla Gómez, Irene Herrada, Abril Insa, Oriol Ma
 
 ## Seqüència problema
 
-La seqüència problema és el punt de partida de la fitxa. A partir d’aquesta cadena aminoacídica s’identifica la proteïna o el constructe, se selecciona l’estructura experimental o predictiva més adequada i s’interpreten l’arquitectura molecular, la funció, les variants i la relació seqüència-estructura-funció.
+Aquesta és la cadena aminoacídica analitzada. La identificació de la proteïna o del constructe es fa a partir d’aquesta seqüència, i totes les correspondències amb UniProt, PDB, CATH/ECOD o AlphaFold s’han d’interpretar en relació amb aquesta numeració.
 
 ```fasta
 >JC C | 2025-2026 | seqüència problema
@@ -51,53 +50,6 @@ Funcionalment, D_3_212 és un constructe simètric de disseny. El punt central �
 | Trets rellevants | constructe helicoidal; simetria D3 |
 
 
-## Sobre la proteïna
-
-**Nom de la proteïna:** Golgin subfamily A member 6-like protein 4 **Nom del gen:** GOLGA6L4 **Codi UniProt:** A6NEF3 La funció de la proteïna codificada pel gen GOLGA6L4 no ha estat caracteritzada experimentalment. A la base de dades UniProt no es descriu una funció específica, i les anotacions disponibles provenen de models computacionals (PAN-GO), basats en homologia amb altres proteïnes.
-No obstant això, GOLGA6L4 pertany a la família de les golgines, proteïnes associades a l’aparell de Golgi. Per analogia amb altres membres d’aquesta família, és probable que estigui implicada en el manteniment de l’estructura de l’aparell de Golgi i en processos de trànsit vesicular intracel·lular. No es tracta d’un enzim, per tant no presenta classificació EC ni activitat catalítica.
-
-## Treball amb ChimeraX
-
-#### Tipus d'estructures secundàries detectades
-- **Hèlix α:** estructura secundària predominant.
-- **Bucles:** connectors entre hèlixs.
-- **Ponts d’hidrogen:** estabilitzen principalment les hèlixs.
-
-#### Tipus d'estructures supersecundàries detectades
-#### Estructura terciària
-L’estructura terciària de la proteïna GOLGA6L4, obtinguda mitjançant AlphaFold, mostra un plegament allargat i predominantment α-helical, propi de proteïnes estructurals no globulars. Aquesta conformació es basa en la presència de múltiples hèlixs α que s’organitzen en estructures repetitives. L’anàlisi amb ECOD mostra un total de 53 resultats amb característiques estructurals molt similars, principalment classificats dins de dominis de tipus ankyrin repeat. La repetició d’aquests resultats indica una alta consistència en la classificació estructural, suggerint que la proteïna presenta un plegament basat en motius repetitius d’alpha hairpins (hèlix α–gir–hèlix α). Tot i que la identitat de seqüència és moderada (~30–35%), els valors baixos d’E-value confirmen que la similitud estructural és significativa. En conjunt, aquests resultats reforcen que la proteïna presenta una arquitectura α-helical repetitiva, típica de proteïnes implicades en interaccions proteïna-proteïna. No hi ha evidència experimental d’estructura quaternària; tanmateix, podria formar oligòmers per interaccions llaçed-llaç, com altres golgines.
-
-## Funció de la proteïna
-
-#### Absència de centre actiu i anàlisi estructural de GOLGA6L4
-
-#### Centre actiu i residus rellevants
-- La proteïna GOLGA6L4 **no presenta centre actiu definit**
-- No es tracta d’un enzim, sinó una proteïna **estructural associada a l'aparell de Golgi**
-- Com que a UniProt no hi cap anotació de llocs actius ni residus catalítics considerem que no hi ha **residus catalítics descrits** i no participa en **reaccions enzimàtiques**
-
-#### Substrats i inhibidors
-L’estructura analitzada correspon a un model predictiu d’AlphaFold, que representa la proteïna en estat aïllat, sense presència de substrats ni inhibidors.
-
-#### Interaccions estructurals observades
-Tot i no tenir funció catalítica, la proteïna presenta interaccions internes importants:
-- **Ponts d’hidrogen** que estabilitzen les hèlix α i manté l’estructura secundària
-- **Interaccions hidrofòbiques** entre residus com Leucina, Isoleucina i Valina
-- **Interaccions de van der Waals** entre cadenes properes
-- **Interaccions electrostàtiques** entre residus com Lisina i Glutamat que estabilitzen l’estructura tridimensional
-
-#### Informació general
-L’anàlisi estructural mostra una proteïna predominantment formada per hèlix α llargues que s’organitzen en motius llaçed-llaç, una característica típica de les golgines. Aquest tipus d’estructura genera una conformació allargada que facilita les interaccions proteïna-proteïna i permet actuar com a element d’ancoratge dins l’aparell de Golgi. Els principals elements estructurals implicats en la funció són:
-- Hèlix α llargues que proporcionen estabilitat estructural
-- Motius llaçed-llaç que afavoreixen la formació de complexes multiproteics
-- Regions de llaç que aporten flexibilitat conformacional Aquesta organització estructural és coherent amb el paper proposat de GOLGA6L4 en:
-- Manteniment de l’arquitectura de l’aparell de Golgi
-- Tethering o captura de vesícules
-- Establiment d’interaccions dins del sistema endomembranós
-
-#### Modificacions posttraduccionals
-No s’han descrit modificacions posttraduccionals específiques per a GOLGA6L4 a UniProt. Tanmateix, per analogia amb altres golgines, podria presentar fosforilació (Ser, Thr, Tyr), ubiquitinació i acetilació (Lys). Aquestes modificacions podrien regular la seva interacció amb altres proteïnes i la seva funció estructural al Golgi.
-
 ## Arquitectura molecular
 
 El plegament és helicoidal i organitzat per simetria D3. La repetició d’elements helicoidals crea interfícies regulars que estabilitzen el conjunt i fan del sistema un exemple clar de disseny per simetria.
@@ -108,12 +60,14 @@ El plegament és helicoidal i organitzat per simetria D3. La repetició d’elem
 <figure> <img src="{{ '/QiEP/2025-2026/P1/Pràctica 1 Grup C/Figura2.png' | relative_url }}" alt="Figura 2 del grup C" loading="lazy"> <figcaption><strong>Figura 2.</strong> D_3_212: elements d’estructura secundària. </figcaption>
 </figure>
 
-## Centre actiu i mecanisme
+## Lloc funcional i mecanisme
 
 La funció experimental principal és arquitectònica: generar un objecte molecular estable i simètric. Qualsevol funció cel·lular queda fora de la interpretació si no hi ha evidència independent.
 
-<figure class="mechanism-figure"> <img src="{{ '/assets/img/qiep-mechanisms/d3_7rmx.jpeg' | relative_url }}" alt="Estructura simètrica D_3_212 utilitzada per interpretar l’arquitectura helicoidal del constructe. " loading="lazy"> <figcaption><strong>Figura de suport mecanístic. </strong> Estructura simètrica D_3_212 utilitzada per interpretar l’arquitectura helicoidal del constructe. Font: <a href="https://www.rcsb.org/structure/7RMX">RCSB PDB 7RMX</a>. </figcaption>
-</figure> La interpretació estructural i funcional d’aquest sistema es pot situar en el context de la literatura experimental corresponent (Hicks et al., 2022).
+<figure class="mechanism-figure"> <img src="{{ '/assets/img/qiep-mechanisms/d3_7rmx.jpeg' | relative_url }}" alt="Estructura simètrica D_3_212 utilitzada per interpretar l’arquitectura helicoidal del constructe. " loading="lazy"> <figcaption><strong>Figura.</strong> Estructura simètrica D_3_212 utilitzada per interpretar l’arquitectura helicoidal del constructe. Font: <a href="https://www.rcsb.org/structure/7RMX">RCSB PDB 7RMX</a>. </figcaption>
+</figure>
+
+La interpretació estructural i funcional d’aquest sistema es pot situar en el context de la literatura experimental corresponent (Hicks et al., 2022).
 
 <figure> <img src="{{ '/QiEP/2025-2026/P1/Pràctica 1 Grup C/Figura3.png' | relative_url }}" alt="Figura 3 del grup C" loading="lazy"> <figcaption><strong>Figura 3.</strong> D_3_212: regió funcional o cavitat principal. </figcaption>
 </figure>
@@ -121,9 +75,9 @@ La funció experimental principal és arquitectònica: generar un objecte molecu
 <figure> <img src="{{ '/QiEP/2025-2026/P1/Pràctica 1 Grup C/Figura4.png' | relative_url }}" alt="Figura 4 del grup C" loading="lazy"> <figcaption><strong>Figura 4.</strong> D_3_212: superfície molecular. </figcaption>
 </figure>
 
-## Modificacions, variants i límits d’anotació
+## Modificacions i variants
 
-No hi ha un registre UniProt natural directe associat a la millor entitat PDB. En aquest cas no és correcte importar PTM o variants d’una proteïna natural sense un alineament explícit; les variants importants són les pròpies del disseny, de la interfície o del centre funcional definit a la publicació estructural.
+No hi ha un registre UniProt natural directe associat a la millor entitat PDB. En aquest cas no és correcte importar modificacions posttraduccionals o variants d’una proteïna natural sense un alineament explícit; les variants rellevants són les pròpies del disseny, de la interfície o del centre funcional definit a la publicació estructural.
 
 ## Relació seqüència-estructura-funció
 

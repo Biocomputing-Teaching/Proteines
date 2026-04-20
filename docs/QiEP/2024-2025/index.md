@@ -4,7 +4,7 @@ permalink: /QiEP/2024-2025/
 author: "Química i Enginyeria de Proteïnes"
 ---
 
-{% assign groups = site.data.site.qiep_groups_2024_2025 %}
+{% assign groups = site.data.site.qiep_groups_2024_2025_corrected %}
 
 <section class="feature-card">
   <h2>Context docent</h2>
@@ -22,24 +22,10 @@ author: "Química i Enginyeria de Proteïnes"
 </section>
 
 <section class="feature-card">
-  <h2>Treballs dels grups</h2>
-  <div class="card-grid">
-    {% for item in groups %}
-      <article class="mini-card">
-        <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
-        <p class="muted">{{ item.protein }}</p>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-
-{% assign corrected_groups = site.data.site.qiep_groups_2024_2025_corrected %}
-
-<section class="feature-card">
   <h2>Repositori de proteïnes analitzades</h2>
   <p>Aquestes entrades parteixen dels treballs dels estudiants i els transformen en material científic consultable: identitat de la proteïna, estructura, funció, mecanisme i figures comentades.</p>
   <div class="card-grid">
-    {% for item in corrected_groups %}
+    {% for item in groups %}
       <article class="mini-card">
         <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
         <p class="muted">{{ item.protein }}</p>

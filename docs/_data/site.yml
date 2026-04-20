@@ -55,31 +55,31 @@ nav_groups:
     section: qiep
     items:
       - title: Grup A
-        url: /QiEP-P1-2025-A/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-A-corregida/
       - title: Grup B
-        url: /QiEP-P1-2025-B/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-B-corregida/
       - title: Grup C
-        url: /QiEP-P1-2025-C/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-C-corregida/
       - title: Grup D
-        url: /QiEP-P1-2025-D/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-D-corregida/
       - title: Grup E
-        url: /QiEP-P1-2025-E/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-E-corregida/
       - title: Grup F
-        url: /QiEP-P1-2025-F/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-F-corregida/
       - title: Grup G
-        url: /QiEP-P1-2025-G/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-G-corregida/
       - title: Grup H
-        url: /QiEP-P1-2025-H/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-H-corregida/
       - title: Grup I
-        url: /QiEP-P1-2025-I/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-I-corregida/
       - title: Grup J
-        url: /QiEP-P1-2025-J/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-J-corregida/
       - title: Grup K
-        url: /QiEP-P1-2025-K/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-K-corregida/
       - title: Grup L
-        url: /QiEP-P1-2025-L/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-L-corregida/
       - title: Grup M
-        url: /QiEP-P1-2025-M/
+        url: /QiEP/2024-2025/P1/Practica-1-Grup-M-corregida/
 
 tallers:
   - title: Taller COVID-19 per a alumnat
@@ -132,43 +132,43 @@ qiep_support_resources:
 qiep_groups_2024_2025:
   - title: Grup A
     protein: "Flavin-containing monooxygenase 5"
-    url: /QiEP-P1-2025-A/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-A-corregida/
   - title: Grup B
     protein: "Glutathione S-transferase GstA"
-    url: /QiEP-P1-2025-B/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-B-corregida/
   - title: Grup C
     protein: "Cutinasa"
-    url: /QiEP-P1-2025-C/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-C-corregida/
   - title: Grup D
     protein: "Fenilalanina amoni liasa"
-    url: /QiEP-P1-2025-D/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-D-corregida/
   - title: Grup E
     protein: "Sucrosa isomerasa"
-    url: /QiEP-P1-2025-E/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-E-corregida/
   - title: Grup F
     protein: "DNA ligasa"
-    url: /QiEP-P1-2025-F/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-F-corregida/
   - title: Grup G
     protein: "Traslocasa"
-    url: /QiEP-P1-2025-G/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-G-corregida/
   - title: Grup H
     protein: "Amina oxidasa"
-    url: /QiEP-P1-2025-H/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-H-corregida/
   - title: Grup I
     protein: "Glicosil transferasa"
-    url: /QiEP-P1-2025-I/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-I-corregida/
   - title: Grup J
     protein: "Epoxi hidrolasa"
-    url: /QiEP-P1-2025-J/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-J-corregida/
   - title: Grup K
     protein: "Pectat liasa"
-    url: /QiEP-P1-2025-K/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-K-corregida/
   - title: Grup L
     protein: "Xilosa isomerasa"
-    url: /QiEP-P1-2025-L/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-L-corregida/
   - title: Grup M
     protein: "Lipasa"
-    url: /QiEP-P1-2025-M/
+    url: /QiEP/2024-2025/P1/Practica-1-Grup-M-corregida/
 
 qiep_groups_2024_2025_corrected:
   - title: Flavin-containing monooxygenase 5

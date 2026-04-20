@@ -1,9 +1,9 @@
-﻿---
+---
 layout: default
 title: 'Relacions estructura-funció: Xilosa isomerasa'
 date: 03-2025
 author: Cloe Capelle, Arnau Garcia i Sofia Lombera
-permalink: /QiEP-P1-2025-L/ 
+permalink: /QiEP-P1-2025-L/
 ---
 
 
