@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-K-corregida/
 author: "Anna Delós, Diego De la Cueva, Joaquín Arcas, Sofía Barbero"
 ---
 
-<p class="qiep-group-label"><strong>Grup K</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Anna Delós, Diego De la Cueva, Joaquín Arcas, Sofía Barbero**.
+<p class="qiep-group-label"><strong>Grup K</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Anna Delós, Diego De la Cueva, Joaquín Arcas, Sofía Barbero**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -49,21 +51,26 @@ Funcionalment, és una variant del domini hemo de P450 BM3. La funció natural �
 | Proteïna o constructe | P450 BM3 hemo |
 | Estructura de referència | 3QI8 / 2IJ2 |
 | Longitud | 472 aa |
-| Trets rellevants | His 467-472; citocrom P450 | <p class="qiep-group-label"><strong>Grup K</strong></p> Els citocroms P450 són una superfamília d'enzims que contenen hemo b i funcionen com a monooxigenases. Es troben en organismes de tots els dominis de la vida i tenen com a funció catalitzar l'oxigenació —freqüentment hidroxilació— d’una àmplia varietat de molècules. Per fer-ho, utilitzen un intermediari transitori de ferro-oxo fèrric que facilita l'addició d'oxigen al substrat. La proteïna és el **Citocrom P450 BM3** (CYP102A1), de l’organisme *Priestia megaterium*. Les seves dades d'identificació principals són les següents: | Camp | Informació |
-|----------------------|-----------------------|
+| Trets rellevants | His 467-472; citocrom P450 |
+
+
+Els citocroms P450 són una superfamília d'enzims que contenen hemo b i funcionen com a monooxigenases. Es troben en organismes de tots els dominis de la vida i tenen com a funció catalitzar l'oxigenació —freqüentment hidroxilació— d’una àmplia varietat de molècules. Per fer-ho, utilitzen un intermediari transitori de ferro-oxo fèrric que facilita l'addició d'oxigen al substrat. La proteïna és el **Citocrom P450 BM3** (CYP102A1), de l’organisme *Priestia megaterium*. Les seves dades d'identificació principals són les següents: | Camp | Informació |
+| | |
 | **Nom** | Citocrom P450 BM3 |
 | **Organisme** | *Priestia megaterium* |
 | **Codi UniProt** | P14779.2 |
 | **Gen** | *cyp102A1* |
-| **Classificació EC** | EC 1.14.14.1 | La seqüència d'aminoàcids de la proteïna és la següent:
+| **Classificació EC** | EC 1.14.14.1 |
+
+La seqüència d'aminoàcids de la proteïna és la següent:
 
 ## Estructura
 
-### Protein
+### Estructura PDB
 
-Data Bank (PDB) L'estructura tridimensional de la proteïna s'ha obtingut a partir del **Protein Data Bank (PDB)**, amb el codi d'accés **2IJ2**. Aquesta estructura ha estat seleccionada perquè presenta una de les resolucions més altes disponibles, ha estat determinada per difracció de raigs X (*X-ray diffraction*), té una identitat de seqüència propera al 100%, un E-value molt baix i la regió estructural cobreix gairebé la totalitat de la seqüència. A més, correspon al mateix organisme d'estudi.
+ L'estructura tridimensional de la proteïna s'ha obtingut a partir del **Protein Data Bank (PDB)**, amb el codi d'accés **2IJ2**. Aquesta estructura ha estat seleccionada perquè presenta una de les resolucions més altes disponibles, ha estat determinada per difracció de raigs X (*X-ray diffraction*), té una identitat de seqüència propera al 100%, un E-value molt baix i la regió estructural cobreix gairebé la totalitat de la seqüència. A més, correspon al mateix organisme d'estudi.
 
-### ChimeraX
+### Treball amb ChimeraX
 
 #### Estructura secundària
 
@@ -85,7 +92,7 @@ Segons la classificació **CATH**, la proteïna presenta el codi **1.10.630.10**
 
 ## Funció
 
-#### Centre actiu **Residus rellevants del centre actiu**
+#### Centre actiu i residus rellevants
 
 El centre actiu del domini hemo es troba a la cavitat hidrofòbica situada sobre el grup hemo (HEM), que conté un àtom de ferro coordinat per una cisteïna axial conservada. Els residus més rellevants del centre actiu són els següents:
 - **Cys400**: residu més crític del centre actiu. Coordina directament l'àtom de ferro del grup hemo mitjançant el seu grup tiol, actuant com a lligand axial proximal. Els electrons provinents del domini FMN flueixen fins al ferro de l’hemo a través d’aquest residu (Munro et al., 2002).

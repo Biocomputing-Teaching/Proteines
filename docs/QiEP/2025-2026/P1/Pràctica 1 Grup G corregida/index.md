@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-G-corregida/
 author: "Joan Suárez, Mariona Miquel, Martina Xian Porcel, Joan Oliva, Joan Grau"
 ---
 
-<p class="qiep-group-label"><strong>Grup G</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Joan Suárez, Mariona Miquel, Martina Xian Porcel, Joan Oliva, Joan Grau**.
+<p class="qiep-group-label"><strong>Grup G</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Joan Suárez, Mariona Miquel, Martina Xian Porcel, Joan Oliva, Joan Grau**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -75,7 +77,7 @@ triptòfan.
 
 ### Treball amb ChimeraX
 
-#### Estructura secundària alt="Figura 1.
+#### Estructura secundària
 
 Representació tridimensional de la proteïna amb les sis cadenes diferenciades, mostrant hèlixs α (groc), làmines β (magenta) i llaços (verd). " />
 <figcaption aria-hidden="true">Figura 1. Representació tridimensional de
@@ -92,7 +94,7 @@ aquests enllaços d’hidrogen, hidrofòbics, electrostàtics i, si n’hi ha,
 disulfur donen forma a les estructures supersecundàries i permeten que
 la proteïna adopti un plegament estable i funció.
 
-#### Estructura supersecundària i interaccions blau= ponts d’hidrogen vermell= interaccions de van der Waals alt="Figura 2. Estructura de la proteïna mostrant el segment de 13 residus i els seus ponts d’hidrogen (en blau) amb la resta de la cadena. " />
+#### Estructura supersecundària i interaccions
 <figcaption aria-hidden="true">Figura 2. Estructura de la proteïna
 mostrant el segment de 13 residus i els seus ponts d’hidrogen (en blau)
 amb la resta de la cadena. </figcaption> alt="Figura 3. Estructura de la proteïna amb el mateix segment de 13 residus, destacant les interaccions de van der Waals (en vermell) que estableix amb l’entorn. " />
@@ -103,8 +105,11 @@ el mateix segment de 13 residus, destacant les interaccions de van der Waals
 amb el pont disulfur (magenta) entre els residus 59 i 73 de la cadena A,
 que contribueix a l’estabilitat de l’estructura terciària. </figcaption>
 
-#### Estructura terciària <figcaption aria-hidden="true">Figura 5: Barril α/β (TIM
-barrel)</figcaption> Barril α/β (TIM barrel) Està format per:
+#### Estructura terciària
+
+<figcaption aria-hidden="true">Figura 5: Barril α/β (TIM barrel)</figcaption>
+
+El barril α/β (TIM barrel) està format per:
 - 8 làmines β internes (formen
 el barril) - 8 hèlixs α externes El centre actiu es troba a la part
 superior del barril alt="Figura 6 i 7. Domini segons ECOD. Domini e3qjaA1 (A: 4–270) classificat com a TIM β/α‑barrel dins dels grups TIM barrels. " />
@@ -114,10 +119,11 @@ barrels. </figcaption>
 
 ### Funció de la proteïna
 
-#### Centre actiu i
+#### Centre actiu i residus rellevants
 
-Residus rellevants <figcaption aria-hidden="true">Figura 8: Centre actiu de la
-proteïna</figcaption> Identificació del centre actiu: El centre actiu d’aquesta proteïna es
+<figcaption aria-hidden="true">Figura 8: Centre actiu de la proteïna</figcaption>
+
+Identificació del centre actiu: El centre actiu d’aquesta proteïna es
 troba a la part superior del barril α/β (també conegut com a barril
 TIM). Segons la literatura, els residus més rellevants del centre actiu
 són Glu57, Lys59, Lys119, Glu168 i Glu219, ja que la seva mutació

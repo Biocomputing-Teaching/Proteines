@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-B-corregida/
 author: "Clara Batllé, Anna Galcerà, Carla Gonzalez, Gisell Montaña, Maria Pinteño"
 ---
 
-<p class="qiep-group-label"><strong>Grup B</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Clara Batllé, Anna Galcerà, Carla Gonzalez, Gisell Montaña, Maria Pinteño**.
+<p class="qiep-group-label"><strong>Grup B</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Clara Batllé, Anna Galcerà, Carla Gonzalez, Gisell Montaña, Maria Pinteño**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -46,7 +48,9 @@ Funcionalment, és una proteïna de disseny de novo. No té gen natural ni núme
 | Proteïna o constructe | Proteïna de disseny de novo |
 | Estructura de referència | 8YL8 |
 | Longitud | 211 aa |
-| Trets rellevants | sense Cys; sense EC assignat | <p class="qiep-group-label"><strong>Grup B</strong></p> <div class="qiep-report" markdown="1"> <header class="qiep-hero" id="inici">
+| Trets rellevants | sense Cys; sense EC assignat |
+
+ <div class="qiep-report" markdown="1"> <header class="qiep-hero" id="inici">
 <h2>Proteïna 8YL8</h2>
 <p class="qiep-lead">Informe navegable sobre una proteïna de disseny de novo, amb èmfasi en l’organització estructural, les interaccions estabilitzadores i la relació seqüència-estructura-funció. </p>
 <ul class="qiep-meta">
@@ -116,47 +120,62 @@ ID {#PDB-id} 8YL8 Extended: pdb_00008yl8 Existeixen dues estructures corresponen
 
 La proteïna corresponent a l’estructura 8YL8 no presenta una funció biològica natural coneguda, ja que es tracta d’una proteïna dissenyada de novo mitjançant el mètode RSO. El seu propòsit principal és actuar com a model experimental per a validar la capacitat de disseny estructural de l'algorisme RSO, demostrant que és possible generar proteïnes sintètiques que adopten amb alta precisió la conformació tridimensional predita. L'estructura 8YL8 presenta un ió sulfat (SO₄²⁻), el qual probablement prové de les condicions en el tampó de cristal·lització (sulfat d’amoni, HEPES i PEG 400). Aquest ió pot establir interaccions electrostàtiques o ponts d’hidrogen amb residus de la proteïna, però no representa un substrat fisiològic ni indica activitat catalítica, i, per tant, no permet afirmar que aquesta sigui la seva funció ni que es tracti d’un enzim. [bank]
 
-## Treball amb
+## Treball amb ChimeraX
 
 ChimeraX {#treball-amb-chimerax}
 
-### Proteïna amb
+### Visualització general
 
 ChimeraX {#proteïna-amb-chimerax} **Totes les imatges i figures han estat elaborades amb ChimeraX, excepte les extretes de les presentacions i Jalview ** Tot l'anàlisi pertany al mateix fitxer PDB. <video width="500" autoplay bucle muted> </video> **Fig. 1**. Rotativa de la proteïna en primer pla. **Cadena A** Verda --\> 1668 àtoms, 1611 enllaços, **Cadena B** Turquesa --\> 1676 àtoms, 1629 enllaços, **Cadena C** Rosa --\> 1624 àtoms, 1560 enllaços, **Cadena D** Blanca --\> 1582 àtoms, 1537 enllaços, **Residus (No estàndard)**: Groc --\> Molècules d’aigua (HOH), Ions sulfat (SO₄) --\> 354 àtoms, 24 enllaços, L’estructura quaternària de la proteïna està formada per quatre cadenes polipeptídiques idèntiques, que s’associen per formar un homotetràmer. Aquesta organització s’ha pogut confirmar mitjançant l’alineament estructural de les quatre cadenes, que mostra una elevada similitud entre elles, indicant que es tracta de subunitats equivalents tant estructuralment com funcionalment.
 
 ### Estructures secundàries de la proteïna {#estructures-secundaries}
 
-#### Làmines (Taronja) <video width="500" autoplay bucle muted> </video> **Fig. 2**.
+#### Làmines beta
+
+<video width="500" autoplay bucle muted> </video> **Fig. 2.**
 
 Rotativa de la proteïna en primer pla amb làmines ꞵ ressaltades. **680 àtoms, 680 enllaços, 84 residus** <video width="500" autoplay bucle muted> </video> **Fig. 3**. Rotativa de la proteïna en primer pla únicament de les làmines ꞵ de la proteïna. Làmines $\beta$ antiparal·leles vistes en les 4 cadenes
 
-#### Hèlix α (vermell) <video width="500" autoplay bucle muted> </video> **Fig. 4**.
+#### Hèlixs α
 
-Rotativa de les làmines $\beta$ antiparal·leles de les 4 cadenes. **4575 àtoms, 462 enllaços, 602 residus. ** **Fig. 5**. Rotativa de les làmines $\beta$ antiparal·leles en les 4 cadenes. S'ha identificat en la majoria d'hèlixs, hèlixs $\alpha$ tipus $3_. 16. $ en el model analitzat **Fig. 6, 7, 8, 9. ** Tram curt compatible amb hèlix $\alpha$ $3_. 10. $. En els extrems hèlix $\alpha$ de les cadenes **A** **B** **C** **D** s'observa un tram curt compatible amb hèlix $\alpha$ $3_. 10. $. En aquest model no s'ha observat hèlix $\alpha$ $4.4_16$ ni $2.2_7$.
+<video width="500" autoplay bucle muted> </video> **Fig. 4.**
 
-#### llaços (groc) <video width="500" autoplay bucle muted> </video> **Fig. 10**.
+Rotativa de les làmines $\beta$ antiparal·leles de les 4 cadenes. **4575 àtoms, 462 enllaços, 602 residus. ** **Fig. 5.** Rotativa de les làmines $\beta$ antiparal·leles en les 4 cadenes. S'ha identificat en la majoria d'hèlixs, hèlixs $\alpha$ tipus $3_. 16. $ en el model analitzat **Fig. 6, 7, 8, 9.** Tram curt compatible amb hèlix $\alpha$ $3_. 10. $. En els extrems hèlix $\alpha$ de les cadenes **A** **B** **C** **D** s'observa un tram curt compatible amb hèlix $\alpha$ $3_. 10. $. En aquest model no s'ha observat hèlix $\alpha$ $4.4_16$ ni $2.2_7$.
+
+#### Llaços
+
+<video width="500" autoplay bucle muted> </video> **Fig. 10.**
 
 Rotativa en primer pla de la proteïna amb els llaços ressaltats. **1296 àtoms, 1287 enllaços, 189 residus**.
 
-### Interaccions {#interaccions} **Interaccions de van der
+### Interaccions
 
-Waals entre les diferents estructures secundàries. ** <video width="500" autoplay bucle muted> </video> **Fig. 11**. Rotativa en primer pla de la proteïna amb les interaccions de van der Waals ressaltades. **4672 interaccions**
+Interaccions de van der Waals entre les diferents estructures secundàries. <video width="500" autoplay bucle muted> </video> **Fig. 11**. Rotativa en primer pla de la proteïna amb les interaccions de van der Waals ressaltades. **4672 interaccions**
 
-#### **Ponts d’hidrogen** <video width="500" autoplay bucle muted> </video> **Fig. 12**.
+#### Ponts d’hidrogen
+
+<video width="500" autoplay bucle muted> </video> **Fig. 12.**
 
 Rotativa en primer pla de la proteïna amb els ponts d’hidrogen ressaltats. **1337 enllaços d’hidrogen** Ponts d’hidrogen entre les estructures secundàries i estabilitzen l’estructura quaternària unint les 4 cadenes
 
-#### **Interaccions proteïna lligand** <video width="500" autoplay bucle muted> </video> **Fig. 13**. Rotativa en primer pla de la proteïna i de molècules sulfat i aigua. **30 àtoms, 24 enllaços, 6 residus** **HOH + SO4**
+#### Interaccions proteïna-lligand
 
-#### **Interaccions amb ions** <video width="500" autoplay bucle muted> </video> **Fig. 14**. Rotativa de la proteïna interaccionant amb els ions corresponents (H2O i SO4)
+<video width="500" autoplay bucle muted> </video> **Fig. 13.** Rotativa en primer pla de la proteïna i de molècules sulfat i aigua. **30 àtoms, 24 enllaços, 6 residus. HOH + SO4**
+#### Interaccions amb ions
 
-#### **Interaccions amb el solvent (H2O)** <video width="500" autoplay bucle muted> </video> **Fig. 15**. Rotativa de les interaccions amb el solvent (H2O)
+<video width="500" autoplay bucle muted> </video> **Fig. 14.** Rotativa de la proteïna interaccionant amb els ions corresponents (H2O i SO4).
+
+#### Interaccions amb el solvent
+
+<video width="500" autoplay bucle muted> </video> **Fig. 15.** Rotativa de les interaccions amb el solvent (H2O).
 
 ### Motius supersecundaris i les seves interaccions {#motius-supersecundaris}
 
 En totes les cadenes trobem $\beta$ hairpins <video width="500" autoplay bucle muted> </video> **Fig. 16**. Rotativa de les $\beta$ hairpins. En totes les cadenes trobem $\beta$ $\alpha$ $\beta$. <video width="500" autoplay bucle muted> </video> **Fig. 17**. Rotativa de les $\beta$ $\alpha$ $\beta$. En totes les cadenes trobem "hèlix-gir-hèlix". <video width="500" autoplay bucle muted> </video> **Fig. 18**. Rotativa de les "hèlix-gir-hèlix". Interaccions dels $\beta$ hairpins, $\beta$ $\alpha$ $\beta$ i "hèlix-gir-hèlix" **van der Waals**. <video width="500" autoplay bucle muted> </video> **Fig. 19**. Rotativa de les interaccions dels $\beta$ hairpins, $\beta$ $\alpha$ $\beta$ i "hèlix-gir-hèlix" **van der Waals**. Ponts d’hidrogen dels $\beta$ hairpins, $\beta$ $\alpha$ $\beta$ i hèlix-gir-hèlix. <video width="500" autoplay bucle muted> </video> **Fig. 20**. Rotativa dels ponts d’hidrogen dels $\beta$ hairpins, $\beta$ $\alpha$ $\beta$ i "hèlix-gir-hèlix".
 
-### Estructura terciària de la proteïna i el tipus de plegament al qual correspon. {#estructura-terciaria} <video width="500" autoplay bucle muted> </video> **Fig. 21**. Rotativa de l’estructura terciària de la proteïna i a quin tipus de plegament correspon. L’estructura terciària presenta un plegament de tipus α+β, caracteritzat per la presència d’hèlix α i làmines β disposades en regions diferenciades. Aquestes estructures secundàries es troben segregades tant en el mapa topològic com en l’organització tridimensional de la proteïna, un patró típic observat en proteïnes com les ribonucleases. [Tema4] **Fig. 22**. figura extreta del PowerPoint "Tema 4 - Teoria". S'ha observat un "helical bundle". <video width="500" autoplay bucle muted> </video> **Fig. 23**. Rotativa on s’hi observen "l'helical bundle".
+### Estructura terciària
+
+<video width="500" autoplay bucle muted> </video> **Fig. 21.** Rotativa de l’estructura terciària de la proteïna i a quin tipus de plegament correspon. L’estructura terciària presenta un plegament de tipus α+β, caracteritzat per la presència d’hèlix α i làmines β disposades en regions diferenciades. Aquestes estructures secundàries es troben segregades tant en el mapa topològic com en l’organització tridimensional de la proteïna, un patró típic observat en proteïnes com les ribonucleases. [Tema4] **Fig. 22**. figura extreta del PowerPoint "Tema 4 - Teoria". S'ha observat un "helical bundle". <video width="500" autoplay bucle muted> </video> **Fig. 23**. Rotativa on s’hi observen "l'helical bundle".
 
 #### Estudi dels dominis i de la família estructural
 
@@ -188,7 +207,9 @@ No es disposa d’informació experimental sobre modificacions posttraduccionals
 
 L’estructura tridimensional de la proteïna està dominada per α-hèlixs, que formen una arquitectura compacta i probablement s’empaqueten entre elles generant un helical bundle. Aquest tipus d’organització és característic de proteïnes estructurals, ja que proporciona estabilitat i resistència mecànica. A més, la presència de β-làmines antiparal·leles, tot i ser menys abundants, té un paper rellevant en la rigidesa local de l’estructura. En particular, la identificació de motius β–α–β indica una organització supersecundària que contribueix al correcte plegament i pot actuar com a element d’unió entre diferents regions estructurals. En conjunt, la combinació d’una estructura rica en α-hèlixs, una organització quaternària simètrica i la distribució de les interaccions hidrofòbiques entre subunitats suggereix que la proteïna podria actuar com a element estructural o scaffold, participant en l’estabilització de complexos macromoleculars o en processos d’autoassemblatge.
 
-#### Elements estructurals que participen en la funció - **α hèlixs abundants**:
+#### Elements estructurals que participen en la funció
+
+- **Hèlixs α abundants:**
 
 Responsables de l’estabilitat global i de l’empaquetament estructural - **β làmines antiparal·leles**: Aporten rigidesa local i estabilitzen regions específiques.
 - **Motiu βαβ**: Contribueix a l’organització del plegament Estructura quaternària (homotetràmer). Permet la formació d’interfícies d’interacció entre subunitats Interfícies hidrofòbiques. Estabilitzen l’assemblatge oligomèric

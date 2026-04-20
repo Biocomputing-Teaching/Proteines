@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-L-corregida/
 author: "Cloe Capelle, Arnau Garcia i Sofia Lombera"
 ---
 
-<p class="qiep-group-label"><strong>Grup L</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Cloe Capelle, Arnau Garcia i Sofia Lombera**.
+<p class="qiep-group-label"><strong>Grup L</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Cloe Capelle, Arnau Garcia i Sofia Lombera**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC

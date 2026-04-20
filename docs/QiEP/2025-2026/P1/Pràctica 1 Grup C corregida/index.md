@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-C-corregida/
 author: "Carla Gómez, Irene Herrada, Abril Insa, Oriol Martí i Marina Valor"
 ---
 
-<p class="qiep-group-label"><strong>Grup C</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Carla Gómez, Irene Herrada, Abril Insa, Oriol Martí i Marina Valor**.
+<p class="qiep-group-label"><strong>Grup C</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Carla Gómez, Irene Herrada, Abril Insa, Oriol Martí i Marina Valor**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -46,49 +48,45 @@ Funcionalment, D_3_212 és un constructe simètric de disseny. El punt central �
 | Proteïna o constructe | D_3_212 |
 | Estructura de referència | 7RMX |
 | Longitud | 229 aa |
-| Trets rellevants | constructe helicoidal; simetria D3 | <p class="qiep-group-label"><strong>Grup C</strong></p>
+| Trets rellevants | constructe helicoidal; simetria D3 |
 
-### **1.
 
-INFORMACIÓ SOBRE LA PROTEÏNA** **Nom de la proteïna:** Golgin subfamily A member 6-like protein 4 **Nom del gen:** GOLGA6L4 **Codi UniProt: ** A6NEF3 La funció de la proteïna codificada pel gen GOLGA6L4 no ha estat caracteritzada experimentalment. A la base de dades UniProt no es descriu una funció específica, i les anotacions disponibles provenen de models computacionals (PAN-GO), basats en homologia amb altres proteïnes.
+## Sobre la proteïna
+
+**Nom de la proteïna:** Golgin subfamily A member 6-like protein 4 **Nom del gen:** GOLGA6L4 **Codi UniProt:** A6NEF3 La funció de la proteïna codificada pel gen GOLGA6L4 no ha estat caracteritzada experimentalment. A la base de dades UniProt no es descriu una funció específica, i les anotacions disponibles provenen de models computacionals (PAN-GO), basats en homologia amb altres proteïnes.
 No obstant això, GOLGA6L4 pertany a la família de les golgines, proteïnes associades a l’aparell de Golgi. Per analogia amb altres membres d’aquesta família, és probable que estigui implicada en el manteniment de l’estructura de l’aparell de Golgi i en processos de trànsit vesicular intracel·lular. No es tracta d’un enzim, per tant no presenta classificació EC ni activitat catalítica.
 
-### **2.
+## Treball amb ChimeraX
 
-TREBALL AMB ChimeraX**
+#### Tipus d'estructures secundàries detectades
+- **Hèlix α:** estructura secundària predominant.
+- **Bucles:** connectors entre hèlixs.
+- **Ponts d’hidrogen:** estabilitzen principalment les hèlixs.
 
-#### **Tipus d'estructures secundàries detectades**
-- **Hèlix alpha (α)** - **Bucles** - **Ponts d’hidrogen**
-
-#### **Tipus d'estructures supersecundàries detectades**
-
-#### **Estructura terciària**
-
+#### Tipus d'estructures supersecundàries detectades
+#### Estructura terciària
 L’estructura terciària de la proteïna GOLGA6L4, obtinguda mitjançant AlphaFold, mostra un plegament allargat i predominantment α-helical, propi de proteïnes estructurals no globulars. Aquesta conformació es basa en la presència de múltiples hèlixs α que s’organitzen en estructures repetitives. L’anàlisi amb ECOD mostra un total de 53 resultats amb característiques estructurals molt similars, principalment classificats dins de dominis de tipus ankyrin repeat. La repetició d’aquests resultats indica una alta consistència en la classificació estructural, suggerint que la proteïna presenta un plegament basat en motius repetitius d’alpha hairpins (hèlix α–gir–hèlix α). Tot i que la identitat de seqüència és moderada (~30–35%), els valors baixos d’E-value confirmen que la similitud estructural és significativa. En conjunt, aquests resultats reforcen que la proteïna presenta una arquitectura α-helical repetitiva, típica de proteïnes implicades en interaccions proteïna-proteïna. No hi ha evidència experimental d’estructura quaternària; tanmateix, podria formar oligòmers per interaccions llaçed-llaç, com altres golgines.
 
-### **3.
-
-FUNCIÓ DE LA PROTEÏNA**
+## Funció de la proteïna
 
 #### Absència de centre actiu i anàlisi estructural de GOLGA6L4
 
-#### **Centre actiu i residus rellevants**
+#### Centre actiu i residus rellevants
 - La proteïna GOLGA6L4 **no presenta centre actiu definit**
 - No es tracta d’un enzim, sinó una proteïna **estructural associada a l'aparell de Golgi**
-- Com que a UniProt no hi cap anotació de llocs actius ni residus catalítics considerem que no hi ha **residus catalítics descrits** i no participa en **reacccions enzimàtiques**
+- Com que a UniProt no hi cap anotació de llocs actius ni residus catalítics considerem que no hi ha **residus catalítics descrits** i no participa en **reaccions enzimàtiques**
 
-#### **Substrats i inhibidors**
+#### Substrats i inhibidors
 L’estructura analitzada correspon a un model predictiu d’AlphaFold, que representa la proteïna en estat aïllat, sense presència de substrats ni inhibidors.
 
-#### **Interaccions estructurals observades**
+#### Interaccions estructurals observades
 Tot i no tenir funció catalítica, la proteïna presenta interaccions internes importants:
 - **Ponts d’hidrogen** que estabilitzen les hèlix α i manté l’estructura secundària
 - **Interaccions hidrofòbiques** entre residus com Leucina, Isoleucina i Valina
 - **Interaccions de van der Waals** entre cadenes properes
-- **Interaccions electostàtiques** entre residus com Lisina i Glutamat que estabilitzen l’estructura tridimensional
+- **Interaccions electrostàtiques** entre residus com Lisina i Glutamat que estabilitzen l’estructura tridimensional
 
-#### **Informació general**
-
+#### Informació general
 L’anàlisi estructural mostra una proteïna predominantment formada per hèlix α llargues que s’organitzen en motius llaçed-llaç, una característica típica de les golgines. Aquest tipus d’estructura genera una conformació allargada que facilita les interaccions proteïna-proteïna i permet actuar com a element d’ancoratge dins l’aparell de Golgi. Els principals elements estructurals implicats en la funció són:
 - Hèlix α llargues que proporcionen estabilitat estructural
 - Motius llaçed-llaç que afavoreixen la formació de complexes multiproteics
@@ -97,7 +95,7 @@ L’anàlisi estructural mostra una proteïna predominantment formada per hèlix
 - Tethering o captura de vesícules
 - Establiment d’interaccions dins del sistema endomembranós
 
-#### **Modificacions posttraduccionals**
+#### Modificacions posttraduccionals
 No s’han descrit modificacions posttraduccionals específiques per a GOLGA6L4 a UniProt. Tanmateix, per analogia amb altres golgines, podria presentar fosforilació (Ser, Thr, Tyr), ubiquitinació i acetilació (Lys). Aquestes modificacions podrien regular la seva interacció amb altres proteïnes i la seva funció estructural al Golgi.
 
 ## Arquitectura molecular

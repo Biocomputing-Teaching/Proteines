@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-G-corregida/
 author: "Oriol Monte & Ainhoa González"
 ---
 
-<p class="qiep-group-label"><strong>Grup G</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Oriol Monte & Ainhoa González**.
+<p class="qiep-group-label"><strong>Grup G</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Oriol Monte & Ainhoa González**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -50,7 +52,7 @@ La transferència de residus funcionals requereix conservar la correspondència 
 
 ### Pràctica 1.
 | Seqüencia proteïna: |
-|---------|
+| |
 | MLIKLLTKVFGSRNDRTLRRMRKVVNIINAMEPEMEKLSDEELKGKTAEFRARLEKGEVLENLIPEAFAVVREASKRVFGMRHFDVQLLGGMVLNERCIAEMRTGEGKTLTATLPAYLNALTGKGVHVVTVNDYLAQRDAENNRPLFEFLGLTVGINLPGMPAPAKREAYAADITYGTNNEYGFDYLRDNMAFSPEERVQRKLHYALVDEVDSILIDEARTPLIISGPAEDSSEMYKRVNKIIPHLIRQEKEDSETFQGEGHFSVDEKSRQVNLTERGLVLIEELLVKEGIMDEGESLYSPANIMLMHHVTAALRAHALFTRDVDYIVKDGEVIIVDEHTGRTMQGRRWSDGLHQAVEAKEGVQIQNENQTLASITFQNYFRLYEKLAGMTGTADTEAFEFSSIYKLDTVVVPTNRPMIRKDLPDLVYMTEAEKIQAIIEDIKERTAKGQPVLVGTISIEKSELVSNELTKAGIKHNVLNAKFHANEAAIVAQAGYPAAVTIATNMAGRGTDIVLGGSWQAEVAALENPTAEQIEKIKADWQVRHDAVLEAGGLHIIGTERHESRRIDNQLRGRSGRQGDAGSSRFYLSMEDALMRIFASDRVSGMMRKLGMKPGEAIEHPWVTKAIANAQRKVESRNFDIRKQLLEYDDVANDQRRAIYSQRNELLDVSDVSETINSIREDVFKATIDAYIPPQSLEEMWDIPGLQERLKNDFDLDLPIAEWLDKEPELHEETLRERILAQSIEVYQRKEEVVGAEMMRHFEKGVMLQTLDSLWKEHLAAMDYLRQGIHLRGYAQKDPKQEYKRESFSMFAAMLESLKYEVISTLSKVQVRMPEEVEELEQQRRMEAERLAQMQQLSHQDDDSAAAAALAAQTGERKVGRNDPCPCGSGKKYKQCHGRLQ |
 
 ## Preprotein translocase dimeric ATPase
@@ -93,7 +95,7 @@ La cerca a InterPro (https://www.ebi.ac.uk/interpro/protein/UniProt/P10408/#tabl
 #### Resum de funció i interacció
 
 SecA | Funció/Interacció |Descripció |
-|--------------------|----------------------------------|
+| | |
 | Unió a preproteïnes | SecA s'uneix a les preproteïnes mitjançant la seqüència senyal |
 | Hidròlisi d’ATP | Utilitza l'energia de la hidròlisi d’ATP per impulsar la translocació |
 | Interacció amb SecYEG | Forma un canal de translocació funcional amb el complex SecYEG |

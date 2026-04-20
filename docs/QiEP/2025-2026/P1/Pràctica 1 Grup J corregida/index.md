@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-J-corregida/
 author: "Maria Llena Prats, María Roura Vilanova, Lídia Lan Molina Vergés i Agnès Navarta Bonilla i Miquel Ruiz"
 ---
 
-<p class="qiep-group-label"><strong>Grup J</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Maria Llena Prats, María Roura Vilanova, Lídia Lan Molina Vergés i Agnès Navarta Bonilla i Miquel Ruiz**.
+<p class="qiep-group-label"><strong>Grup J</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Maria Llena Prats, María Roura Vilanova, Lídia Lan Molina Vergés i Agnès Navarta Bonilla i Miquel Ruiz**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -49,7 +51,8 @@ Funcionalment, el domini P450/P411 deriva de CYP102A1/BM3. Els P450 naturals hid
 | Proteïna o constructe | P450/P411 |
 | Estructura de referència | 5UCW |
 | Longitud | 472 aa |
-| Trets rellevants | His 467-472; domini hemo | <p class="qiep-group-label"><strong>Grup J</strong></p>
+| Trets rellevants | His 467-472; domini hemo |
+
 
 ### Introducció sobre la proteïna
 
@@ -59,49 +62,49 @@ La proteïna estudiada és un citocrom P450, concretament el citocrom P450 BM3 d
 
 Cyp102A1 és un enzim de la família dels citocroms P450 que actua com a un fatty acid monooxygenase. Segons UniProt, catalitza la hidroxilació d'àcids grassos en posició omega-1, omega-2 i omega-3, mostrant més activitat òptima en cadenes llargues i mitjanes d’àcids grassos com l’àcid làuric (C12), mirístic (C14) i palmític (C16). A més presenta un domini reductasa al terminal C que permet la transferència d’electrons des del NADPH fins al ferro del grup hemo del domini P450 N-terminal, permetent l’activació de l’oxigen molecular i la posterior oxidació del substrat.
 
-#### Estructura tridimensional amb
+#### Estructura tridimensional
 
-Protein Data Bank Per fer l’anàlisi estructural s’ha seleccionat l’estructura **PDB: 5UCW** obtinguda per cristal·lografia de raigs X amb una resolució de **1.70 Å**. Gràcies a aquesta alta resolució es pot observar amb precisió la disposició dels àtoms i les interaccions moleculars.
+Protein Data Bank. Per fer l’anàlisi estructural s’ha seleccionat l’estructura **PDB: 5UCW** obtinguda per cristal·lografia de raigs X amb una resolució de **1.70 Å**. Gràcies a aquesta alta resolució es pot observar amb precisió la disposició dels àtoms i les interaccions moleculars.
 
-### Anàlisi de l’estructura secundària i supersecundària amb
+### Anàlisi amb ChimeraX
 
-ChimeraX Per fer l'estudi estructural s'ha utilitzat el programa ChimeraX ja que permet visualitzar i analitzar les diferents estructures i les seves interaccions.
+Per fer l'estudi estructural s'ha utilitzat el programa ChimeraX ja que permet visualitzar i analitzar les diferents estructures i les seves interaccions.
 
 #### Estructures secundàries i interaccions estabilitzadores
 
-#### -
+#### Làmines beta
 
-Fulles Beta (color groc): Formades per 850 àtoms, 848 bonds, 102 residus repartits en 2 models i 365 pseudobonds. Aquestes fulles es disposen en forma de làmines amb principalment ponts d’hidrogen entre cadenes polipeptídiques, especialment de manera antiparal·lela.
+ Formades per 850 àtoms, 848 bonds, 102 residus repartits en 2 models i 365 pseudobonds. Aquestes fulles es disposen en forma de làmines amb principalment ponts d’hidrogen entre cadenes polipeptídiques, especialment de manera antiparal·lela.
 
-#### -
+#### Hèlixs α
 
-Hèlix α (color blau): Les hèlix α constitueixen la major part de la proteïna. S'han identificat 4512 àtoms, 4566 bonds, 571 residus i 3100 pseudobonds.
+ Les hèlix α constitueixen la major part de la proteïna. S'han identificat 4512 àtoms, 4566 bonds, 571 residus i 3100 pseudobonds.
 
-#### - llaços (color vermell):
+#### Llaços
 
 Els llaços o llaços presenten 1790 àtoms, 1790 bonds, 233 residus i 1 pseudobond. A diferència de les hèlix i les làmines β, els llaços no tenen una estructura definida, però són els principals llocs d'interacció amb altres estructures. En aquest cas identifiquem **2206** ponts d’hidrogen entre llaços.
 
 #### Interaccions estabilitzadores
 
-#### -
+#### Ponts d’hidrogen
 
-Ponts d’hidrogen: Podem visualitzar 1913 ponts d’hidrogens representats amb el color blau (cian)
+ Podem visualitzar 1913 ponts d’hidrogens representats amb el color blau (cian)
 
-#### - van der
+#### Interaccions de van der Waals
 
-Waals: Hi han representats 7162 interaccions van der Waals, que són interaccions febles, de color verd
+ Hi han representats 7162 interaccions van der Waals, que són interaccions febles, de color verd
 
 #### Estructures supersecundàries
 
 Son estructures que apareixen quan hi ha una agrupació o es formen motius en les estructures secundàries.
 
-#### -
+#### Motius beta-meandre
 
-Beta-meander: Podem observar 4 tires consecutives beta antiparal·leles unides per bucles 2n exemple del beta meander:
+ Podem observar 4 tires consecutives beta antiparal·leles unides per bucles 2n exemple del beta meander:
 
-#### -
+#### Forquetes beta
 
-Beta-hairpins: Aquesta estructura és una β - hairpin, ja que es poden veure clarament 2 làmines β antiparaleles unides per un bucle
+ Aquesta estructura és una β - hairpin, ja que es poden veure clarament 2 làmines β antiparaleles unides per un bucle
 
 #### Estructura terciària
 

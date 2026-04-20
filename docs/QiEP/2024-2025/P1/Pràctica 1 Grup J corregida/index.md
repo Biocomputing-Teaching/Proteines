@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-J-corregida/
 author: "Baquero Matabacas Laia, Fernández Marín Lidia i Sastre Miralles Mariona"
 ---
 
-<p class="qiep-group-label"><strong>Grup J</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Baquero Matabacas Laia, Fernández Marín Lidia i Sastre Miralles Mariona**.
+<p class="qiep-group-label"><strong>Grup J</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Baquero Matabacas Laia, Fernández Marín Lidia i Sastre Miralles Mariona**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -46,16 +48,20 @@ La transferència de residus funcionals requereix conservar la correspondència 
 
 Anàlisi proteïna Microsomal Epoxide Hydrolase 1 (EPHX1)
 
-### Sobre la proteïna <u>Seqüència donada: </u>
+### Sobre la proteïna
+
+**Seqüència donada:**
 MWLEILLTSVLGFAIYWFISRDKEETLPLEDGWWGPGTRSAAREDDSIRPFKVETSDEEIHDLHQRIDKFRFTPPLEDSCFHYGFNSNYLKKVISYWRNEFDWKKQVEILNRYPHFKTKIEGLDIHFIHVKPPQLPAGHTPKPLLMVHGWPGSFYEFYKIIPLLTDPKNHGLSDEHVFEVICPSIPGYGFSEASSKKGFNSVATARIFYKLMLRLGFQEFYIQGGDWGSLICTNMAQLVPSHVKGLHLNMALVLSNFSTLTLLLGQRFGRFLGLTERDVELLYPVKEKVFYSLMRESGYMHIQCTKPDTVGSALNDSPVGLAAYILEKFSTWTNTEFRYLEDGGLERKFSLDDLLTNVMLYWTTGTIISSQRFYKENLGQGWMTQKHERMKVYVPTGFSAFPFELLHTPEKWVRFKYPKLISYSYMVRGGHFAAFEEPELLAQDIRKFLSVLERQ Un cop buscada aquesta seqüència a la base de dades UniProt, dona com a resultat que la proteïna és la registrada amb el codi P07099 (Microsomal Epoxide hydrolase 1) (https://www.uniprot.org/uniprotkb/P07099), amb la classificació EC següent: EC: 3.3.2.9 (https://www.brenda-enzymes.org/enzyme.php?ecno=3.3.2.3). EC TREE:
 3 Hydrolases
 3.3 Acting on ether bonds
 3.3.2 Ether hydrolases
 3.3.2.9 Microsomal Epoxide hydrolase A més, s’observa que aquesta proteïna és codificada pel gen EPHx1. Un cop vist el resultat de la recerca, s’observa que la base de dades del Protein Data Bank no ens serveix, ja que no ens apareix cap codi PDB. En aquest cas, sí que ens surt un codi AlphaFold (AF-P07099-F1), per tant, és en aquesta base de dades on hem de buscar l’estructura de la proteïna. Si només podem trobar l’estructura a AlphaFold, ens indica que la proteïna no ha estat vista experimentalment, i, per tant, la seva estructura ha estat reproduïda mitjançant intel·ligència artificial basant-se en dades de seqüències d'aminoàcids conegudes. La proteïna Microsomal Epoxide hydrolase 1 és un enzim implicat en la detoxificació de compostos tòxics, ja que té capacitat per hidrolitzar epòxids. Un cop els hidrolitza, els converteix en diols, facilitant la seva eliminació.
 
-### Treball amb ChimeraX Gràcies al programa Chimera X, hem pogut extreure les següents conclusions: <u>Làmines β: </u> En total trobem 9 làmines β. Les trobem a les posicions de la cadena A de la proteïna: 48-51, 115-120, 132-130, 142-147, 178-183, 220-224, 243-248, 396-400, 420-425. En total, hi ha 431 àtoms implicats, 438 enllaços i 52 aminoàcids totals. S’observen les làmines β de color verd en la figura. <u>Hèlix α: </u> En total tenim 23 fulles. Les trobem a les posicions de la cadena A de la proteïna: 2-20, 57-68, 87-99, 103-112, 154-157, 161-163, 168-170, 201-214, 226-238, 256-272, 276-282, 285-296, 298-305, 307-316, 318-331, 335-339, 345-347, 351-347, 351-364, 367-378, 386-388, 410-416, 433-436, 438-454. En total, trobem implicats 1901 àtoms en l’estructura, 1927 enllaços i 224 aminoàcids totals. A la figura, les hèlixs α estan ressaltades en color verd. <u>Bucles: </u> En total tenim 33 bucles (més regions desordenades). Implicats tenim 1418 àtoms, 1439 enllaços i 179 aminoàcids totals. S’observen els bucles i regions desordenades en color verd <u>Ponts d’hidrogen: </u> Trobem 449 ponts d’hidrogen. S’observen els ponts d’hidrogen marcats amb colors <u>Ponts disulfur: </u> en la proteïna trobem un total de 4 ponts. S’observen els 4 ponts marcats en verd <u>Enllaços de van der Waals: </u> Trobem 2861 enllaços de van der Waals A la figura estan marcades de color verd les regions on es poden ocasionar aquests enllaços.
+### Treball amb ChimeraX
 
-#### **L'estructura terciària de la proteïna, a quin tipus de plegament correspon?
+Gràcies al programa ChimeraX, s’han extret les conclusions següents: <u>Làmines β: </u> En total trobem 9 làmines β. Les trobem a les posicions de la cadena A de la proteïna: 48-51, 115-120, 132-130, 142-147, 178-183, 220-224, 243-248, 396-400, 420-425. En total, hi ha 431 àtoms implicats, 438 enllaços i 52 aminoàcids totals. S’observen les làmines β de color verd en la figura. <u>Hèlix α: </u> En total tenim 23 fulles. Les trobem a les posicions de la cadena A de la proteïna: 2-20, 57-68, 87-99, 103-112, 154-157, 161-163, 168-170, 201-214, 226-238, 256-272, 276-282, 285-296, 298-305, 307-316, 318-331, 335-339, 345-347, 351-347, 351-364, 367-378, 386-388, 410-416, 433-436, 438-454. En total, trobem implicats 1901 àtoms en l’estructura, 1927 enllaços i 224 aminoàcids totals. A la figura, les hèlixs α estan ressaltades en color verd. <u>Bucles: </u> En total tenim 33 bucles (més regions desordenades). Implicats tenim 1418 àtoms, 1439 enllaços i 179 aminoàcids totals. S’observen els bucles i regions desordenades en color verd <u>Ponts d’hidrogen: </u> Trobem 449 ponts d’hidrogen. S’observen els ponts d’hidrogen marcats amb colors <u>Ponts disulfur: </u> en la proteïna trobem un total de 4 ponts. S’observen els 4 ponts marcats en verd <u>Enllaços de van der Waals: </u> Trobem 2861 enllaços de van der Waals A la figura estan marcades de color verd les regions on es poden ocasionar aquests enllaços.
+
+#### Plegament terciari
 
 Busqueu el plegament a la base de dades SCOP, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquia d’aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també. Com hem comentat anteriorment, la proteïna no consta de codi PDB i la seva estructura és obtinguda gràcies a la base de dades d’AlphaFold. Per això en buscar el tipus de plegament d’aquesta, no es pot trobar, ja que en anar seguint el llinatge ens trobem en un punt on tots els resultats són amb entrades de PDB. Adjuntem figura de fins on es pot seguir la classificació.
 

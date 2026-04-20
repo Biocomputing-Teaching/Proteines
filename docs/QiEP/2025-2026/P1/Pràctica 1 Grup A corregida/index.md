@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-A-corregida/
 author: "Sergi Gebellí, Marc Mulet, Alex Navarro, Ana Rodríguez, Guillem Sansalvador"
 ---
 
-<p class="qiep-group-label"><strong>Grup A</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Sergi Gebellí, Marc Mulet, Alex Navarro, Ana Rodríguez, Guillem Sansalvador**.
+<p class="qiep-group-label"><strong>Grup A</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Sergi Gebellí, Marc Mulet, Alex Navarro, Ana Rodríguez, Guillem Sansalvador**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC

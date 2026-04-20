@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-B-corregida/
 author: "Alex Durán, Ariadna Gómez, Jordi Martín"
 ---
 
-<p class="qiep-group-label"><strong>Grup B</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Alex Durán, Ariadna Gómez, Jordi Martín**.
+<p class="qiep-group-label"><strong>Grup B</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Alex Durán, Ariadna Gómez, Jordi Martín**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -40,7 +42,7 @@ A partir de la seqüència anterior i de les bases de dades principals de seqü�
 La transferència de residus funcionals requereix conservar la correspondència entre la numeració de la seqüència i la del model estructural, especialment quan l’estructura prové d’un homòleg, d’un domini aïllat o d’un model predictiu. Les glutatió S-transferases catalitzen la conjugació del glutatió amb compostos electrofílics i participen en detoxificació cel·lular.
 
 ## Identitat de la proteïna
-Aquesta seqüència prové de l'Escherichia coli K-12, i codifica per la proteïna Glutathione S-transferase GstA (aminoàcids: 201) (https://www.uniprot.org/uniprotkb/P0A9D2/entry) - **Codi UniProt: ** P0A9D2
+Aquesta seqüència prové de l'Escherichia coli K-12, i codifica per la proteïna Glutathione S-transferase GstA (aminoàcids: 201) (https://www.uniprot.org/uniprotkb/P0A9D2/entry) - **Codi UniProt:** P0A9D2
 - **Nom del gen:** gstA
 - **Funció breu:** Catalitza la conjugació de glutatió reduït (GSH) a un gran nombre d'electròfils hidrofòbics exògens i endògens.
 - **Classificació enzimàtica:** EC 2.5.1.18 (https://www.brenda-enzymes.org/enzyme.php?ecno=2.5.1.18)

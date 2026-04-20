@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-I-corregida/
 author: "Gerard Pañach, Ester Forés, Clara Alabau, Txell Cassases, Estel Àlvarez"
 ---
 
-<p class="qiep-group-label"><strong>Grup I</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Gerard Pañach, Ester Forés, Clara Alabau, Txell Cassases, Estel Àlvarez**.
+<p class="qiep-group-label"><strong>Grup I</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Gerard Pañach, Ester Forés, Clara Alabau, Txell Cassases, Estel Àlvarez**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -47,12 +49,15 @@ Funcionalment, KE07 és una eliminasa de Kemp dissenyada. No té una funció nat
 | Proteïna o constructe | Kemp eliminase KE07 |
 | Estructura de referència | 6C7M |
 | Longitud | 264 aa |
-| Trets rellevants | His 259-264; barril TIM | <p class="qiep-group-label"><strong>Grup I</strong></p>
+| Trets rellevants | His 259-264; barril TIM |
 
-### Introducció a la proteïna {#introducció-a-la-proteïna} **Nom de la proteïna:**
+
+### Identificació aportada pels autors
+
+**Nom de la proteïna:**
 
 Imidazole glycerol phosphate synthase subunit
-HisF **Organisme:** thermotoga maritima **Codi UniProt: ** WP_004080486 **Gen:** hisF **Aa:** 253 **Classificació EC:** EC: 4.3.2.10
+HisF **Organisme:** thermotoga maritima **Codi UniProt:** WP_004080486 **Gen:** hisF **Aa:** 253 **Classificació EC:** EC: 4.3.2.10
 
 #### Estructura: {#estructura}
 
@@ -68,14 +73,12 @@ biosíntesi de nucleòtids de purina. Els enzims d'arquees i bacteris són
 heterodimèrics. Un component de glutaminasa (cf. EC 3.5.1.2,
 glutaminasa) produeix una molècula d'amoníac que es transfereix per un
 túnel de 25 Å a un component de ciclasa, que l'afegeix a l’anell
-d'imidazol, cosa que porta a la lisi de la molècula ia la ciclificació
-d’un. La subunitat de glutminasa només està activa dins el complex
+d'imidazol, cosa que porta a la lisi de la molècula i a la ciclificació
+d’un. La subunitat de glutaminasa només està activa dins el complex
 dimèric. En fongs i plantes, les dues subunitats es combinen en un sol
 polipèptid.
 
-### Treball amb l’aplicació
-
-ChimeraX {#treball-amb-laplicació-chimerax}
+### Treball amb ChimeraX
 
 #### Estructures secundàries {#estructures-secundàries}
 
@@ -87,12 +90,12 @@ essencial a l’estabilitat del seu plegament en barril TIM i a la seva
 funció catalítica. Les **hèlixs α** es formen quan la cadena polipeptídica s’enrotlla sobre
 si mateixa. Els ponts d’hidrogen (línies discontínues grogues) es formen
 de manera intercatenària entre l’oxigen del grup carbonil d’un
-aminoàciid i l’hidrogen del grup amino de l’aminoàcid situat quatre
+aminoàcid i l’hidrogen del grup amino de l’aminoàcid situat quatre
 posicions més endavant, fet que aporta rigidesa i estabilitat a
 l’estructura. Les **làmines β** constitueixen una altra part essencial, la direcció de
-la fletxa indica el sentit de la cadena. Els ponts d’Hidrogen són
-intercatenaris. Poden ser paral. leles (les cadenes van en el mateix
-sentit) o antiparal. leles (les cadenes van en sentis oposats, solen ser
+la fletxa indica el sentit de la cadena. Els ponts d’hidrogen són
+intercatenaris. Poden ser paral·leles (les cadenes van en el mateix
+sentit) o antiparal·leles (les cadenes van en sentits oposats, solen ser
 més estables), i formen el nucli estructural del plegament. Els **girs i llaços** connecten les hèlixs α i les làmines β,
 proporcionant la flexibilitat necessària perquè la proteïna pugui dur a
 terme els seus canvis conformacionals durant la catàlisi. Aquestes
@@ -110,9 +113,9 @@ llaços. ](figura2.png){width="318"} **Figura 2. ** figura de la cadena
 polipeptídica de HisF. On en color taronja es veuen les hèlix α, en lila
 les làmines β i en rosa els llaços.
 
-#### Estructures supersecundàries {#estructures-supersecundàries} secundària amb color groc. ](figura3.png){width="318"} **Figura 3. **
-color groc. llaços i hèlixs α. (verd). ](figura4_b.png){width="318"} **Figura 4_b. ** Interaccions de van
-der Waals (verd). 4_d. **TIM barrel. En l’estructura de la subunitat HisF es poden identificar diversos
+#### Estructures supersecundàries
+
+Les figures dels autors mostren el motiu de barril TIM i contactes interns entre làmines, hèlixs i llaços. En l’estructura de la subunitat HisF es poden identificar diversos
 motius supersecundaris formats per la combinació d’hèlixs α i làmines β.
 Entre aquests destaca el motiu β‑α‑β, on una làmina β es connecta amb
 una hèlix α mitjançant un llaç, contribuint a l’organització del barril
@@ -124,7 +127,7 @@ mentre que les interaccions de van der Waals entre les cadenes laterals
 afavoreixen l’empaquetament compacte del nucli proteic. A la figura 4_d s’observa en color groc, una de les unitats
 repetitives que conformen l'arquitectura de barril TIM (TIM barrel), on
 s'observa la connexió entre una làmina β i una hèlix alpha. La
-superfície representada en gris fosc (trensparent)evidencia
+superfície representada en gris fosc (transparent)evidencia
 l'empaquetament hidrofòbic del nucli proteic, fonamentat en interaccions
 de van der Waals entre les cadenes laterals de les estructures
 secundàries, essent aquest motiu estructural el responsable de
@@ -133,9 +136,9 @@ l’enzim.
 
 #### Estructura terciària {#estructura-terciària}
 
-#### **L'estructura terciària de la proteïna, a quin tipus de plegament correspon?
+#### Plegament terciari, dominis i estructura quaternària
 
-Per a l'estudi dels dominis i de la família estructural, useu preferentment CATH i/o ECOD, perquè són recursos més actius per a classificació de dominis i relacions evolutives. Podeu usar SCOPe com a recurs complementari o de contrast. Anoteu els codis i la jerarquia que obtingueu, i discutiu també l’estructura quaternària si escau. ** La jerarquia ECOD per al domini e8s8sA01 (cadena A, residus 2-251) és
+La jerarquia ECOD per al domini e8s8sA01 (cadena A, residus 2-251) és
 molt clara:
 - X (Architecture): TIM beta/alpha-barrel. Aquest és el plegament de
 l’estructura terciària.
@@ -159,7 +162,7 @@ apolars per evitar el contacte amb l’aigua. En cuant a l’estructura quaterna
 Imidazoleglycerol-phosphate dehydratase (IGPD) de Schizosaccharomyces
 pombe.
 
-#### Centre actiu {#centre-actiu} rellevants, segons la literatura?
+#### Centre actiu i residus rellevants
 
 L'estructura que heu explorat inclou
 algun substrat o inhibidor? Podeu descriure les interaccions entre els

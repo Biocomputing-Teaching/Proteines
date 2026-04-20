@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-D-corregida/
 author: "Luca Espinola, Daniela García, Manel Garcia, Oriol García, Guillem Fortea"
 ---
 
-<p class="qiep-group-label"><strong>Grup D</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Luca Espinola, Daniela García, Manel Garcia, Oriol García, Guillem Fortea**.
+<p class="qiep-group-label"><strong>Grup D</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Luca Espinola, Daniela García, Manel Garcia, Oriol García, Guillem Fortea**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -46,7 +48,8 @@ Funcionalment, DYNA_1b7 és un constructe d’unió a dinorfina A. La prodinorfi
 | Proteïna o constructe | DYNA_1b7 |
 | Estructura de referència | 9CCE |
 | Longitud | 217 aa |
-| Trets rellevants | His 212-217; complex amb pèptid dinorfina | <p class="qiep-group-label"><strong>Grup D</strong></p>
+| Trets rellevants | His 212-217; complex amb pèptid dinorfina |
+
 
 #### Grup
 

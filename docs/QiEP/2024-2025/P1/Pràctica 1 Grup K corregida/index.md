@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-K-corregida/
 author: "Martina Carreño, Laura Jordan i Berta Serrabasa"
 ---
 
-<p class="qiep-group-label"><strong>Grup K</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Martina Carreño, Laura Jordan i Berta Serrabasa**.
+<p class="qiep-group-label"><strong>Grup K</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Martina Carreño, Laura Jordan i Berta Serrabasa**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC

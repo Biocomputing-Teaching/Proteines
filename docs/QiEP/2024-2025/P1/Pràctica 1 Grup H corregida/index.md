@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-H-corregida/
 author: "Arisó Gómez Irene, Guiu Gorgas Berta i Vila Roca Judith"
 ---
 
-<p class="qiep-group-label"><strong>Grup H</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Arisó Gómez Irene, Guiu Gorgas Berta i Vila Roca Judith**.
+<p class="qiep-group-label"><strong>Grup H</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Arisó Gómez Irene, Guiu Gorgas Berta i Vila Roca Judith**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -43,11 +45,11 @@ A partir de la seqüència anterior i de les bases de dades principals de seqü�
 
 La transferència de residus funcionals requereix conservar la correspondència entre la numeració de la seqüència i la del model estructural, especialment quan l’estructura prové d’un homòleg, d’un domini aïllat o d’un model predictiu. Les amina oxidases oxiden amines i generen aldehids, amoníac i peròxid d’hidrogen mitjançant cofactors especialitzats.
 
-## **Pràctica 1.
+## Amine oxidase flavin-containing A
 
 Anàlisi proteïna Amine oxidase [flavin-containing] A**
 
-### -
+### Sobre la proteïna
 
 Sobre la proteïna. Seqüència donada: MENQEKASIAGHMFDVVVIGGGISGLSAAKLLTEYGVSVLVLEARDRVGGRTYTIRNEHVDYVDVGGAYVGPTQNRILRLSKELGIETYKVNVSERLVQYVKGKTYPFRGAFPPVWNPIAYLDYNNLWRTIDNMGKEIPTDAPWEAQHADKWDKMTMKELIDKICWTKTARRFAYLFVNINVTSEPHEVSALWFLWYVKQCGGTTRIFSVTNGGQERKFVGGSGQVSERIMDLLGDQVKLNHPVTHVDQSSDNIIIETLNHEHYECKYVINAIPPTLTAKIHFRPELPAERNQLIQRLPMGAVIKCMMYYKEAFWKKKDYCGCMIIEDEDAPISITLDDTKPDGSLPAIMGFILARKADRLAKLHKEIRKKKICELYAKVLGSQEALHPVHYEEKNWCEEQYSGGCYTAYFPPGIMTQYGRVIRQPVGRIFFAGTETATKWSGYMEGAVEAGERAAREVLNGLGKVTEKDIWVQEPESKDVPAVEITHTFWERNLPSVSGLLKIIGFSTSVTALGFVLYKYKLLPRS Hem buscat la seqüència a la base de dades UniProt, el codi d’aquesta proteïna és P21397 - AOFA_HUMAN "https://www.uniprot.org/uniprotkb/P21397/entry" la classificació de l’enzim EC: 1.4.3.4;
 EC Tree: 1. Oxidoreductases

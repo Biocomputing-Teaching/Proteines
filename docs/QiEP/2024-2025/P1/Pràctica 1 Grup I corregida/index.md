@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-I-corregida/
 author: "Marina Garcia Baco i Malena Ortolà Bilbao"
 ---
 
-<p class="qiep-group-label"><strong>Grup I</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Marina Garcia Baco i Malena Ortolà Bilbao**.
+<p class="qiep-group-label"><strong>Grup I</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Marina Garcia Baco i Malena Ortolà Bilbao**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC

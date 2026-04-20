@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-D-corregida/
 author: "Leire Pérez Palacios i Cèlia Delmàs Hortal"
 ---
 
-<p class="qiep-group-label"><strong>Grup D</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Leire Pérez Palacios i Cèlia Delmàs Hortal**.
+<p class="qiep-group-label"><strong>Grup D</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Leire Pérez Palacios i Cèlia Delmàs Hortal**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -78,7 +80,7 @@ Per tal de detectar les estructures secundàries, determinar el tipus i la local
 #### Hèlix α: |
 
 Hèlix nº | Inici | Fi | Longitud |
-|----------|---------------|---------------|----------|
+| | | | |
 | 1 | ASN A 29 | GLY A 34 | 6 |
 | 2 | THR A 43 | ALA A 53 | 11 |
 | 3 | ASN A 68 | LYS A 78 | 11 |
@@ -204,7 +206,7 @@ Hèlix nº | Inici | Fi | Longitud |
 #### Full beta |
 
 Fulla Beta | Núm. Strand | Cadena | Residus inici | Residus final |
-|------------|-------------|--------|---------------|---------------|
+| | | | | |
 | A | 1 | A | LEU 60 | LEU 62 |
 | A | 2 | A | VAL 82 | VAL 84 |
 | B | 1 | A | THR 200 | PRO 201 |

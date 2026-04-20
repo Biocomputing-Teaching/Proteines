@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-M-corregida/
 author: "Aina Altimiras, Pere Lorente, Arturo Martinez"
 ---
 
-<p class="qiep-group-label"><strong>Grup M</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Aina Altimiras, Pere Lorente, Arturo Martinez**.
+<p class="qiep-group-label"><strong>Grup M</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Aina Altimiras, Pere Lorente, Arturo Martinez**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -41,9 +43,11 @@ A partir de la seqüència anterior i de les bases de dades principals de seqü�
 
 La transferència de residus funcionals requereix conservar la correspondència entre la numeració de la seqüència i la del model estructural, especialment quan l’estructura prové d’un homòleg, d’un domini aïllat o d’un model predictiu. Les lipases hidrolitzen èsters lipídics i connecten catàlisi de serina amb reconeixement d’interfícies hidrofòbiques.
 
-### Introducció a la proteïna **Nom de la proteïna:**
+### Identificació aportada pels autors
 
-Lipasa B **Organisme:** _Candida antarctica_ **Codi UniProt: ** P41365 **Gen:** LIPB\_PSEA2 **Classificació EC:** EC: 3.1.1.3
+**Nom de la proteïna:**
+
+Lipasa B **Organisme:** _Candida antarctica_ **Codi UniProt:** P41365 **Gen:** LIPB\_PSEA2 **Classificació EC:** EC: 3.1.1.3
 
 #### Estructura:
 
@@ -65,7 +69,7 @@ En l’estructura de la Lipasa B de Candida antarctica, es poden identificar div
 
 #### Estructura terciària
 
-#### **L'estructura terciària de la proteïna, a quin tipus de plegament correspon?
+#### Plegament terciari
 
 Busqueu el plegament a la [base de dades SCOP](https://scop.berkeley.edu)**, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquia d’aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també. Pel que fa a l’estructura quaternària, la Lipasa B és un hexàmer, ja que està formada per sis subunitats idèntiques que interaccionen entre elles per formar un complex funcional.
 

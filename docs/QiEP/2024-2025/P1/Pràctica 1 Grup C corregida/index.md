@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-C-corregida/
 author: "Marta Amaro, Núria Gonzalez i Fatima Saculles"
 ---
 
-<p class="qiep-group-label"><strong>Grup C</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Marta Amaro, Núria Gonzalez i Fatima Saculles**.
+<p class="qiep-group-label"><strong>Grup C</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Marta Amaro, Núria Gonzalez i Fatima Saculles**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -89,16 +91,25 @@ El centre actiu mostra una coloració vermella que s'interpreta que presenta cà
 #### Mecanisme d'acció:
 
 La cutinasa és un enzim que catalitza la hidròlisi de la cutina, un component estructural de la cutícula de les plantes, aquesta capa externa actua com a barrera protectora contra factors ambientals i patògens. A més, la cutinasa mostra propietats catalítiques d'esterases i lipases, ja que poden hidrolitzar èsters solubles i triacilglicerols. La cutinasa segueix un mecanisme catalític amb un patró típic de les serines hidrolases. Aquest mecanisme segueix les etapes següents:
-**1. Formació del complex enzim-substrat**:
+
+1. **Formació del complex enzim-substrat**:
 - El substrat entra al centre actiu de l’enzim.
 - Els residus hidrofòbics estabilitzen la unió del substrat mitjançant interaccions van der Waals.
-- La His forma un pont d’hidrogen amb la Ser, ajudant a polaritzar-la i activant-la com a nucleòfil. **2. Atac nucleofílic i formació del tetraèdric**:
-- La Ser desprotonada ataca el carboni carbonil del substrat, creant un intermediari tetraèdric. Aquest intermediari és altament inestable i es descompon ràpidament. **3. Formació de l'intermediari acil-enzim i alliberament del primer producte**:
+- La His forma un pont d’hidrogen amb la Ser, ajudant a polaritzar-la i activant-la com a nucleòfil.
+
+2. **Atac nucleofílic i formació de l’intermediari tetraèdric**:
+- La Ser desprotonada ataca el carboni carbonil del substrat, creant un intermediari tetraèdric. Aquest intermediari és altament inestable i es descompon ràpidament.
+
+3. **Formació de l’intermediari acil-enzim i alliberament del primer producte**:
 - La reorganització electrònica de l'intermediari tetraèdric provoca la ruptura de l'enllaç èster alliberant el grup alcohol del substrat.
 - La resta acil·lada del substrat queda covalentment unit a la Ser, formant un intermediari acil-enzim.
-- La His actua com a base, captant el protó de la Ser i estabilitzant l'intermediari. **4. Atac de l’aigua i segon intermediari tetraèdric**:
+- La His actua com a base, captant el protó de la Ser i estabilitzant l'intermediari.
+
+4. **Atac de l’aigua i formació del segon intermediari tetraèdric**:
 - Una molècula d’aigua entra al centre actiu i és activada per la His, que la desprotona per convertir-la en un nucleòfil.
-- L'aigua ataca el carboni carbonílic de l'intermediari acil-enzim, formant un nou intermediari tetraèdric. **5. Alliberament del segon producte i regeneració de l’enzim**:
+- L'aigua ataca el carboni carbonílic de l'intermediari acil-enzim, formant un nou intermediari tetraèdric.
+
+5. **Alliberament del segon producte i regeneració de l’enzim**:
 - L'intermediari tetraèdric es descompon, alliberant l'àcid gras/producte carboxilat.
 - La Ser és regenerada, i l’enzim torna al seu estat inicial. *Fig. 22*: Mecanisme catalític de las serín-proteasas [1]. Les cutinases són serina hidrolases que pertanyen al gran conjunt de les hidrolases α/β; aquests enzims presenten una triada catalítica composta per Serina, Histidina i Aspartat; en la qual la serina actua com a catalitzador en contacte amb el substrat.
 A diferència de les lipases tradicionals, les cutinases no compten amb una coberta hidrològica sobre la serina del lloc actiu, sinó que presenta un lloc actiu ampli que permet interactuar amb substrats d'alt pes molecular, com ho és el cas de la cutina, i fins i tot amb polímers sintètics. [2] Residus funcionals per a la funció:

@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-E-corregida/
 author: "Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi"
 ---
 
-<p class="qiep-group-label"><strong>Grup E</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi**.
+<p class="qiep-group-label"><strong>Grup E</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Queralt Datzira, Elsa Gutiérrez i Ariadna Parisi**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC

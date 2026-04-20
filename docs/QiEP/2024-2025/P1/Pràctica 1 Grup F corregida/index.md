@@ -4,7 +4,9 @@ permalink: /QiEP/2024-2025/P1/Practica-1-Grup-F-corregida/
 author: "Marc Conde, Marc Sánchez, Adrià Segura"
 ---
 
-<p class="qiep-group-label"><strong>Grup F</strong> · Química i Enginyeria de Proteïnes 2024-2025</p> Autors del treball original: **Marc Conde, Marc Sánchez, Adrià Segura**.
+<p class="qiep-group-label"><strong>Grup F</strong> · Química i Enginyeria de Proteïnes 2024-2025</p>
+
+Autors del treball original: **Marc Conde, Marc Sánchez, Adrià Segura**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -60,14 +62,20 @@ La transferència de residus funcionals requereix conservar la correspondència 
 **Organisme:** Homo Sapiens
 **EC:** 6.5.1.1
 **PBD:** 7QNZ (1-919) 4.58 Å
-**Funció:** lligasa de l’ADN que segella els talls monocatenaris en doble cadena durant la reparació de l’ADN. També participen en la replicació de l’ADN i la recombinació de l’ADN. Té activitat catalítica i un cofactor (Mg2+). ***2. Treball amb ChimeraX***
+**Funció:** lligasa de l’ADN que segella els talls monocatenaris en doble cadena durant la reparació de l’ADN. També participen en la replicació de l’ADN i la recombinació de l’ADN. Té activitat catalítica i un cofactor (Mg2+). 
+
+## Treball amb ChimeraX
+
 **Tipus d'estructures secundàries:**
 El tipus d'estructures secundàries que conté la proteïna són:
 - **Hèlix-α:** Format per un total de 3448 àtoms, 3463 bonds (enllaços) i 443 residus repartits en 2 estructures (Humann LIG1 i Human PCNA), també, aquesta estructura està constituïda per 386 pseudoenllaços que tots aquests representen ponts d’hidrogen.
 - **β-sheet (strand):** Format per un total de 3678 àtoms, 3671 bonds (enllaços) i 470 residus repartits en 2 estructures (Human LIG1 i Human PCNA), també, aquesta estructura està constituïda per 390 pseudoenllaços que tots aquests representen ponts d’hidrogen.
 - **β-turns(llaços):** Format per un total de 3527 àtoms, 3475 bonds (enllaços) i 477 residus repartatis en 2 estructures(Human LIG1 i Human PCNA), també, aquesta estructura està constituida per 151 pseudoenllaços que tots aquests representen ponts d’hidrogen **Motius d'estructura supersecundària:**
 Si que trobem estructures supersecundàries, l’estructura Human PCNA està formada quasi en la seva totalitat per β-meander motifs, compostos de dues o més cadenes β antiparal·leles consecutives unides entre si per hairpin bucles. L'estructura Human LIG1 forma algunes hèlix-gir-hèlix, aquests motius li conferèixin la capacitat a la LIG1 d’unir-se al DNA; el monòmer incorpora dues hèlixs α, unides per una cadena curta d'aminoàcids, que s'uneixen al solc gran de l’ADN. fFigura 10: figura pròpia que mostra les interaccions de van der Waals del hèlix-gir-hèlix (ChimeraX). **Estructura terciària:**
-El tipus de plegament de l’estructura terciària de la Human PCNA és: El tipus de plegament de l’estructura terciària de la Human LIG1 és: ***3. Funció de la proteïna***
+El tipus de plegament de l’estructura terciària de la Human PCNA és: El tipus de plegament de l’estructura terciària de la Human LIG1 és: 
+
+## Funció de la proteïna
+
 Centre actiu:
 Per trobar el centre actiu hem buscat el substrat d’aquest, què és l'adenosina monofosfat (AMP). Mitjançant el substrat les proteïnes que es trobin al costat de l’AMP, formin ponts d’hidrogen o interaccions electrostàtiques fortes i siguin conegudes per estar conservades en altres DNA-ligases són els residus funcionals que formen part del centre actiu, com és el cas de: Lisina 568, Glutamat 720 i Glutamat 621, Arginina 573, Tirosina 567 (Tyr 567) i Fenilalanina 860 (Phe 860), entre d'altres com pot ser la Metionina 723. D'aquests podem destacar la lisina 568, que és un residu important, formant un enllaç covalent amb l’AMP en l’enzim. **Funció de la proteïna:** La DNA-ligasa catalitza la unió entre dos fragments d’ADN formant un enllaç fosfodièster. Aquest enllaç uneix l'extrem 3'-OH i el 5'-P. Per a dur a terme aquest procés, consumeix una molècula d’ATP, alliberant AMP i PPi. La PCNA és una altra proteïna que s'uneix a la LIG1 per fixar la ligasa a la cadena d’ADN i garantir el seu funcionament correcte. La LIG1 està conformada per tres dominis diferents:
 - **Domini N-terminal:** el qual és l'utilitzat per interaccionar amb altres proteïnes com la PCNA, fet que permet la localització de la ligasa en els llocs de reparació i replicació del DNA. El motiu que actua per tal d’unir-se a la PCNA és el PIPN-term, el qual conté residus que interaccionen amb la PCNA, a més, aquest motiu, a diferència d'altres, té una estructura desordenada i flexible, és per això que podrà acoblar-se d’una millor forma a la PCNA. Aquest domini està format per residus polars, els quals faciliten la interacció entre diferents proteïnes, a més d'aportar-hi flexibilitat. És en aquest domini on trobem també el motiu PIP DBD, el qual serà l'encarregat de mantenir la unió entre LIG1 i PCNA, un cop el motiu PIPN-term deixi d'interaccionar entre aquests dos monòmers quan el DNA entri al complex. El PIP DBD un motiu amb baixa afinitat per la PCNA, conferint flexibilitat i dinamisme a LIG1 per realitzar la seva funció.

@@ -4,7 +4,9 @@ permalink: /QiEP/2025-2026/P1/Practica-1-Grup-H-corregida/
 author: "Estel Boix, Carla Masip, Marc Pardeiro"
 ---
 
-<p class="qiep-group-label"><strong>Grup H</strong> · Química i Enginyeria de Proteïnes 2025-2026</p> Autors del treball original: **Estel Boix, Carla Masip, Marc Pardeiro**.
+<p class="qiep-group-label"><strong>Grup H</strong> · Química i Enginyeria de Proteïnes 2025-2026</p>
+
+Autors del treball original: **Estel Boix, Carla Masip, Marc Pardeiro**.
 
 <nav class="qiep-local-toc" markdown="1">
 * TOC
@@ -50,16 +52,19 @@ Funcionalment, el component ADRB2 és un receptor acoblat a proteïna G per cate
 | Proteïna o constructe | ADRB2-T4L |
 | Estructura de referència | 6PS2 / 5D5A |
 | Longitud | 490 aa |
-| Trets rellevants | FLAG 1-7; His 485-490; fusió GPCR-lisozim | <p class="qiep-group-label"><strong>Grup H</strong></p>
+| Trets rellevants | FLAG 1-7; His 485-490; fusió GPCR-lisozim |
 
-### Introducció a la proteïna **Seqüència donada:**
+
+### Identificació aportada pels autors
+
+**Seqüència donada:**
 DYKDDDDAMGQPGNGSAFLLAPNRSHAPDHDVTQQRDEVWVVGMGIVMSLIVLAIVFGNVLVITAIAKFERL
 QTVTNYFITSLACADLVMGLAVVPFGAAHILMKMWTFGNFWCEFWTSIDVLCVTASIWTLCVIAVDRYFAIT
 SPFKYQSLLTKNKARVIILMVWIVSGLTSFLPIQMHWYRATHQEAINCYAEETCCDFFTNQAYAIASSIVSF
 YVPLVIMVFVYSRVFQEAKRQLNIFEMLRIDEGLRLKIYKDTEGYYTIGIGHLLTKSPSLNAAKSELDKAIG
 RNTNGVITKDEAEKLFNQDVDAAVRGILRNAKLKPVYDSLDAVRRAALINMVFQMGETGVAGFTNSLRMLQQ
 KRWDEAAVNLAKSRWYNQTPNRAKRVITTFRTGTWDAYKFCLKEHKALKTLGIIMGTFTLCWLPFFIVNIVH
-VIQDNLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRRSSLKHHHHHH **Nom de la proteïna:** Receptor ß-2 adrenèrgic **Organisme:** _Homo sapiens_ **Codi UniProt: ** P07550 **Gen:** ADRB2
+VIQDNLIRKEVYILLNWIGYVNSGFNPLIYCRSPDFRIAFQELLCLRRSSLKHHHHHH **Nom de la proteïna:** Receptor ß-2 adrenèrgic **Organisme:** _Homo sapiens_ **Codi UniProt:** P07550 **Gen:** ADRB2
 
 #### Estructura:
 
@@ -91,9 +96,9 @@ Interaccions de van der Waals: entre cadenes laterals compactades dins del nucli
 
 #### Estructura terciària
 
-#### **L'estructura terciària de la proteïna, a quin tipus de plegament correspon?
+#### Plegament terciari, dominis i estructura quaternària
 
-Busqueu el plegament a la [base de dades SCOP](https://scop.berkeley.edu)**, anoteu el codi que us dona aquesta base de dades per al plegament i mostreu la jerarquia d’aquest plegament. En cas que existeixi estructura quaternària, discutiu-la també. L’anàlisi de l’estructura terciària de la proteïna mitjançant CATH indica que pertany a la classe α, amb el codi CATH: 1.10.530.40 (figura 8), que correspon a una arquitectura basada en un feix d’hèlixs α transmembrana.
+ L’anàlisi de l’estructura terciària de la proteïna mitjançant CATH indica que pertany a la classe α, amb el codi CATH: 1.10.530.40 (figura 8), que correspon a una arquitectura basada en un feix d’hèlixs α transmembrana.
 El codi CATH (1.10.530.40) es desglossa en els diferents nivells jeràrquics: classe (1, principalment α), arquitectura (10, Orthogonal Bundle), topologia o plegament (530, Lysozyme) i superfamília homòloga (40). Segons ECOD (P07550_F1_nD1), la proteïna s’inclou dins del grup: G protein-coupled receptor-like, que indica una relació evolutiva amb altres receptors de membrana implicats en processos de senyalització cel·lular. Pel que fa als dominis (figura 9), la proteïna presenta diversos dominis a les hèlixs α, que conformen el nucli funcional del receptor, amb regions extracel·lulars i intracel·lulars. Respecte l’estructura quaternària és principalment monomèrica, tot i que en alguns casos pot formar oligòmers.
 
 #### Centre actiu
@@ -108,7 +113,7 @@ Quan s’activa, ADRB2 pot acoblar-se a diferents proteïnes G:
 Via Gs: activa l’adenilat ciclasa, augmenta els nivells de AMPc i activa la PKA → regula processos com la contracció cardíaca i la relaxació del múscul llis (per exemple, broncodilatació).
 Via Gi: inhibeix l’adenilat ciclasa i activa vies com PI3K/Akt → associada a efectes cardioprotectors i supervivència cel·lular. En el cor, modula la contractilitat dels cardiomiòcits. En el pulmó, indueix relaxació del múscul llis bronquial (important en tractaments de l’asma). I també pot participar en la regulació del metabolisme i del pH cel·lular. No és un enzim, per tant no catalitza una reacció, sinó que actua com a receptor i transductor de senyal.
 
-#### Modificacions posttraduccionals afectadors
+#### Modificacions posttraduccionals
 
 L’ADRB2 (receptor β2-adrenèrgic) està regulat per diverses modificacions posttraduccionals que modulen la seva activitat.
 La modificació més rellevant és la fosforilació, que té lloc en residus de serina i treonina, principalment a la regió C-terminal. Aquesta fosforilació és mediada per PKA i per quinases específiques de GPCR (GRKs), i afavoreix la unió de β-arrestines, promovent la desensibilització i la internalització del receptor. Entre els residus més destacats es troben Ser262, Ser355 i Ser356. Una altra modificació important és la palmitoilació, que consisteix en l’addició d’un àcid gras a residus de cisteïna, com Cys341. Aquesta modificació regula la unió del receptor a la membrana. També presenta glicosilació en residus d’asparagina situats a l’extrem N-terminal (com Asn6 i Asn15), la qual és essencial per a l’estabilitat, el correcte plegament i l’expressió del receptor a la membrana plasmàtica.
