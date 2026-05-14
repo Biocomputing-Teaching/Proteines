@@ -16,7 +16,7 @@ author: "Química i Enginyeria de Proteïnes"
   </article>
   <article class="link-card">
     <h2><a href="{{ '/QiEP/2025-2026/P2/' | relative_url }}">Pràctica 2</a></h2>
-    <p class="muted">Exploració de mètodes d'enginyeria de proteïnes, amb especial atenció a l'evolució dirigida i al disseny de protocols experimentals i computacionals.</p>
+    <p class="muted">Proposta curta de projecte de recerca en enginyeria de proteïnes per millorar una propietat funcional mitjançant eines computacionals o experimentals.</p>
   </article>
 </section>
 
