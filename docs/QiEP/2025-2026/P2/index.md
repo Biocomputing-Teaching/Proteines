@@ -137,6 +137,21 @@ author: "Química i Enginyeria de Proteïnes"
 </section>
 
 <section class="feature-card">
+  <h2>Exemples del curs</h2>
+  <p>Aquests articles del material de l'assignatura us poden servir com a exemples de com es formula una pregunta d'enginyeria de proteïnes, com es justifiquen les posicions o mòduls a modificar i com es connecten dades preliminars, disseny i validació. No són temes obligatoris: són models per entendre el tipus de raonament que hauria de tenir la vostra proposta.</p>
+  <div class="card-grid">
+    <article class="mini-card">
+      <h3><a href="https://doi.org/10.1038/s41586-021-03258-z">Biosensors modulars de novo</a></h3>
+      <p class="muted">Quijano-Rubio A. et al. <em>Nature</em> 2021. Exemple de disseny de novo d'una plataforma modular i ajustable de biosensors proteics basada en canvis conformacionals i lectura luminescent.</p>
+    </article>
+    <article class="mini-card">
+      <h3><a href="https://doi.org/10.3390/catal13020340">Carboxilesterasa degradadora de PBAT</a></h3>
+      <p class="muted">Wu P. et al. <em>Catalysts</em> 2023. Exemple d'identificació d'un enzim, modelatge estructural, comparació amb homòlegs, selecció de residus candidats, mutagènesi dirigida i validació d'activitat.</p>
+    </article>
+  </div>
+</section>
+
+<section class="feature-card">
   <h2>Estructura del PDF</h2>
   <p>El lliurament del 22 de maig és un únic PDF de 5 pàgines com a màxim, sense comptar només els annexos si el professor els autoritza explícitament. El document ha d'incloure una proposta de projecte i també el material preliminar que la sustenta.</p>
   <ul>
