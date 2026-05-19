@@ -7,7 +7,7 @@ author: "Química i Enginyeria de Proteïnes"
 <section class="feature-card">
   <h2>Objectiu de la pràctica</h2>
   <p>En aquesta pràctica preparareu una proposta breu de projecte de recerca en enginyeria de proteïnes. Haureu d'escollir una proteïna, definir quin aspecte de la seva funció voleu millorar i proposar una estratègia experimental o computacional ben justificada per obtenir variants millorades.</p>
-  <p>El treball ha de tenir el to i l'estructura d'una proposta curta inspirada en convocatòries competitives com una beca Marie Skłodowska-Curie Actions o una EMBO Long-Term Fellowship: objectiu clar, hipòtesi defensable, metodologia concreta, impacte i cronograma realista.</p>
+  <p>El treball ha de tenir el to i l'estructura d'una proposta curta inspirada en convocatòries competitives: objectiu clar, hipòtesi defensable, metodologia concreta, impacte i cronograma realista.</p>
 </section>
 
 <section class="feature-card">
@@ -97,7 +97,7 @@ author: "Química i Enginyeria de Proteïnes"
 
 <section class="feature-card">
   <h2>Què heu de millorar?</h2>
-  <p>La proposta ha de perseguir una millora concreta i mesurable. Alguns objectius possibles són:</p>
+  <p>La proposta ha de perseguir una millora concreta i mesurable. Alguns objectius possibles (llistat no exhaustiu) són:</p>
   <ul>
     <li>augmentar l'estabilitat global o la termoestabilitat;</li>
     <li>millorar la reactivitat o l'eficiència catalítica d'un enzim;</li>
@@ -107,7 +107,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li>reduir agregació, millorar solubilitat o facilitar expressió;</li>
     <li>dissenyar un biosensor, interruptor o variant regulable basada en una proteïna existent.</li>
   </ul>
-  <p>No n'hi ha prou amb dir que una mutació "millorarà" la proteïna: cal explicar per què aquelles posicions són candidates i quines dades permetrien validar l'efecte.</p>
+  <p>No n'hi ha prou amb dir que una mutació "millorarà" la proteïna: cal explicar per què penseu que aquelles posicions són candidates i quines dades permetrien validar l'efecte.</p>
 </section>
 
 <section class="feature-card">
@@ -123,6 +123,7 @@ author: "Química i Enginyeria de Proteïnes"
     <li><strong>Disseny de novo o template-based:</strong> proposta de nous mòduls, interaccions o sensors a partir d'estructures i bastides conegudes.</li>
     <li><strong>Redisseny computacional d'enzims:</strong> priorització de mutacions per estabilitat, especificitat, túnels d'accés, solubilitat, dinàmica o interaccions amb lligands.</li>
   </ul>
+  A més d'explicar en detall les eines experimentals i protocols de validació que creieu adients utilitzar.
 </section>
 
 <section class="feature-card">
