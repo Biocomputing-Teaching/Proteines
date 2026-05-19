@@ -32,6 +32,10 @@ author: "Química i Enginyeria de Proteïnes"
       <p class="muted">Visualització estructural, residus funcionals, interaccions, lligands, interfícies i figures pròpies.</p>
     </article>
     <article class="mini-card">
+      <h3><a href="https://deepmind.google/technologies/alphafold/alphafold-server/">AlphaFold Server</a></h3>
+      <p class="muted">Implementació online d'AlphaFold per obtenir prediccions estructurals quan no hi ha una estructura experimental adient.</p>
+    </article>
+    <article class="mini-card">
       <h3><a href="https://www.tamarind.bio/tools/temstapro">TemStaPro</a></h3>
       <p class="muted">Predicció de termoestabilitat a partir de la seqüència.</p>
     </article>
@@ -64,10 +68,6 @@ author: "Química i Enginyeria de Proteïnes"
       <p class="muted">Anàlisi de túnels, trajectòries i perfils d'energia per a l'accés de lligands o substrats.</p>
     </article>
     <article class="mini-card">
-      <h3><a href="http://bioinfo.dcc.ufmg.br/napoli">nAPOLI</a></h3>
-      <p class="muted">Anàlisi de xarxes d'interaccions proteïna-lligand i residus de contacte conservats.</p>
-    </article>
-    <article class="mini-card">
       <h3><a href="https://loschmidt.chemi.muni.cz/soluprot">SoluProt</a></h3>
       <p class="muted">Predicció de solubilitat a partir de la seqüència.</p>
     </article>
@@ -80,7 +80,7 @@ author: "Química i Enginyeria de Proteïnes"
       <p class="muted">Estimació de canvis d'estabilitat i flexibilitat causats per mutacions puntuals.</p>
     </article>
     <article class="mini-card">
-      <h3><a href="http://biocomp.chem.uw.edu.pl/CABSflex2">CABS-flex 2.0</a></h3>
+      <h3><a href="https://lcbio.pl/cabsflex3/">CABS-flex 3.0</a></h3>
       <p class="muted">Avaluació ràpida de flexibilitat estructural i fluctuacions conformacionals.</p>
     </article>
     <article class="mini-card">
