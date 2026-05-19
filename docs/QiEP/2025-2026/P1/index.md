@@ -45,6 +45,10 @@ author: "Química i Enginyeria de Proteïnes"
       <p class="muted">Criteris pràctics per redactar, citar i preparar figures de manera consistent.</p>
     </article>
     <article class="mini-card">
+      <h3><a href="https://deepmind.google/technologies/alphafold/alphafold-server/">AlphaFold Server</a></h3>
+      <p class="muted">Implementació online d'AlphaFold per obtenir prediccions estructurals quan no hi ha una estructura experimental adient.</p>
+    </article>
+    <article class="mini-card">
       <h3><a href="{{ '/QiEP/2024-2025/' | relative_url }}">Treballs del curs 2024-2025</a></h3>
       <p class="muted">Exemples reals de lliuraments per entendre el nivell de detall i el format esperat.</p>
     </article>
