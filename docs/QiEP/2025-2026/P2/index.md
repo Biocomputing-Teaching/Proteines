@@ -19,7 +19,7 @@ author: "Química i Enginyeria de Proteïnes"
 <section class="feature-card">
   <h2>Tria de la proteïna</h2>
   <p>Podeu continuar treballant amb una de les proteïnes estudiades a la pràctica 1, encara que no sigui necessàriament la que vau treballar al vostre grup. També podeu proposar una altra proteïna que us interessi i que hàgiu estudiat durant el grau, sempre que hi hagi prou informació de seqüència, estructura i funció per construir una proposta sòlida.</p>
-  <p>La proteïna escollida ha d'estar identificada amb fonts verificables: codi UniProt, estructura PDB o model AlphaFold quan calgui, funció coneguda, residus o regions funcionals i articles científics rellevants.</p>
+  <p>La proteïna escollida ha d'estar identificada amb fonts verificables: [codi UniProt](https://www.uniprot.org/), [estructura PDB](https://www.rcsb.org) o [model AlphaFold](https://alphafoldserver.com/welcome) quan calgui, funció coneguda, residus o regions funcionals i articles científics rellevants.</p>
 </section>
 
 <section class="feature-card">
